@@ -1,0 +1,58 @@
+%! Author = jbf
+%! Date = 29.07.25
+
+\usepackage[english,ngerman]{babel}		    %deutsche Trennmuster
+\usepackage[utf8]{inputenc}					%direkte Umlauteingabe
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}	                    %Schriftpaket
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{array,ragged2e}					%wichtig für Abstandsformatierung
+\usepackage{tocbasic} % KOMA für Verzeichnisse
+
+\usepackage[automark,plainheadsepline=on]{scrlayer-scrpage}				%Anpassung von Kopf- und Fusszeilen
+\usepackage{xspace}														%Korrektur Leerraum nach Befehlsdefinitionen
+\usepackage{setspace}													%1,5 Zeilenabstand
+\usepackage{graphicx}											        %zum Einbinden von Grafiken
+\usepackage[absolute,overlay]{textpos}									%Boxen absolut Positionieren
+\usepackage[final]{pdfpages}											%Einfügen von externen PDF Dokumenten
+\usepackage{natbib}														%Neuimplementierung des \cite-Kommandos
+
+\usepackage[
+  top=3cm,      % Abstand oben
+  left=3.5cm,   % Abstand links
+  right=2cm,    % Abstand rechts
+  bottom=2cm    % Abstand unten
+]{geometry}
+
+\usepackage{upgreek}            %Ermöglicht Aufrechte Varianten von Griechischen Buchstaben
+
+
+ \usepackage[colorlinks,		% Einstellen und Laden des Hyperref-Pakets
+	pdftex,
+	bookmarks,
+	bookmarksopen=false,
+	bookmarksnumbered,
+	citecolor=black,
+	linkcolor=black,
+	urlcolor=black,
+	filecolor=black,
+	linktocpage,
+  pdfstartview=Fit,                  % startet mit Ganzseitenanzeige
+	pdfsubject={Datenverarbeitung und Visualisierung von Umrichter-Testbench-Daten},
+	pdftitle={Bachelorthesis im Fachbereich Elektrotechnik und Inforationstechnik an der FH Westküste},
+	pdfauthor={Jon Feddersen}]{hyperref}
+
+\usepackage{listings}
+
+
+\setcounter{secnumdepth}{4}     %Nummerierung bis paragraph aktivieren
+\setcounter{tocdepth}{4}        %Inhaltsverzeichnis zeigt bis \paragraph
+
+\graphicspath{{Grafiken/}}      %Vereinfach das Einbinden von Grafiken da davon ausgegangen wird das alle in /Grafiken sind
+
+\setlength{\parindent}{0pt} % Einrücken nach Absatzänderung
+
+% --- Literaturverzeichnis-Paket ---
+\usepackage[style=ieee,backend=biber]{biblatex}
+\addbibresource{Literatur/Literatur.bib} % Bib-Datei mit Quellen

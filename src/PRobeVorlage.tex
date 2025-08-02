@@ -1,0 +1,247 @@
+%! Author = jbf
+%! Date = 25.07.25
+
+% Preamble
+\documentclass[
+pagesize,				% flexible Blattgröße
+a4paper,				% DIN A4
+oneside,				% einseitig gedruckt
+headsepline,		    % Strich unter der Kopfzeile
+11pt,					% 12pt Schriftgröße
+halfparskip,		    % Europäischer Satz: Abstand zwischen Absätzen
+%draft,					%Vorabversion
+final,					% Endgültige Version
+listof=totoc,		    % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
+]{scrartcl}			    % KOMA_Scriptklasse Artikel
+
+% Packages und Grundeinstellungen des Dokumentes wurde ausgelagert
+
+\usepackage[english,ngerman]{babel}		    %deutsche Trennmuster
+\usepackage[utf8]{inputenc}					%direkte Umlauteingabe
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}	                    %Schriftpaket\usepackage{newtxtext,newtxmath}      % Times-artige Schrift inkl. Mathe
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{array,ragged2e}					%wichtig für Abstandsformatierung
+\usepackage{tocbasic} % KOMA für Verzeichnisse
+
+\usepackage[automark,plainheadsepline=on]{scrlayer-scrpage}				%Anpassung von Kopf- und Fusszeilen
+\usepackage{xspace}														%Korrektur Leerraum nach Befehlsdefinitionen
+\usepackage{setspace}													%Anderthalbzeiliger Abstand
+\usepackage{graphicx}											        %zum Einbinden von Grafiken
+\usepackage[absolute,overlay]{textpos}									%Boxen absolut Positionieren
+\usepackage[final]{pdfpages}											%Einfügen von externen PDF Dokumenten
+\usepackage{natbib}														%Neuimplementierung des \cite-Kommandos
+
+\usepackage[
+  top=3cm,      % Abstand oben
+  left=3.5cm,   % Abstand links
+  right=2cm,    % Abstand rechts
+  bottom=2cm    % Abstand unten
+]{geometry}
+
+\usepackage{upgreek}            %Ermöglicht Aufrechte Varianten von Griechischen Buchstaben
+
+
+ \usepackage[colorlinks,		% Einstellen und Laden des Hyperref-Pakets
+	pdftex,
+	bookmarks,
+	bookmarksopen=false,
+	bookmarksnumbered,
+	citecolor=black,
+	linkcolor=black,
+	urlcolor=black,
+	filecolor=black,
+	linktocpage,
+  pdfstartview=Fit,                  % startet mit Ganzseitenanzeige
+	pdfsubject={Datenverarbeitung und Visualisierung von Umrichter-Testbench-Daten},
+	pdftitle={Bachelorthesis im Fachbereich Elektrotechnik und Inforationstechnik an der FH Westküste},
+	pdfauthor={Jon Feddersen}]{hyperref}
+
+\usepackage{listings}
+
+
+\setcounter{secnumdepth}{4}     %Nummerierung bis paragraph aktivieren
+\setcounter{tocdepth}{4}        %Inhaltsverzeichnis zeigt bis \paragraph
+
+\graphicspath{{Grafiken/}}      %Vereinfach das Einbinden von Grafiken da davon ausgegangen wird das alle in /Grafiken sind
+
+\setlength{\parindent}{0pt} % Einrücken nach Absatzänderung
+
+
+% Document
+\begin{document}
+
+\newpage
+\section*{Sperrvermerk}
+\thispagestyle{empty}
+Diese Arbeit enthält vertrauliche Daten und Informationen des Unternehmens, in dem die Bachelor-/Masterarbeit angefertigt wurde.
+Sie darf Dritten deshalb nicht zugänglich gemacht werden. \\
+Die für die Prüfung notwendigen Exemplare verbleiben beim Prüfungsamt und beim betreuenden Hochschullehrer.
+\newpage
+
+
+
+
+%Definition von Großen römischen Zahlen für die Kapitel
+\renewcommand{\thesection}{\roman{section}}
+\pagenumbering{Roman}
+\ohead[\pagemark]{}
+
+
+\singlespacing
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\phantomsection
+\addtocounter{section}{1}
+\setcounter{page}{2}
+\clearscrheadings
+\clearscrplain
+\clearscrheadfoot
+\ohead[\pagemark]{\pagemark}
+\ihead[\headmark]{\headmark}
+\tableofcontents
+\pagebreak
+
+\listoffigures
+\pagebreak
+
+\listoftables
+\pagebreak
+
+
+%Definition für Kopfzeile und arabische Sections
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\subsectionmark}[1]{}
+\renewcommand{\subsubsectionmark}[1]{}
+\onehalfspacing
+\renewcommand{\thesection}{\arabic{section}}
+\setcounter{section}{0}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%------------------------------------------------
+%1. Einleitung in die Arbeit
+%------------------------------------------------
+
+
+\newpage
+\section{Einleitung}
+\label{Einleitung}
+In der modernen Antriebstechnik spielen Umrichter eine zentrale Rolle bei der Steuerung und Regelung elektrischer Maschinen.
+Um ihre Leistungsfähigkeit und Zuverlässigkeit zu gewährleisten, werden sie in Testbenches unter verschiedenen Betriebsbedingungen geprüft.
+Dabei entstehen große Mengen an Messdaten, die oft in XML-Formaten vorliegen.
+Die manuelle Auswertung dieser Rohdaten ist zeitaufwendig, fehleranfällig und erschwert die schnelle Identifikation relevanter Muster oder Anomalien.
+Besonders bei komplexen Testläufen kann der fehlende direkte Zugriff auf übersichtlich aufbereitete Ergebnisse den Entwicklungsprozess verlangsamen.
+Ziel dieser Arbeit ist es, eine Web-Applikation zu entwickeln, die XML-Daten aus Umrichter-Testbenches automatisiert einliest, in einer Datenbank speichert und interaktiv visualisiert.
+Dadurch soll die Auswertung vereinfacht, die Datenanalyse beschleunigt und die Entscheidungsfindung im Entwicklungsprozess unterstützt werden.
+Die Lösung wird mit modernen Webtechnologien umgesetzt und legt den Fokus auf eine effiziente Datenverarbeitung, flexible Filtermöglichkeiten sowie eine intuitive Benutzeroberfläche.
+
+
+%------------------------------------------------
+%2. Hauptteil in die Arbeit
+%------------------------------------------------
+
+\newpage
+\section{Grundlagen}
+\label{Grundlagen}
+
+\subsection{Überblick über den Umrichter-Prüfstand}
+
+\subsection{Verarbeitung von XML-Daten}
+
+\subsection{Datenbankentwurf und Normalisierung}
+
+\subsection{Grundlagen der Datenvisualisierung}
+
+\subsection{Anforderungen an modulare Softwareentwicklung}
+
+%------------------------------------------------
+
+\newpage
+\section{Analyse und Konzeption}
+\label{Analyse und Konzeption}
+
+\subsection{Defintion der Anforderungen}
+
+\subsection{Analyse der bestehenden Strukturen und Prozesse}
+
+\subsection{Datenbankdesign und Strukturkonzeption}
+
+\subsection{Grundkonzept des Benutzeroberflächen-Design}
+
+\subsection{Entwurf der Applikationsarchitektu}
+
+%------------------------------------------------
+
+\newpage
+\section{Implementierung}
+\label{Implementierung}
+
+\subsection{Einlesen und Verarbeiten von XML-Daten}
+
+\subsection{Implementierung der Datenbank}
+
+\subsection{Entwicklung der Benutzeroberfläche}
+
+\subsection{Technische Details zur Visualisierung}
+
+%------------------------------------------------
+
+\newpage
+\section{Integration und Test}
+\label{Integration und Test}
+
+\subsection{Einbindung in die bestehende Systemlandschaft}
+
+\subsection{Testmethoden und Durchführung}
+
+\subsection{Ergebnisse der Testmethoden}
+
+%------------------------------------------------
+%3. Schluss in die Arbeit
+%------------------------------------------------
+
+\newpage
+\section{Fazit und Ausblick}
+\label{Fazit und Ausblick}
+
+\subsection{Zusammenfassung der Ergebnisse}
+
+\subsection{Kritische Bewertung}
+
+\subsection{Möglichkeiten für zukünftige Erweiterungen}
+\newpage
+%------------------------------------------------
+%Literaturverzeichnis, Anhang und Erklärung
+%------------------------------------------------
+%Einstellungsänderungen der Seitenzahlen
+\renewcommand{\thesection}{\roman{section}}
+\pagenumbering{roman}
+\clearscrheadings
+\clearscrplain
+\clearscrheadfoot
+\ohead[\pagemark]{\pagemark}
+\ihead[\headmark]{\headmark}
+%------------------------------------------------
+
+\section*{Erklärung}
+\addcontentsline{toc}{section}{Erklärung}
+\label{Erklärung}
+Hiermit erkläre ich, dass ich die von mir eingereichte Bachelor- / Masterarbeit
+"......(Titel der Arbeit)........" selbständig und nur unter Verwendung der
+angegebenen Quellen und Hilfsmittel angefertigt habe.
+\\
+Ort und Datum
+\\
+\\
+persönliche Unterschrift
+\\
+\\
+\\
+\\
+(Name des Verfassers)
+
+
+\end{document}
+
+

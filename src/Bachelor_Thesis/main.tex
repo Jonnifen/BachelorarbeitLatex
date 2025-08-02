@@ -1,0 +1,118 @@
+%! Author = jbf
+%! Date = 25.07.25
+
+% Preamble
+\documentclass[
+pagesize,				% flexible Blattgröße
+a4paper,				% DIN A4
+oneside,				% einseitig gedruckt
+headsepline,		    % Strich unter der Kopfzeile
+11pt,					% 12pt Schriftgröße
+halfparskip,		    % Europäischer Satz: Abstand zwischen Absätzen
+%draft,					%Vorabversion
+final,					% Endgültige Version
+listof=totoc,		    % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
+]{scrartcl}			    % KOMA_Script-klasse Artikel
+
+% Packages und Grundeinstellungen des Dokumentes wurde ausgelagert
+\input{Einstellung/Grundeinstellungen_Jon}
+
+
+% Document
+\begin{document}
+
+\includepdf{Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf}
+
+\input{Kapitel/0. Sperrvermerk/Sperrvermerk}
+
+
+%Definition von Großen römischen Zahlen für die Kapitel
+\renewcommand{\thesection}{\roman{section}}
+\pagenumbering{Roman}
+\ohead[\pagemark]{}
+
+
+\singlespacing
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\phantomsection
+\addtocounter{section}{1}
+\setcounter{page}{3}
+\clearscrheadings
+\clearscrplain
+\clearscrheadfoot
+\ohead[\pagemark]{\pagemark}
+\ihead[\headmark]{\headmark}
+\tableofcontents
+\pagebreak
+
+\listoffigures
+\pagebreak
+
+\listoftables
+\pagebreak
+
+
+%Definition für Kopfzeile und arabische Sections
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\renewcommand{\subsectionmark}[1]{}
+\renewcommand{\subsubsectionmark}[1]{}
+\onehalfspacing
+\renewcommand{\thesection}{\arabic{section}}
+\setcounter{section}{0}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%------------------------------------------------
+%1. Einleitung in die Arbeit
+%------------------------------------------------
+
+\input{Kapitel/1. Einleitung/Einleitung}
+
+%------------------------------------------------
+%2. Hauptteil in die Arbeit
+%------------------------------------------------
+
+\input{Kapitel/2. Hauptteil/2. Grundlagen}
+
+\input{Kapitel/2. Hauptteil/3. Analyse und Konzeption}
+
+\input{Kapitel/2. Hauptteil/4. Implementierung}
+
+\input{Kapitel/2. Hauptteil/5. Integration und Test}
+
+%------------------------------------------------
+%3. Schluss in die Arbeit
+%------------------------------------------------
+
+\input{Kapitel/3. Schluss/6. Fazit und Ausblick}
+\newpage
+%------------------------------------------------
+%Literaturverzeichnis, Anhang und Erklärung
+%------------------------------------------------
+%Einstellungsänderungen der Seitenzahlen
+\renewcommand{\thesection}{\roman{section}}
+\pagenumbering{roman}
+\ohead[\pagemark]{}
+\setcounter{section}{0}
+%------------------------------------------------
+%Literaturverzeichnis
+\newpage
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\printbibliography
+\newpage
+%------------------------------------------------
+%Anhangsverzeichnis
+\section*{Anhangsverzeichnis}
+\addcontentsline{toc}{section}{Anhangsverzeichnis}
+A1. Datenblatt des Bauteils XYZ \dotfill I \\
+A2. Technische Zeichnung der Anlage \dotfill II \\
+A3. Programmcode der Steuerung \dotfill III
+\newpage
+%------------------------------------------------
+%Erklärung
+\input{Kapitel/Erklärung/Erklärung}
+
+
+\end{document}
+
+
