@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  2 AUG 2025 11:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  4 AUG 2025 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1266,45 +1266,74 @@ l.4 \newpage
              [1]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 8.
-) (./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+2.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 22.
+
+
+LaTeX Warning: Reference `fig:campus' on page 2 undefined on input line 45.
+
+<Grafiken/Test Cabin.jpg, id=115, 506.8755pt x 337.698pt>
+File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
+<use Grafiken/Test Cabin.jpg>
+Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 49.
+(pdftex.def)             Requested size: 352.81552pt x 235.06784pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.3 \newpage
-             [2]) (./Kapitel/2. Hauptteil/4. Implementierung.tex
+l.56 
+      [2]
 
-[3]) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
+[3 <./Grafiken/Test Cabin.jpg>]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family phv in TS1 encoding.
+            Default family used instead on input line 83.
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
 
-[4]) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
+[4{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+(./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[5])
+[5]) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[6]
+[6]) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
+
+[7])
+
+[8]
 
 LaTeX Warning: Empty bibliography on input line 101.
 
 
 
 [1] (./Kapitel/Erklärung/Erklärung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 8--115
+Underfull \hbox (badness 10000) in paragraph at lines 8--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--115
+Underfull \hbox (badness 10000) in paragraph at lines 8--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--115
+Underfull \hbox (badness 10000) in paragraph at lines 8--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--115
+Underfull \hbox (badness 10000) in paragraph at lines 8--114
 
  []
 
@@ -1315,6 +1344,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--115
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1322,21 +1358,22 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25949 strings out of 473197
- 496375 string characters out of 5718605
- 1523283 words of memory out of 5000000
- 48785 multiletter control sequences out of 15000+600000
- 582981 words of font info for 69 fonts, out of 8000000 for 9000
+ 26012 strings out of 473197
+ 497460 string characters out of 5718605
+ 1523270 words of memory out of 5000000
+ 48833 multiletter control sequences out of 15000+600000
+ 584412 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,10899b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+ 108i,20n,107p,10899b,2383s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvro8a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-13 pages, 173197 bytes).
+15 pages, 261486 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
