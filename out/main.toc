@@ -31,6 +31,6 @@
 \contentsline {subsection}{\numberline {6.2}Kritische Bewertung}{11}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Möglichkeiten für zukünftige Erweiterungen}{11}{subsection.6.3}%
 \contentsline {section}{Literaturverzeichnis}{i}{subsection.6.3}%
-\contentsline {section}{\numberline {i}Anhangsverzeichnis}{ii}{section.1}%
-\contentsline {section}{Erklärung}{iii}{section*.9}%
+\contentsline {section}{Anhangsverzeichnis}{ii}{section*.9}%
+\contentsline {section}{Erklärung}{iii}{section*.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
