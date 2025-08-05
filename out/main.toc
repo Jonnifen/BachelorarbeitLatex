@@ -6,29 +6,31 @@
 \contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Überblick über den Umrichter-Prüfstand}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Verarbeitung von XML-Daten}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Datenbankentwurf und Normalisierung}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Grundlagen der Datenvisualisierung}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Anforderungen an modulare Softwareentwicklung}{4}{subsection.2.5}%
-\contentsline {section}{\numberline {3}Analyse und Konzeption}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Defintion der Anforderungen}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Analyse der bestehenden Strukturen und Prozesse}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Datenbankdesign und Strukturkonzeption}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Grundkonzept des Benutzeroberflächen-Design}{5}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Entwurf der Applikationsarchitektu}{5}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Implementierung}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Einlesen und Verarbeiten von XML-Daten}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Implementierung der Datenbank}{6}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Entwicklung der Benutzeroberfläche}{6}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Technische Details zur Visualisierung}{6}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Integration und Test}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Einbindung in die bestehende Systemlandschaft}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Testmethoden und Durchführung}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ergebnisse der Testmethoden}{7}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Fazit und Ausblick}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Zusammenfassung der Ergebnisse}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Kritische Bewertung}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Möglichkeiten für zukünftige Erweiterungen}{8}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {2.2.1}XML-Strukturaufbau}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Verarbeiten von XML-Dateien mit Python}{6}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Datenbankentwurf und Normalisierung}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Grundlagen der Datenvisualisierung}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Anforderungen an modulare Softwareentwicklung}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Analyse und Konzeption}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Defintion der Anforderungen}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analyse der bestehenden Strukturen und Prozesse}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Datenbankdesign und Strukturkonzeption}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Grundkonzept des Benutzeroberflächen-Design}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Entwurf der Applikationsarchitektu}{8}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Implementierung}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Einlesen und Verarbeiten von XML-Daten}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Implementierung der Datenbank}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Entwicklung der Benutzeroberfläche}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Technische Details zur Visualisierung}{9}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Integration und Test}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Einbindung in die bestehende Systemlandschaft}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Testmethoden und Durchführung}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Ergebnisse der Testmethoden}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Fazit und Ausblick}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Zusammenfassung der Ergebnisse}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Kritische Bewertung}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Möglichkeiten für zukünftige Erweiterungen}{11}{subsection.6.3}%
 \contentsline {section}{Literaturverzeichnis}{i}{subsection.6.3}%
-\contentsline {section}{Anhangsverzeichnis}{ii}{section*.9}%
-\contentsline {section}{Erklärung}{iii}{section*.10}%
+\contentsline {section}{\numberline {i}Anhangsverzeichnis}{ii}{section.1}%
+\contentsline {section}{Erklärung}{iii}{section*.9}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

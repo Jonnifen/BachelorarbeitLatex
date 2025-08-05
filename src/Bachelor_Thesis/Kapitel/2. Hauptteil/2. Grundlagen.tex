@@ -18,20 +18,11 @@ Die weiter Nutzungstauglichkeit wird ermittelt, indem die Messwerte mit Mittelwe
 Diese Messwerte müssen sich in einen vorher definierten Toleranzbereich befinden, um weiter verwenden zu werden.
 
 Die Test-Bench besteht aus mehreren Hauptkomponenten:
-
 \begin{itemize}
 \item Das Netzteil, welches mit einer 400V Netzspannung versorgt wird, wandelt diese in eine Gleichspannung. Das Netzteil leifert maximal 8kW mit 1200VDC oder 800VDC, welche Werte verwendet werden kann vor Teststart bestimmt werden. In Abbildung 1\ref{fig:1. Aufbau des Teststandes} mit PSU bezeichnet, für „Power Supply Unit“.
-
-
 \item Das Elektronik-Rack, auf dem Mess- und Control-Komponenten befestigt sind. Hier befinden sich auch der (XCS2100) System-Controller der das ganze System mit dem PC, auf dem die Test-Bench Software läuft, via Ethernet verbindet. In Abbildung \ref{fig:1. Aufbau des Teststandes} mit ER bezeichnet, für „Electronic Rack“.
-
-
 \item Der Testmatrix-Schrank, in dem die Sammelschienen für den Stromanschluss und den Schützen sitzen. In Abbildung \ref{fig:1. Aufbau des Teststandes} mit TM bezeichnet, für „Test Matrix cabine“.
-
-
 \item Der Schrank mit dem Kühlungssystem, da die Umrichter während des Betriebes Wassergekühlt werden müssen. In Abbildung \ref{fig:1. Aufbau des Teststandes} mit „Cool1“ bezeichnet.
-
-
 \item Dem Carrier, auf dem Umrichter befestigt werden. Dieser wird speziell für bestimmte Umrichter konstruiert. In Abbildung \ref{fig:1. Aufbau des Teststandes} mit Carrier1 bezeichnet.
 
 \end{itemize}
@@ -98,11 +89,112 @@ Mit diesem Test können zwei verschiedene Funktionen getestet werden:
     \item Andererseits kann durch Überprüfung der Kühltemperatur am Ende des Tests die korrekte Wärmeübertragung der Halbleiter überprüft werden.
 \end{itemize}
 \\
-Während des Übertemperaturschutz-Tests (OTP) wird ein DUT mit reduzierter Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.
+Während des Übertemperaturschutz-Tests (OTP) wird ein DUT mit reduzierter Kühlung betrieben, bis die maximal zulässige
+Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.
 
 
 \subsection{Verarbeitung von XML-Daten}
 
+XML, die Abkürzung für Extensible Markup Language, ist eine der beliebtesten Auszeichnungssprachen, die entwickelt wurde,
+um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu transportieren.
+Es ist eine textbasierte Auszeichnungssprache, die heute in vielen Anwendungen verwendet wird, wie z.B. Webdiensten,
+Datenbanken, Konfigurationsdateien und vielen anderen.
+XML ermöglicht die hierarchische Organisation von Informationen in einer strukturierten Weise, die sowohl für Menschen
+als auch für Maschinen verständlich ist.
+
+Die Motivation hinter XML war, eine universelle und erweiterbare Sprache zu schaffen, die von verschiedenen Systemen
+unabhängig von der zugrunde liegenden Technologie genutzt werden kann.
+Die Fähigkeit, Daten in einem offenen Standard zu speichern und auszutauschen, war entscheidend,
+um die Interoperabilität zwischen verschiedenen Anwendungen und Plattformen zu fördern.
+
+\subsubsection{XML-Strukturaufbau}
+
+Ein XML-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
+Die grundlegenden Bestandteile eines XML-Dokuments sind:
+
+Prolog: Ein optionaler Abschnitt, der die XML-Version und die verwendete Zeichencodierung definiert.
+Ein typischer Prolog sieht so aus:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<?xml version="1.0" encoding="UTF-8"?>
+\end{lstlisting}
+\end{minipage}
+\caption{XML Prolog Beispielcode}
+\label{fig:XML Prolog Beispielcode}
+    {Quelle: eigene Darstellung}
+\end{figure}
+
+Elemente: Die eigentlichen Daten werden in Elementen gespeichert, die mit einem Start-Tag beginnen und mit einem End-Tag abschließen.
+Ein Element kann weitere Elemente enthalten, was zu einer hierarchischen Struktur führt:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<buch>
+  <titel>XML-Grundlagen</titel>
+  <autor>Max Mustermann</autor>
+</buch>
+\end{lstlisting}
+\end{minipage}
+\caption{XML Elemente Beispielcode}
+\label{fig:XML Elemente Beispielcode}
+    {Quelle: eigene Darstellung}
+\end{figure}
+
+Attribute: Jedes Element kann Attribute haben, die zusätzliche Informationen enthalten.
+Attribute werden im Start-Tag eines Elements definiert:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<buch genre="Lehrbuch">
+  <titel>XML-Grundlagen</titel>
+  <autor>Max Mustermann</autor>
+</buch>
+\end{lstlisting}
+\end{minipage}
+\caption{XML Attribute Beispielcode}
+\label{fig:XML Attribute Beispielcode}
+    {Quelle: eigene Darstellung}
+\end{figure}
+
+Kommentare: Kommentare werden mit den Tags <!-- und --> eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes.
+Sie werden beim Parsen des Dokuments ignoriert:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<!-- Dies ist ein Kommentar -->
+\end{lstlisting}
+\end{minipage}
+\caption{XML Kommentare Beispielcode}
+\label{fig:XML Kommentare Beispielcode}
+    {Quelle: eigene Darstellung}
+\end{figure}
+
+Textinhalt: Zwischen den Start- und End-Tags eines Elements kann Text enthalten sein:
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<titel>XML-Grundlagen</titel>
+\end{lstlisting}
+\end{minipage}
+\caption{XML Text Beispielcode}
+\label{fig:XML Text Beispielcode}
+    {Quelle: eigene Darstellung}
+\end{figure}
+
+\subsubsection{Verarbeiten von XML-Dateien mit Python}
+
+\pagebreak
 \subsection{Datenbankentwurf und Normalisierung}
 
 \subsection{Grundlagen der Datenvisualisierung}

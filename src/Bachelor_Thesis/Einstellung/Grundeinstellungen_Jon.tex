@@ -16,6 +16,7 @@
 \usepackage{graphicx}											        %zum Einbinden von Grafiken
 \usepackage[absolute,overlay]{textpos}									%Boxen absolut Positionieren
 \usepackage[final]{pdfpages}											%Einfügen von externen PDF Dokumenten
+\usepackage{float}														%Sorg für mehr Einfügeoptionen für Abbildungen
 
 
 \usepackage[printonlyused]{acronym}										%Packet für Abkürzungsverzeichnis
@@ -47,6 +48,18 @@
 	pdfauthor={Jon Feddersen}]{hyperref}
 
 \usepackage{listings}
+\usepackage{xcolor} % für Farben
+
+\lstset{
+	basicstyle=\ttfamily\small,  % Schriftart für Code
+  backgroundcolor=\color{gray!10},
+  frame=single,                % Rahmen um den Code
+  numbers=left,                % Zeilennummern links
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{green!50!black},
+  stringstyle=\color{red}
+		}
 
 \setcounter{secnumdepth}{4}     %Nummerierung bis paragraph aktivieren
 \setcounter{tocdepth}{4}        %Inhaltsverzeichnis zeigt bis \paragraph
