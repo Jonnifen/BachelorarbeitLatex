@@ -17,6 +17,11 @@
 \usepackage[absolute,overlay]{textpos}									%Boxen absolut Positionieren
 \usepackage[final]{pdfpages}											%Einfügen von externen PDF Dokumenten
 
+
+\usepackage[printonlyused]{acronym}										%Packet für Abkürzungsverzeichnis
+%\usepackage[intoc]{nomencl}        										%Für Formelzeichenverzeichnis
+%\makenomenclature														%Erstellt ein Hilfsdokument für Formelzeichen
+
 \usepackage[
   top=3cm,      % Abstand oben
   left=3.5cm,   % Abstand links
@@ -26,8 +31,7 @@
 
 \usepackage{upgreek}            %Ermöglicht Aufrechte Varianten von Griechischen Buchstaben
 
-
- \usepackage[colorlinks,		% Einstellen und Laden des Hyperref-Pakets
+\usepackage[colorlinks,		% Einstellen und Laden des Hyperref-Pakets
 	pdftex,
 	bookmarks,
 	bookmarksopen=false,
@@ -44,10 +48,8 @@
 
 \usepackage{listings}
 
-
 \setcounter{secnumdepth}{4}     %Nummerierung bis paragraph aktivieren
 \setcounter{tocdepth}{4}        %Inhaltsverzeichnis zeigt bis \paragraph
-
 
 \setlength{\parindent}{0pt} % Einrücken nach Absatzänderung
 

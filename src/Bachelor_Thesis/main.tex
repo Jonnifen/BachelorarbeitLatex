@@ -7,11 +7,11 @@ pagesize,				% flexible Blattgröße
 a4paper,				% DIN A4
 oneside,				% einseitig gedruckt
 headsepline,		    % Strich unter der Kopfzeile
-11pt,					% 12pt Schriftgröße
+11pt,					% 11pt Schriftgröße
 halfparskip,		    % Europäischer Satz: Abstand zwischen Absätzen
 %draft,					%Vorabversion
 final,					% Endgültige Version
-listof=totoc,		    % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
+listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
 ]{scrartcl}			    % KOMA_Script-klasse Artikel
 
 % Packages und Grundeinstellungen des Dokumentes wurde ausgelagert
@@ -49,6 +49,23 @@ listof=totoc,		    % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
 \pagebreak
 
 \listoftables
+\pagebreak
+
+%Verzeichnis der Formelzeichen, Symbole und Indizes
+%\nomenclature{$E$}{Energie}
+%\nomenclature{$v$}{Geschwindigkeit}
+%\nomenclature{$t$}{Zeit}
+%\section*{Verzeichnis der Formelzeichen, Symbole und Indizes}
+%\addcontentsline{toc}{section}{Verzeichnis der Formelzeichen, Symbole und Indizes}
+%\printnomenclature
+%\pagebreak
+
+% Abkürzungsverzeichnis
+\section*{Abkürzungsverzeichnis}
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis} % ins Inhaltsverzeichnis aufnehmen
+\begin{acronym}[DUTs] % längste Abkürzung hier einsetzen
+    \acro{DUTs}{Devices-Under-Test}
+\end{acronym}
 \pagebreak
 
 
@@ -104,9 +121,6 @@ listof=totoc,		    % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
 %Anhangsverzeichnis
 \section*{Anhangsverzeichnis}
 \addcontentsline{toc}{section}{Anhangsverzeichnis}
-A1. Datenblatt des Bauteils XYZ \dotfill I \\
-A2. Technische Zeichnung der Anlage \dotfill II \\
-A3. Programmcode der Steuerung \dotfill III
 \newpage
 %------------------------------------------------
 %Erklärung

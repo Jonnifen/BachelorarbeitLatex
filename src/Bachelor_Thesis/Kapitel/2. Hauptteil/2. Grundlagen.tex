@@ -4,17 +4,18 @@
 \newpage
 \section{Grundlagen}
 \label{Grundlagen}
-
+In diesem Kapitel werden die theoretischen Grundlagen für das Entwickeln der Software,
+so wie das notwendige Verständnis des Testandes und seine Abläufe behandelt.
 \subsection{Überblick über den Umrichter-Prüfstand}
 In diesem Unterkapitel wird der Umrichter-Teststand, von dem die zu verarbeitenden Datensätze stammen beschrieben,
 da dies für das generelle Verständnis der einzulernenden Datensatzstruktur unerlässlich ist.
 Die genaue Bezeichnung des Teststandes „USTB DWT Test Bench (XCT0006-1)“ im weiteren als Test-Bench oder Teststand benannt.
 Diese Art Teststand wird im allgemein für die End-of-Line Prüfung von unterschiedlichen Umrichtern nach ihrer Herstellung genutzt,
-um die Produktqualität und -funktionalität sicherzustellen.
+um die Produktqualität und -funktionalität sicherzustellen.\cite*{Main_Manuel_USTB2018}
 
 In dem hier vorliegenden Fall wird der Teststand verwendet, um die aus dem Feld kommenden Umrichter auf ihre weiter Nutzungstauglichkeit zu testen.
 Die weiter Nutzungstauglichkeit wird ermittelt, indem die Messwerte mit Mittelwerten, die von mehreren fabrikneuen Umrichtern stammenden verglichen werden.
-Diese Messwerte müssen sich in einen vorher definierten Toleranzbereich befinden um weiter verwenden zu werden.
+Diese Messwerte müssen sich in einen vorher definierten Toleranzbereich befinden, um weiter verwenden zu werden.
 
 Die Test-Bench besteht aus mehreren Hauptkomponenten:
 
@@ -35,15 +36,18 @@ Die Test-Bench besteht aus mehreren Hauptkomponenten:
 
 \end{itemize}
 
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{Grafiken/Test Cabin.jpg}
-    \caption{Aufbau des Teststandes- kopiert aus KkKKK}
+    \caption{Aufbau des Teststandes}
     \label{fig:1. Aufbau des Teststandes}
+    {Quelle: \cite*[7]{Main_Manuel_USTB2018}}
 \end{figure}
 
+
 Neben dem Hauptkomponenten befinden sich außerhalb des Sicherheitsbereiches, der während des Betriebes nicht betreten werden darf,
-ein PC mit einer Software zum Steuern der Testeinrichtung, sowie eine Betriebsanzeige und ein Notaus.
+ein PC mit einer Software zum Steuern der Testeinrichtung, sowie eine Betriebsanzeige und ein Notaus. \cite*{Main_Manuel_USTB2018}
 
 \newpage
 
@@ -51,7 +55,7 @@ Ein Test läuft wie folgt ab:
 
 \begin{enumerate}
 \item Die Umrichter werden auf dem Carrier befestigt, es werden meist 3 Umrichter gleichzeitig getastet, Abweichungen je nach Bauform der Umrichter.
-Ab diesem Zeitpunkt werden die Umrichter in der gegebenen Fachliteratur als DUTs „Devices-Under-Test“ bezeichnet, dies kommt auch in den Testberichten vor,daher hat der Autor diesen Begriff einzuführen und fortan zu übernehmen.
+Ab diesem Zeitpunkt werden die Umrichter in der gegebenen Fachliteratur als \ac{DUTs} bezeichnet, dies kommt auch in den Testberichten vor, daher hat der Autor diesen Begriff einzuführen und fortan zu übernehmen.
 
 
 \item Durchführung des Driver Consumption Testes.
@@ -67,27 +71,34 @@ Ab diesem Zeitpunkt werden die Umrichter in der gegebenen Fachliteratur als DUTs
 
 
 \end{enumerate}
-Es gibt verschiedene Testmodule, die auf dem Teststand laufen. Einige der verschiedenen Funktionen eines DUT können mit dem gleichen Modus eines Testmoduls überprüft werden, indem die entsprechenden Parametersätze ausgewählt werden. Jeder Test ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametersätzen. Im Folgenden wird eine kurze Beschreibung der Funktionen der für diese Arbeit relevanten Testmoduls gegeben.
+Es gibt verschiedene Testmodule, die auf dem Teststand laufen.
+Einige der verschiedenen Funktionen eines DUT können mit dem gleichen Modus eines Testmoduls überprüft werden, indem die entsprechenden Parametersätze ausgewählt werden.
+Jeder Test ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametersätzen.
+\\
+Im Folgenden wird eine kurze Beschreibung der Funktionen der für diese Arbeit relevanten Testmoduls gegeben.
 
-DRIVER CONSUMPTION TEST
+Driver Consumption Test:
 
-The driver current consumption test verifies the driver´s current consumption in idle state and during PWM-Switching.
+Der Driver-Stromverbrauchstest überprüft den Stromverbrauch des Treibers im Leerlauf und während der PWM-Schaltung.
 
-PULSE TEST
+Pulse Test:
 
-The pulse test has three function modes:
+Der Impulstest verfügt über drei Funktionsmodi.
+\begin{itemize}
+    \item Im Modus „Funktionsschaltung“ (FSW) kann überprüft werden, ob die Halbleiter generell schalten.
+    \item Im Modus „Überstromschutz“ (OCP) kann die Überstromüberwachung („weicher Kurzschluss“) überprüft werden.
+    \item Im Modus „Dynamischer Kurzschlussschutz“ (DSCP) wird das korrekte Verhalten der Treiberstufe in Bezug auf einen harten Kurzschluss überprüft.
+\end{itemize}
 
-- In mode Functional-Switching (FSW) it can be checked, if the semiconductors are switching in general. \\
-- In mode Over-Current-Protection (OCP) the over-current monitoring (“soft short circuit”) can be checked.\\
-- In mode Dynamic-Short-Circuit-Protection (DSCP) the correct behavior of the driver stage is checked in respect of a hard short circuit.
+Power Test:
 
-POWER TEST
-
-With this test, two different features can be tested:
-
-- On the one hand the Burn-In-Test (BIT) is suited for operating the DUTs in a cyclic manner and hence simulating real operational states.
-On the other hand by checking the cooling temperature at the end of test the correct heat transfer of the semiconductors can be verified.\\
-During Over-Temperature-Protection test (OTP) a DUT is run on reduced cooling until the maximum permissible heat sink temperature is reached and the temperature protection circuit trips.
+Mit diesem Test können zwei verschiedene Funktionen getestet werden:
+\begin{itemize}
+    \item Einerseits eignet sich der Burn-In-Test (BIT) dazu, die DUTs zyklisch zu betreiben und so reale Betriebszustände zu simulieren.
+    \item Andererseits kann durch Überprüfung der Kühltemperatur am Ende des Tests die korrekte Wärmeübertragung der Halbleiter überprüft werden.
+\end{itemize}
+\\
+Während des Übertemperaturschutz-Tests (OTP) wird ein DUT mit reduzierter Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.
 
 
 \subsection{Verarbeitung von XML-Daten}
