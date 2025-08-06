@@ -1,0 +1,142 @@
+\subsection{Datenbankentwurf und Normalisierung}
+
+\subsubsection{Einführung in Datenbanken}
+
+Datenbanken sind organisierte Sammlungen von Daten, die elektronisch gespeichert und verwaltet werden.
+Ihr primäres Ziel besteht darin, große Datenmengen strukturiert abzulegen, den Zugriff zu optimieren und Datenintegrität sicherzustellen.
+Im Gegensatz zu einfachen Dateisystemen bieten Datenbanken Mechanismen zur gleichzeitigen Nutzung durch mehrere Benutzer,
+zur Vermeidung redundanter Datenhaltung und zur effizienten Abfrage mittels spezieller Sprachen wie der Structured Query Language (SQL).
+
+Die Entwicklung moderner Informationssysteme erfordert den Einsatz relationaler Datenbanken, dokumentenbasierter Systeme
+oder hybrider Modelle, um unterschiedliche Anforderungen an Konsistenz, Flexibilität und Skalierbarkeit zu erfüllen.
+
+\subsubsection{Prozess der Datenbankerstellung}
+
+Die Erstellung einer Datenbank umfasst mehrere aufeinanderfolgende Schritte, die sowohl technische als auch konzeptionelle Aspekte berücksichtigen:
+
+
+\begin{enumerate}
+
+\item
+Anforderungsanalyse
+
+
+\begin{itemize}
+
+\item
+Ermittlung der fachlichen und technischen Anforderungen.
+\item
+Identifikation der relevanten Datenquellen und Datenformate.
+\item
+Festlegung von Integritäts- und Sicherheitsanforderungen.
+
+\end{itemize}
+
+\item
+Konzeptionelles Datenmodell
+
+\begin{itemize}
+
+\item
+Erstellung eines Entity-Relationship-Modells (ERM) zur Abbildung der realen Welt in Entitäten, Attribute und Beziehungen.
+\item
+Berücksichtigung von Kardinalitäten (1:1, 1:n, n:m).
+
+\end{itemize}
+
+\item
+Logisches Datenmodell
+
+\begin{itemize}
+
+\item
+Überführung des konzeptionellen Modells in ein relationales Schema.
+\item
+Definition von Tabellen, Spalten (Attribute), Primärschlüsseln und Fremdschlüsseln.
+\item
+Festlegung von Datentypen und Constraints (z.B. NOT NULL, UNIQUE, CHECK).
+
+\end{itemize}
+
+\item
+Physisches Datenmodell
+
+
+\begin{itemize}
+
+\item
+Umsetzung des logischen Modells in einer konkreten Datenbankmanagementsoftware (z.B. MySQL, PostgreSQL, Microsoft SQL Server).
+\item
+Optimierung der Speicherstrukturen, Indexierung und Partitionierung.
+
+\end{itemize}
+
+\item
+Implementierung und Test
+
+\begin{itemize}
+
+\item
+Erstellung der Tabellen und Relationen gemäß Datenbankschema.
+
+\item
+Einfügen von Testdaten.
+
+\item
+Überprüfung der Funktionalität und Performance.
+
+\end{itemize}
+
+\end{enumerate}
+
+
+\subsubsection{Datenbankstruktur}
+
+Die Datenbankstruktur bezeichnet den Aufbau und die Anordnung der Datenelemente innerhalb eines Datenbanksystems.
+Bei relationalen Datenbanken basiert sie im Wesentlichen auf Tabellen und deren Beziehungen.
+
+Wesentliche Elemente sind:
+
+
+\begin{itemize}
+
+\item
+Tabellen – Grundstruktur, in der Daten in Zeilen (Tupeln) und Spalten (Attributen) gespeichert werden.
+\item
+Primärschlüssel (Primary Keys) – eindeutige Kennzeichnung eines Datensatzes innerhalb einer Tabelle.
+\item
+Fremdschlüssel (Foreign Keys) – Verknüpfung zwischen Tabellen, um referenzielle Integrität sicherzustellen.
+\item
+Indizes – Datenstrukturen zur Beschleunigung von Abfragen.
+\item
+Views (Sichten) – virtuelle Tabellen, die auf Abfrageergebnissen basieren.
+\item
+Constraints – Regeln zur Sicherstellung der Datenintegrität (z.B. Wertebereiche, Pflichtfelder).
+
+\end{itemize}
+
+\subsubsection{Normalisierung und Datenintegrität}
+
+Die Normalisierung ist ein methodischer Prozess zur Minimierung von Redundanzen und Anomalien. Sie erfolgt schrittweise in Normalformen (1NF, 2NF, 3NF, BCNF). Jede Normalform beseitigt spezifische Arten von Datenanomalien:
+
+\begin{itemize}
+
+\item
+1. Normalform (1NF): Elimination mehrfacher Werte innerhalb einer Zelle; atomare Attribute.
+\item
+2. Normalform (2NF): Entfernung partieller Abhängigkeiten.
+\item
+3. Normalform (3NF): Entfernung transitativer Abhängigkeiten.
+\end{itemize}
+
+Datenintegrität umfasst die Sicherstellung von Korrektheit, Konsistenz und Vollständigkeit der Daten. Sie wird erreicht durch:
+
+\begin{itemize}
+\item
+Entity-Integrität (eindeutige Primärschlüssel).
+\item
+Referentielle Integrität (gültige Fremdschlüsselverweise).
+
+\item
+Domänenintegrität (gültige Wertebereiche und Datentypen).
+\end{itemize}
