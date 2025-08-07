@@ -8,7 +8,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Aufbau des Teststandes}{2}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}Testmodule}{3}{subsubsection.2.1.2}%
 \contentsline {subsubsection}{\numberline {2.1.3}Testablauf}{4}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Verarbeitung von XML-Daten}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Verarbeitung von XML-Daten}{4}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}XML-Strukturaufbau}{5}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Verarbeiten von XML-Dateien mit Python}{6}{subsubsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}Datenbankentwurf und Normalisierung}{8}{subsection.2.3}%

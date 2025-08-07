@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[66] biber:340> INFO - === Mi Aug  6, 2025, 07:54:25
-[78] Biber.pm:420> INFO - Reading 'main.bcf'
-[134] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
-[147] Biber.pm:4463> INFO - Processing section 0
-[163] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur/Literatur.bib' for section 0
-[164] bibtex.pm:1713> INFO - LaTeX decoding ...
-[167] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur/Literatur.bib'
-[196] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[196] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[196] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[196] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
-[198] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[198] bbl.pm:779> INFO - Output to main.bbl
+[67] biber:340> INFO - === Do Aug  7, 2025, 16:15:47
+[79] Biber.pm:420> INFO - Reading 'main.bcf'
+[135] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[149] Biber.pm:4463> INFO - Processing section 0
+[157] Biber.pm:4654> INFO - Looking for bibtex file 'Kapitel/4. Literatur/Literatur.bib' for section 0
+[157] bibtex.pm:1713> INFO - LaTeX decoding ...
+[161] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Kapitel/4. Literatur/Literatur.bib'
+[188] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[188] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[188] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[188] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[189] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[189] bbl.pm:779> INFO - Output to main.bbl
