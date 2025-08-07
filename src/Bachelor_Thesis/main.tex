@@ -1,7 +1,8 @@
 %! Author = jbf
 %! Date = 25.07.25
 
-% Preamble
+%Dokumentheader
+%------------------------------------------------------------------------------------------------------
 \documentclass[
 pagesize,				% flexible Blattgröße
 a4paper,				% DIN A4
@@ -13,45 +14,65 @@ halfparskip,		    % Europäischer Satz: Abstand zwischen Absätzen
 final,					% Endgültige Version
 listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse)
 ]{scrartcl}			    % KOMA_Script-klasse Artikel
-
+%------------------------------------------------------------------------------------------------------
+%Dokumenteinstellungen
+%------------------------------------------------------------------------------------------------------
 % Packages und Grundeinstellungen des Dokumentes wurde ausgelagert
 \input{Einstellung/Grundeinstellungen_Jon}
-
-
-% Document
+%------------------------------------------------------------------------------------------------------
+% Document-Start
+%------------------------------------------------------------------------------------------------------
 \begin{document}
-
+%Deckblatt der FH als PDF eingefügt
+%------------------------------------------------------------------------------------------------------
 \includepdf{Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf}
-
+%------------------------------------------------------------------------------------------------------
+%Sperrvermerk
+%------------------------------------------------------------------------------------------------------
 \input{Kapitel/0. Sperrvermerk/Sperrvermerk}
-
-
+%------------------------------------------------------------------------------------------------------
 %Definition von Großen römischen Zahlen für die Kapitel
+%------------------------------------------------------------------------------------------------------
 \renewcommand{\thesection}{\roman{section}}
 \pagenumbering{Roman}
 \ohead[\pagemark]{}
-
-
+%------------------------------------------------------------------------------------------------------
+%Einstellung Inhaltsverzeichnis
+%------------------------------------------------------------------------------------------------------
 \singlespacing
 \renewcommand{\contentsname}{Inhaltsverzeichnis}
 \phantomsection
 \addtocounter{section}{1}
-\setcounter{page}{3}
+\setcounter{page}{2}
+%------------------------------------------------------------------------------------------------------
+%Löschen der Einstellungen für Kopfzeile und Fußzeile
+%------------------------------------------------------------------------------------------------------
 \clearscrheadings
 \clearscrplain
 \clearscrheadfoot
+%------------------------------------------------------------------------------------------------------
+%Abschnitt und Seitenzahl in Kopfzeile
+%------------------------------------------------------------------------------------------------------
 \ohead[\pagemark]{\pagemark}
 \ihead[\headmark]{\headmark}
+%------------------------------------------------------------------------------------------------------
+%Inhaltsverzeichnis
+%------------------------------------------------------------------------------------------------------
 \tableofcontents
 \pagebreak
-
+%------------------------------------------------------------------------------------------------------
+%Abbildungsverzeichnis
+%------------------------------------------------------------------------------------------------------
 \listoffigures
 \pagebreak
-
+%------------------------------------------------------------------------------------------------------
+%Tabellenverzeichnis
+%------------------------------------------------------------------------------------------------------
 \listoftables
 \pagebreak
-
-%Verzeichnis der Formelzeichen, Symbole und Indizes
+%------------------------------------------------------------------------------------------------------
+%%Verzeichnis der Formelzeichen, Symbole und Indizes
+%------------------------------------------------------------------------------------------------------
 %\nomenclature{$E$}{Energie}
 %\nomenclature{$v$}{Geschwindigkeit}
 %\nomenclature{$t$}{Zeit}
@@ -59,17 +80,18 @@ listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse
 %\addcontentsline{toc}{section}{Verzeichnis der Formelzeichen, Symbole und Indizes}
 %\printnomenclature
 %\pagebreak
-
-% Abkürzungsverzeichnis
+%------------------------------------------------------------------------------------------------------
+%Abkürzungsverzeichnis
+%------------------------------------------------------------------------------------------------------
 \section*{Abkürzungsverzeichnis}
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis} % ins Inhaltsverzeichnis aufnehmen
 \begin{acronym}[DUTs] % längste Abkürzung hier einsetzen
     \acro{DUTs}{Devices-Under-Test}
 \end{acronym}
 \pagebreak
-
-
+%------------------------------------------------------------------------------------------------------
 %Definition für Kopfzeile und arabische Sections
+%------------------------------------------------------------------------------------------------------
 \renewcommand{\sectionmark}[1]{\markright{#1}}
 \renewcommand{\subsectionmark}[1]{}
 \renewcommand{\subsubsectionmark}[1]{}
@@ -78,17 +100,13 @@ listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse
 \setcounter{section}{0}
 \pagenumbering{arabic}
 \setcounter{page}{1}
-
-%------------------------------------------------
-%1. Einleitung in die Arbeit
-%------------------------------------------------
-
+%------------------------------------------------------------------------------------------------------
+%1. Einleitung
+%------------------------------------------------------------------------------------------------------
 \input{Kapitel/1. Einleitung/Einleitung}
-
-%------------------------------------------------
-%2. Hauptteil in die Arbeit
-%------------------------------------------------
-
+%------------------------------------------------------------------------------------------------------
+%2. Hauptteil
+%------------------------------------------------------------------------------------------------------
 \input{Kapitel/2. Hauptteil/2. Grundlagen}
 
 \input{Kapitel/2. Hauptteil/3. Analyse und Konzeption}
@@ -96,37 +114,38 @@ listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse
 \input{Kapitel/2. Hauptteil/4. Implementierung}
 
 \input{Kapitel/2. Hauptteil/5. Integration und Test}
-
-%------------------------------------------------
-%3. Schluss in die Arbeit
-%------------------------------------------------
-
+%------------------------------------------------------------------------------------------------------
+%3. Schluss
+%------------------------------------------------------------------------------------------------------
 \input{Kapitel/3. Schluss/6. Fazit und Ausblick}
 \newpage
-%------------------------------------------------
-%Literaturverzeichnis, Anhang und Erklärung
-%------------------------------------------------
-%Einstellungsänderungen der Seitenzahlen
+%------------------------------------------------------------------------------------------------------
+%Einstellungsänderungen der Seitenzahlen zu kleine römisch Zahlen
+%------------------------------------------------------------------------------------------------------
 \renewcommand{\thesection}{\roman{section}}
 \pagenumbering{roman}
 \ohead[\pagemark]{}
 \setcounter{section}{0}
-%------------------------------------------------
+%------------------------------------------------------------------------------------------------------
 %Literaturverzeichnis
+%------------------------------------------------------------------------------------------------------
 \newpage
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \printbibliography
 \newpage
-%------------------------------------------------
+%------------------------------------------------------------------------------------------------------
 %Anhangsverzeichnis
+%------------------------------------------------------------------------------------------------------
 \section*{Anhangsverzeichnis}
 \addcontentsline{toc}{section}{Anhangsverzeichnis}
 \newpage
-%------------------------------------------------
+%------------------------------------------------------------------------------------------------------
 %Erklärung
+%------------------------------------------------------------------------------------------------------
 \input{Kapitel/Erklärung/Erklärung}
-
-
+%------------------------------------------------------------------------------------------------------
+%Dokument-End
+%------------------------------------------------------------------------------------------------------
 \end{document}
-
+%------------------------------------------------------------------------------------------------------
 
