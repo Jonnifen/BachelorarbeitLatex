@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  6 AUG 2025 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  7 AUG 2025 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,35 +903,35 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count432
 \@quotereset=\count433
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 22
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 25
 .
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 22.
+(Font)              scaled to size 10.40245pt on input line 25.
 
 (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 \big@size=\dimen177
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1002,7 +1002,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 25.
 (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.out)
 (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.out)
 \@outlinefile=\write4
@@ -1015,7 +1015,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 22.
+(scrartcl)           before \begin{document} on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1026,7 +1026,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count440
 ))
 \c@lstlisting=\count441
-Package tocbasic Info: setting babel extension for `lol' on input line 22.
+Package tocbasic Info: setting babel extension for `lol' on input line 25.
 \scr@dte@lstlisting@maxnumwidth=\skip107
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1060,15 +1060,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
 <Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=4, 597.55246pt x 845.
 07718pt>
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf  
-used on input line 24.
+used on input line 28.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 <Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=6, page=1, 597.55246p
 t x 845.07718pt>
@@ -1076,25 +1076,25 @@ File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
- page1 used on input line 24.
+ page1 used on input line 28.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
- page1 used on input line 24.
+ page1 used on input line 28.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
- page1 used on input line 24.
+ page1 used on input line 28.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
- page1 used on input line 24.
+ page1 used on input line 28.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 
 
@@ -1102,7 +1102,7 @@ File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
 <use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
- page1 used on input line 24.
+ page1 used on input line 28.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 [1
 
@@ -1125,17 +1125,17 @@ io-nen des Un-ter-neh-mens, in dem die Bachelor-
 dist/fonts/enc/dvips/base/8r.enc}])
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheading by
-(scrlayer-scrpage)                \clearmainofpairofpagestyles on input line 40
+(scrlayer-scrpage)                \clearmainofpairofpagestyles on input line 50
 .
 
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrplain by
-(scrlayer-scrpage)                \clearplainofpairofpagestyles on input line 4
+(scrlayer-scrpage)                \clearplainofpairofpagestyles on input line 5
 1.
 
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
-(scrlayer-scrpage)                \clearpairofpagestyles on input line 42.
+(scrlayer-scrpage)                \clearpairofpagestyles on input line 52.
 
 (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
@@ -1178,27 +1178,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 10.40245pt on input line 47.
-[3])
+[2])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
 
-[4] (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.lof)
+[3] (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
 
 
-[5] (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.lot)
+[4] (/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
 
 
-[6]
+[5]
 
-[7] (./Kapitel/1. Einleitung/Einleitung.tex)
+[6] (./Kapitel/1. Einleitung/Einleitung.tex)
 (./Kapitel/2. Hauptteil/2. Grundlagen.tex
 
 
@@ -1296,17 +1296,15 @@ ex
 [9])
 (./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.te
 x
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 7.
-
-Overfull \hbox (7.0626pt too wide) in paragraph at lines 7--8
-\T1/phv/m/n/10.95 Unter \T1/phv/m/sl/10.95 Da-ten-vi-sua-li-sie-rung \T1/phv/m/
-n/10.95 wird die vi-su-el-le Auf-be-rei-tung von Da-ten ver-stan-den, um Mus-te
-r, Trends,
+Overfull \hbox (6.50096pt too wide) in paragraph at lines 7--14
+\T1/phv/m/n/10.95 Unter Da-ten-vi-sua-li-sie-rung wird die vi-su-el-le Auf-be-r
+ei-tung von Da-ten ver-stan-den, um Mus-ter, Trends,
  []
 
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 31.
 
 
 [10])
@@ -1317,35 +1315,63 @@ wicklung.tex
 
 [12])) (./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
 
-[13]) (./Kapitel/2. Hauptteil/4. Implementierung.tex
+[13]
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Defintion der Anforderung
+en.tex)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der bestehenden S
+trukturen und Prozesse.tex)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
+turkonzeption.tex)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
+oberflächen-Design.tex)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
+rchitektur.tex)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[14]) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
+[14]
+(./Kapitel/2. Hauptteil/4. Implemetierung /4.1 Einlesen und Verarbeiten von XML
+-Daten.tex)
+(./Kapitel/2. Hauptteil/4. Implemetierung /4.2 Implementierung der Datenbank.te
+x)
+(./Kapitel/2. Hauptteil/4. Implemetierung /4.3 Entwicklung der Benutzeroberflä
+che.tex)
+(./Kapitel/2. Hauptteil/4. Implemetierung /4.4 Technische Details zur Visualisi
+erung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[15]) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
+[15]
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
+e Systemlandschaft.tex)
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
+ung.tex)
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
+.tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[16])
+[16]
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
+tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
+ Erweiterungen.tex))
 
 [17]
 
 [1]
 
 [2] (./Kapitel/Erklärung/Erklärung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 8--128
+Underfull \hbox (badness 10000) in paragraph at lines 8--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--128
+Underfull \hbox (badness 10000) in paragraph at lines 8--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--128
+Underfull \hbox (badness 10000) in paragraph at lines 8--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--128
+Underfull \hbox (badness 10000) in paragraph at lines 8--149
 
  []
 
@@ -1363,19 +1389,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27094 strings out of 473197
- 515338 string characters out of 5718605
+ 27201 strings out of 473197
+ 523420 string characters out of 5718605
  1540568 words of memory out of 5000000
- 49804 multiletter control sequences out of 15000+600000
+ 49849 multiletter control sequences out of 15000+600000
  588547 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,10899b,2425s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10941b,2425s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvro8a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-27 pages, 318945 bytes).
+27 pages, 318913 bytes).
 PDF statistics:
  527 PDF objects out of 1000 (max. 8388607)
  473 compressed objects within 5 object streams

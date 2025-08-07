@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {section}{\nonumberline Abbildungsverzeichnis}{V}{section*.4}%
-\contentsline {section}{\nonumberline Tabellenverzeichnis}{VI}{section*.5}%
-\contentsline {section}{Abkürzungsverzeichnis}{VII}{section*.6}%
+\contentsline {section}{\nonumberline Abbildungsverzeichnis}{IV}{section*.4}%
+\contentsline {section}{\nonumberline Tabellenverzeichnis}{V}{section*.5}%
+\contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.6}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Überblick über den Umrichter-Prüfstand}{2}{subsection.2.1}%
@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.2}Analyse der bestehenden Strukturen und Prozesse}{14}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Datenbankdesign und Strukturkonzeption}{14}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Grundkonzept des Benutzeroberflächen-Design}{14}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Entwurf der Applikationsarchitektu}{14}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Entwurf der Applikationsarchitektur}{14}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Implementierung}{15}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Einlesen und Verarbeiten von XML-Daten}{15}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Implementierung der Datenbank}{15}{subsection.4.2}%
