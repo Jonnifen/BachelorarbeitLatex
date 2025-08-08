@@ -47,9 +47,9 @@ listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse
 %------------------------------------------------------------------------------------------------------
 %Löschen der Einstellungen für Kopfzeile und Fußzeile
 %------------------------------------------------------------------------------------------------------
-\clearscrheadings
-\clearscrplain
-\clearscrheadfoot
+\clearmainofpairofpagestyles
+\clearplainofpairofpagestyles
+\clearpairofpagestyles
 %------------------------------------------------------------------------------------------------------
 %Abschnitt und Seitenzahl in Kopfzeile
 %------------------------------------------------------------------------------------------------------
@@ -87,6 +87,7 @@ listof=totoc           % nicht nummerierter eintrag in den Inhalt (verzeichnisse
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis} % ins Inhaltsverzeichnis aufnehmen
 \begin{acronym}[DUTs] % längste Abkürzung hier einsetzen
     \acro{DUTs}{Devices-Under-Test}
+    \acro{XML}{Extensible Markup Language}
 \end{acronym}
 \pagebreak
 %------------------------------------------------------------------------------------------------------

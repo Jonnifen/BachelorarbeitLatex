@@ -19,7 +19,6 @@ Diese Bezeichnung kommt auch in den Berichten aud dem Teststand vor, daher hat d
 %------------------------------------------------------------------------------------------------------
 Die Test-Bench besteht aus mehreren Komponenten, die sich im Testraum in unterschiedlichen Schaltschränken befinden.
 Der Teststand besteht aus folgenden Hauptkomponenten:
-
 \begin{itemize}
 
 \item Das Netzteil wandelt die 400V Netzspannung in eine isolierte Gleichspannung für den Zwischenkreis um.
@@ -67,35 +66,57 @@ Pulse Test:
 Der Impulstest verfügt über drei Funktionsmodi.
 \begin{itemize}
     \item Im Modus „Functional-Switching“ (FSW) kann überprüft werden, ob die Halbleiter generell schalten.
-    \item Im Modus „Over-Current-Protection“ (OCP) kann die Überstromüberwachung weiche Kurzschlusse überprüft werden.
+    \item Im Modus „Over-Current-Protection“ (OCP) kann die Überstromüberwachung weiche Kurzschlüsse überprüft werden.
     Ein weicher Kurzschluss ist, wenn der Stromfluss nicht sofort und vollkommen unterbrochen wird.
     \item Im Modus „Dynamic-Short-Circuit-Protection“ (DSCP) wird das korrekte Verhalten der Treiberstufe in Bezug auf
     einen harten Kurzschluss, also ein vollständiger und sofortiger Kurzschluss, überprüft.
 \end{itemize}
 
 Power Test:
-Mit diesem Test werden zwei verschiedene Funktionen getestet werden.
+Mit diesem Test werden zwei verschiedene Funktionen getestet werden.\\
 Der Burn-In-Test (BIT) dient dazu, die \ac{DUTs} zyklisch zu betreiben und so reale Betriebszustände zu simulieren.
 Zudem kann mit Hilfe dieser Funktion die Kühltemperatur überprüft werden, um die korrekte Wärmeübertragung der Halbleiter zu überprüften.
-\\
 Während des Übertemperaturschutz-Tests (OTP) wird ein DUT ähnlich wie beim BIT nur mit reduzierter Kühlung betrieben, bis die maximal zulässige
 Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.\cite*{Main_Manuel_USTB2018}
-\color{red}     %Unfertig
+
 %------------------------------------------------------------------------------------------------------
 \subsubsection{Testablauf}
 %------------------------------------------------------------------------------------------------------
-Ein Test läuft wie folgt ab:
-
+Der Testablauf mit montage der \ac{DUTs}, diese Schrittfolge ist klar festgelegt und vor jedem Durchlauf gleich.
+Die Montage läuft wie folgt ab:
 \begin{enumerate}
+
 \item Die Umrichter werden auf dem Carrier befestigt, es werden meist 3 Umrichter gleichzeitig getastet, Abweichungen je nach Bauform der Umrichter.
-Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von links nach rechts U-V-W.
-\item Anschließen des Kühlkreislaufen, je nach Types Lüft- oder Wasserkühlung.
-\item Die \ac{DUTs} werden mit den AC- und DC-Link-Kontakten verbinden.
-\item Anbringen von Signalkabeln zwischen DUT und MerkurBox, so wie montieren von VCE-Klemmen an die AC-Kontakte der \ac{DUTs}.
-\item
-\item Durchführung des Driver Consumption Testes.
-\item Durchführung des Pulse Testes.
-\item Durchführung des Driver Power Testes.
-\item Nach dem Durchlaufen eines Tests wird automatische ein XML-Datenfile mit den erhobenen Messdaten generiert, die enthalt die Messwerte und alle vorher bestimmten Einstellungen.
+Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von links nach rechts U-V-W, dies für das Layout des Berichtes relevant.
+\item Der Kühlkreislaufen wird angeschlossen, je nach Umrichtertyp Lüft- oder Wasserkühlung.
+\item Die \ac{DUTs} werden mit den AC- und DC-Link-Kontakten verbunden, um das Gerät zu betreiben und die DC-Spannung wieder Abzuleiten.
+\item Das Anbringen von Signalkabeln zwischen DUT und Merkurbox, die Merkurbox dient als Schnittstelle zwischen \ac{DUTs} und Test-Bench.
+\item Das Montieren von VCE-Klemmen an die AC-Kontakte der \ac{DUTs}.
+
 \end{enumerate}
+
+Bei der Demontage nachdem Testdurchlauf werden alle Schritte in umgekehrter Reihenfolge durchgeführt.
+
+Vor Beginn des Testablauf benötigt die Test-Bench noch weitere Informationen zu den \ac{DUTs}, Testsequenzen und der Hardware-Topologie.
+Diese Daten können über das Scannen von vorliegenden QR oder Barcodes eingefügt werden.
+Alternativ können diese auch über ein Eingabefenster im Teststandprogramm eingetragen werden.
+Je nach Topologiekonfiguration kann auch ein zweiter Träger mit DUTs gescannt werden,
+dies kommt bei dem Test den das Unternehme durchführt nicht vor.\cite*{Main_Manuel_USTB2018}
+
+Das eigentliche Testen mit den verschiedenen Testmodulen wird Autonom durchgeführt.
+Im Unternehmen läuft der Test regulär wie folgt ab:
+\begin{enumerate}
+
+\item Durchführung des Driver Consumption Testes, um die Stromversorgung der Treiberplatine auf den Umrichter zu testen.
+\item Durchführung des Pulse Testes im Modus Functional-Switching, dies prüft die Umrichter.
+\item Durchführung des Power Testes, in den Berichten auch XPower Test genannt.
+Dieser Test simuliert die Belastung der Umrichter im Feld und überprüft,
+ob sich die Werte in einem bestimmten Toleranzbereich befinden.
+
+\end{enumerate}
+
+Nach dem Durchlaufen eines Tests wird automatische ein XML-Datenfile mit den erhobenen Messdaten generiert,
+die enthaltenen Messwerte und alle vorher bestimmten Einstellungen erstellt und in eine Datei eingefügt.
+
+
 
