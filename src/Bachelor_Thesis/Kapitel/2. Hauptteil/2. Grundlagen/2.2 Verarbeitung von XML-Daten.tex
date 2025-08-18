@@ -1,30 +1,29 @@
 \subsection{Verarbeitung von XML-Daten}
 \label{subsec:verarbeitung-von-xml-daten}
 
-Dieses Kapitel behandelt einige Grundlegende und für dies Arbeit relevante Aspekte von dem Dokumententype XML,
+Dieses Kapitel behandelt einige Grundlegende und für dies Arbeit relevante Aspekte von dem Dokumententype \ac{XML},
 da die Messwerte bzw. die Berichte die der Testand generiert im diesem Format vorliegen.
 
-\ac{XML}
-\color{red}     %Unfertig
-XML, die Abkürzung für , ist eine der beliebtesten Auszeichnungssprachen, die entwickelt wurde,
-um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu transportieren.
-Es ist eine textbasierte Auszeichnungssprache, die heute in vielen Anwendungen verwendet wird, wie z.B. Webdiensten,
-Datenbanken, Konfigurationsdateien und vielen anderen.
-XML ermöglicht die hierarchische Organisation von Informationen in einer strukturierten Weise, die sowohl für Menschen
+
+\ac{XML} ist eine Auszeichnungssprachen, also eine
+formale Sprachen, die verwendet werden, um die Struktur und Darstellung von Daten oder Texten zu beschreiben \cite*{Neu},
+die entwickelt wurde, um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu übermitteln.
+Sie wird hauptsächlich in Bereichen wie Webdiensten, Datenbanken, Konfigurationsdateien eingesetzt.
+\ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau, die sowohl für Menschen
 als auch für Maschinen verständlich ist.
 
-Die Motivation hinter XML war, eine universelle und erweiterbare Sprache zu schaffen, die von verschiedenen Systemen
-unabhängig von der zugrunde liegenden Technologie genutzt werden kann.
-Die Fähigkeit, Daten in einem offenen Standard zu speichern und auszutauschen, war entscheidend,
-um die Interoperabilität zwischen verschiedenen Anwendungen und Plattformen zu fördern.
+Das Grundkonzept hinter \ac{XML} war, eine universelle einsetzbare und erweiterbare Sprache zu erschaffen, die von verschiedenen Systemen
+unabhängig von deren grundlegenden Technologieansatz genutzt werden kann.
+Hierbei ware das angestrebte Ziel Daten in einem einheitlichen Standard zwischen verschiedenen Anwendungen und Plattformen zu speichern und auszutauschen
+zu kömmen.
 
 \subsubsection{XML-Strukturaufbau}
 
-Ein XML-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
-Die grundlegenden Bestandteile eines XML-Dokuments sind:
+Ein \ac{XML}-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
+Die grundlegenden Bestandteile eines \ac{XML}-Dokuments sind:
 
-Prolog: Ein optionaler Abschnitt, der die XML-Version und die verwendete Zeichencodierung definiert.
-Ein typischer Prolog sieht so aus:
+Prolog: Ein optionaler Abschnitt, der die \ac{XML}-Version und die verwendete Zeichencodierung definiert.
+In Abbildung \ref{fig:XML Prolog Beispielcode} ist ein häufig genutzter Prolog dargestellt.
 
 \begin{figure}[H]
 \centering
@@ -75,7 +74,8 @@ Attribute werden im Start-Tag eines Elements definiert:
 \end{figure}
 
 Kommentare: Kommentare werden mit den Tags <!-- und --> eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes,
-Sie werden beim Parsen des Dokuments ignoriert. In Abbildung \ref{fig:XML Kommentare Beispielcode} ist ein Beispiel wie
+Sie werden beim Parsen des Dokuments ignoriert.
+In Abbildung \ref{fig:XML Kommentare Beispielcode} ist ein Beispiel wie
 ein Kommentar genutzt wird.
 
 \begin{figure}[H]
@@ -103,51 +103,48 @@ Textinhalt: Zwischen den Start- und End-Tags eines Elements kann Text enthalten 
 \label{fig:XML Text Beispielcode}
     {Quelle: eigene Darstellung}
 \end{figure}
+\cite*{Becher2022}
 
+\color{red}     %Unfertig
 \subsubsection{Verarbeiten von XML-Dateien mit Python}
-XML (Extensible Markup Language) ist ein vielseitiges und weit verbreitetes Format zum Speichern und Austauschen von strukturierten Daten.
-Es wird in zahlreichen Anwendungsbereichen verwendet, darunter Web-Dienste, Datenbanken, Konfigurationsdateien und mehr.
-Die Fähigkeit, XML-Daten zu verarbeiten, ist daher eine Schlüsselkompetenz in der modernen Softwareentwicklung.
-In diesem Kapitel werden die grundlegenden Methoden und Techniken zur Verarbeitung von XML-Dateien in verschiedenen Programmiersprachen und mit unterschiedlichen Werkzeugen vorgestellt.
-Es wird erläutert, wie XML-Dateien geparst, bearbeitet und validiert werden können, um sie für verschiedene Anwendungen nutzbar zu machen.
 
-Parsing von XML-Daten
+Dieses Kapitel bietet einen Überblick über die grundlegenden Methoden und Techniken, um \ac{XML}-Dateien in verschiedenen Programmiersprachen und mit unterschiedlichen Werkzeugen zu verarbeiten.
+Es wird erklärt, wie man \ac{XML}-Dateien parsen, bearbeiten und validieren kann, um sie für unterschiedliche Anwendungen nutzbar zu machen.
 
-Das Parsing von XML-Daten ist der erste Schritt bei der Verarbeitung.
-Dabei wird die XML-Datei in ein Programm geladen und in eine für das Programm verständliche Struktur überführt.
-Es gibt mehrere Methoden, um XML-Daten zu parsen, je nach Anforderungen der Anwendung.
+Die Analyse von \ac{XML}-Daten
+
+Der erste Schritt, um \ac{XML}-Daten zu verarbeiten, ist das Parsing.
+Hierbei wird die \ac{XML}-Datei in ein Programm importiert und in eine Struktur umgewandelt, die das Programm versteht.
+Je nach den Anforderungen der Anwendung stehen verschiedene Methoden zur Verfügung, um \ac{XML}-Daten zu parsen.
 
 DOM (Document Object Model)
 
-Das DOM ist ein objektorientiertes Modell zur Darstellung eines XML-Dokuments.
-Es stellt das gesamte Dokument als Baumstruktur dar, wobei jedes Element, Attribut und der Text als Knoten im Baum betrachtet werden.
-Der Vorteil von DOM ist, dass es eine vollständige in-memory Repräsentation des XML-Dokuments bietet, was das Durchsuchen und Bearbeiten des Dokuments einfach macht.
-DOM hat den Vorteil, dass es eine einfache Schnittstelle für die Manipulation und das Durchsuchen von XML-Daten bietet.
-cAllerdings ist es speicherintensiv, da es das gesamte Dokument in den Arbeitsspeicher lädt, was bei sehr großen XML-Dateien problematisch sein kann.
+Ein objektorientiertes Modell, das ein \ac{XML}-Dokument abbildet, ist das DOM.
+Es zeigt das gesamte Dokument als Baumstruktur, in der jedes Element, Attribut und der Text als Knoten im Baum angesehen werden.
+Eine vollständige in-memory Repräsentation des \ac{XML}-Dokuments ist der Vorteil von DOM, wodurch das Durchsuchen und Bearbeiten des Dokuments einfach möglich ist.
+Ein Vorteil des DOM ist, dass es eine einfache Schnittstelle bereitstellt, um \ac{XML}-Daten zu durchsuchen und zu manipulieren.
+Es ist jedoch speicherintensiv, weil es das gesamte Dokument in den Arbeitsspeicher lädt, was bei sehr großen \ac{XML}-Dateien problematisch sein kann.
 
-SAX (Simple API for XML)
+SAX (Simple API for \ac{XML})
 
-Im Gegensatz zu DOM ist SAX ein ereignisbasierter Parser.
-SAX liest die XML-Datei sequenziell und löst Ereignisse aus, wenn es auf bestimmte Tags oder Text stößt.
-Es lädt das XML-Dokument nicht vollständig in den Speicher, sondern verarbeitet es während des Lesens.
-Dies macht SAX besonders nützlich für die Verarbeitung großer XML-Dateien.
-SAX ist effizienter in Bezug auf den Speicherverbrauch, eignet sich jedoch weniger für die Manipulation von Daten, da es keine vollständige Dokumentstruktur aufbaut.
+Im Gegensatz zu DOM arbeitet SAX als ein ereignisbasierter Parser.
+SAX liest die \ac{XML}-Datei sequenziell und erzeugt Ereignisse, wenn es auf bestimmte Tags oder Text stößt.
+Es speichert das \ac{XML}-Dokument nicht komplett im Speicher, sondern bearbeitet es während des Lesens.
+Aus diesem Grund ist SAX besonders geeignet, um große \ac{XML}-Dateien zu verarbeiten.
+Obwohl SAX in Bezug auf den Speicherverbrauch effizient ist, ist es weniger geeignet für die Datenmanipulation, da es keine vollständige Dokumentstruktur erstellt.
 
 ElementTree
 
-ElementTree ist eine einfache und leichtgewichtige Python-Bibliothek zur Verarbeitung von XML. Sie stellt eine Baumstruktur zur Verfügung,
-die das XML-Dokument effizient repräsentiert und einfache Methoden zum Navigieren, Bearbeiten und Erstellen von XML-Dokumenten bietet.
-ElementTree ist sowohl speichereffizient als auch einfach zu verwenden und eignet sich daher gut für die meisten Anwendungen, bei denen XML-Daten nicht zu groß sind.
+ElementTree ist eine einfache und leichtgewichtige Python-Bibliothek, die zur Verarbeitung von \ac{XML} verwendet wird.
+Sie bietet eine Baumstruktur, die das \ac{XML}-Dokument effizient abbildet und einfache Methoden zum Navigieren, Bearbeiten und Erstellen von \ac{XML}-Dokumenten bereitstellt.
+ElementTree ist einfach zu bedienen und speichereffizient, weshalb es für die meisten Anwendungen geeignet ist, sofern die \ac{XML}-Daten nicht zu groß sind.
+Überprüfung von \ac{XML}-Daten
+Um sicherzustellen, dass \ac{XML}-Daten einer vordefinierten Struktur entsprechen, ist die Validierung ein entscheidender Schritt.
+\ac{XML}-Schemas (XSD) sind dabei ein hilfreiches Werkzeug.
+Validierung mittels \ac{XML}-Schema Mit \ac{XML}-Schema wird die Struktur von \ac{XML}-Dokumenten festgelegt.
+Es erlaubt die Überprüfung von \ac{XML}-Daten, um zu garantieren, dass sie die richtigen Elemente, Attribute und Datentypen aufweisen.
+In Python ermöglicht das lxml-Modul die Überprüfung von \ac{XML}-Daten gegen ein Schema.
 
-Validierung von XML-Daten
-
-Die Validierung von XML-Daten ist ein wichtiger Schritt, um sicherzustellen, dass die Daten einer vordefinierten Struktur entsprechen.
-Dies kann mit Hilfe von XML-Schemas (XSD) erfolgen.
-
-Validierung mit XML-Schema
-XML-Schema ist eine Methode, um die Struktur von XML-Dokumenten zu definieren.
-Es ermöglicht das Validieren von XML-Daten, um sicherzustellen, dass sie die richtigen Elemente, Attribute und Datentypen enthalten.
-In Python kann das lxml-Modul zur Validierung von XML-Daten gegen ein Schema verwendet werden.
 
 
 \pagebreak
