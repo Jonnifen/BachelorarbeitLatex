@@ -5,12 +5,12 @@ Dieses Kapitel behandelt einige Grundlegende und für dies Arbeit relevante Aspe
 da die Messwerte bzw. die Berichte die der Testand generiert im diesem Format vorliegen.
 
 
-\ac{XML} ist eine Auszeichnungssprachen, also eine
-formale Sprachen, die verwendet werden, um die Struktur und Darstellung von Daten oder Texten zu beschreiben \cite*{Neumann2019},
-die entwickelt wurde, um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu übermitteln.
+Bei \ac{XML} handelt es sich um eine Auszeichnungssprachen, also eine
+formale Sprachen, die verwendet werden, um die Struktur und Darstellung von Daten oder Texten zu beschreiben \cite*{Neumann2019}.
+\ac{XML} wurde entwickelt, um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu übermitteln.
 Sie wird hauptsächlich in Bereichen wie Webdiensten, Datenbanken, Konfigurationsdateien eingesetzt.
-\ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau, die sowohl für Menschen
-als auch für Maschinen verständlich ist.
+\ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau und kann sowohl für Menschen
+als auch für Maschinen interpretiert werden.
 
 Das Grundkonzept hinter \ac{XML} war, eine universelle einsetzbare und erweiterbare Sprache zu erschaffen, die von verschiedenen Systemen
 unabhängig von deren grundlegenden Technologieansatz genutzt werden kann.
@@ -19,11 +19,17 @@ zu kömmen.
 
 \subsubsection{XML-Strukturaufbau}
 
-Ein \ac{XML}-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
-Die grundlegenden Bestandteile eines \ac{XML}-Dokuments sind:
-
-Prolog: Ein optionaler Abschnitt, der die \ac{XML}-Version und die verwendete Zeichencodierung definiert.
-In Abbildung \ref{fig:XML Prolog Beispielcode} ist ein häufig genutzter Prolog dargestellt.
+Eine \ac{XML}-Datei beginnt mit Prolog, der die \ac{XML}-Version und die verwendete Zeichencodierung definiert.
+In Abbildung \ref{fig:XML Prolog Beispielcode} ist ein häufig genutzter Prolog dargestellt, der auch in den Teststand-Berichten genutzt wird.
+Die erste Zeile des Prologs ist die sogenannte XML-Deklaration.
+Die XML-Deklaration enthält häufig die Attribute sind version und encoding, jedoch nur das Attribut version ist Pflicht.
+Werden auch die anderen notiert, müssen sie in der angegebenen Reihenfolge deklariert werden.
+Attribut version Mit version wird die verwendete XML-Version angegeben.
+Das Attribut encoding gibt die im Dokument verwendete Zeichenkodierung an, d. h. mit welcher Codierung die Datei gespeichert wird.
+Fehlt die Angabe wird als Vorgabe UTF-8 (8-Bit Unicode Transformation Format) verwendet.
+Neben der \ac{XML}-Deklaration können im Prolog auch noch Verarbeitungsanweisungen und Verweise auf eine \ac{DTD} deklariert werden,
+dies sind jedoch optional und für diese Arbeit nicht weiter relevant.
+\cite*[8,9]{Becher2022}
 
 \begin{figure}[H]
 \centering
@@ -37,8 +43,17 @@ In Abbildung \ref{fig:XML Prolog Beispielcode} ist ein häufig genutzter Prolog 
     {Quelle: eigene Darstellung}
 \end{figure}
 
-Elemente: Die eigentlichen Daten werden in Elementen gespeichert, die mit einem Start-Tag beginnen und mit einem End-Tag abschließen.
-Ein Element kann weitere Elemente enthalten, was zu einer hierarchischen Struktur führt:
+
+Der Hauptteil eines \ac{XML}-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
+Für jedes Element gibt es ein Start- und ein EndTag, welcher das Element beginnt und beendent.
+Ein Starttag kann beispeißlwiese „<NamedesTags>“ so aus, dann würde der dazugehörige Endtag „</NamedesTags>“ so aussehen.
+Der entscheidende Unterschied ist hierbei der Schrägstrich beim Endtag.
+Der Name des Elementes wird durch den Inhalt der Keiler- und Großer-Zeichen bestimmt, bei diesem Beispiel wäre der Name „NamedesTags“.
+Elemente haben einen Inhalt der aus Text, weiteren Elementen oder aus beidem bestehen kann,
+wenn Elemente andere Elemente beinhalten werden Sie als Elterelemente und die enthaltenen Elemente oft Kindelemente bezeichnet.
+Diese Eigenschaft der Elementente sorg dafür das XML-Datein einer hierarchischen Baumstruktur folgen.
+Hierbei wird das oberste Element als Wurzelelement bezeichnet,im Englischen „root element“.\cite*[10-14]{Becher2022}
+
 
 \begin{figure}[H]
 \centering
@@ -55,8 +70,9 @@ Ein Element kann weitere Elemente enthalten, was zu einer hierarchischen Struktu
     {Quelle: eigene Darstellung}
 \end{figure}
 
-Attribute: Jedes Element kann Attribute haben, die zusätzliche Informationen enthalten.
-Attribute werden im Start-Tag eines Elements definiert:
+Jedes Element kann neben Inhalt auch beliebig vielen Attributen ausgestattet sein, die zusätzliche Informationen enthalten.
+Attribute werden im Start-Tag eines Elements definiert, diese bestehen immer aus eine Attributnamen und einem Wert.
+Der Wert wird dabei mit Anführungszeichen deklariert, wie in Abbildung \ref{fig:XML Attribute Beispielcode} gezeigt. \cite*[10-14]{Becher2022}
 
 \begin{figure}[H]
 \centering
@@ -73,77 +89,64 @@ Attribute werden im Start-Tag eines Elements definiert:
     {Quelle: eigene Darstellung}
 \end{figure}
 
-Kommentare: Kommentare werden mit den Tags <!-- und --> eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes,
-Sie werden beim Parsen des Dokuments ignoriert.
-In Abbildung \ref{fig:XML Kommentare Beispielcode} ist ein Beispiel wie
-ein Kommentar genutzt wird.
 
-\begin{figure}[H]
-\centering
-\begin{minipage}{0.95\textwidth}
-\begin{lstlisting}[language=XML]
-<!-- Dies ist ein Kommentar -->
-\end{lstlisting}
-\end{minipage}
-\caption{XML Kommentare Beispielcode}
-\label{fig:XML Kommentare Beispielcode}
-    {Quelle: eigene Darstellung}
-\end{figure}
-
-Textinhalt: Zwischen den Start- und End-Tags eines Elements kann Text enthalten sein:
-
-\begin{figure}[H]
-\centering
-\begin{minipage}{0.95\textwidth}
-\begin{lstlisting}[language=XML]
-<titel>XML-Grundlagen</titel>
-\end{lstlisting}
-\end{minipage}
-\caption{XML Text Beispielcode}
-\label{fig:XML Text Beispielcode}
-    {Quelle: eigene Darstellung}
-\end{figure}
-\cite*{Becher2022}
-
+Kommentare werden mit den Tags „<!-- und „-->“ eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes \cite*[10-14]{Becher2022}.
+Dies ist für die automatisch generierten Berichte irrelevant, jedoch für das Beschreiben der Beispiele hilfreich.
+In Abbildung \ref{fig:XML Elemente Beispielcode} und Abbildung \ref{fig:XML Attribute Beispielcode} werde diese zur Beschreiben verwendet.
+Kommentare werden beim Parsen des Dokuments ignoriert, parsen und Paser werden nachfolgenden Kapitel behandelt.
 
 \subsubsection{Verarbeiten von XML-Dateien}
 
-Dieses Kapitel bietet einen Überblick über die grundlegenden Methoden und Techniken, um \ac{XML}-Dateien in verschiedenen Programmiersprachen und mit unterschiedlichen Werkzeugen zu verarbeiten.
-Es wird erklärt, wie man \ac{XML}-Dateien parsen, bearbeiten und validieren kann, um sie für unterschiedliche Anwendungen nutzbar zu machen.
+In diesem Abschnitt wird eine Zusammenfassung der grundlegenden Methoden und Techniken gegeben,
+um \ac{XML}-Dateien mithilfe verschiedener Tools unabhängig von der verwendeten Programmiersprache zu verarbeiten.
+Es wird beschrieben, wie man \ac{XML}-Dateien analysiert, modifiziert und überprüft, um sie für verschiedene Zwecke einsatzbereit zu machen.
 
-Die Analyse von \ac{XML}-Daten
+Der erste Schritt beim verarbeiten einer ac{XML}-Daten ist das Parsen.
+Hierbei wird die \ac{XML}-Datei in ein Programm geladen und in ein Format umgewandelt, das das Programm interpretieren kann.
+XML-Paser prüfen hierbei auch die \ac{XML}-Daten auf Korrektheit, also ob die Voralien eingehalten werden und das Dokument vollständig ist.
+Dabei wird in nicht-validierte Parser und validierende Paser differenziert.
+Der Unterschied besteht dadrin, dass validierte Paser neben der  korrekte Schachtelung und Bezeichnung der Strukturelemente
+wie die nicht-validierten Paser auch noch auf eine Vorgabe einer Dokumenttypdefinition oder eines Schemas prüfen.\cite*[10]{Becher2022}
 
-Der erste Schritt, um \ac{XML}-Daten zu verarbeiten, ist das Parsing.
-Hierbei wird die \ac{XML}-Datei in ein Programm importiert und in eine Struktur umgewandelt, die das Programm versteht.
-Je nach den Anforderungen der Anwendung stehen verschiedene Methoden zur Verfügung, um \ac{XML}-Daten zu parsen.
+Paser werden verwendet um eine Applikation über eine \ac{API} eine Schnittstelle auf ein \ac{XML}-Dokument zu geben.
+Bei \ac{API}s wird in diesem Bereich zwischen zwei Grundtypen unterschieden:\cite*[405]{Becher2022}
 
-DOM (Document Object Model)
+Die baumbasierte API
+Ein objektorientiertes Modell, das die Struktur eines XML-Dokuments abbildet, ist das Document Object Model (DOM).
+Als Baumstruktur wird das gesamte Dokument abgebildet, in der jedes Element, Attribut und jeder Text als Knoten gilt.
+Das DOM hat den Vorteil, dass es das \ac{XML}-Dokument vollständig in-memory darstellt, was das Durchsuchen und Bearbeiten des Dokuments erleichtert.
+Eine positive Eigenschaft des DOM ist, dass es eine einfache Schnittstelle bereitstellt, um XML-Daten zu erreichen und zu verändern.
+Es benötigt viel Speicherplatz, weil es das gesamte Dokument im Arbeitsspeicher ablegt, was bei sehr großen \ac{XML}-Dateien problematisch sein kann.
 
-Ein objektorientiertes Modell, das ein \ac{XML}-Dokument abbildet, ist das DOM.
-Es zeigt das gesamte Dokument als Baumstruktur, in der jedes Element, Attribut und der Text als Knoten im Baum angesehen werden.
-Eine vollständige in-memory Repräsentation des \ac{XML}-Dokuments ist der Vorteil von DOM, wodurch das Durchsuchen und Bearbeiten des Dokuments einfach möglich ist.
-Ein Vorteil des DOM ist, dass es eine einfache Schnittstelle bereitstellt, um \ac{XML}-Daten zu durchsuchen und zu manipulieren.
-Es ist jedoch speicherintensiv, weil es das gesamte Dokument in den Arbeitsspeicher lädt, was bei sehr großen \ac{XML}-Dateien problematisch sein kann.
 
-SAX (Simple API for \ac{XML})
 
-Im Gegensatz zu DOM arbeitet SAX als ein ereignisbasierter Parser.
-SAX liest die \ac{XML}-Datei sequenziell und erzeugt Ereignisse, wenn es auf bestimmte Tags oder Text stößt.
-Es speichert das \ac{XML}-Dokument nicht komplett im Speicher, sondern bearbeitet es während des Lesens.
-Aus diesem Grund ist SAX besonders geeignet, um große \ac{XML}-Dateien zu verarbeiten.
-Obwohl SAX in Bezug auf den Speicherverbrauch effizient ist, ist es weniger geeignet für die Datenmanipulation, da es keine vollständige Dokumentstruktur erstellt.
+%überarbeiten
 
-ElementTree
 
-ElementTree ist eine einfache und leichtgewichtige Python-Bibliothek, die zur Verarbeitung von \ac{XML} verwendet wird.
-Sie bietet eine Baumstruktur, die das \ac{XML}-Dokument effizient abbildet und einfache Methoden zum Navigieren, Bearbeiten und Erstellen von \ac{XML}-Dokumenten bereitstellt.
-ElementTree ist einfach zu bedienen und speichereffizient, weshalb es für die meisten Anwendungen geeignet ist, sofern die \ac{XML}-Daten nicht zu groß sind.
-Überprüfung von \ac{XML}-Daten
-Um sicherzustellen, dass \ac{XML}-Daten einer vordefinierten Struktur entsprechen, ist die Validierung ein entscheidender Schritt.
-\ac{XML}-Schemas (XSD) sind dabei ein hilfreiches Werkzeug.
-Validierung mittels \ac{XML}-Schema Mit \ac{XML}-Schema wird die Struktur von \ac{XML}-Dokumenten festgelegt.
-Es erlaubt die Überprüfung von \ac{XML}-Daten, um zu garantieren, dass sie die richtigen Elemente, Attribute und Datentypen aufweisen.
-In Python ermöglicht das lxml-Modul die Überprüfung von \ac{XML}-Daten gegen ein Schema.
+Die ereignisbasierte API liest ein Dokument sequenziell vom Beginn bis zum Ende
+und meldet während des Lesens jedes Ereignis durch sogenannte Callbacks an das aufrufende Programm zurück.
+Ein Ereignis ist ein Signal, das eine Änderung im Markup-Status anzeigt.
+Ein Ereignis tritt also bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen und den Grenzen des Dokumentes selber auf.
+Der Parser sendet dem aufrufenden Programm durch die Callbacks eine Mitteilung, welches Ereignis eingetreten ist.
+Das Programm, das den Parser aufgerufen hat, muss nun das Ereignis interpretieren und entsprechend reagieren.
+Im Gegensatz zu DOM arbeitet SAX als ein Parser, der auf Ereignissen basiert.
+Die \ac{XML}-Datei wird von SAX sequenziell durchlaufen und es werden Ereignisse ausgelöst, sobald es auf bestimmte Tags oder Texte trifft.
+Das \ac{XML}-Dokument wird nicht vollständig im Speicher gespeichert, sondern während des Lesens bearbeitet.
+Deshalb eignet sich SAX besonders gut für die Verarbeitung großer \ac{XML}-Dateien.
+Trotz der Effizienz von SAX hinsichtlich des Speicherverbrauchs eignet es sich weniger gut für die Datenmanipulation, da es keine umfassende Dokumentstruktur aufbaut.
+
+
+ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek, die für die Bearbeitung von \ac{XML} genutzt wird.
+Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
+Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.
+ElementTree ist benutzerfreundlich und effizient beim Speichern, weshalb es für die meisten Anwendungsfälle geeignet ist,
+solange die \ac{XML}-Daten nicht zu umfangreich sind.
+Überprüfung von Daten im XML-Format Die Validierung ist ein wesentlicher Schritt, um sicherzustellen,
+dass Daten im XML-Format einer definierten Struktur entsprechen.
+\ac{XML}-Schemas, auch bekannt als XSD, stellen ein nützliches Instrument dar.
+Überprüfung anhand eines \ac{XML}-Schemas.  Das \ac{XML}-Schema definiert die Struktur von \ac{XML}-Dokumenten.
+Die Überprüfung von \ac{XML}-Daten ermöglicht die Sicherstellung, dass sie die korrekten Elemente, Attribute und Datentypen enthalten.
+Das lxml-Modul in Python erlaubt die Validierung von \ac{XML}-Daten gegen ein Schema.
 
 
 
