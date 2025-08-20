@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[78] biber:340> INFO - === Mi Aug 20, 2025, 15:01:49
-[92] Biber.pm:420> INFO - Reading 'main.bcf'
-[157] Biber.pm:994> INFO - Found 3 citekeys in bib section 0
-[172] Biber.pm:4463> INFO - Processing section 0
-[181] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[181] bibtex.pm:1713> INFO - LaTeX decoding ...
-[185] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
-[235] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[235] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[235] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[235] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
-[242] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[244] bbl.pm:779> INFO - Output to main.bbl
+[65] biber:340> INFO - === Mi Aug 20, 2025, 16:34:25
+[77] Biber.pm:420> INFO - Reading 'main.bcf'
+[133] Biber.pm:994> INFO - Found 3 citekeys in bib section 0
+[147] Biber.pm:4463> INFO - Processing section 0
+[155] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[155] bibtex.pm:1713> INFO - LaTeX decoding ...
+[159] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
+[198] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[198] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[198] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[199] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[203] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[205] bbl.pm:779> INFO - Output to main.bbl
