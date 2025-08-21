@@ -147,7 +147,7 @@
       \verb{url}
       \verb https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
       \endverb
-      \warn{\item online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '21.08.2025' of date field 'date' - ignoring}
+      \warn{\item online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 21. August 2025]' of date field 'date' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[67] biber:340> INFO - === Do Aug 21, 2025, 15:02:10
+[67] biber:340> INFO - === Do Aug 21, 2025, 16:02:09
 [79] Biber.pm:420> INFO - Reading 'main.bcf'
 [137] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
 [150] Biber.pm:4463> INFO - Processing section 0
-[160] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[161] bibtex.pm:1713> INFO - LaTeX decoding ...
-[166] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
-[211] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[211] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[211] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[211] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
-[216] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[218] bbl.pm:779> INFO - Output to main.bbl
-[218] Biber.pm:131> WARN - online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '21.08.2025' of date field 'date' - ignoring
-[218] Biber.pm:133> INFO - WARNINGS: 1
+[158] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[158] bibtex.pm:1713> INFO - LaTeX decoding ...
+[163] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
+[210] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[210] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[210] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[210] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[215] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[217] bbl.pm:779> INFO - Output to main.bbl
+[217] Biber.pm:131> WARN - online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 21. August 2025]' of date field 'date' - ignoring
+[217] Biber.pm:133> INFO - WARNINGS: 1
