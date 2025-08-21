@@ -122,6 +122,33 @@
       \verb https://doi.org/10.1007/978-3-658-35435-0_1
       \endverb
     \endentry
+    \entry{ElementTree2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a7f5f35426b927411fc9231b56382173}{%
+           family={Python},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{fullhash}{a7f5f35426b927411fc9231b56382173}
+      \strng{fullhashraw}{a7f5f35426b927411fc9231b56382173}
+      \strng{bibnamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorbibnamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authornamehash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorfullhash}{a7f5f35426b927411fc9231b56382173}
+      \strng{authorfullhashraw}{a7f5f35426b927411fc9231b56382173}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{xml.etree.ElementTree — The ElementTree XML API}
+      \verb{urlraw}
+      \verb https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
+      \endverb
+      \verb{url}
+      \verb https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
+      \endverb
+      \warn{\item online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '21.08.2025' of date field 'date' - ignoring}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

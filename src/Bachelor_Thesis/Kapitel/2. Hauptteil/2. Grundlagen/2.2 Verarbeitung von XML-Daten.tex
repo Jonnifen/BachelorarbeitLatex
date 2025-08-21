@@ -111,43 +111,41 @@ wie die nicht-validierten Paser auch noch auf eine Vorgabe einer Dokumenttypdefi
 Paser werden verwendet um eine Applikation über eine \ac{API} eine Schnittstelle auf ein \ac{XML}-Dokument zu geben.
 Bei \ac{API}s wird in diesem Bereich zwischen zwei Grundtypen unterschieden:\cite*[405]{Becher2022}
 
-Die baumbasierte API
-Ein objektorientiertes Modell, das die Struktur eines XML-Dokuments abbildet, ist das Document Object Model (DOM).
-Als Baumstruktur wird das gesamte Dokument abgebildet, in der jedes Element, Attribut und jeder Text als Knoten gilt.
-Das DOM hat den Vorteil, dass es das \ac{XML}-Dokument vollständig in-memory darstellt, was das Durchsuchen und Bearbeiten des Dokuments erleichtert.
-Eine positive Eigenschaft des DOM ist, dass es eine einfache Schnittstelle bereitstellt, um XML-Daten zu erreichen und zu verändern.
-Es benötigt viel Speicherplatz, weil es das gesamte Dokument im Arbeitsspeicher ablegt, was bei sehr großen \ac{XML}-Dateien problematisch sein kann.
+Die baumbasierten \ac{API}s lesen über den XML-Parser das XML-Dokument ein,
+parst es und erzeugt ein Modell als Baum von Knoten im Arbeitsspeicher.
+Auf Grunde der im XML-Dokument vorkommenden Informationseinheiten wird in verschiedene Knotentypen unterschieden.
+Das generierte Modell dient der Applikation für die weitere anwendungsspezifische Verarbeitung.
+Ein Beispiel für eine baumbasierte \ac{API}s ist \ac{DOM}.
+
+\ac{DOM}ist Ein objektorientiertes Modell, das die Struktur eines XML-Dokuments abbildet.
+In der Baumstruktur wird das gesamte Dokument abgebildet, indem jedes Element, Attribut und jeder Text bzw. Inhalt als Knoten gilt.
+Das DOM hat den Vorteil, dass es das \ac{XML}-Dokument vollständig im Arbeitsspeicher darstellt, was das Durchsuchen und Bearbeiten des Dokuments erleichtert.
+Zudem bittet es eine einfache Schnittstelle bereitstellt, um XML-Daten zu erreichen und zu verändern.
+Allerdings benötigt diese Herangehensweise viel Speicherplatz,
+da es das gesamte Dokument im Arbeitsspeicher ablegt, was bei großen \ac{XML}-Dokumenten ein Problem darstellen kann.\cite*[413,414]{Becher2022}
 
 
-
-%überarbeiten
-
-
-Die ereignisbasierte API liest ein Dokument sequenziell vom Beginn bis zum Ende
-und meldet während des Lesens jedes Ereignis durch sogenannte Callbacks an das aufrufende Programm zurück.
-Ein Ereignis ist ein Signal, das eine Änderung im Markup-Status anzeigt.
-Ein Ereignis tritt also bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen und den Grenzen des Dokumentes selber auf.
-Der Parser sendet dem aufrufenden Programm durch die Callbacks eine Mitteilung, welches Ereignis eingetreten ist.
+Die ereignisbasierten \ac{API}s lesen \ac{XML}-Dokument sequenziell von begin durch
+ein und meldet während des Lesens jedes Ereignis durch sogenannte Callbacks an die aufrufende Applikation zurück.
+Ein Ereignis ist ein Signal, das Änderungen in dem Markup-Status anzeigt.
+Das Bedeutet Ereignise tritten bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen, sowie bei den Grenzen des Dokumentes auf.
+Der Parser sendet hierbei durch die Callbacks eine Mitteilung an die aufrufende Applikation, welche Ereignisse eingetreten sind.
 Das Programm, das den Parser aufgerufen hat, muss nun das Ereignis interpretieren und entsprechend reagieren.
-Im Gegensatz zu DOM arbeitet SAX als ein Parser, der auf Ereignissen basiert.
-Die \ac{XML}-Datei wird von SAX sequenziell durchlaufen und es werden Ereignisse ausgelöst, sobald es auf bestimmte Tags oder Texte trifft.
-Das \ac{XML}-Dokument wird nicht vollständig im Speicher gespeichert, sondern während des Lesens bearbeitet.
-Deshalb eignet sich SAX besonders gut für die Verarbeitung großer \ac{XML}-Dateien.
-Trotz der Effizienz von SAX hinsichtlich des Speicherverbrauchs eignet es sich weniger gut für die Datenmanipulation, da es keine umfassende Dokumentstruktur aufbaut.
+Das \ac{XML}-Dokument wird hierbei nicht vollständig im Arbeitsspeicher gespeichert, sondern in Teilen gelesen und bearbeitet.
+Deshalb eignen sich ereignisbasierte \ac{API}s besonders gut für die Verarbeitung großer \ac{XML}-Dateien, da dies für eine geringe Arbeitsspeicherbelastung sorgt.
+Trotz der Effizienz hinsichtlich des Speicherverbrauchs sind ereignisbasierte \ac{API}s für die Datenmanipulation nicht sonderlich gut geeignet.
+Es wird nämlich durch das Teileweise einlesen keine umfassende Dokumentstruktur wie beim aufgebaut Die baumbasierten \ac{API}s,
+welches die Manipulation bzw. bearbeitung erschwert.
+Ein Beispiel für eine große ereignisbasierte \ac{API} ist \ac{SAX}.
+Diese \ac{API} abreitet nach dem oben beschriebenen Prinzip und wurde ursprünglich als Java-\ac{API} entwickelt, inzwischen gibt es \ac{SAX} auch für weiter Sprachen wie
+z. B. C++, Perl und Python.\cite*[405]{Becher2022}
 
-
+Neben diesen beide großen Beispielen gibt es auch einige kleiner Anbieter mit abgewandelten Methoden,
+die jedoch in dem Umfang deutlich kleiner gehalten sind und weniger Funktionen bitten.
+Ein Beispiel dafür wäre ElementTree.
 ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek, die für die Bearbeitung von \ac{XML} genutzt wird.
 Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
-Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.
-ElementTree ist benutzerfreundlich und effizient beim Speichern, weshalb es für die meisten Anwendungsfälle geeignet ist,
-solange die \ac{XML}-Daten nicht zu umfangreich sind.
-Überprüfung von Daten im XML-Format Die Validierung ist ein wesentlicher Schritt, um sicherzustellen,
-dass Daten im XML-Format einer definierten Struktur entsprechen.
-\ac{XML}-Schemas, auch bekannt als XSD, stellen ein nützliches Instrument dar.
-Überprüfung anhand eines \ac{XML}-Schemas.  Das \ac{XML}-Schema definiert die Struktur von \ac{XML}-Dokumenten.
-Die Überprüfung von \ac{XML}-Daten ermöglicht die Sicherstellung, dass sie die korrekten Elemente, Attribute und Datentypen enthalten.
-Das lxml-Modul in Python erlaubt die Validierung von \ac{XML}-Daten gegen ein Schema.
-
+Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
 
 
 \pagebreak
