@@ -1,136 +1,48 @@
 \subsection{Datenbankentwurf und Normalisierung}
 \label{subsec:datenbankentwurf-und-normalisierung}
+%------------------------------------------------------------------------------------------------------
+Datenbanken sind strukturierte Zusammenstellungen von Daten, die elektronisch gespeichert und verwaltet werden.
+Ihr Hauptziel ist es, große Datenmengen strukturiert zu speichern, den Zugriff zu optimieren und die Integrität der Daten zu gewährleisten.
+Datenbanken haben im Vergleich zu anderen Dateisystemen Mechanismen, die mehreren Benutzern die parallele Nutzung ermöglichten,
+sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen.
 
-\subsubsection{Einführung in Datenbanken}
-
-Datenbanken sind organisierte Sammlungen von Daten, die elektronisch gespeichert und verwaltet werden.
-Ihr primäres Ziel besteht darin, große Datenmengen strukturiert abzulegen, den Zugriff zu optimieren und Datenintegrität sicherzustellen.
-Im Gegensatz zu einfachen Dateisystemen bieten Datenbanken Mechanismen zur gleichzeitigen Nutzung durch mehrere Benutzer,
-zur Vermeidung redundanter Datenhaltung und zur effizienten Abfrage mittels spezieller Sprachen wie der Structured Query Language (SQL).
-
-Die Entwicklung moderner Informationssysteme erfordert den Einsatz relationaler Datenbanken, dokumentenbasierter Systeme
-oder hybrider Modelle, um unterschiedliche Anforderungen an Konsistenz, Flexibilität und Skalierbarkeit zu erfüllen.
-
-\subsubsection{Prozess der Datenbankerstellung}
-
-Die Erstellung einer Datenbank umfasst mehrere aufeinanderfolgende Schritte, die sowohl technische als auch konzeptionelle Aspekte berücksichtigen:
+Um den unterschiedlichen Anforderungen an Konsistenz, Flexibilität und Skalierbarkeit gerecht zu werden, ist es unerlässlich
+, bei der Entwicklung moderner Informationssysteme relationale Datenbanken, dokumentenbasierte Systeme oder hybride Modelle zu verwenden.
 
 
-\begin{enumerate}
-
-\item
-Anforderungsanalyse
-
-
-\begin{itemize}
-
-\item
-Ermittlung der fachlichen und technischen Anforderungen.
-\item
-Identifikation der relevanten Datenquellen und Datenformate.
-\item
-Festlegung von Integritäts- und Sicherheitsanforderungen.
-
-\end{itemize}
-
-\item
-Konzeptionelles Datenmodell
-
-\begin{itemize}
-
-\item
-Erstellung eines Entity-Relationship-Modells (ERM) zur Abbildung der realen Welt in Entitäten, Attribute und Beziehungen.
-\item
-Berücksichtigung von Kardinalitäten (1:1, 1:n, n:m).
-
-\end{itemize}
-
-\item
-Logisches Datenmodell
-
-\begin{itemize}
-
-\item
-Überführung des konzeptionellen Modells in ein relationales Schema.
-\item
-Definition von Tabellen, Spalten (Attribute), Primärschlüsseln und Fremdschlüsseln.
-\item
-Festlegung von Datentypen und Constraints (z.B. NOT NULL, UNIQUE, CHECK).
-
-\end{itemize}
-
-\item
-Physisches Datenmodell
-
-
-\begin{itemize}
-
-\item
-Umsetzung des logischen Modells in einer konkreten Datenbankmanagementsoftware (z.B. MySQL, PostgreSQL, Microsoft SQL Server).
-\item
-Optimierung der Speicherstrukturen, Indexierung und Partitionierung.
-
-\end{itemize}
-
-\item
-Implementierung und Test
-
-\begin{itemize}
-
-\item
-Erstellung der Tabellen und Relationen gemäß Datenbankschema.
-
-\item
-Einfügen von Testdaten.
-
-\item
-Überprüfung der Funktionalität und Performance.
-
-\end{itemize}
-
-\end{enumerate}
-
-
+%------------------------------------------------------------------------------------------------------
 \subsubsection{Datenbankstruktur}
+%------------------------------------------------------------------------------------------------------
+Die Struktur der Datenbank legt fest, wie das Datenbanksystem organisiert ist und wie die Datenelemente angeordnet sind.
+Das Grundprinzip relationaler Datenbanken sind im Grunde Tabellen und die Beziehungen zwischen diesen.
+Die Hauptbestandteile sind:
 
-Die Datenbankstruktur bezeichnet den Aufbau und die Anordnung der Datenelemente innerhalb eines Datenbanksystems.
-Bei relationalen Datenbanken basiert sie im Wesentlichen auf Tabellen und deren Beziehungen.
-
-Wesentliche Elemente sind:
-
+\begin{itemize}
+\item Tabellen – das grundlegende Element, welches Daten in Zeilen (Tupeln) und Spalten (Attributen) strukturiert.
+\item Ein Datensatz in einer Tabelle wird durch Primärschlüssel (Primary Keys) eindeutig identifiziert.
+\item Schlüssel aus anderen Tabellen (Foreign Keys)  Tabellenverknüpfung, um die referenzielle Integrität zu gewährleisten.
+\item Indizes: Datenstrukturen, die das Beschleunigen von Abfragen ermöglichen.
+\item Views: sie sind virtuelle Tabellen und beruhen auf den Ergebnissen von Abfragen.
+\item Constraints: Vorgaben zur Gewährleistung der Datenintegrität (z.B. Wertebereiche, Pflichtfelder oder Dopplungen).
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+\subsubsection{Datenintegrität und Normalisierung}
+%------------------------------------------------------------------------------------------------------
+Ein methodischer Ansatz zur Reduzierung von Redundanzen und Anomalien ist die Normalisierung.
+Der Prozess erfolgt schrittweise durch die Normalformen, die durch Indizes  (1NF, 2NF, 3NF, BCNF) definiert sind.
+Alle Normalformen haben spezifische Arten von Datenanomalien zum Ziel:
 
 \begin{itemize}
 
-\item
-Tabellen – Grundstruktur, in der Daten in Zeilen (Tupeln) und Spalten (Attributen) gespeichert werden.
-\item
-Primärschlüssel (Primary Keys) – eindeutige Kennzeichnung eines Datensatzes innerhalb einer Tabelle.
-\item
-Fremdschlüssel (Foreign Keys) – Verknüpfung zwischen Tabellen, um referenzielle Integrität sicherzustellen.
-\item
-Indizes – Datenstrukturen zur Beschleunigung von Abfragen.
-\item
-Views (Sichten) – virtuelle Tabellen, die auf Abfrageergebnissen basieren.
-\item
-Constraints – Regeln zur Sicherstellung der Datenintegrität (z.B. Wertebereiche, Pflichtfelder).
+\item 1. Normalform (1NF): Beseitigung mehrfacher Werte innerhalb einer Zelle;  atomare Attribute.
+\item 2. Normalform (2NF): Beseitigung partieller Abhängigkeiten.
+\item 3. Normalform (3NF): Beseitigung transitiver Abhängigkeiten.
 
 \end{itemize}
 
-\subsubsection{Normalisierung und Datenintegrität}
-
-Die Normalisierung ist ein methodischer Prozess zur Minimierung von Redundanzen und Anomalien. Sie erfolgt schrittweise in Normalformen (1NF, 2NF, 3NF, BCNF). Jede Normalform beseitigt spezifische Arten von Datenanomalien:
-
-\begin{itemize}
-
-\item
-1. Normalform (1NF): Elimination mehrfacher Werte innerhalb einer Zelle; atomare Attribute.
-\item
-2. Normalform (2NF): Entfernung partieller Abhängigkeiten.
-\item
-3. Normalform (3NF): Entfernung transitativer Abhängigkeiten.
-\end{itemize}
-
-Datenintegrität umfasst die Sicherstellung von Korrektheit, Konsistenz und Vollständigkeit der Daten. Sie wird erreicht durch:
+Die Gewährleistung, dass Daten korrekt, konsistent und vollständig sind,
+fällt unter das Konzept der Datenintegrität.
+Sie wird erzielt durch:
 
 \begin{itemize}
 \item
@@ -138,6 +50,93 @@ Entity-Integrität (eindeutige Primärschlüssel).
 \item
 Referentielle Integrität (gültige Fremdschlüsselverweise).
 
-\item
-Domänenintegrität (gültige Wertebereiche und Datentypen).
+\item Domänenintegrität (gültige Wertebereiche und Datentypen).
+\item Entity-Integrität (eindeutige Primärschlüssel).
+\item Referentielle Integrität (gültige Fremdschlüsselverweise).
+\item Integrität der Domäne (gültige Wertebereiche und Datentypen).
+
 \end{itemize}
+
+%------------------------------------------------------------------------------------------------------
+\subsubsection{Vorgehen zur Erstellung der Datenbank}
+%------------------------------------------------------------------------------------------------------
+Bei der Erstellung einer Datenbank sollte nach folgendem Schema vorgegangen werden.
+Bei diesem Schema gilt es, sowohl technische als auch konzeptionelle Aspekte zu berücksichtigen:
+
+\begin{enumerate}
+
+\item
+Anforderungsanalyse
+
+Zuerst wird im Hinblick auf das Geschäftsumfeld bestimmt, welchen konkreten Zweck die Datenbank erfüllen soll.
+Hierbei ist die Zweckbestimmung  entscheidend, da sie festlegt, welche Daten als relevant gelten.
+Der Konzeptvorschlag, der das Projektziel definiert und die Vorgehensweise umreißt, ist das Ergebnis.
+\begin{itemize}
+
+\item
+Festlegung der fachlichen und technischen Voraussetzungen.
+\item
+Bestimmung der relevanten Datenquellen und -formate.
+\item
+Definition von Integritäts- und Sicherheitsanforderungen.
+
+\end{itemize}
+
+\item
+Konzeptionelles Datenmodell
+
+Es soll das geschäftliche Umfeld betrachtet werden.
+Die bestehende Objekte (z.B. Reports mit Materialnummer, Datum, Version), deren Attribute sowie die Beziehungen und Einschränkungen zwischen diesen Objekten.
+Das Entity-Relationship-Modell (ERM) nach Chen oder das PrecisedERM (PERM) werden häufig zur Modellierung verwendet.
+Der konzeptionelle Entwurf ist die Grundlage für die nächste Phase und dient als Diskussionsgrundlage.
+\begin{itemize}
+
+\item Die Entwicklung eines Entity-Relationship-Modells (ERM), das die reale Welt in Entitäten, Attribute und Beziehungen abbildet.
+\item Die Einbeziehung von Kardinalitäten (1:1, 1:n, n:m).
+
+\end{itemize}
+
+\item
+Logisches Datenmodell
+
+Der konzeptionelle Entwurf wird in einen logischen Entwurf umgewandelt, der die fachlichen Konzepte in ein datenbanktechnisches Format überführt.
+In der Regel kommt das Relationenmodell zum Einsatz, welches die Daten in Form von Tabellen organisiert.
+Transformationsregeln garantieren, dass Beziehungen und Integritätsbedingungen richtig umgesetzt werden.
+\begin{itemize}
+
+\item Transformation des konzeptionellen Modells in ein relationales Schema.
+\item Festlegung von Tabellen, Spalten (Attribute), Primärschlüsseln und Fremdschlüsseln.
+\item Definition von Datentypen und Zellenkofigurationen (z.B. NOT NULL, UNIQUE, CHECK).
+\end{itemize}
+
+\item
+Physisches Datenmodell
+
+Eine physische Datenbankstruktur wird durch \as{SQL} erstellt, basierend auf dem logischen Entwurf.
+Die konkrete Festlegung von Tabellen, Indizes, Constraints usw. erfolgt dabei durch  Das System,
+das wir implementiert haben, wird immer wieder getestet und zusammen mit den Nutzerinnen auf fachliche Richtigkeit überprüft.
+\begin{itemize}
+
+\item Realisierung des logischen Modells in einer spezifischen Datenbankmanagementsoftware (z.B. MySQL, Mariadb oder Microsoft SQL Server).er).
+\item Die Verbesserung der Speicherstrukturen, der Indexierung und der Partitionierung.
+
+\end{itemize}
+
+\item
+Implementierung und Prüfung
+
+Nach der erfolgreichen Umsetzung wird das System vom Kunden gemäß einem vorher festgelegten Abnahmeplan freigegeben.
+Ein Wartungsplan kümmert sich anschließend um die Betreuung, schult die Endbenutzer und überwacht die IT-Umgebung kontinuierlich.
+\begin{itemize}
+
+\item Den Aufbau der Tabellen und Relationen entsprechend dem Datenbankschema.
+
+\item Die Testdaten implementieren.
+
+\item Die Kontrolle der Funktionalität und Leistung.
+
+\end{itemize}
+
+\end{enumerate}
+
+\pagebreak
