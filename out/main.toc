@@ -32,6 +32,8 @@
 \contentsline {subsubsection}{\numberline {2.5.8}Technologische Unabhängigkeit}{16}{subsubsection.2.5.8}%
 \contentsline {section}{\numberline {3}Analyse und Konzeption}{17}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Defintion der Anforderungen}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Technische Anforderungen}{17}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Nutzeranforderungen}{17}{subsubsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.2}Analyse der bestehenden Strukturen und Prozesse}{17}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Datenbankdesign und Strukturkonzeption}{17}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Grundkonzept des Benutzeroberflächen-Design}{17}{subsection.3.4}%
