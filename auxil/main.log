@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  23 AUG 2025 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  19 SEP 2025 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1237,9 +1237,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 47.
+(Font)              scaled to size 10.40245pt on input line 48.
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported  on input line 47.
+(babel)             Reported  on input line 48.
 [2])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -1294,7 +1294,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=216, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=222, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1303,7 +1303,9 @@ Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
 
 [3 <./Grafiken/Test Cabin.jpg>]
 
-[4]) (Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex
+[4]
+
+[5]) (Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex
 Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
 Package acronym Info: Label `acro:DTD' newly defined as it shall be overridden
@@ -1321,9 +1323,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 38.
 
 
-[5]
-
 [6]
+
+[7]
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
 although it is yet undefined on input line 111.
 Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
@@ -1332,15 +1334,35 @@ Package acronym Info: Label `acro:SAX' newly defined as it shall be overridden
 although it is yet undefined on input line 139.
 
 
-[7])
-
-[8]
-(Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.tex
-
+[8])
 
 [9]
+(Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.tex
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
 
-[10])
+
+[10]
+
+[11]
+Overfull \hbox (12.26808pt too wide) in paragraph at lines 109--110
+[]\T1/phv/m/n/10.95 Definition von Da-ten-ty-pen und Zel-len-ko-fi-gu-ra-tio-ne
+n (z.B. NOT NULL, UN-I-QUE, CHECK). 
+ []
+
+Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.tex:
+115: Undefined control sequence.
+l.115 ...hysische Datenbankstruktur wird durch \as
+                                                  {SQL} erstellt, basierend ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+
+[12]
 (Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
 Overfull \hbox (6.50096pt too wide) in paragraph at lines 6--13
 \T1/phv/m/n/10.95 Unter Da-ten-vi-sua-li-sie-rung wird die vi-su-el-le Auf-be-r
@@ -1348,24 +1370,43 @@ ei-tung von Da-ten ver-stan-den, um Mus-ter, Trends,
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 30.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 30.
+(Font)              scaled to size 10.40245pt on input line 31.
 
 
-[11])
+[13])
+
+[14]
 (Kapitel/2. Hauptteil/2. Grundlagen/2.5 Anforderungen an modulare Softwareentwi
 cklung.tex
 
-[12]
+[15])
 
-[13])) (Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
-
-[14]
+[16]) (Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Defintion der Anforderungen
 .tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der bestehenden Str
-ukturen und Prozesse.tex)
+ukturen und Prozesse.tex
+Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
+\T1/phv/m/n/10.95 stel-lung der Da-ten-bank und das Ver-st�nd-nis der Ein- und 
+Aus-le-se-funk-tio-nen der Web-Applikation. 
+ []
+
+
+
+[17]
+
+LaTeX Warning: Reference `fig:3. XML-Strukturbeispiel Kinder der Stammelementes
+' on page 18 undefined on input line 29.
+
+<Grafiken/Obere_XML-Berichtstruktur(1).png, id=391, 982.16937pt x 158.5925pt>
+File: Grafiken/Obere_XML-Berichtstruktur(1).png Graphic file (type png)
+<use Grafiken/Obere_XML-Berichtstruktur(1).png>
+Package pdftex.def Info: Grafiken/Obere_XML-Berichtstruktur(1).png  used on inp
+ut line 33.
+(pdftex.def)             Requested size: 352.81552pt x 56.96982pt.
+)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struktu
 rkonzeption.tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzerob
@@ -1373,7 +1414,7 @@ erflächen-Design.tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsarc
 hitektur.tex)) (Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[15]
+[18 <./Grafiken/Obere_XML-Berichtstruktur(1).png>]
 (Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-Da
 ten.tex)
 (Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex)
@@ -1382,7 +1423,7 @@ ten.tex)
 (Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisieru
 ng.tex)) (Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[16]
+[19]
 (Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehende 
 Systemlandschaft.tex)
 (Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführun
@@ -1390,28 +1431,28 @@ g.tex)
 (Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden.t
 ex)) (Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[17]
+[20]
 (Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.te
 x) (Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige E
 rweiterungen.tex))
 
-[18]
+[21]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \section{Literaturverzeichnis}
+l.139 \section{Literaturverzeichnis}
                                     
-Overfull \hbox (5.86668pt too wide) in paragraph at lines 142--142
+Overfull \hbox (5.86668pt too wide) in paragraph at lines 143--143
 \T1/phv/m/n/10.95 Adres-se: [][]$\T1/cmtt/m/n/10.95 https : / / wi -[] lex . de
  / index . php / lexikon / technologische -[] und -[] methodische -[]
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 10.40245pt on input line 141.
+(Font)              scaled to size 10.40245pt on input line 142.
 
-Overfull \hbox (12.0357pt too wide) in paragraph at lines 142--142
+Overfull \hbox (12.0357pt too wide) in paragraph at lines 143--143
 \T1/cmtt/m/n/10.95 python . org / 3 / library / xml . etree . elementtree . htm
 l # module -[] xml . etree . ElementTree$[][] 
  []
@@ -1423,7 +1464,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 \section{Anhangsverzeichnis}
+l.147 \section{Anhangsverzeichnis}
                                   
 
 [2] (Kapitel/6. Erklärung/Erklärung.tex
@@ -1433,22 +1474,22 @@ as been already used, duplicate ignored
                    \relax 
 l.5 \section{Erklärung}
                         )
-Underfull \hbox (badness 10000) in paragraph at lines 10--158
+Underfull \hbox (badness 10000) in paragraph at lines 10--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--158
+Underfull \hbox (badness 10000) in paragraph at lines 10--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--158
+Underfull \hbox (badness 10000) in paragraph at lines 10--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--158
+Underfull \hbox (badness 10000) in paragraph at lines 10--159
 
  []
 
@@ -1459,15 +1500,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--158
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27870 strings out of 468219
- 542736 string characters out of 5432869
- 1558347 words of memory out of 5000000
- 55773 multiletter control sequences out of 15000+600000
+ 27907 strings out of 468219
+ 543534 string characters out of 5432869
+ 1555453 words of memory out of 5000000
+ 55793 multiletter control sequences out of 15000+600000
  661703 words of font info for 81 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,10943b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1478,9 +1523,9 @@ vetic/uhvb8a.pfb><C:/Users/jonfe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvr8a.pfb><C:/Users/jonfe/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/helvetic/uhvro8a.pfb>
 Output written on C:/Users\jonfe\PycharmProjects\BachelorarbeitLatex\out\main.p
-df (28 pages, 388278 bytes).
+df (31 pages, 440769 bytes).
 PDF statistics:
- 687 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 729 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
