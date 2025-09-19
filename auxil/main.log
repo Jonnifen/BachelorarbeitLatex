@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  19 SEP 2025 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.29)  19 SEP 2025 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,7 +1294,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=222, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=224, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1385,28 +1385,33 @@ cklung.tex
 
 [16]) (Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Defintion der Anforderungen
-.tex)
-(Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der bestehenden Str
-ukturen und Prozesse.tex
-Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
-\T1/phv/m/n/10.95 stel-lung der Da-ten-bank und das Ver-st‰nd-nis der Ein- und 
-Aus-le-se-funk-tio-nen der Web-Applikation. 
- []
+.tex
+
+Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Defintion der Anforderungen.
+tex:31: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \item D
+                ie Navigation zwischen den einzellenen Funktionen der Web-Ap...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 
 [17]
-
-LaTeX Warning: Reference `fig:3. XML-Strukturbeispiel Kinder der Stammelementes
-' on page 18 undefined on input line 29.
-
-<Grafiken/Obere_XML-Berichtstruktur(1).png, id=391, 982.16937pt x 158.5925pt>
-File: Grafiken/Obere_XML-Berichtstruktur(1).png Graphic file (type png)
-<use Grafiken/Obere_XML-Berichtstruktur(1).png>
-Package pdftex.def Info: Grafiken/Obere_XML-Berichtstruktur(1).png  used on inp
-ut line 33.
-(pdftex.def)             Requested size: 352.81552pt x 56.96982pt.
+<Grafiken/Beispiel_Teststandgraphen.png, id=393, 712.91344pt x 608.2725pt>
+File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
+<use Grafiken/Beispiel_Teststandgraphen.png>
+Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
+line 45.
+(pdftex.def)             Requested size: 352.81552pt x 301.02621pt.
 )
+(Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XML
+-Berichte und der bestehenden Strukturen.tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struktu
 rkonzeption.tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzerob
@@ -1414,7 +1419,7 @@ erfl√§chen-Design.tex)
 (Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsarc
 hitektur.tex)) (Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[18 <./Grafiken/Obere_XML-Berichtstruktur(1).png>]
+[18 <./Grafiken/Beispiel_Teststandgraphen.png>]
 (Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-Da
 ten.tex)
 (Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex)
@@ -1500,19 +1505,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--159
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27907 strings out of 468219
- 543534 string characters out of 5432869
- 1555453 words of memory out of 5000000
- 55793 multiletter control sequences out of 15000+600000
+ 27908 strings out of 468219
+ 543633 string characters out of 5432869
+ 1555518 words of memory out of 5000000
+ 55792 multiletter control sequences out of 15000+600000
  661703 words of font info for 81 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,10943b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1523,9 +1524,9 @@ vetic/uhvb8a.pfb><C:/Users/jonfe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvr8a.pfb><C:/Users/jonfe/AppData/Local/Programs/MiKTeX/fonts/type1/u
 rw/helvetic/uhvro8a.pfb>
 Output written on C:/Users\jonfe\PycharmProjects\BachelorarbeitLatex\out\main.p
-df (31 pages, 440769 bytes).
+df (31 pages, 433074 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
  466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
