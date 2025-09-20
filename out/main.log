@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  19 SEP 2025 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -929,11 +929,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 25.
 
-(/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.aux
-
-LaTeX Warning: Label `fig:1. Aufbau des Teststandes' multiply defined.
-
-)
+(/home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -955,7 +951,8 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 \big@size=\dimen177
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count438
 \scratchdimen=\dimen178
@@ -1367,7 +1364,7 @@ line 45.
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten X
 ML-Berichte und der bestehenden Strukturen.tex
-Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--5
+Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
 \T1/phv/m/n/10.95 stel-lung der Da-ten-bank und das Ver-ständ-nis der Ein- und 
 Aus-le-se-funk-tio-nen der Web-Applikation. 
  []
@@ -1375,11 +1372,15 @@ Aus-le-se-funk-tio-nen der Web-Applikation.
 
 
 [18 <./Grafiken/Beispiel_Teststandgraphen.png>]
+
+LaTeX Warning: Reference `fig:3. XML-Strukturbeispiel Kinder der Stammelementes
+' on page 19 undefined on input line 29.
+
 <Grafiken/Obere_XML-Berichtstruktur(1).png, id=413, 982.16937pt x 158.5925pt>
 File: Grafiken/Obere_XML-Berichtstruktur(1).png Graphic file (type png)
 <use Grafiken/Obere_XML-Berichtstruktur(1).png>
 Package pdftex.def Info: Grafiken/Obere_XML-Berichtstruktur(1).png  used on inp
-ut line 19.
+ut line 33.
 (pdftex.def)             Requested size: 352.81552pt x 56.96982pt.
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
@@ -1478,7 +1479,10 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1487,10 +1491,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27889 strings out of 473197
- 536216 string characters out of 5718605
- 1563115 words of memory out of 5000000
- 50500 multiletter control sequences out of 15000+600000
+ 27890 strings out of 473197
+ 536271 string characters out of 5718605
+ 1563157 words of memory out of 5000000
+ 50501 multiletter control sequences out of 15000+600000
  593715 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1500,10 +1504,10 @@ ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-32 pages, 444555 bytes).
+32 pages, 444729 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 617 compressed objects within 7 object streams
+ 683 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
  152 named destinations out of 1000 (max. 500000)
  479 words of extra memory for PDF output out of 10000 (max. 10000000)
 
