@@ -21,6 +21,12 @@ Das Stammelement hat die Unter- bzw.
 Kinderelemente „info“, „testbench“, „string“ und dreimal „testmodule“. Diese
 Elemente haben wiederum alle weiter Unterelemente und Attribute.
 
+Hierbei sollte angemerkt werden, dass in allen Testberichten die Elemente, die kein Unterelement besitzen leich aufgebaut sind.
+Sie besitzen mindestens das Attribut „name“ und ihre Elementenbezeichnung ist immer nach dem Datentyp ihres Inhalts benannt.
+Für ein besseres Verständnis siehe Abbildung \ref{}.
+
+
+
 Jedes der Elemente „testmodule“ hat ein Attribut
 „name“, durch welches Sie unterschieden werden können. Das Element „string“ hat
 ein Namensattribut mit der Bezeichnung „test sequence status“. Der Inhalt
@@ -66,7 +72,7 @@ Für die genauen Bezeichnungen und Struktur siehe Abbildung \ref{fig: XML-Strukt
 	<string name="ID_Carrier_left">Carrier 1</string>
 	<string name="ID_DUT_R">10-29550</string>
 	<string name="ID_DUT_S">10-29396</string>
-    <string name="ID_DUT_T">10-29482</string>
+        <string name="ID_DUT_T">10-29482</string>
 </info>
 \end{lstlisting}
 \end{minipage}
@@ -87,7 +93,7 @@ Die genauen Bezeichnungen und die Struktur sind in Abbildung \ref{fig: XML-Struk
 	<string name="Testbench_name">USTB_DtWind</string>
 	<string name="Testbench_HW_revision">V1.5</string>
 	<string name="Version_GUI">V1.4.1</string>
-    <string name="Version_controller">V1.3.2</string>
+        <string name="Version_controller">V1.3.2</string>
 </testbench>
 \end{lstlisting}
 \end{minipage}
@@ -100,11 +106,34 @@ Die genauen Bezeichnungen und die Struktur sind in Abbildung \ref{fig: XML-Struk
 Die Testmodule-Elemente sind alle nach dem gleichen Schema aufgebaut. Die ersten Unterelemente enthalten Grundinformationen
 zu dem Status des Testmoduls, der Tages- und Uhrzeit des Tests und welche Versionen davon verwendet wurden.
 Danach befinden sich noch drei weitere Elemente im Element „module“.
-Diese Elemente heißen „Phase_U“, „Phase_V“ und „Phase_W“.
-Sie besitzen kein Namensattribut.
-Diese enthalten die Parameter und die Messdaten für die DUTs. Jede Phase enthält die Messwerte für ein DUT.
-Somit besitzen alle Module unter dem Element „Phase_U“ die Messwerte und Parameter für den ersten DUT, dessen Seriennummer
-unter dem Element mit dem Namensattribut „ID_DUT_R“ in Abbildung \ref{fig: XML-Strukturbeispiel Info-Element} zu finden ist.
+Diese Elemente heißen „Phase U“, „Phase V“ und „Phase W“.
+Sie besitzen kein Namensattribut, siehe Abblidung \ref{fig: XML-Strukturbeispiel Testmodulheader}.
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<testmodule name="DriverConsumptionTest">
+	<integer name="TestSuccessful" min="1" max="1">1</integer>
+	<string name="Testresult">
+        Test finished successfully!</string>
+	<string name="Time">2023-09-21_08:36:42</string>
+	<string name="Version_DLL">V1.2.4</string>
+	<string name="Version_BALI">V1.2.4</string>
+    <Phase_U>...</Phase_U>
+    <Phase_V>...</Phase_V>
+    <Phase_W>...</Phase_W>
+</testmodule>
+\end{lstlisting}
+\end{minipage}
+\caption{XML-Strukturbeispiel Testmodulheader}
+\label{fig: XML-Strukturbeispiel Testmodulheader}
+    {Quelle: Eigene Darstellung}
+\end{figure}
+
+Diese Phasenelemente enthalten die Parameter und die Messdaten für die DUTs. Jede Phase enthält die Messwerte für ein DUT.
+Somit besitzen alle Module unter dem Element „Phase U“ die Messwerte und Parameter für den ersten DUT, dessen Seriennummer
+unter dem Element mit dem Namensattribut „ID DUT R“ in Abbildung \ref{fig: XML-Strukturbeispiel Info-Element} zu finden ist.
 
 In dem Element „parameters“, welches in jedem Phasenelement vorkommt, befinden sich die voreingestellten Rahmbedingungen
 und Anforderungen für das Testmodul. Diese enthalten alle ein Namensattribut und einen Inhalt.
@@ -116,23 +145,57 @@ Die meisten Attributswerte finden sich schon in den Parametern wieder und sind s
 Nur bei den Floatblock-Elementen, also Elementen mit der Bezeichnung Floatblock, sind besondere Attribute zu finden,
 welche nicht gedoppelt vorkommen.
 Diese Elemente umfassen zusätzlich die Attribute „size“ und „duration“, welche die Anzahl der in dem Inhalt enthaltenen
-Floatwerte und die Dauer der Werteaufnahme angeben.
+Floatwerte und die Dauer der Werteaufnahme angeben dies ist in Abbildung \ref{fig: Beispiel XPowertest Floatblock-Elemente} zu erkennen.
 Diese sind für die grafische Darstellung besonders relevant.
 
-Dies auf der Phasenebene: Treten keine Veränderungen in der XML-Struktur auf, variieren lediglich die Elemente unter den
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<floatblock name="Time" size="698" duration="959.952" unit="s">
+0.71365,2.1370,3.5323,...</floatblock>
+\end{lstlisting}
+\end{minipage}
+\caption{Beispiel XPowertest Floatblock-Elemente}
+\label{fig: Beispiel XPowertest Floatblock-Elemente}
+    {Quelle: Eigene Darstellung}
+\end{figure}
+
+Auf der Phasenebene treten keine Veränderungen in der \ac{XML}-Struktur auf, variieren lediglich die Elemente unter den
 Phasenelementen von Bericht zu Bericht etwas.
 Die beträchtliche Ausnahme von dieser Regel bilden die Berichte, bei denen ein Fehler aufgetreten ist oder sogar der
-Testvorgang abgebrochen wurde. Bei diesen Berichten hört die XML-Struktur bei den fehlgeschlagenen Testmodulen schon auf.
-Der Testbericht ist aber in sich geschlossen. Das bedeutet, die XML-Struktur ist vollkommen und kann von einem XML-Parser eingelesen werden.
+Testvorgang abgebrochen wurde. Bei diesen Berichten hört die \ac{XML}-Struktur bei den fehlgeschlagenen Testmodulen schon auf.
+Der Testbericht ist aber in sich geschlossen. Das bedeutet, die \ac{XML}-Struktur ist vollkommen und kann von einem \ac{XML}-Parser eingelesen werden.
 Es befinden sich nur weniger Testmodul-Elemente in dem Bericht und im Element für den Testsequenzstatus ist folgender Inhalt
-enthalten: „Test sequence finished with errors.“ Zudem wird bei dem Testmodul, bei dem der Fehler aufgetreten ist, unter
-dem Element mit dem Namen „Testresult“ ein Fehlercode und seine Bedeutung ausgegeben. In Abbildung \ref{} ist ein
+enthalten „Test sequence finished with errors“. Zudem wird bei dem Testmodul, bei dem der Fehler aufgetreten ist, unter
+dem Element mit dem Namen „Testresult“ ein Fehlercode und seine Bedeutung ausgegeben. In Abbildung \ref{fig: Beispiel Fehler bei DriverConsumptionTest} ist ein
 Beispiel für einen Bericht, welcher beim ersten Testmodul einen Fehler ausgegeben hatte.
-Bei einem Ausfall eines der zu testenden DUTs gibt es die Besonderheit, dass die anderen noch funktionsfähigen DUTs
+Bei einem Ausfall eines der zu testenden \ac{DUTs} gibt es die Besonderheit, dass die anderen noch funktionsfähigen \ac{DUTs}
 keine weiteren Datenaufnahmen mehr machen können. Denn das System benötigt alle drei Phasen, um den Test durchzuführen.
-Die XML-Struktur ist in sich geschlossen, aber es werden keine Daten von den anderen DUTs mehr aufgenommen.
+Die \ac{XML}-Struktur ist in sich geschlossen, aber es werden keine Daten von den anderen \ac{DUTs} mehr aufgenommen.
 
-
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XML]
+<testmodule name="DriverConsumptionTest">
+	<integer name="TestSuccessful" min="1" max="1">0</integer>
+	<string name="Testresult">Idrv not within limits on Phase U
+0x30010019 !
+0x30010013</string>
+	<string name="Time">2021-03-10_09:10:37</string>
+	<string name="Version_DLL">V1.2.4</string>
+    <string name="Version_BALI">V1.2.4</string>
+    <Phase_U>...</Phase_U>
+    <Phase_V>...</Phase_V>
+        <Phase_W>...</Phase_W>
+</testmodule>
+\end{lstlisting}
+\end{minipage}
+\caption{Beispiel Fehler bei DriverConsumptionTest}
+\label{fig: Beispiel Fehler bei DriverConsumptionTest}
+    {Quelle: Eigene Darstellung}
+\end{figure}
 
 
 

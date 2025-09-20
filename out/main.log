@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1244,7 +1244,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=236, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=242, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1355,7 +1355,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 [17]
-<Grafiken/Beispiel_Teststandgraphen.png, id=409, 712.91344pt x 608.2725pt>
+<Grafiken/Beispiel_Teststandgraphen.png, id=415, 712.91344pt x 608.2725pt>
 File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
 <use Grafiken/Beispiel_Teststandgraphen.png>
 Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
@@ -1372,109 +1372,32 @@ Aus-le-se-funk-tio-nen der Web-Applikation.
  []
 
 
+LaTeX Warning: Reference `' on page 19 undefined on input line 26.
+
+
 
 [19]
-./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XM
-L-Berichte und der bestehenden Strukturen.tex:103: Missing $ inserted.
-<inserted text> 
-                $
-l.103 Diese Elemente heißen „Phase_
-                                      U“, „Phase_V“ und „Phase_W“.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 103
-.
-
-
-LaTeX Warning: Command \quotedblbase invalid in math mode on input line 103.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 103
-.
-
-
-LaTeX Warning: Command \quotedblbase invalid in math mode on input line 103.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 103
-.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 105.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 105.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 105.
-
-
-LaTeX Warning: Command \quotedblbase invalid in math mode on input line 106.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 106
-.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 106.
-
-
-LaTeX Warning: Command \quotedblbase invalid in math mode on input line 107.
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 107
-.
-
-./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XM
-L-Berichte und der bestehenden Strukturen.tex:108: Missing $ inserted.
-<inserted text> 
-                $
-l.108 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font zptmcm7t!
-Missing character: There is no � in font zptmcm7t!
-Missing character: There is no � in font zptmcm7t!
-Missing character: There is no � in font zptmcm7t!
-
-Overfull \hbox (1438.82977pt too wide) in paragraph at lines 100--108
-\T1/phv/m/n/10.95 Ele-men-te im Ele-ment ^^Rmo-du-le^^P. Die-se Ele-men-te hei-
-�en ^^RPhase$[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95 ; \OT1/ztmcm/m/n/1
-0.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10
-.95 und\OT1/ztmcm/m/n/10.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\OT1/ztmcm/m/n/10.9
-5 ^^P\OML/ztmcm/m/it/10.95 :SiebesitzenkeinNamensattribut:DieseenthaltendiePara
-meterunddieMessdatenfrdieDUTs:JedePhaseenthltdieMesswertefreinDUT:Somitbesitzen
-alleModuleunterdemElement\OT1/ztmcm/m/n/10.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\
-OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95 dieMesswerteundParameterfrdenerste
-nDUT; dessenSeriennummerunterdemElementmitdemNamensattribut\OT1/ztmcm/m/n/10.95
- ^^R\OML/ztmcm/m/it/10.95 ID[]UT[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95
- inAbbildung[][]\OT1/ztmcm/m/n/10.95 7[][]\OML/ztmcm/m/it/10.95 zufindenist:$ 
- []
-
-
 
 [20]
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 129.
+[21]
+Overfull \hbox (3.03555pt too wide) in paragraph at lines 183--184
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
 turkonzeption.tex
 
-LaTeX Warning: Reference `XML-Schema' on page 21 undefined on input line 20.
+[22]
+
+LaTeX Warning: Reference `XML-Schema' on page 23 undefined on input line 20.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 20.
+LaTeX Warning: Reference `' on page 23 undefined on input line 20.
 
 
-
-[21]
-
-LaTeX Warning: Reference ` ' on page 22 undefined on input line 33.
+LaTeX Warning: Reference ` ' on page 23 undefined on input line 33.
 
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
@@ -1482,7 +1405,9 @@ oberflächen-Design.tex)
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
 rchitektur.tex)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[22]
+[23]
+
+[24]
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
 Daten.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
@@ -1492,7 +1417,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[23]
+[25]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -1500,13 +1425,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[24]
+[26]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[25]
+[27]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1580,25 +1505,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27944 strings out of 473197
- 536585 string characters out of 5718605
- 1578255 words of memory out of 5000000
- 50506 multiletter control sequences out of 15000+600000
- 598851 words of font info for 85 fonts, out of 8000000 for 9000
+ 27982 strings out of 473197
+ 537220 string characters out of 5718605
+ 1586444 words of memory out of 5000000
+ 50519 multiletter control sequences out of 15000+600000
+ 593715 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
-uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
+vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
+a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-35 pages, 444799 bytes).
+37 pages, 425609 bytes).
 PDF statistics:
- 767 PDF objects out of 1000 (max. 8388607)
- 693 compressed objects within 7 object streams
- 193 named destinations out of 1000 (max. 500000)
+ 817 PDF objects out of 1000 (max. 8388607)
+ 746 compressed objects within 8 object streams
+ 226 named destinations out of 1000 (max. 500000)
  482 words of extra memory for PDF output out of 10000 (max. 10000000)
 
