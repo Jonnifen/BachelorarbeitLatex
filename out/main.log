@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1244,7 +1244,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=230, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=236, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1355,13 +1355,15 @@ If that doesn't work, type  X <return>  to quit.
 
 
 [17]
-<Grafiken/Beispiel_Teststandgraphen.png, id=401, 712.91344pt x 608.2725pt>
+<Grafiken/Beispiel_Teststandgraphen.png, id=409, 712.91344pt x 608.2725pt>
 File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
 <use Grafiken/Beispiel_Teststandgraphen.png>
 Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
-line 45.
+line 44.
 (pdftex.def)             Requested size: 352.81552pt x 301.02621pt.
-)
+
+
+[18 <./Grafiken/Beispiel_Teststandgraphen.png>])
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten X
 ML-Berichte und der bestehenden Strukturen.tex
 Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
@@ -1371,26 +1373,119 @@ Aus-le-se-funk-tio-nen der Web-Applikation.
 
 
 
-[18 <./Grafiken/Beispiel_Teststandgraphen.png>]
+[19]
+./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XM
+L-Berichte und der bestehenden Strukturen.tex:102: Missing $ inserted.
+<inserted text> 
+                $
+l.102 ...duleâ€œ. Diese Elemente heiÃŸen â€žPhase_
+                                                  Uâ€œ, â€žPhase_Vâ€œ und â€...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Reference `fig:3. XML-Strukturbeispiel Kinder der Stammelementes
-' on page 19 undefined on input line 29.
 
-<Grafiken/Obere_XML-Berichtstruktur(1).png, id=413, 982.16937pt x 158.5925pt>
-File: Grafiken/Obere_XML-Berichtstruktur(1).png Graphic file (type png)
-<use Grafiken/Obere_XML-Berichtstruktur(1).png>
-Package pdftex.def Info: Grafiken/Obere_XML-Berichtstruktur(1).png  used on inp
-ut line 33.
-(pdftex.def)             Requested size: 352.81552pt x 56.96982pt.
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 102
+.
+
+
+LaTeX Warning: Command \quotedblbase invalid in math mode on input line 102.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 102
+.
+
+
+LaTeX Warning: Command \quotedblbase invalid in math mode on input line 102.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 102
+.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 103.
+
+
+LaTeX Warning: Command \quotedblbase invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 104
+.
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 104.
+
+
+LaTeX Warning: Command \quotedblbase invalid in math mode on input line 105.
+
+
+LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 105
+.
+
+
+LaTeX Warning: Reference `info_Bild' on page 20 undefined on input line 105.
+
+./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XM
+L-Berichte und der bestehenden Strukturen.tex:106: Missing $ inserted.
+<inserted text> 
+                $
+l.106 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no ü in font zptmcm7t!
+Missing character: There is no ä in font zptmcm7t!
+Missing character: There is no ü in font zptmcm7t!
+Missing character: There is no ü in font zptmcm7t!
+
+Overfull \hbox (1446.06654pt too wide) in paragraph at lines 100--106
+\T1/phv/m/n/10.95 Ele-men-te im Ele-ment ^^Rmo-du-le^^P. Die-se Ele-men-te hei-
+ÿen ^^RPhase$[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95 ; \OT1/ztmcm/m/n/1
+0.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10
+.95 und\OT1/ztmcm/m/n/10.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\OT1/ztmcm/m/n/10.9
+5 ^^P\OML/ztmcm/m/it/10.95 :SiebesitzenkeinNamensattribut:DieseenthaltendiePara
+meterunddieMessdatenfrdieDUTs:JedePhaseenthltdieMesswertefreinDUT:Somitbesitzen
+alleModuleunterdemElement\OT1/ztmcm/m/n/10.95 ^^R\OML/ztmcm/m/it/10.95 Phase[]\
+OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95 dieMesswerteundParameterfrdenerste
+nDUT; dessenSeriennummerunterdemElementmitdemNamensattribut\OT1/ztmcm/m/n/10.95
+ ^^R\OML/ztmcm/m/it/10.95 ID[]UT[]\OT1/ztmcm/m/n/10.95 ^^P\OML/ztmcm/m/it/10.95
+ inAbbildung[]zufindenist:$ 
+ []
+
+
+
+[20]
+
+LaTeX Warning: Reference `' on page 21 undefined on input line 125.
+
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
-turkonzeption.tex)
+turkonzeption.tex
+
+LaTeX Warning: Reference `XML-Schema' on page 21 undefined on input line 20.
+
+
+LaTeX Warning: Reference `' on page 21 undefined on input line 20.
+
+
+
+[21]
+
+LaTeX Warning: Reference ` ' on page 22 undefined on input line 33.
+
+)
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
 oberflÃ¤chen-Design.tex)
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
 rchitektur.tex)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[19 <./Grafiken/Obere_XML-Berichtstruktur(1).png>]
+[22]
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
 Daten.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
@@ -1400,7 +1495,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[20]
+[23]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und DurchfÃ¼hr
@@ -1408,13 +1503,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[21]
+[24]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 MÃ¶glichkeiten fÃ¼r zukÃ¼nftige
  Erweiterungen.tex))
 
-[22]
+[25]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1481,9 +1576,6 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1491,23 +1583,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27890 strings out of 473197
- 536271 string characters out of 5718605
- 1563157 words of memory out of 5000000
- 50501 multiletter control sequences out of 15000+600000
- 593715 words of font info for 77 fonts, out of 8000000 for 9000
+ 27945 strings out of 473197
+ 536595 string characters out of 5718605
+ 1578255 words of memory out of 5000000
+ 50507 multiletter control sequences out of 15000+600000
+ 598851 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
-vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
-a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
+uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-32 pages, 444729 bytes).
+35 pages, 444608 bytes).
 PDF statistics:
- 683 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
- 152 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 692 compressed objects within 7 object streams
+ 193 named destinations out of 1000 (max. 500000)
+ 482 words of extra memory for PDF output out of 10000 (max. 10000000)
 

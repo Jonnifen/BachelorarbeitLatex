@@ -30,13 +30,12 @@ Diese Anforderungen wurden zusammen mit den nutzenden Ingenieur/-in festgelegt.
 
     \item Die Navigation zwischen den einzellenen Funktionen der Web-Applikation soll über eine Menüleiste erfolgen.
     \item Das Einlesen soll möglichst flexibel in Bezug auf die Art des einlesens sein, da sowohl alte Berichte als auch
-    neue XML-Strukturen aus dem Teststand eingelesen werden können sollen. Zu einem späteren Zeitpunkt können weiter
-    Einlese-Optionen nachträglich eingefügt werden.
+    neue \ac{XML}-Strukturen aus dem Teststand eingelesen werden können sollen. Zu einem späteren Zeitpunkt können weiter
     \item Die eingelesenen Testberichte sollen tabellarisch Ausgegeben werden. Die Tabelle soll nur wichtige
     Grundinformationen enthalten.
     \item Es soll Filterfunktionen für die Bericht-Tabelle zur verfügung gestellte werden.
     \item Die zu erstellen Graphen sollen nach den Modulen geordet sein und eine klare Beschrieftung haben.
-    \item Das Aussehen der Graphen soll sich an den Graphen des Testandprogrammes orintieren, siehe \ref{fig:2. Beispiel der Graphen aus Teststandprogramm}.
+    \item Das Aussehen der Graphen soll sich an den Graphen des Testandprogrammes orintieren, siehe Abbildung \ref{fig: Beispiel der Graphen aus Teststandprogramm}.
 
 \end{enumerate}
 
@@ -44,6 +43,34 @@ Diese Anforderungen wurden zusammen mit den nutzenden Ingenieur/-in festgelegt.
     \centering
     \includegraphics[width=0.8\textwidth]{Grafiken/Beispiel_Teststandgraphen}
     \caption{Beispiel der Graphen aus Teststandprogramm}
-    \label{fig:2. Beispiel der Graphen aus Teststandprogramm}
+    \label{fig: Beispiel der Graphen aus Teststandprogramm}
     {Quelle: Eingenaufnahme}
 \end{figure}
+
+\subsubsection{Anforderungen an die Datenbank}
+
+Diese Anforderungen wurden im Vorfeld mit den späteren Nutzerinnen der Applikation und den potenziellen Verwendern der Datenbank festgelegt.
+
+\begin{enumerate}
+\item Für die Erstellung der Datenbank soll das Datenbankmanagementsystem MariaDB genutzt werden.
+
+
+\item Die Datenbank muss in der Lage sein, alle Daten, die in den Berichten vorkommen, zu speichern. Es müsste theoretisch möglich sein, den Bericht nachzukonstruieren.
+
+
+\item Datendopplungen sollen vermieden werden.
+
+
+\item Die Tabellen sollen grundlegend die \ac{XML}-Struktur widerspiegeln, jedoch dürfen häufig vorkommende Daten ausgelagert werden.
+
+
+\item Für die DUT-Typen und Seriennummern soll jeweils eine separate Informationstabelle erstellt werden.
+
+
+\item Bei der Erstellung muss berücksichtigt werden, dass es zu einem späteren Zeitpunkt noch weitere Teststände und Testmodule geben kann.
+
+
+\item Bei der Erstellung soll berücksichtigt werden, dass die Daten zu einem späteren Zeitpunkt für die Analyse benutzt werden sollen.
+
+
+\end{enumerate}
