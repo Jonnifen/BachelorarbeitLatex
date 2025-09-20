@@ -99,8 +99,10 @@ Die genauen Bezeichnungen und die Struktur sind in Abbildung \ref{fig: XML-Struk
 
 Die Testmodule-Elemente sind alle nach dem gleichen Schema aufgebaut. Die ersten Unterelemente enthalten Grundinformationen
 zu dem Status des Testmoduls, der Tages- und Uhrzeit des Tests und welche Versionen davon verwendet wurden.
-Danach befinden sich noch drei weitere Elemente im Element „module“. Diese Elemente heißen „Phase_U“, „Phase_V“ und „Phase_W“.
-Sie besitzen kein Namensattribut. Diese enthalten die Parameter und die Messdaten für die DUTs. Jede Phase enthält die Messwerte für ein DUT.
+Danach befinden sich noch drei weitere Elemente im Element „module“.
+Diese Elemente heißen „Phase_U“, „Phase_V“ und „Phase_W“.
+Sie besitzen kein Namensattribut.
+Diese enthalten die Parameter und die Messdaten für die DUTs. Jede Phase enthält die Messwerte für ein DUT.
 Somit besitzen alle Module unter dem Element „Phase_U“ die Messwerte und Parameter für den ersten DUT, dessen Seriennummer
 unter dem Element mit dem Namensattribut „ID_DUT_R“ in Abbildung \ref{fig: XML-Strukturbeispiel Info-Element} zu finden ist.
 
