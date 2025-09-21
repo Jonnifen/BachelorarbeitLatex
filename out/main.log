@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  21 SEP 2025 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  21 SEP 2025 20:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1244,7 +1244,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=248, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=252, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1355,7 +1355,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 [17]
-<Grafiken/Beispiel_Teststandgraphen.png, id=421, 712.91344pt x 608.2725pt>
+<Grafiken/Beispiel_Teststandgraphen.png, id=425, 712.91344pt x 608.2725pt>
 File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
 <use Grafiken/Beispiel_Teststandgraphen.png>
 Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
@@ -1371,7 +1371,7 @@ Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
 Aus-le-se-funk-tio-nen der Web-Applikation. 
  []
 
-<Grafiken/XML-Strukturdiagramm.png, id=439, 539.01375pt x 348.30125pt>
+<Grafiken/XML-Strukturdiagramm.png, id=443, 539.01375pt x 348.30125pt>
 File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
 <use Grafiken/XML-Strukturdiagramm.png>
 Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
@@ -1380,14 +1380,25 @@ Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line
 
 
 [19]
-<Grafiken/Elementaufbau.png, id=447, 754.31813pt x 119.44624pt>
-File: Grafiken/Elementaufbau.png Graphic file (type png)
-<use Grafiken/Elementaufbau.png>
-Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 39.
-(pdftex.def)             Requested size: 418.96548pt x 66.34265pt.
+
+./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten XM
+L-Berichte und der bestehenden Strukturen.tex:39: LaTeX Error: File `Grafiken/E
+lementaufbau' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...th=0.95\textwidth]{Grafiken/Elementaufbau}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-[20 <./Grafiken/XML-Strukturdiagramm.png> <./Grafiken/Elementaufbau.png>]
+
+[20 <./Grafiken/XML-Strukturdiagramm.png>]
 
 [21]
 
@@ -1404,7 +1415,7 @@ turkonzeption.tex
 
 LaTeX Warning: Reference `XML-Schema' on page 24 undefined on input line 18.
 
-<Grafiken/Bild von ER-Modell.png, id=540, 562.1pt x 396.48125pt>
+<Grafiken/Bild von ER-Modell.png, id=542, 562.1pt x 396.48125pt>
 File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
 <use Grafiken/Bild von ER-Modell.png>
 Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
@@ -1413,16 +1424,27 @@ Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
 
 
 [24]
-
-LaTeX Warning: Reference ` ' on page 25 undefined on input line 40.
-
+<Grafiken/Tabellendiagramm Datenbank.png, id=549, 550.055pt x 449.17813pt>
+File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
+<use Grafiken/Tabellendiagramm Datenbank.png>
+Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
+ line 45.
+(pdftex.def)             Requested size: 418.96548pt x 342.13971pt.
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
-oberflächen-Design.tex)
+oberflächen-Design.tex
+
+[25 <./Grafiken/Bild von ER-Modell.png>])
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
 rchitektur.tex)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[25 <./Grafiken/Bild von ER-Modell.png>]
+[26 <./Grafiken/Tabellendiagramm Datenbank.png>]
+<Grafiken/Ablaufdiagramm.png, id=560, 497.35812pt x 391.4625pt>
+File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
+<use Grafiken/Ablaufdiagramm.png>
+Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 10.
+(pdftex.def)             Requested size: 418.96548pt x 329.76404pt.
+
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
 Daten.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
@@ -1432,7 +1454,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[26]
+[27 <./Grafiken/Ablaufdiagramm.png>]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -1440,13 +1462,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[27]
+[28]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[28]
+[29]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1513,9 +1535,6 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1523,10 +1542,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28021 strings out of 473197
- 538571 string characters out of 5718605
- 1586635 words of memory out of 5000000
- 50554 multiletter control sequences out of 15000+600000
+ 28066 strings out of 473197
+ 540190 string characters out of 5718605
+ 1586800 words of memory out of 5000000
+ 50596 multiletter control sequences out of 15000+600000
  593715 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1536,10 +1555,10 @@ ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-38 pages, 610044 bytes).
+39 pages, 678026 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 759 compressed objects within 8 object streams
- 230 named destinations out of 1000 (max. 500000)
- 497 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 848 PDF objects out of 1000 (max. 8388607)
+ 767 compressed objects within 8 object streams
+ 233 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 
