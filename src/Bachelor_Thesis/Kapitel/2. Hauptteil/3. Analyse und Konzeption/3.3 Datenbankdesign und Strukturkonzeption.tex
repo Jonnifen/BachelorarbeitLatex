@@ -1,8 +1,6 @@
 \subsection{Datenbankdesign und Strukturkonzeption}
 \label{subsec:datenbankdesign-und-strukturkonzeption}
 
-Datenbankkonzept
-
 In diesem Unterkapitel soll der Verlauf der Erstellung der Datenbank beschrieben und nachvollzogen werden. Es wurde in
 den Anforderungen festgelegt, dass MariaDB zu erstellen genutzt werden soll. MariaDB ist ein kostenloses, relationales
 Open-Source-Datenbankmanagementsystem, das aus einer Abspaltung von MySQL entwickelt wurde. MySQLs früherer
@@ -17,7 +15,8 @@ Erstellung der Applikation, falls nötig, angepasst.
 Konzeptionelles Datenmodell
 
 Für das Erstellen der Konzeption des Datenbankmodelles wurde die XML-Struktur analysiert, um die Kenntnisse und Muster
-aus Unterkapitel \ref{XML-Schema} abzuleiten. Aus diesen Erkenntnissen wurde dann ein ER-Modell erstellt, siehe Abbildung \ref{}.
+aus Unterkapitel \ref{XML-Schema} abzuleiten.
+Aus diesen Erkenntnissen wurde dann ein ER-Modell erstellt, siehe Abbildung \ref{fig: ER-Modell Überlegung der Datenbankstruktur}.
 Im Folgenden wird das ER-Modell beschrieben.
 
 Durch das Durchführen eines Testes wird ein Bericht erstellt. Dieser Bericht enthält einige Attribute, welche
@@ -29,6 +28,14 @@ enthalten. Diese Datensätze können den Phasen des Stromnetzes des Teststandes 
 Zusätzlich zu dem Aufbau wurden hier schon Schlüsselattribute hinzugefügt, die später die primären Schlüssel der
 Datenbanktabellen dienen sollen, orange markiert. Die Attribute sind hier nicht genau nach dem Inhalt der XML-Dateien
 benannt aber an ihre genauen Bezeichnungen angelehnt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Grafiken/Bild von ER-Modell}
+    \caption{ER-Modell Überlegung der Datenbankstruktur}
+    \label{fig: ER-Modell Überlegung der Datenbankstruktur}
+    {Quelle: Eigene Darstellung mit Microsoft Visio}
+\end{figure}
 
 Aus diesem ER-Model wurde die Datenbanktabelle und ihre Verbindungen über Fremdschlüssel abgeleitet. In Abbildung \ref{ }
 werden die Datenbanktabellen, ihre genauen Namensbezeichnungen der Tabelle und ihr Inhalt sowie ihre Verbindungen abgebildet.

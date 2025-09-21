@@ -18,14 +18,29 @@ generierten Berichten „test“ und besitzt immer das Attribut „id“. Die Za
 diesem Attribut beschreibt den Typ des \ac{DUTs} die in diesem Test geprüft wurden.
 
 Das Stammelement hat die Unter- bzw.
-Kinderelemente „info“, „testbench“, „string“ und dreimal „testmodule“. Diese
-Elemente haben wiederum alle weiter Unterelemente und Attribute.
+Kinderelemente „info“, „testbench“, „string“ und dreimal „testmodule“.
+Diese Elemente haben wiederum alle weiter Unterelemente und Attribute.
+In der folgenden Abbildung \ref{fig: Aufbau unferänderlicher XML-Berichtstruktur} ist die unveränderliche Struktur eines Testberichtes abgebildet, welcher erfolgreich durchgeführt wurde.
 
-Hierbei sollte angemerkt werden, dass in allen Testberichten die Elemente, die kein Unterelement besitzen leich aufgebaut sind.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Grafiken/XML-Strukturdiagramm}
+    \caption{Aufbau unferänderlicher XML-Berichtstruktur}
+    \label{fig: Aufbau unferänderlicher XML-Berichtstruktur}
+    {Quelle: Eigene Darstellung mit Microsoft Visio}
+\end{figure}
+
+Hierbei sollte angemerkt werden, dass in allen Testberichten die Elemente, die kein Unterelement besitzen gleich aufgebaut sind.
 Sie besitzen mindestens das Attribut „name“ und ihre Elementenbezeichnung ist immer nach dem Datentyp ihres Inhalts benannt.
-Für ein besseres Verständnis siehe Abbildung \ref{}.
+Für ein besseres Verständnis siehe Abbildung \ref{fig: Elementaufbau aus XML-Bericht}.
 
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Grafiken/Elementaufbau}
+    \caption{Elementaufbau aus XML-Bericht}
+    \label{fig: Elementaufbau aus XML-Bericht}
+    {Quelle: Eigene Darstellung mit Microsoft Visio}
+\end{figure}
 
 Jedes der Elemente „testmodule“ hat ein Attribut
 „name“, durch welches Sie unterschieden werden können. Das Element „string“ hat

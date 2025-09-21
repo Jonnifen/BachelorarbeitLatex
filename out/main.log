@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  20 SEP 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.6.30)  21 SEP 2025 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1244,7 +1244,7 @@ been already used, duplicate ignored
 l.36 \item D
             er Carrier, auf dem die Umrichter befestigt werden, ist speziell...
 [2]
-<Grafiken/Test Cabin.jpg, id=242, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=248, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 48.
@@ -1355,7 +1355,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 [17]
-<Grafiken/Beispiel_Teststandgraphen.png, id=415, 712.91344pt x 608.2725pt>
+<Grafiken/Beispiel_Teststandgraphen.png, id=421, 712.91344pt x 608.2725pt>
 File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
 <use Grafiken/Beispiel_Teststandgraphen.png>
 Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
@@ -1371,17 +1371,28 @@ Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
 Aus-le-se-funk-tio-nen der Web-Applikation. 
  []
 
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 26.
-
+<Grafiken/XML-Strukturdiagramm.png, id=439, 539.01375pt x 348.30125pt>
+File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
+<use Grafiken/XML-Strukturdiagramm.png>
+Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
+27.
+(pdftex.def)             Requested size: 418.96548pt x 270.73318pt.
 
 
 [19]
+<Grafiken/Elementaufbau.png, id=447, 754.31813pt x 119.44624pt>
+File: Grafiken/Elementaufbau.png Graphic file (type png)
+<use Grafiken/Elementaufbau.png>
+Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 39.
+(pdftex.def)             Requested size: 418.96548pt x 66.34265pt.
 
-[20]
+
+[20 <./Grafiken/XML-Strukturdiagramm.png> <./Grafiken/Elementaufbau.png>]
 
 [21]
-Overfull \hbox (3.03555pt too wide) in paragraph at lines 183--184
+
+[22]
+Overfull \hbox (3.03555pt too wide) in paragraph at lines 198--199
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1389,15 +1400,21 @@ Overfull \hbox (3.03555pt too wide) in paragraph at lines 183--184
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
 turkonzeption.tex
 
-[22]
+[23]
 
-LaTeX Warning: Reference `XML-Schema' on page 23 undefined on input line 20.
+LaTeX Warning: Reference `XML-Schema' on page 24 undefined on input line 18.
+
+<Grafiken/Bild von ER-Modell.png, id=540, 562.1pt x 396.48125pt>
+File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
+<use Grafiken/Bild von ER-Modell.png>
+Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
+.
+(pdftex.def)             Requested size: 418.96548pt x 295.52106pt.
 
 
-LaTeX Warning: Reference `' on page 23 undefined on input line 20.
+[24]
 
-
-LaTeX Warning: Reference ` ' on page 23 undefined on input line 33.
+LaTeX Warning: Reference ` ' on page 25 undefined on input line 40.
 
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
@@ -1405,9 +1422,7 @@ oberflächen-Design.tex)
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
 rchitektur.tex)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[23]
-
-[24]
+[25 <./Grafiken/Bild von ER-Modell.png>]
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
 Daten.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
@@ -1417,7 +1432,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[25]
+[26]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -1425,13 +1440,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[26]
+[27]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[27]
+[28]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1498,6 +1513,9 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1505,23 +1523,23 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27982 strings out of 473197
- 537220 string characters out of 5718605
- 1586444 words of memory out of 5000000
- 50519 multiletter control sequences out of 15000+600000
+ 28021 strings out of 473197
+ 538571 string characters out of 5718605
+ 1586635 words of memory out of 5000000
+ 50554 multiletter control sequences out of 15000+600000
  593715 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,10941b,2428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/hel
 vetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8
 a.pfb>
 Output written on /home/jbf/PycharmProjects/BachelorarbeitLatex1/out/main.pdf (
-37 pages, 425609 bytes).
+38 pages, 610044 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 746 compressed objects within 8 object streams
- 226 named destinations out of 1000 (max. 500000)
- 482 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 759 compressed objects within 8 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 497 words of extra memory for PDF output out of 10000 (max. 10000000)
 
