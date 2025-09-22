@@ -21,15 +21,15 @@
 \contentsline {subsubsection}{\numberline {2.4.3}Formen der Datenvisualisierung}{13}{subsubsection.2.4.3}%
 \contentsline {subsubsection}{\numberline {2.4.4}Qualitätskriterien}{14}{subsubsection.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.4.5}Technologische Aspekte}{14}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Grphen erstellung mit JS}{15}{subsubsection.2.4.6}%
 \contentsline {subsection}{\numberline {2.5}Anforderungen an modulare Softwareentwicklung}{15}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}Klare Modulabgrenzung und Verantwortlichkeiten}{15}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Geringe Kopplung und hohe Kohäsion}{15}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Einheitliche Schnittstellen}{15}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Wiederverwendbarkeit}{15}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.4}Wiederverwendbarkeit}{16}{subsubsection.2.5.4}%
 \contentsline {subsubsection}{\numberline {2.5.5}Erweiterbarkeit und Anpassungsfähigkeit}{16}{subsubsection.2.5.5}%
 \contentsline {subsubsection}{\numberline {2.5.6}Testbarkeit}{16}{subsubsection.2.5.6}%
 \contentsline {subsubsection}{\numberline {2.5.7}Konsistenz und Standardisierung}{16}{subsubsection.2.5.7}%
-\contentsline {subsubsection}{\numberline {2.5.8}Technologische Unabhängigkeit}{16}{subsubsection.2.5.8}%
 \contentsline {section}{\numberline {3}Analyse und Konzeption}{17}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Defintion der Anforderungen}{17}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Technische Anforderungen}{17}{subsubsection.3.1.1}%
