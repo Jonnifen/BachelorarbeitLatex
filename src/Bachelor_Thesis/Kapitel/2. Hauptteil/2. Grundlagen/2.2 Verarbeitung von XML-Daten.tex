@@ -149,43 +149,45 @@ XPath wird hauptsächlich in der Transformationssprache XSLT (eXtensible Stylesh
 Zudem wird XPath in anderen Programmiersprachen wie z.B. JavaScript, C# oder einigen Pythonbibliotheken für die Adressierung von Bestandteilen des XML-Baums verwendet.
 
 
-
-\begin{table}
+\begin{table}[h!]
     \centering
-    \begin{tabular}{|l|l|X|}
-        \toprule
+    \begin{tabular}{|l|l|p{8cm}|} % p{8cm} für automatischen Umbruch
+        \hline
         \textbf{Name} & \textbf{Kurz-Notation} & \textbf{selektierte Knoten} \\
-        \midrule
+        \hline
         / & / & Wurzelknoten \\
-        child & (nicht notwendig) & direkt untergeordnete
-  Knoten (Kindknoten) \\
-        self & . & aktuelle Knoten
-  (Kontextknoten) \\
-        parent & .. & direkt übergeordneter
-  Knoten (Elternknoten) \\
-        descendant & .// & alle untergeordnete
-  Knoten \\
-        descendant-or-self &   & alle untergeordnete
-  Knoten sowie der aktuelle Knoten \\
-        ancestor &   & alle übergeordnete
-  Knoten \\
-        ancestor-or-self &   & alle übergeordneten
-  Knoten sowie der aktuelle Knoten \\
-        following &   & alle nachfolgende
-  Knoten (ohne Kindknoten) \\
-        following-sibling &   & alle nachfolgende
-  Knoten (ohne Kindknoten), die den gleichen Elternknoten haben \\
-        preceding &   & alle vorangehende
-  Knoten (ohne alle Elternknoten) \\
-        preceding-sibling &   & alle vorangehende
-  Knoten (ohne alle Elternknoten), die den gleichen Elternknoten haben \\
+        \hline
+        child & (nicht notwendig) & direkt untergeordnete Knoten (Kindknoten) \\
+        \hline
+        self & . & aktuelle Knoten (Kontextknoten) \\
+        \hline
+        parent & .. & direkt übergeordneter Knoten (Elternknoten) \\
+        \hline
+        descendant & .// & alle untergeordnete Knoten \\
+        \hline
+        descendant-or-self &  & alle untergeordnete Knoten sowie der aktuelle Knoten \\
+        \hline
+        ancestor &  & alle übergeordnete Knoten \\
+        \hline
+        ancestor-or-self &  & alle übergeordneten Knoten sowie der aktuelle Knoten \\
+        \hline
+        following &  & alle nachfolgende Knoten (ohne Kindknoten) \\
+        \hline
+        following-sibling &  & alle nachfolgende Knoten (ohne Kindknoten), die den gleichen Elternknoten haben \\
+        \hline
+        preceding &  & alle vorangehende Knoten (ohne alle Elternknoten) \\
+        \hline
+        preceding-sibling &  & alle vorangehende Knoten (ohne alle Elternknoten), die den gleichen Elternknoten haben \\
+        \hline
         attribute & @ & Attributknoten \\
-        namespace &   & Namensraumknoten \\
-        \bottomrule
+        \hline
+        namespace &  & Namensraumknoten \\
+        \hline
     \end{tabular}
     \caption{Übersicht über XPath-Achsen}
-    \label{tab: Übersicht über XPath-Achsen}
-        {Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
+    \label{tab:xpath}
+    \vspace{0.2cm}
+    {\small Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
 \end{table}
 
 \paragraph{Pythonbibliotheken für XML-Verarbeitung}
