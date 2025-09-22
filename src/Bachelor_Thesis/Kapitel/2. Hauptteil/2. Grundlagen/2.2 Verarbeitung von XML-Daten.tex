@@ -257,5 +257,30 @@ ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek.
 Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
 Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
 
-lxml
+
+\subsection*{xml.etree.ElementTree}
+Die Standardbibliothek für XML in Python. Einfach zu benutzen, ohne Zusatzinstallation. Gut geeignet für kleine bis mittlere XML-Dateien. Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber keine XSLT oder komplexe Features\ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}.
+
+\subsection*{xml.dom.minidom}
+Eine DOM-basierte Implementierung in Python. Ermöglicht den Zugriff auf XML über das klassische Document Object Model. Bietet feine Kontrolle, wirkt aber oft sperrig und weniger performant.
+https://docs.python.org/3/library/xml.dom.minidom.html
+\subsection*{xml.sax}
+Ein eventbasiertes XML-Parsing. Liest XML zeilenweise und löst Ereignisse aus, wenn Elemente gefunden werden. Sehr speichersparend und ideal für sehr große XML-Dateien, aber auch komplizierter in der Anwendung.
+https://docs.python.org/3/library/xml.sax.html
+\subsection*{lxml}
+Die leistungsfähigste XML/HTML-Bibliothek in Python. Basiert auf den C-Bibliotheken libxml2 und libxslt sehr schnell. Unterstützt XPath, XSLT, Validierung und kann sowohl sauberes XML als auch „kaputtes“ HTML verarbeiten. Der De-facto-Standard für komplexe XML-Verarbeitung.
+https://lxml.de/
+\subsection*{BeautifulSoup}
+Eigentlich für HTML gedacht, funktioniert aber auch mit XML. Sehr tolerant gegenüber fehlerhaftem Code, was es beim Web-Scraping nützlich macht. Langsamer als lxml, aber sehr einfach in der Benutzung.
+https://pypi.org/project/beautifulsoup4/
+\subsection*{xmlschema}
+Spezialisiert auf XML-Schema (XSD). Kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln. Perfekt, wenn du sicherstellen musst, dass XML-Daten einer bestimmten Struktur entsprechen.
+https://pypi.org/project/xmlschema/
+\subsection*{defusedxml}
+Eine sichere Variante der Standardbibliotheken. Schützt vor bekannten XML-Sicherheitslücken wie „Billion Laughs“ oder XXE. Wichtig, wenn XML aus unsicheren Quellen kommt.
+https://pypi.org/project/defusedxml/
+\subsection*{untangle}
+Sehr einfache Bibliothek, die XML in Python-Objekte übersetzt. Damit kannst du XML fast wie normale Attribute ansprechen. Gut für kleine Projekte, aber eingeschränkt im Funktionsumfang.
+https://pypi.org/project/untangle/
+https://untangle.readthedocs.io/en/latest/
 \pagebreak
