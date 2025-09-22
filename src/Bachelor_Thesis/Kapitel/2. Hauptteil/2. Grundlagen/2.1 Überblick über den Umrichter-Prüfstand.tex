@@ -25,18 +25,17 @@ Die Test-Bench besteht aus mehreren Komponenten, die sich im Testraum in untersc
 
 \item Das Netzteil wandelt die 400-V-Netzspannung in eine isolierte Gleichspannung für den Zwischenkreis um.
 Das Netzteil liefert maximal 80 kW mit 1200 V DC oder 800 V DC, welche Werte verwendet werden, kann vor Teststart bestimmt werden.
-In Abbildung \ref{fig:1. Aufbau des Teststandes} wird das Netzteil als PSU bezeichnet, was für „Power Supply Unit“ steht.
+In Abbildung \ref{fig: Aufbau des Teststandes} wird das Netzteil als PSU bezeichnet, was für „Power Supply Unit“ steht.
 \item Das Elektronik-Rack, auf dem die Mess- und Steuerkomponenten befestigt sind, ist ein wichtiger Bestandteil des Teststandes.
 Hier befindet sich auch der (XCS2100) System-Controller, der das ganze System mit dem PC, auf dem die Test-Bench-Software läuft, via Ethernet verbindet.
-In Abbildung \ref{fig:1. Aufbau des Teststandes} mit ER bezeichnet, für „Electronic Rack“.
+In Abbildung \ref{fig: Aufbau des Teststandes} mit ER bezeichnet, für „Electronic Rack“.
 \item Der Testmatrix-Schrank, in dem die Sammelschienen für den Stromanschluss und die Schützen sitzen.
-In Abbildung \ref{fig:1. Aufbau des Teststandes} mit TM bezeichnet, für „Test Matrix cabine“.
+In Abbildung \ref{fig: Aufbau des Teststandes} mit TM bezeichnet, für „Test Matrix cabine“.
 \item Der Schrank mit dem Kühlungssystem, da die Umrichter während des Betriebes mit Wasser oder Luft gekühlt werden müssen.
-In Abbildung \ref{fig:1. Aufbau des Teststandes} mit „Cool1“ bezeichnet.
+In Abbildung \ref{fig: Aufbau des Teststandes} mit „Cool1“ bezeichnet.
 \item Der Carrier, auf dem die Umrichter befestigt werden, ist speziell für bestimmte Umrichter konstruiert.
 Dieser wird speziell für bestimmte Umrichter konstruiert.
-In Abbildung \ref{fig:1. Aufbau des Teststandes} wird der Carrier als Carrier 1 bezeichnet.
-Body text
+In Abbildung \ref{fig: Aufbau des Teststandes} wird der Carrier als Carrier1 bezeichnet.
 
 \end{itemize}
 
@@ -45,9 +44,9 @@ ein PC mit einer Software zum Steuern der Testeinrichtung sowie eine Betriebsanz
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{Grafiken/Test Cabin.jpg}
+    \includegraphics[width=0.8\textwidth]{Grafiken/Test Cabin}
     \caption{Aufbau des Teststandes}
-    \label{fig:1. Aufbau des Teststandes}
+    \label{fig: Aufbau des Teststandes}
     {Quelle: \cite*[7]{Main_Manuel_USTB2018}}
 \end{figure}
 %------------------------------------------------------------------------------------------------------
@@ -65,17 +64,25 @@ Der Driver Consumption Test überprüft den Stromverbrauch des Treibers im Leerl
 Pulse Test:
 Der Impulstest verfügt über drei Funktionsmodi.
 \begin{itemize}
-    \item Im Modus „Functional-Switching“ (FSW) kann überprüft werden, ob die Halbleiter generell schalten.
-    \item Im Modus „Over-Current-Protection“ (OCP) kann die Überstromüberwachung weiche Kurzschlüsse überprüfen.
+    \item Im Modus \ac{FSW} kann überprüft werden, ob die Halbleiter, die sich in den \ac{DUTs} befinden, generell schalten.
+    \item Im Modus \ac{OCP} kann die Überstromüberwachung weiche Kurzschlüsse überprüfen.
     Ein weicher Kurzschluss ist, wenn der Stromfluss nicht sofort und vollkommen unterbrochen wird.
-    \item Im Modus „Dynamic-Short-Circuit-Protection“ (DSCP) wird ein harter Kurzschluss, also ein vollständiger und sofortiger Kurzschluss, überprüft.
+    \item Im Modus \ac{DSCP} wird ein harter Kurzschluss, also ein vollständiger und sofortiger Kurzschluss, überprüft.
 \end{itemize}
 
+
 Power Test:
-Mit diesem Test werden zwei verschiedene Funktionen getestet werden. \\
-Der Burn-In-Test (BIT) dient dazu, die \ac{DUTs} zyklisch zu betreiben und so reale Betriebszustände zu simulieren.
-Zudem kann mit Hilfe dieser Funktion die Kühltemperatur überprüft werden, um die korrekte Wärmeübertragung der Halbleiter sicherzustellen.
-Während des Übertemperaturschutz-Tests (OTP) wird ein DUT, ähnlich wie beim Burn-In-Test (BIT), nur mit reduzierter Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst. \cite*{Main_Manuel_USTB2018}
+Mit diesem Test werden zwei verschiedene Funktionen getestet werden:
+
+\begin{itemize}
+
+    \item \ac{BIT} dient dazu, die \ac{DUTs} zyklisch zu betreiben und so reale Betriebszustände zu simulieren.
+    Zudem kann mit Hilfe dieser Funktion die Kühltemperatur überprüft werden, um die korrekte Wärmeübertragung der Halbleiter sicherzustellen.
+    \item Während des \ac{OTP} wird ein DUT, ähnlich wie beim \ac{BIT}, nur mit reduzierter
+    Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.\cite*{Main_Manuel_USTB2018}
+
+\end{itemize}
+
 %------------------------------------------------------------------------------------------------------
 \subsubsection{Testablauf}
 %------------------------------------------------------------------------------------------------------
@@ -87,7 +94,7 @@ Die Montage läuft wie folgt ab:
 Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von links nach rechts U-V-W. Dies ist für das Layout des Berichtes relevant.
 \item Der Kühlkreislauf wird angeschlossen, je nach Umrichtertyp Lüftungs- oder Wasserkühlung.
 \item Die \ac{DUTs} werden mit den AC- und DC-Link-Kontakten verbunden, um das Gerät zu betreiben und die DC-Spannung wieder abzuleiten.
-\item Das Anbringen von Signalkabeln zwischen DUT und Merkurbox. Die Merkurbox dient als Schnittstelle zwischen \ac{DUTs} und Test-Bench.
+\item Das Anbringen von Signalkabeln zwischen DUT und Merkurbox. Die Merkurbox dient als Schnittstelle zwischen \ac{DUTs} und Testbench.
 \item Das Montieren von VCE-Klemmen an die AC-Kontakte der \ac{DUTs}.
 
 \end{enumerate}
@@ -110,7 +117,7 @@ ob sich die Werte in einem bestimmten Toleranzbereich befinden.
 
 \end{enumerate}
 
-Nach dem Durchlaufen eines Tests wird automatisch ein XML-Datenfile mit den erhobenen Messdaten generiert,
+Nach dem Durchlaufen eines Tests wird automatisch ein \ac{XML}-Datenfile mit den erhobenen Messdaten generiert,
 die enthaltenen Messwerte und alle vorher bestimmten Einstellungen erstellt und in eine Datei eingefügt.
 
 Bei der Demontage nach dem Testdurchlauf werden alle Schritte in umgekehrter Reihenfolge durchgeführt.
