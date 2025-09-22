@@ -228,25 +228,32 @@ Für die richtige Form des Lokalisierungsschrittes muss der Achsenname mit zwei
 Wenn anstelle des Knotenteste bzw.
 dem Knotenname das Wildcard-Zeichen * in einem Lokalisierungsschritte verwendet wird,
 werden unabhängig vom Namen und Achsen alle Knoten selektiert, welche sich unter dem letzten Lokalisierungsschritte befinden.
-
-Die Lokalisierungsschritte werden mit Hilfe des Schrägstrichs / voneinander getrennt.
-
-
-
-
+Die Lokalisierungsschritte werden mit Hilfe des Schrägstrichs / voneinander getrennt. \cite*{XPath2025}
+In der folgenden Abbildung \ref{fig: XPath-Ausdruck} ist ein Beispiel für ein XPath-Ausdruck.
+Dieser XPath würde in einem XML-Dokument mit Bucher das erste Buch auswählen welches vor 1900 erschienen ist, geht dann
+zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
 
 
-
-
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.95\textwidth}
+\begin{lstlisting}[language=XPath]
+//buch[jahr<1900]/following-sibling::buch[1]/titel
+\end{lstlisting}
+\end{minipage}
+\caption{Beispiel XPath-Ausdruck}
+\label{fig: XPath-Ausdruck}
+    {Quelle: eigene Darstellung}
+\end{figure}
 
 
 \paragraph{Pythonbibliotheken für XML-Verarbeitung}
-Neben diesen beide großen Beispielen gibt es auch einige kleiner Anbieter mit abgewandelten Methoden,
-die jedoch in dem Umfang deutlich kleiner gehalten sind und weniger Funktionen bitten.
-Sie basieren aber auf dem gleichen Grundkonzept.
+Für die Bearbeitung von \ac{XML}-Dokumenten gibt es in Python einige Bibliothek.
+Diese basieren auf den obengenannten Ansätzen, sind jedoch in dem Umfang deutlich kleiner gehalten  und bitten weniger Funktionen.
+Im folgen wird einige wichtige Bibliothek genannt und kurz erläuter.
 
 Ein Beispiel dafür wäre ElementTree.
-ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek, die für die Bearbeitung von \ac{XML} genutzt wird.
+ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek.
 Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
 Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
 
