@@ -10,12 +10,12 @@ formale Sprache, die verwendet werden, um die Struktur und Darstellung von Daten
 \ac{XML} wurde entwickelt, um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu übermitteln.
 Sie wird hauptsächlich in Bereichen wie Webdiensten, Datenbanken, Konfigurationsdateien eingesetzt.
 \ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau und kann sowohl für Menschen
-als auch für Maschinen interpretiert werden.\cite*{PeterBrezany2003}
+als auch für Maschinen interpretiert werden.\cite*[4]{PeterBrezany2003}
 
 Das Grundkonzept hinter \ac{XML} war, eine universelle einsetzbare und erweiterbare Sprache zu erschaffen, die von verschiedenen Systemen
 unabhängig von deren grundlegenden Technologieansatz genutzt werden kann.
 Hierbei ware das angestrebte Ziel Daten in einem einheitlichen Standard zwischen verschiedenen Anwendungen und Plattformen zu speichern und auszutauschen
-zu kömmen.\cite*{PeterBrezany2003}
+zu kömmen.\cite*[3-5]{PeterBrezany2003}
 %------------------------------------------------------------------------------------------------------
 \subsubsection{XML-Strukturaufbau}
 %------------------------------------------------------------------------------------------------------
@@ -45,21 +45,21 @@ dies sind jedoch optional und für diese Arbeit nicht weiter relevant.
 
 
 Der Hauptteil eines \ac{XML}-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
-Für jedes Element gibt es ein Start- und ein EndTag, welcher das Element beginnt und beendent.
-Ein Starttag kann beispeilwiese „<NamedesTags>“ so aus, dann würde der dazugehörige Endtag „</NamedesTags>“ so aussehen.
+Für jedes Element gibt es ein Start- und ein EndTag, welcher das Element beginnt und beendet.
+Ein Starttag kann beispielsweise „<NamedesTags>“ so aus, dann würde der dazugehörige Endtag „</NamedesTags>“ so aussehen.
 Der entscheidende Unterschied ist hierbei der Schrägstrich beim Endtag.
 Der Name des Elementes wird durch den Inhalt der Keiler- und Großer-Zeichen bestimmt, bei diesem Beispiel wäre der Name „NamedesTags“.
 Elemente haben einen Inhalt der aus Text, weiteren Elementen oder aus beidem bestehen kann,
 wenn Elemente andere Elemente beinhalten werden Sie als Elterelemente und die enthaltenen Elemente oft Kindelemente bezeichnet.
 Diese Eigenschaft der Elementente sorg dafür das XML-Datein einer hierarchischen Baumstruktur folgen.
-Hierbei wird das oberste Element als Wurzelelement bezeichnet,im Englischen „root element“.\cite*[10-14]{Becher2022}
+Hierbei wird das oberste Element als Wurzelelement bezeichnet, im Englischen „root element“.\cite*[10-14]{Becher2022}
 
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
-<buch>
+<buch><!-- Das Element "Buch" enthät 2 Kinderelement-->
   <titel>XML-Grundlagen</titel>
   <autor>Max Mustermann</autor>
 </buch>
@@ -71,17 +71,15 @@ Hierbei wird das oberste Element als Wurzelelement bezeichnet,im Englischen „r
 \end{figure}
 
 Jedes Element kann neben Inhalt auch beliebig vielen Attributen ausgestattet sein, die zusätzliche Informationen enthalten.
-Attribute werden im Start-Tag eines Elements definiert, diese bestehen immer aus eine Attributnamen und einem Wert.
+Attribute werden im Start-Tag eines Elements definiert, diese bestehen immer aus einem Attributnamen und einem Wert.
 Der Wert wird dabei mit Anführungszeichen deklariert, wie in Abbildung \ref{fig:XML Attribute Beispielcode} gezeigt. \cite*[10-14]{Becher2022}
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
-<buch genre="Lehrbuch">
-  <titel>XML-Grundlagen</titel>
-  <autor>Max Mustermann</autor>
-</buch>
+<buch genre="Lehrbuch">ES</buch>
+    <!--Hier ist das Attribute "genre" mit dem Inhat "Lehrbuch"-->
 \end{lstlisting}
 \end{minipage}
 \caption{XML Attribute Beispielcode}
@@ -90,7 +88,7 @@ Der Wert wird dabei mit Anführungszeichen deklariert, wie in Abbildung \ref{fig
 \end{figure}
 
 
-Kommentare werden mit den Tags „<--“ und „-->“ eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes \cite*[10-14]{Becher2022}.
+Kommentare werden mit den Tags „<!--“ und „-->“ eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes \cite*[10-14]{Becher2022}.
 Dies ist für die automatisch generierten Berichte irrelevant, jedoch für das Beschreiben der Beispiele hilfreich.
 In Abbildung \ref{fig:XML Elemente Beispielcode} und Abbildung \ref{fig:XML Attribute Beispielcode} werde diese zur Beschreiben verwendet.
 Kommentare werden beim Parsen des Dokuments ignoriert, parsen und Paser werden nachfolgenden Kapitel behandelt.
@@ -100,6 +98,9 @@ Kommentare werden beim Parsen des Dokuments ignoriert, parsen und Paser werden n
 In diesem Abschnitt wird eine Zusammenfassung der grundlegenden Methoden und Techniken gegeben,
 um \ac{XML}-Dateien mithilfe verschiedener Tools unabhängig von der verwendeten Programmiersprache zu verarbeiten.
 Es wird beschrieben, wie man \ac{XML}-Dateien analysiert, modifiziert und überprüft, um sie für verschiedene Zwecke einsatzbereit zu machen.
+An Ende des Abschnittes wird jedoch etwas genauer auf Methoden die in Python genutzt werde eingegangen.
+
+\paragraph{XML-Paser}
 
 Der erste Schritt beim verarbeiten einer \ac{XML}-Daten ist das Parsen.
 Hierbei wird die \ac{XML}-Datei in ein Programm geladen und in ein Format umgewandelt, das das Programm interpretieren kann.
@@ -140,8 +141,48 @@ Ein Beispiel für eine große ereignisbasierte \ac{API} ist \ac{SAX}.
 Diese \ac{API} abreitet nach dem oben beschriebenen Prinzip und wurde ursprünglich als Java-\ac{API} entwickelt, inzwischen gibt es \ac{SAX} auch für weiter Sprachen wie
 z. B. C++, Perl und Python.\cite*[405]{Becher2022}
 
+\paragraph{Adressierung mit XPath}
+
+Neben dem Einlesen der XML-Datei muss zum verwenden der Daten in dem XML-Dokument navigiert werden, um bestimmt Knoten zu adressieren.
+Aus diesem Grund wurde die Abfragesprache XML Path Language kurz XPath entwickelt.
+XPath wird hauptsächlich in der Transformationssprache XSLT (eXtensible Stylesheet Language Transformation) eingesetzt, welche XML-Dateien in ander Datenformate umwandeln soll.
+Zudem wird XPath in anderen Programmiersprachen wie z.B. JavaScript, C# oder einigen Pythonbibliotheken für die Adressierung von Bestandteilen des XML-Baums verwendet.
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabularx}{\textwidth}{|l|l|X|}
+\hline
+\textbf{Name} & \textbf{Kurz-Notation} & \textbf{selektierte Knoten} \\
+\hline
+/ & / & Wurzelknoten \\
+child & (nicht notwendig) & direkt untergeordnete Knoten (Kindknoten) \\
+self & . & aktuelle Knoten (Kontextknoten) \\
+parent & .. & direkt übergeordneter Knoten (Elternknoten) \\
+descendant & .// & alle untergeordnete Knoten \\
+descendant-or-self & & alle untergeordnete Knoten sowie der aktuelle Knoten \\
+ancestor & & alle übergeordnete Knoten \\
+ancestor-or-self & & alle übergeordneten Knoten sowie der aktuelle Knoten \\
+following & & alle nachfolgende Knoten (ohne Kindknoten) \\
+following-sibling & & alle nachfolgende Knoten (ohne Kindknoten), die den gleichen Elternknoten haben \\
+preceding & & alle vorangehende Knoten (ohne alle Elternknoten) \\
+preceding-sibling & & alle vorangehende Knoten (ohne alle Elternknoten), die den gleichen Elternknoten haben \\
+attribute & @ & Attributknoten \\
+namespace & & Namensraumknoten \\
+\hline
+\end{tabularx}
+\caption{Übersicht über XPath-Achsen}
+\label{tab:xpath Zeichen für Achsenbefehle}
+    {Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
+\end{table}
+
+
+\paragraph{Pythonbibliotheken für XML-Verarbeitung}
 Neben diesen beide großen Beispielen gibt es auch einige kleiner Anbieter mit abgewandelten Methoden,
 die jedoch in dem Umfang deutlich kleiner gehalten sind und weniger Funktionen bitten.
+Sie basieren aber auf dem gleichen Grundkonzept.
+
 Ein Beispiel dafür wäre ElementTree.
 ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek, die für die Bearbeitung von \ac{XML} genutzt wird.
 Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
