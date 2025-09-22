@@ -150,32 +150,43 @@ Zudem wird XPath in anderen Programmiersprachen wie z.B. JavaScript, C# oder ein
 
 
 
-\begin{table}[h!]
-\centering
-\begin{tabularx}{\textwidth}{|l|l|X|}
-\hline
-\textbf{Name} & \textbf{Kurz-Notation} & \textbf{selektierte Knoten} \\
-\hline
-/ & / & Wurzelknoten \\
-child & (nicht notwendig) & direkt untergeordnete Knoten (Kindknoten) \\
-self & . & aktuelle Knoten (Kontextknoten) \\
-parent & .. & direkt übergeordneter Knoten (Elternknoten) \\
-descendant & .// & alle untergeordnete Knoten \\
-descendant-or-self & & alle untergeordnete Knoten sowie der aktuelle Knoten \\
-ancestor & & alle übergeordnete Knoten \\
-ancestor-or-self & & alle übergeordneten Knoten sowie der aktuelle Knoten \\
-following & & alle nachfolgende Knoten (ohne Kindknoten) \\
-following-sibling & & alle nachfolgende Knoten (ohne Kindknoten), die den gleichen Elternknoten haben \\
-preceding & & alle vorangehende Knoten (ohne alle Elternknoten) \\
-preceding-sibling & & alle vorangehende Knoten (ohne alle Elternknoten), die den gleichen Elternknoten haben \\
-attribute & @ & Attributknoten \\
-namespace & & Namensraumknoten \\
-\end{tabularx}
-\caption{Übersicht über XPath-Achsen}
-\label{tab:Übersicht über XPath-Achsen}
-    {Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
+\begin{table}
+    \centering
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Name} & \textbf{Kurz-Notation} & \textbf{selektierte Knoten} \\
+        \midrule
+        / & / & Wurzelknoten \\
+        child & (nicht notwendig) & direkt untergeordnete
+  Knoten (Kindknoten) \\
+        self & . & aktuelle Knoten
+  (Kontextknoten) \\
+        parent & .. & direkt übergeordneter
+  Knoten (Elternknoten) \\
+        descendant & .// & alle untergeordnete
+  Knoten \\
+        descendant-or-self &   & alle untergeordnete
+  Knoten sowie der aktuelle Knoten \\
+        ancestor &   & alle übergeordnete
+  Knoten \\
+        ancestor-or-self &   & alle übergeordneten
+  Knoten sowie der aktuelle Knoten \\
+        following &   & alle nachfolgende
+  Knoten (ohne Kindknoten) \\
+        following-sibling &   & alle nachfolgende
+  Knoten (ohne Kindknoten), die den gleichen Elternknoten haben \\
+        preceding &   & alle vorangehende
+  Knoten (ohne alle Elternknoten) \\
+        preceding-sibling &   & alle vorangehende
+  Knoten (ohne alle Elternknoten), die den gleichen Elternknoten haben \\
+        attribute & @ & Attributknoten \\
+        namespace &   & Namensraumknoten \\
+        \bottomrule
+    \end{tabular}
+    \caption{Übersicht über XPath-Achsen}
+    \label{tab: Übersicht über XPath-Achsen}
+        {Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
 \end{table}
-
 
 \paragraph{Pythonbibliotheken für XML-Verarbeitung}
 Neben diesen beide großen Beispielen gibt es auch einige kleiner Anbieter mit abgewandelten Methoden,
