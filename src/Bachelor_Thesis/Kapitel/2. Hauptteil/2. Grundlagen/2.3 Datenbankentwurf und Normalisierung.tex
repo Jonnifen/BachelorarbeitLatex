@@ -1,13 +1,32 @@
-\subsection{Datenbankentwurf und Normalisierung}
+\usepackage{biblatex}\subsection{Datenbankentwurf und Normalisierung}
 \label{subsec:datenbankentwurf-und-normalisierung}
 %------------------------------------------------------------------------------------------------------
 Datenbanken sind strukturierte Zusammenstellungen von Daten, die elektronisch gespeichert und verwaltet werden.
 Ihr Hauptziel ist es, große Datenmengen strukturiert zu speichern, den Zugriff zu optimieren und die Integrität der Daten zu gewährleisten.
 Datenbanken haben im Vergleich zu anderen Dateisystemen Mechanismen, die mehreren Benutzern die parallele Nutzung ermöglichten,
-sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen.
+sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen.\cite*[6]{Fuchs2021}
 
-Um den unterschiedlichen Anforderungen an Konsistenz, Flexibilität und Skalierbarkeit gerecht zu werden, ist es unerlässlich,
-bei der Entwicklung moderner Informationssysteme relationale Datenbanken, dokumentenbasierte Systeme oder hybride Modelle zu verwenden.
+In der folgen werden die Hauptanforderungen an Datenbanken bzw. Datenbankmanagementsysteme kurz zusammengefasst:  \cite*[7]{Herrmann2018},\cite*[6]{Fuchs2021}Fuchs2021
+\begin{itemize}
+\item Datenunabhängigkeit: Speicherung unabhängig von Programmen und Plattformen
+\item
+Benutzerfreundlichkeit: Einfache Sprachen und grafische Oberflächen
+\item
+Mehrfachzugriff: Gleichzeitiger Zugriff für autorisierte Benutzer
+\item
+Flexibilität: Wahlfreier Zugriff und fortlaufende Verarbeitung
+\item
+Effizienz: Kurze Zeiten für Abfragen, Änderungen und Ergänzungen
+\item
+Datenschutz: Zugriff nach Benutzergruppen beschränkt
+\item
+Datensicherheit: Schutz vor Fehlern und Ausfällen
+\item
+Datenintegrität: Vollständige, korrekte und widerspruchsfreie Speicherung
+\item
+Redundanzfreiheit: Daten nur einmal speichern, Redundanz vermeiden
+\end{itemize}
+
 
 
 %------------------------------------------------------------------------------------------------------
@@ -15,7 +34,7 @@ bei der Entwicklung moderner Informationssysteme relationale Datenbanken, dokume
 %------------------------------------------------------------------------------------------------------
 Die Struktur der Datenbank legt fest, wie das Datenbanksystem organisiert ist und wie die Datenelemente angeordnet sind.
 Das Grundprinzip relationaler Datenbanken sind im Grunde Tabellen und die Beziehungen zwischen diesen.
-Die Hauptbestandteile sind:
+Die Hauptbestandteile sind: \cite*[35]{Gadatsch2019}
 
 \begin{itemize}
 \item Tabellen – das grundlegende Element, welches Daten in Zeilen (Tupeln) und Spalten (Attributen) strukturiert.
@@ -30,7 +49,7 @@ Die Hauptbestandteile sind:
 %------------------------------------------------------------------------------------------------------
 Ein methodischer Ansatz zur Reduzierung von Redundanzen und Anomalien ist die Normalisierung.
 Der Prozess erfolgt schrittweise durch die Normalformen, die durch Indizes (1NF, 2NF, 3NF, BCNF) definiert sind.
-Alle Normalformen haben spezifische Arten von Datenanomalien zum Ziel:
+Alle Normalformen haben spezifische Arten von Datenanomalien zum Ziel: \cite*[38-41]{Gadatsch2019}
 
 \begin{itemize}
 
@@ -42,7 +61,7 @@ Alle Normalformen haben spezifische Arten von Datenanomalien zum Ziel:
 
 Die Gewährleistung, dass Daten korrekt, konsistent und vollständig sind,
 fällt unter das Konzept der Datenintegrität.
-Sie wird erzielt durch:
+Sie wird erzielt durch: \cite*[38-41]{Gadatsch2019}
 
 \begin{itemize}
 \item
@@ -61,7 +80,7 @@ Referentielle Integrität (gültige Fremdschlüsselverweise).
 \subsubsection{Vorgehen zur Erstellung der Datenbank}
 %------------------------------------------------------------------------------------------------------
 Bei der Erstellung einer Datenbank sollte nach folgendem Schema vorgegangen werden.
-Bei diesem Schema gilt es, sowohl technische als auch konzeptionelle Aspekte zu berücksichtigen:
+Bei diesem Schema gilt es, sowohl technische als auch konzeptionelle Aspekte zu berücksichtigen: \cite*[9-11]{Herrmann2018}
 
 \begin{enumerate}
 
