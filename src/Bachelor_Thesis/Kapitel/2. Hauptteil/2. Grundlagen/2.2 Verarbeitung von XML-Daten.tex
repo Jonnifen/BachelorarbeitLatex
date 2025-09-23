@@ -129,7 +129,7 @@ da es das gesamte Dokument im Arbeitsspeicher ablegt, was bei großen \ac{XML}-D
 Die ereignisbasierten \ac{API}s lesen \ac{XML}-Dokument sequenziell von begin durch
 ein und meldet während des Lesens jedes Ereignis durch sogenannte Callbacks an die aufrufende Applikation zurück.
 Ein Ereignis ist ein Signal, das Änderungen in dem Markup-Status anzeigt.
-Das Bedeutet Ereignise tritten bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen, sowie bei den Grenzen des Dokumentes auf.
+Das bedeutet Ereignisse tritten bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen, sowie bei den Grenzen des Dokumentes auf.
 Der Parser sendet hierbei durch die Callbacks eine Mitteilung an die aufrufende Applikation, welche Ereignisse eingetreten sind.
 Das Programm, das den Parser aufgerufen hat, muss nun das Ereignis interpretieren und entsprechend reagieren.
 Das \ac{XML}-Dokument wird hierbei nicht vollständig im Arbeitsspeicher gespeichert, sondern in Teilen gelesen und bearbeitet.
@@ -145,13 +145,13 @@ z. B. C++, Perl und Python.\cite*[405]{Becher2022}
 
 Neben dem Einlesen der XML-Datei muss zum verwenden der Daten in dem XML-Dokument navigiert werden, um bestimmt Knoten zu adressieren.
 Aus diesem Grund wurde die Abfragesprache XML Path Language kurz XPath entwickelt.
-XPath wird hauptsächlich in der Transformationssprache XSLT (eXtensible Stylesheet Language Transformation) eingesetzt, welche XML-Dateien in ander Datenformate umwandeln soll.
+XPath wird hauptsächlich in der Transformationssprache \ac{XSLT} eingesetzt, welche XML-Dateien in ander Datenformate umwandeln soll.
 Zudem wird XPath in anderen Programmiersprachen wie z.B. JavaScript, C# oder einigen Pythonbibliotheken für die Adressierung von Bestandteilen des XML-Baums verwendet.
 
 Im Zusammenhang mit XML und XPath wird oft der Begriff Knoten verwindet.
-Knoten beschreiben Teile des XML-Dokumentes können aber auch das Dokument beschreiben.
+Knoten beschreiben Teile des XML-Dokumentes können, aber auch über das Wurzelknoten das gesamte Dokument beschreiben.
 Knoten können alle im XML-Dokument vorhanden strukturelle Teile sein,
-Daher kann bei Knoten zwischen ein paar unterschiedlichen Typen unterschieden:
+daher kann bei Knoten zwischen ein paar unterschiedlichen Typen unterschieden:
 
 \begin{itemize}
 \item Wurzelknoten, auch Dokumentknoten oder root genannt: Ursprung des XML-Dokuments.
@@ -165,12 +165,12 @@ Daher kann bei Knoten zwischen ein paar unterschiedlichen Typen unterschieden:
 
 Über dies Knoten kann man durch die XML-Struktur navigieren, aber um nach den Knoten zu adressieren werden Achsen benötigt.
 Achsen spezifiziert die Beziehung zwischen den Knote, um so die gewünschten Knoten zu selektieren.
-Es gibt Achsen welche nur ein Knoten adressieren, so wie Achsen welche mehrere Knoten gleichzeitig auswählen.
-In der folgenden Tabelle \ref{Übersicht über XPath-Achsen} werden die verschiedenen Achsen benannt und beschrieben.
+Es gibt Achsen, welche nur ein Knoten adressieren, so wie Achsen welche mehrere Knoten gleichzeitig auswählen.
+In der folgenden Tabelle \ref{tab:Übersicht über XPath-Achsen} werden die verschiedenen Achsen benannt und beschrieben.
 Für alle Achsen die keine Kurz-Notation enthalten muss im Code der Name ganz ausgeschrieben werden.
 
 
-\begin{table}[h!]
+\begin{table}[H]
     \centering
     \begin{tabular}{|l|l|p{8cm}|} % p{8cm} für automatischen Umbruch
         \hline
@@ -211,13 +211,13 @@ Für alle Achsen die keine Kurz-Notation enthalten muss im Code der Name ganz au
     {\small Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
 \end{table}
 
-Um die Selektierung der Knoten noch weiter einzugrenzen können sogenannte Prädikate verwendet werden.
+Um die Selektierung der Knoten noch weiter einzugrenzen, können sogenannte Prädikate verwendet werden.
 Prädikate befinden sich immer in eckigen Klammer und in diesen können verschiedene Operatoren genutzt werden.
 Dazu zählen die mathematischen Operatoren +(Addition), -(Subtraktion), *(Multiplikation), div(Division) und mod(Modulo, Divisionsrest),
 aber auch die logischen Operatoren and (und) und or (oder) sowie die Vergleichsoperatoren =(gleich), !=(ungleich),
 <(kleiner als), <=(kleiner-gleich), >(größer als) und >=(größer-gleich).
 Mit diese Operatoren und Aneinanderreihungen von diesen kann eine Vielzahl von Sucheingrenzungen geschaffen werden,
-welche die Genauigkeit der Suchen stark erhöhen und variable gestalten.
+welche die Genauigkeit der Suchen stark erhöhen und variable gestalten. \cite*{XPath2025}
 
 Ein XPath-Ausdruck, also ein Path welcher zur Adressierung von einem oder mehren Knoten verwendet wird,
 besteht aus einem oder mehreren Lokalisierungsschritten.
@@ -228,7 +228,7 @@ Für die richtige Form des Lokalisierungsschrittes muss der Achsenname mit zwei
 Wenn anstelle des Knotenteste bzw.
 dem Knotenname das Wildcard-Zeichen * in einem Lokalisierungsschritte verwendet wird,
 werden unabhängig vom Namen und Achsen alle Knoten selektiert, welche sich unter dem letzten Lokalisierungsschritte befinden.
-Die Lokalisierungsschritte werden mit Hilfe des Schrägstrichs / voneinander getrennt. \cite*{XPath2025}
+Die Lokalisierungsschritte werden mithilfe des Schrägstrichs / voneinander getrennt. \cite*{XPath2025}
 In der folgenden Abbildung \ref{fig: XPath-Ausdruck} ist ein Beispiel für ein XPath-Ausdruck.
 Dieser XPath würde in einem XML-Dokument mit Bucher das erste Buch auswählen welches vor 1900 erschienen ist, geht dann
 zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
@@ -247,40 +247,55 @@ zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
 \end{figure}
 
 
-\paragraph{Pythonbibliotheken für XML-Verarbeitung}
+\paragraph{Pythonbibliotheken für XML-Verarbeitung}\\
 Für die Bearbeitung von \ac{XML}-Dokumenten gibt es in Python einige Bibliothek.
-Diese basieren auf den obengenannten Ansätzen, sind jedoch in dem Umfang deutlich kleiner gehalten  und bitten weniger Funktionen.
-Im folgen wird einige wichtige Bibliothek genannt und kurz erläuter:
+Diese basieren auf den obengenannten Ansätzen, sind jedoch in dem Umfang deutlich kleiner gehalten und bitten weniger Funktionen.
+Im folgen wird einige wichtige Bibliotheken genannt und kurz erläuter:
 
-Ein Beispiel dafür wäre ElementTree.
-ElementTree ist eine unkomplizierte und minimalistische Python-Bibliothek.
-Sie präsentiert eine Baumstruktur, die das \ac{XML}-Dokument effektiv darstellt und einfache Techniken zum Durchsuchen,
-Modifizieren und Erstellen von \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
+\textbf{xml.etree.ElementTree}\\
+Die Standardbibliothek für XML in Python.
+Sie einfach zu benutzen und es sind keine Zusatzinstallation.
+Gut geeignet, um kleine bis mittlere XML-Dateien zu verarbeiten.
+Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber keine \ac{XSLT} oder komplexe Features für \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
 
+\textbf{xml.dom.minidom}\\
+Eine DOM-basierte Implementierung in Python.
+Ermöglicht den Zugriff auf XML über das klassische Document Object Model.
+Bietet feine Kontrolle, wirkt aber oft sperrig und weniger performant. \cite*{xml.dom.minidom}
 
-\subsection*{xml.etree.ElementTree}
-Die Standardbibliothek für XML in Python. Einfach zu benutzen, ohne Zusatzinstallation. Gut geeignet für kleine bis mittlere XML-Dateien. Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber keine XSLT oder komplexe Features\ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}.
+\textbf{xml.sax}\\
+Ein eventbasiertes XML-Parsing.
+Liest XML zeilenweise und löst Ereignisse aus, wenn Elemente gefunden werden.
+Sehr speichersparend und ideal für sehr große XML-Dateien, aber auch komplizierter in der Anwendung.\cite*{xml.sax}
 
-\subsection*{xml.dom.minidom}
-Eine DOM-basierte Implementierung in Python. Ermöglicht den Zugriff auf XML über das klassische Document Object Model. Bietet feine Kontrolle, wirkt aber oft sperrig und weniger performant.
-https://docs.python.org/3/library/xml.dom.minidom.html
-\subsection*{xml.sax}
-Ein eventbasiertes XML-Parsing. Liest XML zeilenweise und löst Ereignisse aus, wenn Elemente gefunden werden. Sehr speichersparend und ideal für sehr große XML-Dateien, aber auch komplizierter in der Anwendung.
-https://docs.python.org/3/library/xml.sax.html
-\subsection*{lxml}
-Die leistungsfähigste XML/HTML-Bibliothek in Python. Basiert auf den C-Bibliotheken libxml2 und libxslt sehr schnell. Unterstützt XPath, XSLT, Validierung und kann sowohl sauberes XML als auch „kaputtes“ HTML verarbeiten. Der De-facto-Standard für komplexe XML-Verarbeitung.
-https://lxml.de/
-\subsection*{BeautifulSoup}
-Eigentlich für HTML gedacht, funktioniert aber auch mit XML. Sehr tolerant gegenüber fehlerhaftem Code, was es beim Web-Scraping nützlich macht. Langsamer als lxml, aber sehr einfach in der Benutzung.
-https://pypi.org/project/beautifulsoup4/
-\subsection*{xmlschema}
-Spezialisiert auf XML-Schema (XSD). Kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln. Perfekt, wenn du sicherstellen musst, dass XML-Daten einer bestimmten Struktur entsprechen.
-https://pypi.org/project/xmlschema/
-\subsection*{defusedxml}
-Eine sichere Variante der Standardbibliotheken. Schützt vor bekannten XML-Sicherheitslücken wie „Billion Laughs“ oder XXE. Wichtig, wenn XML aus unsicheren Quellen kommt.
-https://pypi.org/project/defusedxml/
-\subsection*{untangle}
-Sehr einfache Bibliothek, die XML in Python-Objekte übersetzt. Damit kannst du XML fast wie normale Attribute ansprechen. Gut für kleine Projekte, aber eingeschränkt im Funktionsumfang.
-https://pypi.org/project/untangle/
-https://untangle.readthedocs.io/en/latest/
+\textbf{lxml}\\
+Die leistungsfähigste XML/HTML-Bibliothek in Python.
+Basiert auf den C-Bibliotheken libxml2 und libxslt und ist daher sehr schnell.
+Unterstützt XPath, \ac{XSLT}, Validierung und kann sowohl sauberes XML als auch „kaputtes“ HTML verarbeiten.
+Der wird oft als heutiger De-facto-Standard für komplexe XML-Verarbeitung in Python bezeichnet.\cite*{lxml}
+
+\textbf{BeautifulSoup}\\
+Eigentlich für HTML gedacht, funktioniert aber auch mit XML. Sehr tolerant gegenüber fehlerhaftem Code, was es beim Web-Scraping nützlich macht.
+Langsamer als lxml, aber sehr einfach in der Benutzung. \cite*{BeautifulSoup}
+
+\textbf{xmlschema}\\
+Spezialisiert auf \ac{XSD}.
+\ac{XSD} ist eine Sprache, die die Struktur und den Inhalt von XML-Dokumenten definiert.
+Xmlschema kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln.
+Gut geeignet, wenn du sicherstellen musst, dass XML-Daten einer bestimmten Struktur entsprechen. \cite*{xmlschema}
+
+\textbf{defusedxml}\\
+Eine sichere Variante der Standardbibliotheken.
+Schützt vor bekannten XML-Sicherheitslücken wie „Billion Laughs“ oder \ac{XXE}.
+Billion Laughs beschreibt das Einsetzen von stark verschachtelten und sich wiederholenden \ac{XML}-Strukturen die wenn Sie in
+den Parser geladen werden dadurch zu Speicher- oder CPU-Überlastung führen.
+Mit \ac{XXE} können Befehle im XML-Struktur genutzt werden, welche zu Sicherheitslücke beim XML-Parsing führen.
+So können Angreifer externe Entitäten einbinden, um Daten auszulesen oder sogar Befehle auszuführen.
+Wichtig, wenn XML aus unsicheren Quellen kommt. \cite*{defusedxml}
+
+\textbf{untangle}\\
+Sehr einfache Bibliothek, die XML in Python-Objekte übersetzt.
+Damit können XML-Strukturen fast wie normale Attribute angesprochen werden.
+Gut für kleine Projekte, aber eingeschränkt im Funktionsumfang. \cite*{untangle}
+
 \pagebreak
