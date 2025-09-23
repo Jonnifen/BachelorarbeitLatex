@@ -1,17 +1,33 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[96] biber:340> INFO - === Mo Sep  1, 2025, 10:46:50
-[111] Biber.pm:420> INFO - Reading 'main.bcf'
-[172] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
-[186] Biber.pm:4463> INFO - Processing section 0
-[196] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[197] bibtex.pm:1713> INFO - LaTeX decoding ...
-[201] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
-[251] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[252] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[252] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[252] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
-[258] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[260] bbl.pm:779> INFO - Output to main.bbl
-[260] Biber.pm:131> WARN - online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 21. August 2025]' of date field 'date' - ignoring
-[260] Biber.pm:133> INFO - WARNINGS: 1
+[54] biber:340> INFO - === Di Sep 23, 2025, 14:16:47
+[65] Biber.pm:420> INFO - Reading 'main.bcf'
+[111] Biber.pm:994> INFO - Found 16 citekeys in bib section 0
+[122] Biber.pm:4463> INFO - Processing section 0
+[129] Biber.pm:4654> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[129] bibtex.pm:1713> INFO - LaTeX decoding ...
+[139] bibtex.pm:1519> INFO - Found BibTeX data source '/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib'
+[211] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[211] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[211] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[211] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[219] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[223] bbl.pm:779> INFO - Output to main.bbl
+[223] Biber.pm:131> WARN - online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 21. August 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'xml.dom.minidom' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'xml.sax' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'lxml' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'BeautifulSoup' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'xmlschema' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'defusedxml' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[223] Biber.pm:131> WARN - online entry 'untangle' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring
+[224] Biber.pm:131> WARN - legacy month field 'July' in entry 'Fuchs2021' is not an integer - this will probably not sort properly.
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 31, warning: 29 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 65, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 72, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 79, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 87, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 95, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 103, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_juvA/fe6d16e8a0935a16f008a64fa11444f8_25025.utf8, line 111, warning: 2 characters of junk seen at toplevel
+[224] Biber.pm:133> INFO - WARNINGS: 17
