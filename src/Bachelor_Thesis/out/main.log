@@ -1,0 +1,2274 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  27 SEP 2025 13:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2025/09/09 v3.48 KOMA-Script document class (article)
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+)))
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip49
+\scr@dte@tocline@numbox=\box53
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 141.
+Class scrartcl Info: You've used standard option `oneside'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `twoside=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `twoside=false' there
+(scrartcl)           instead of `oneside', too.
+Package scrartcl Info: You've used standard option `11pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=11pt' there
+(scrartcl)             instead of `11pt', too.
+
+
+Class scrartcl Warning: You've used deprecated option `halfparskip'.
+(scrartcl)              Usage of this option indicates an old document
+(scrartcl)              and changes compatibility level using
+(scrartcl)              `parskip=half,version=first,
+(scrartcl)              enabledeprecatedfontcommands' that may result
+(scrartcl)              in further warnings.
+(scrartcl)              If you don't want this, you should simply
+(scrartcl)              replace option `halfparskip' by `parskip=half'.
+
+Class scrartcl Info: Switching compatibility level to `first'.
+
+Class scrartcl Warning: Switching back to an old KOMA-Script release does
+(scrartcl)              not mean, that KOMA-Script is fully compatible with
+(scrartcl)              the old release. If you need full compatibility
+(scrartcl)              to an old KOMA-Script release, you should use that
+(scrartcl)              old KOMA-Script release. However, in that case you
+(scrartcl)              could also need old releases of other packages and
+(scrartcl)              even of the LaTeX kernel.
+(scrartcl)              Please also note, that the KOMA-Script developers
+(scrartcl)              refuse support for documents using `version=first'.
+(scrartcl)              We recommend to eliminate all deprecated options
+(scrartcl)              and commands. We also recommend to not use option
+(scrartcl)              `version', i.e., with other values than `last'.
+
+
+Class scrartcl Warning: deprecated option `enabledeprecatedfontcommands'.
+(scrartcl)              Note, that this option was already depreacted when
+(scrartcl)              it has been defined. Support for old font commands
+(scrartcl)              has been removed from KOMA-Script more than one
+(scrartcl)              decade ago. It is not recommended to use them any
+(scrartcl)              longer. Therefore usage of this class option also
+(scrartcl)              is not recommended.
+
+Class scrartcl Info: You've used standard option `final'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `draft=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `draft=false' there
+(scrartcl)           instead of `final', too.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2486.
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (11pt
+)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count275
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 555.00024pt
+(typearea)              \topmargin      = 12.2347pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1807.
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\scr@dte@section@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5161.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5161.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5169.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5179.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5179.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5189.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5189.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5200.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5200.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5210.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5210.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box54
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6410.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count282
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6422.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count283
+Class scrartcl Info: Using old \@makefntext due to compatibility level
+(scrartcl)           less than 3.22 on input line 6579.
+Class scrartcl Info: Redefining `\numberline' on input line 6592.
+\bibindent=\dimen148
+)
+(./Einstellung/Grundeinstellungen_Jon.tex
+(c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2078.
+\U@D=\dimen149
+\l@unhyphenated=\language90
+
+(c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+
+(c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 12.
+)
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+)
+(c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthogra
+phy)
+
+(c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 12.
+)
+(c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 122.
+)))
+(c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box55
+\extrarowheight=\dimen151
+\NC@list=\toks20
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box56
+)
+(c:/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip67
+\RaggedLeftLeftskip=\skip68
+\RaggedRightLeftskip=\skip69
+\CenteringRightskip=\skip70
+\RaggedLeftRightskip=\skip71
+\RaggedRightRightskip=\skip72
+\CenteringParfillskip=\skip73
+\RaggedLeftParfillskip=\skip74
+\RaggedRightParfillskip=\skip75
+\JustifyingParfillskip=\skip76
+\CenteringParindent=\skip77
+\RaggedLeftParindent=\skip78
+\RaggedRightParindent=\skip79
+\JustifyingParindent=\skip80
+)
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2025/09/09 v3.48 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2025/09/09 v3.48 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 217
+9.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1106.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(c:/texlive/2025/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2022/07/23 v1.10.1
+Package textpos Info: choosing support for LaTeX3 on input line 60.
+\TP@textbox=\box57
+\TP@holdbox=\box58
+\TPHorizModule=\dimen154
+\TPVertModule=\dimen155
+\TP@margin=\dimen156
+\TP@absmargin=\dimen157
+
+Grid set 16 x 16 = 37.34424pt x 52.81543pt
+\TPboxrulesize=\dimen158
+\TP@ox=\dimen159
+\TP@oy=\dimen160
+\TP@tbargs=\toks21
+TextBlockOrigin set to 0pt x 0pt
+) (c:/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+
+(c:/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count286
+\calc@Bcount=\count287
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip81
+\calc@Bskip=\skip82
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count288
+\calc@Cskip=\skip83
+)
+(c:/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen163
+\ESO@tempdimb=\dimen164
+
+(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\AM@pagewidth=\dimen165
+\AM@pageheight=\dimen166
+\AM@fboxrule=\dimen167
+
+(c:/texlive/2025/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count290
+\AM@pagebox=\box59
+\AM@global@opts=\toks22
+\AM@pagecnt=\count291
+\AM@toc@title=\toks23
+\AM@lof@heading=\toks24
+\c@AM@survey=\count292
+\AM@templatesizebox=\box60
+)
+(c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks25
+\float@box=\box61
+\@float@everytoks=\toks26
+\@floatcapt=\box62
+)
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count294
+\csq@gtype=\count295
+\csq@glevel=\count296
+\csq@qlevel=\count297
+\csq@maxlvl=\count298
+\csq@tshold=\count299
+\csq@ltx@everypar=\toks27
+
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(c:/texlive/2025/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
+
+(c:/texlive/2025/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(c:/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
+(c:/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count300
+\xs_countb=\count301
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks28
+)
+(c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
+\Gm@dimlist=\toks29
+)
+(c:/texlive/2025/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(c:/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count305
+)
+(c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen176
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count308
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `final' set `true' on input line 4066.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066
+.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count309
+
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen177
+
+(c:/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count310
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring ON on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
+)
+Package hyperref Info: Driver: hpdftex.
+
+(c:/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
+
+(c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip84
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count316
+\lst@gtempboxa=\box63
+\lst@token=\toks30
+\lst@length=\count317
+\lst@currlwidth=\dimen180
+\lst@column=\count318
+\lst@pos=\count319
+\lst@lostspace=\dimen181
+\lst@width=\dimen182
+\lst@newlines=\count320
+\lst@lineno=\count321
+\lst@maxwidth=\dimen183
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count322
+\lst@skipnumbers=\count323
+\lst@framebox=\box64
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(c:/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count324
+
+(c:/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@maxcitecounter=\count340
+\c@savedcitecounter=\count341
+\c@uniquelist=\count342
+\c@uniquename=\count343
+\c@refsection=\count344
+\c@refsegment=\count345
+\c@maxextratitle=\count346
+\c@maxextratitleyear=\count347
+\c@maxextraname=\count348
+\c@maxextradate=\count349
+\c@maxextraalpha=\count350
+\c@abbrvpenalty=\count351
+\c@highnamepenalty=\count352
+\c@lownamepenalty=\count353
+\c@maxparens=\count354
+\c@parenlevel=\count355
+\blx@tempcnta=\count356
+\blx@tempcntb=\count357
+\blx@tempcntc=\count358
+\c@blx@maxsection=\count359
+\blx@maxsegment@0=\count360
+\blx@notetype=\count361
+\blx@parenlevel@text=\count362
+\blx@parenlevel@foot=\count363
+\blx@sectionciteorder@0=\count364
+\blx@sectionciteorderinternal@0=\count365
+\blx@entrysetcounter=\count366
+\blx@biblioinstance=\count367
+\labelnumberwidth=\skip85
+\labelalphawidth=\skip86
+\biblabelsep=\skip87
+\bibitemsep=\skip88
+\bibnamesep=\skip89
+\bibinitsep=\skip90
+\bibparsep=\skip91
+\bibhang=\skip92
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language91
+\c@mincomprange=\count368
+\c@maxcomprange=\count369
+\c@mincompwidth=\count370
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count371
+\c@savedafterword=\count372
+\c@annotator=\count373
+\c@savedannotator=\count374
+\c@author=\count375
+\c@savedauthor=\count376
+\c@bookauthor=\count377
+\c@savedbookauthor=\count378
+\c@commentator=\count379
+\c@savedcommentator=\count380
+\c@editor=\count381
+\c@savededitor=\count382
+\c@editora=\count383
+\c@savededitora=\count384
+\c@editorb=\count385
+\c@savededitorb=\count386
+\c@editorc=\count387
+\c@savededitorc=\count388
+\c@foreword=\count389
+\c@savedforeword=\count390
+\c@holder=\count391
+\c@savedholder=\count392
+\c@introduction=\count393
+\c@savedintroduction=\count394
+\c@namea=\count395
+\c@savednamea=\count396
+\c@nameb=\count397
+\c@savednameb=\count398
+\c@namec=\count399
+\c@savednamec=\count400
+\c@translator=\count401
+\c@savedtranslator=\count402
+\c@shortauthor=\count403
+\c@savedshortauthor=\count404
+\c@shorteditor=\count405
+\c@savedshorteditor=\count406
+\c@labelname=\count407
+\c@savedlabelname=\count408
+\c@institution=\count409
+\c@savedinstitution=\count410
+\c@lista=\count411
+\c@savedlista=\count412
+\c@listb=\count413
+\c@savedlistb=\count414
+\c@listc=\count415
+\c@savedlistc=\count416
+\c@listd=\count417
+\c@savedlistd=\count418
+\c@liste=\count419
+\c@savedliste=\count420
+\c@listf=\count421
+\c@savedlistf=\count422
+\c@location=\count423
+\c@savedlocation=\count424
+\c@organization=\count425
+\c@savedorganization=\count426
+\c@origlocation=\count427
+\c@savedoriglocation=\count428
+\c@origpublisher=\count429
+\c@savedorigpublisher=\count430
+\c@publisher=\count431
+\c@savedpublisher=\count432
+\c@language=\count433
+\c@savedlanguage=\count434
+\c@origlanguage=\count435
+\c@savedoriglanguage=\count436
+\c@pageref=\count437
+\c@savedpageref=\count438
+\shorthandwidth=\skip93
+\shortjournalwidth=\skip94
+\shortserieswidth=\skip95
+\shorttitlewidth=\skip96
+\shortauthorwidth=\skip97
+\shorteditorwidth=\skip98
+\locallabelnumberwidth=\skip99
+\locallabelalphawidth=\skip100
+\localshorthandwidth=\skip101
+\localshortjournalwidth=\skip102
+\localshortserieswidth=\skip103
+\localshorttitlewidth=\skip104
+\localshortauthorwidth=\skip105
+\localshorteditorwidth=\skip106
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count439
+\c@textcitetotal=\count440
+\c@textcitemaxnames=\count441
+\c@biburlbigbreakpenalty=\count442
+\c@biburlbreakpenalty=\count443
+\c@biburlnumpenalty=\count444
+\c@biburlucpenalty=\count445
+\c@biburllcpenalty=\count446
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count447
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count448
+\c@bbx:relatedtotal=\count449
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-verb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count450
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-09-02 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+Class scrartcl Info: loading recommended package `bookmark'.
+(scrartcl)           Using `bookmark' together with `hyperref' is recommended,
+(scrartcl)           because of handling of possible bookmark level gaps.
+(scrartcl)           You can avoid loading `bookmark' with KOMA-Script option
+(scrartcl)           `bookmarkpackage=false' before \begin{document} and
+(scrartcl)           you can avoid this message adding:
+(scrartcl)             \usepackage{bookmark}
+(scrartcl)           before \begin{document} on input line 25.
+
+(c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count451
+))
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 25
+.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 25.
+ (out/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 25.
+\big@size=\dimen184
+
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count452
+\scratchdimen=\dimen185
+\scratchbox=\box65
+\nofMPsegments=\count453
+\nofMParguments=\count454
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count455
+\MPscratchDim=\dimen186
+\MPnumerator=\count456
+\makeMPintoPDFobject=\count457
+\everyMPtoPDFconversion=\toks32
+) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+
+(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PD
+F (HO)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 441.01773pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=441.01773pt
+* \textheight=702.78308pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-24.31174pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 25.
+\c@lstlisting=\count458
+Package tocbasic Info: setting babel extension for `lol' on input line 25.
+\scr@dte@lstlisting@maxnumwidth=\skip107
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=4, 597.55246pt x 845.
+07718pt>
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf  
+used on input line 28.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=6, page=1, 597.55246p
+t x 845.07718pt>
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
+ page1 used on input line 28.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
+ page1 used on input line 28.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
+ page1 used on input line 28.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
+ page1 used on input line 28.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+
+
+File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
+df)
+<use Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, page 1>
+Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf ,
+ page1 used on input line 28.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[1
+
+
+ <./Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf>]
+(./Kapitel/0. Sperrvermerk/Sperrvermerk.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 6.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 6.
+
+Overfull \hbox (7.59288pt too wide) in paragraph at lines 8--10
+\T1/phv/m/n/10.95 Diese Ar-beit ent-h�lt ver-trau-li-che Da-ten und In-for-ma-t
+io-nen des Un-ter-neh-mens, in dem die Bachelor-
+ []
+
+
+
+[2{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
+5/texmf-dist/fonts/enc/dvips/base/8r.enc}])
+No file main.toc.
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 66.
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 66.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 66.
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 66.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 66.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 66.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+6.
+
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+ [2]
+No file main.lof.
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+
+
+[3]
+No file main.lot.
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+
+
+[4]
+
+[5] (./Kapitel/1. Einleitung/Einleitung.tex
+
+LaTeX Warning: Reference `sec:grundlagen' on page 1 undefined on input line 49.
+
+
+
+LaTeX Warning: Reference `sec:analyse-und-konzeption' on page 1 undefined on in
+put line 52.
+
+
+LaTeX Warning: Reference `sec:implementierung' on page 1 undefined on input lin
+e 54.
+
+
+LaTeX Warning: Reference `sec:integration-und-test' on page 1 undefined on inpu
+t line 55.
+
+
+LaTeX Warning: Reference `sec:fazit-und-ausblick' on page 1 undefined on input 
+line 57.
+
+)
+(./Kapitel/2. Hauptteil/2. Defintion der Anforderungen und ihre Interpretation.
+tex
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \newpage
+             [1]
+(./Kapitel/2. Hauptteil/2. Definition der Anforderungen und ihre Interpretation
+/2.1 Anforderungen.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 1.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31     \item D
+                ie Navigation zwischen den einzellenen Funktionen der Web-Ap...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
+although it is yet undefined on input line 33.
+
+Package acronym Warning: Acronym XML is not defined on input line 33.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 33.
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36     \item E
+                s soll Filterfunktionen für die Bericht-Tabelle zur verfüg...
+[2]
+
+LaTeX Warning: Reference `fig: Beispiel der Graphen aus Teststandprogramm' on p
+age 3 undefined on input line 38.
+
+<Grafiken/Beispiel_Teststandgraphen.png, id=91, 712.91344pt x 608.2725pt>
+File: Grafiken/Beispiel_Teststandgraphen.png Graphic file (type png)
+<use Grafiken/Beispiel_Teststandgraphen.png>
+Package pdftex.def Info: Grafiken/Beispiel_Teststandgraphen.png  used on input 
+line 44.
+(pdftex.def)             Requested size: 418.96548pt x 357.46689pt.
+
+
+[3 <./Grafiken/Beispiel_Teststandgraphen.png>]
+
+Package acronym Warning: Acronym XML is not defined on input line 64.
+
+)) (./Kapitel/2. Hauptteil/2. Grundlagen.tex
+
+[4]
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.1 Überblick über den Umrichter-Prüfs
+tand.tex
+
+LaTeX Warning: Citation 'Main_Manuel_USTB2018' on page 5 undefined on input lin
+e 9.
+
+
+Overfull \hbox (47.58983pt too wide) in paragraph at lines 5--10
+\T1/phv/m/n/10.95 Her-stel-lung ge-nutzt, um die Pro-dukt-qua-li-t�t und -funkt
+ionalit�t si-cher-zu-stel-len. [] 
+ []
+
+Package acronym Info: Label `acro:DUTs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 15.
+
+Package acronym Warning: Acronym DUTs is not defined on input line 15.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 15.
+
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+6.
+(c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 26.
+
+
+LaTeX Warning: Reference `fig: Aufbau des Teststandes' on page 5 undefined on i
+nput line 28.
+
+
+LaTeX Warning: Reference `fig: Aufbau des Teststandes' on page 5 undefined on i
+nput line 31.
+
+
+LaTeX Warning: Reference `fig: Aufbau des Teststandes' on page 5 undefined on i
+nput line 33.
+
+
+LaTeX Warning: Reference `fig: Aufbau des Teststandes' on page 5 undefined on i
+nput line 35.
+
+
+
+[5]
+
+LaTeX Warning: Reference `fig: Aufbau des Teststandes' on page 6 undefined on i
+nput line 38.
+
+
+LaTeX Warning: Citation 'Main_Manuel_USTB2018' on page 6 undefined on input lin
+e 43.
+
+<Grafiken/Test Cabin.jpg, id=123, 506.8755pt x 337.698pt>
+File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
+<use Grafiken/Test Cabin.jpg>
+Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 47.
+(pdftex.def)             Requested size: 352.81552pt x 235.06784pt.
+
+LaTeX Warning: Citation 'Main_Manuel_USTB2018' on page 6 undefined on input lin
+e 50.
+
+Package acronym Info: Label `acro:FSW' newly defined as it shall be overridden
+although it is yet undefined on input line 67.
+
+Package acronym Warning: Acronym FSW is not defined on input line 67.
+
+
+Package acronym Warning: Acronym FSW is not defined on input line 67.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 67.
+
+Package acronym Info: Label `acro:OCP' newly defined as it shall be overridden
+although it is yet undefined on input line 68.
+
+Package acronym Warning: Acronym OCP is not defined on input line 68.
+
+
+Package acronym Warning: Acronym OCP is not defined on input line 68.
+
+
+
+[6 <./Grafiken/Test Cabin.jpg>]
+Package acronym Info: Label `acro:DSCP' newly defined as it shall be overridden
+
+although it is yet undefined on input line 70.
+
+
+Package acronym Warning: Acronym DSCP is not defined on input line 70.
+
+
+Package acronym Warning: Acronym DSCP is not defined on input line 70.
+
+Package acronym Info: Label `acro:BIT' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
+
+Package acronym Warning: Acronym BIT is not defined on input line 79.
+
+
+Package acronym Warning: Acronym BIT is not defined on input line 79.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 79.
+
+Package acronym Info: Label `acro:OTP' newly defined as it shall be overridden
+although it is yet undefined on input line 81.
+
+Package acronym Warning: Acronym OTP is not defined on input line 81.
+
+
+Package acronym Warning: Acronym OTP is not defined on input line 81.
+
+
+Package acronym Warning: Acronym BIT is not defined on input line 81.
+
+
+LaTeX Warning: Citation 'Main_Manuel_USTB2018' on page 7 undefined on input lin
+e 82.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 89.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 96.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 97.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 98.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 102.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 105.
+
+
+LaTeX Warning: Citation 'Main_Manuel_USTB2018' on page 7 undefined on input lin
+e 106.
+
+
+
+[7]
+
+Package acronym Warning: Acronym XML is not defined on input line 120.
+
+
+
+[8]) (./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex
+
+Package acronym Warning: Acronym XML is not defined on input line 4.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 8.
+
+
+LaTeX Warning: Citation 'Neumann2019' on page 9 undefined on input line 9.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 10.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 12.
+
+
+LaTeX Warning: Citation 'PeterBrezany2003' on page 9 undefined on input line 13
+.
+
+
+Overfull \hbox (29.21976pt too wide) in paragraph at lines 8--14
+\T1/phv/m/n/10.95 wen-det wer-den, um die Struk-tur und Dar-stel-lung von Da-te
+n oder Tex-ten zu be-schrei-ben [].
+ []
+
+
+Package acronym Warning: Acronym XML is not defined on input line 15.
+
+
+LaTeX Warning: Citation 'PeterBrezany2003' on page 9 undefined on input line 18
+.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 22.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 22.
+
+
+LaTeX Warning: Reference `fig:XML Prolog Beispielcode' on page 9 undefined on i
+nput line 23.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 24.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 27.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 30.
+
+Package acronym Info: Label `acro:DTD' newly defined as it shall be overridden
+although it is yet undefined on input line 30.
+
+Package acronym Warning: Acronym DTD is not defined on input line 30.
+
+
+Package acronym Warning: Acronym DTD is not defined on input line 30.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 9 undefined on input line 32.
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 38.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 38.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 47.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 54.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 9 undefined on input line 55.
+
+
+
+[9{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 <buch><!-- Das Element "Buch" enthät 
+                                           2 Kinderelement-->
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 <buch><!-- Das Element "Buch" enthät 
+                                           2 Kinderelement-->
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+LaTeX Warning: Reference `fig:XML Attribute Beispielcode' on page 10 undefined 
+on input line 75.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 10 undefined on input line 75.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 10 undefined on input line 91.
+
+
+LaTeX Warning: Reference `fig:XML Elemente Beispielcode' on page 10 undefined o
+n input line 93.
+
+
+LaTeX Warning: Reference `fig:XML Attribute Beispielcode' on page 10 undefined 
+on input line 93.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 99.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 100.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 105.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 106.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 107.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 10 undefined on input line 110.
+
+
+
+[10]
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 112.
+
+
+Package acronym Warning: Acronym API is not defined on input line 112.
+
+
+Package acronym Warning: Acronym API is not defined on input line 112.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 112.
+
+
+Package acronym Warning: Acronym API is not defined on input line 113.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 11 undefined on input line 113.
+
+
+Overfull \hbox (96.42957pt too wide) in paragraph at lines 112--114
+[][]\T1/phv/m/n/10.95 -Dokument zu ge-ben. Bei [][]s wird in die-sem Be-reich z
+wi-schen zwei Grund-ty-pen unterschieden:[] 
+ []
+
+
+Package acronym Warning: Acronym API is not defined on input line 115.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 115.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 115.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 117.
+
+
+Package acronym Warning: Acronym API is not defined on input line 119.
+
+Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
+although it is yet undefined on input line 119.
+
+Package acronym Warning: Acronym DOM is not defined on input line 119.
+
+
+Package acronym Warning: Acronym DOM is not defined on input line 119.
+
+
+Package acronym Warning: Acronym DOM is not defined on input line 121.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 121.
+
+
+Package acronym Warning: Acronym DOM is not defined on input line 123.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 123.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 126.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 11 undefined on input line 126.
+
+
+Package acronym Warning: Acronym API is not defined on input line 129.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 129.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 135.
+
+
+Package acronym Warning: Acronym API is not defined on input line 136.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 136.
+
+
+Package acronym Warning: Acronym API is not defined on input line 137.
+
+
+Package acronym Warning: Acronym API is not defined on input line 138.
+
+
+Package acronym Warning: Acronym API is not defined on input line 140.
+
+Package acronym Info: Label `acro:SAX' newly defined as it shall be overridden
+although it is yet undefined on input line 140.
+
+Package acronym Warning: Acronym SAX is not defined on input line 140.
+
+
+Package acronym Warning: Acronym SAX is not defined on input line 140.
+
+
+Package acronym Warning: Acronym API is not defined on input line 141.
+
+
+Package acronym Warning: Acronym API is not defined on input line 141.
+
+
+Package acronym Warning: Acronym SAX is not defined on input line 141.
+
+
+LaTeX Warning: Citation 'Becher2022' on page 11 undefined on input line 142.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 146.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 146.
+
+Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
+
+although it is yet undefined on input line 148.
+
+Package acronym Warning: Acronym XSLT is not defined on input line 148.
+
+
+Package acronym Warning: Acronym XSLT is not defined on input line 148.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 148.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.149 ...ogrammiersprachen wie z.B. JavaScript, C#
+                                                   oder einigen Pythonbiblio...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 149.
+
+
+
+[11]
+
+Package acronym Warning: Acronym XML is not defined on input line 151.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 152.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 153.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 157.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 166.
+
+
+LaTeX Warning: Reference `tab:Übersicht über XPath-Achsen' on page 12 undefin
+ed on input line 169.
+
+
+LaTeX Warning: Citation 'XPath2025' on page 12 undefined on input line 170.
+
+
+LaTeX Warning: Citation 'XPath2025' on page 12 undefined on input line 211.
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 211.
+
+
+[12]
+
+LaTeX Warning: Citation 'XPath2025' on page 13 undefined on input line 220.
+
+
+LaTeX Warning: Citation 'XPath2025' on page 13 undefined on input line 231.
+
+
+LaTeX Warning: Reference `fig: XPath-Ausdruck' on page 13 undefined on input li
+ne 232.
+
+
+
+[13] (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+! Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 \begin{lstlisting}[language=XPath]
+                                        
+The following languages weren't loadable:
+    ,xpath$
+This may cause errors in the sequel.
+
+
+! Package Listings Error: language xpath undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 \begin{lstlisting}[language=XPath]
+                                        
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 F
+       ür die Bearbeitung von \ac{XML}-Dokumenten gibt es in Python einige ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 251.
+
+
+Overfull \hbox (8.9146pt too wide) in paragraph at lines 251--254
+[] \T1/phv/b/n/10.95 3.2.2.3 Py-thon-bi-blio-the-ken f�r XML-Verarbeitung[][] \
+T1/phv/m/n/10.95 F�r die Be-ar-bei-tung von [][]-Dokumenten
+ []
+
+
+Package acronym Warning: Acronym XSLT is not defined on input line 259.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 259.
+
+
+LaTeX Warning: Citation 'ElementTree2025' on page 14 undefined on input line 25
+9.
+
+
+LaTeX Warning: Citation 'xml.dom.minidom' on page 14 undefined on input line 26
+4.
+
+
+LaTeX Warning: Citation 'xml.sax' on page 14 undefined on input line 269.
+
+
+Package acronym Warning: Acronym XSLT is not defined on input line 274.
+
+
+LaTeX Warning: Citation 'lxml' on page 14 undefined on input line 275.
+
+
+LaTeX Warning: Citation 'BeautifulSoup' on page 14 undefined on input line 279.
+
+
+Package acronym Info: Label `acro:XSD' newly defined as it shall be overridden
+although it is yet undefined on input line 282.
+
+Package acronym Warning: Acronym XSD is not defined on input line 282.
+
+
+Package acronym Warning: Acronym XSD is not defined on input line 282.
+
+
+Package acronym Warning: Acronym XSD is not defined on input line 283.
+
+
+LaTeX Warning: Citation 'xmlschema' on page 14 undefined on input line 285.
+
+
+
+[14]
+Package acronym Info: Label `acro:XXE' newly defined as it shall be overridden
+although it is yet undefined on input line 289.
+
+
+Package acronym Warning: Acronym XXE is not defined on input line 289.
+
+
+Package acronym Warning: Acronym XXE is not defined on input line 289.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 290.
+
+
+Package acronym Warning: Acronym XXE is not defined on input line 292.
+
+
+LaTeX Warning: Citation 'defusedxml' on page 15 undefined on input line 294.
+
+
+LaTeX Warning: Citation 'untangle' on page 15 undefined on input line 299.
+
+)
+
+[15]
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.t
+ex
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage
+               {biblatex}\subsection{Datenbankentwurf und Normalisierung}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+
+Package acronym Warning: Acronym SQL is not defined on input line 7.
+
+
+Package acronym Warning: Acronym SQL is not defined on input line 7.
+
+
+LaTeX Warning: Citation 'Fuchs2021' on page 16 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'Herrmann2018' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Fuchs2021' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Gadatsch2019' on page 16 undefined on input line 37.
+
+
+
+[16]
+
+LaTeX Warning: Citation 'Gadatsch2019' on page 17 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'Gadatsch2019' on page 17 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Herrmann2018' on page 17 undefined on input line 83.
+
+
+
+[17]
+Overfull \hbox (12.26808pt too wide) in paragraph at lines 128--129
+[]\T1/phv/m/n/10.95 Definition von Da-ten-ty-pen und Zel-len-ko-fi-gu-ra-tio-ne
+n (z.B. NOT NULL, UN-I-QUE, CHECK). 
+ []
+
+
+Package acronym Warning: Acronym SQL is not defined on input line 134.
+
+)
+
+[18]
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.te
+x
+Overfull \hbox (6.50096pt too wide) in paragraph at lines 6--13
+\T1/phv/m/n/10.95 Unter Da-ten-vi-sua-li-sie-rung wird die vi-su-el-le Auf-be-r
+ei-tung von Da-ten ver-stan-den, um Mus-ter, Trends,
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 31.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 31.
+
+
+[19]
+
+[20]
+
+[21])
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.5 Anforderungen an modulare Softwareent
+wicklung.tex
+
+[22])
+
+[23]) (./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten X
+ML-Berichte und der bestehenden Strukturen.tex
+Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
+\T1/phv/m/n/10.95 stel-lung der Da-ten-bank und das Ver-st�nd-nis der Ein- und 
+Aus-le-se-funk-tio-nen der Web-Applikation. 
+ []
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 18.
+
+
+LaTeX Warning: Reference `fig: Aufbau unferänderlicher XML-Berichtstruktur' on
+ page 24 undefined on input line 23.
+
+<Grafiken/XML-Strukturdiagramm.png, id=283, 539.01375pt x 348.30125pt>
+File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
+<use Grafiken/XML-Strukturdiagramm.png>
+Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
+27.
+(pdftex.def)             Requested size: 418.96548pt x 270.73318pt.
+
+LaTeX Warning: Reference `fig: Elementaufbau aus XML-Bericht' on page 24 undefi
+ned on input line 35.
+
+
+
+[24 <./Grafiken/XML-Strukturdiagramm.png>]
+<Grafiken/Elementaufbau.png, id=293, 754.31813pt x 119.44624pt>
+File: Grafiken/Elementaufbau.png Graphic file (type png)
+<use Grafiken/Elementaufbau.png>
+Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 40.
+(pdftex.def)             Requested size: 418.96548pt x 66.34265pt.
+
+
+LaTeX Warning: Reference `fig: Direkte Kinderelement unter Stammelement' on pag
+e 25 undefined on input line 51.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 77.
+
+
+LaTeX Warning: Reference `fig: XML-Strukturbeispiel Info-Element' on page 25 un
+defined on input line 78.
+
+
+
+[25 <./Grafiken/Elementaufbau.png>]
+
+LaTeX Warning: Reference `fig: XML-Strukturbeispiel Testbench-Element' on page 
+26 undefined on input line 102.
+
+
+LaTeX Warning: Reference `fig: XML-Strukturbeispiel Testmodulheader' on page 26
+ undefined on input line 126.
+
+
+
+[26]
+
+LaTeX Warning: Reference `fig: XML-Strukturbeispiel Info-Element' on page 27 un
+defined on input line 152.
+
+
+LaTeX Warning: Reference `fig: Beispiel XPowertest Floatblock-Elemente' on page
+ 27 undefined on input line 164.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 180.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 183.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 184.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 184.
+
+
+LaTeX Warning: Reference `fig: Beispiel Fehler bei DriverConsumptionTest' on pa
+ge 27 undefined on input line 187.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 189.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 189.
+
+
+Package acronym Warning: Acronym XML is not defined on input line 191.
+
+
+Package acronym Warning: Acronym DUTs is not defined on input line 191.
+
+
+
+[27]
+Overfull \hbox (3.03555pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
+turkonzeption.tex
+
+LaTeX Warning: Reference `XML-Schema' on page 28 undefined on input line 18.
+
+
+LaTeX Warning: Reference `fig: ER-Modell Überlegung der Datenbankstruktur' on 
+page 28 undefined on input line 19.
+
+
+
+[28]
+<Grafiken/Bild von ER-Modell.png, id=377, 562.1pt x 396.48125pt>
+File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
+<use Grafiken/Bild von ER-Modell.png>
+Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
+.
+(pdftex.def)             Requested size: 418.96548pt x 295.52106pt.
+
+
+LaTeX Warning: Reference `fig: Darstellung der Datenbanktabellen und ihrer Verb
+indungen' on page 29 undefined on input line 40.
+
+<Grafiken/Tabellendiagramm Datenbank.png, id=378, 550.055pt x 449.17813pt>
+File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
+<use Grafiken/Tabellendiagramm Datenbank.png>
+Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
+ line 45.
+(pdftex.def)             Requested size: 418.96548pt x 342.13971pt.
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
+oberflächen-Design.tex
+
+[29 <./Grafiken/Bild von ER-Modell.png>]
+<Grafiken/Overlay_Einleseseite.png, id=385, 690.07813pt x 520.94624pt>
+File: Grafiken/Overlay_Einleseseite.png Graphic file (type png)
+<use Grafiken/Overlay_Einleseseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Einleseseite.png  used on input line 
+8.
+(pdftex.def)             Requested size: 418.96548pt x 316.28233pt.
+
+
+[30 <./Grafiken/Tabellendiagramm Datenbank.png>]
+<Grafiken/Overlay_Tabellenseite.png, id=393, 516.93124pt x 387.4475pt>
+File: Grafiken/Overlay_Tabellenseite.png Graphic file (type png)
+<use Grafiken/Overlay_Tabellenseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
+ 17.
+(pdftex.def)             Requested size: 418.96548pt x 314.03175pt.
+
+
+[31 <./Grafiken/Overlay_Einleseseite.png>]
+<Grafiken/Overlay_Ausgabeseite.png, id=401, 519.44063pt x 494.34688pt>
+File: Grafiken/Overlay_Ausgabeseite.png Graphic file (type png)
+<use Grafiken/Overlay_Ausgabeseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line 
+26.
+(pdftex.def)             Requested size: 418.96548pt x 398.72157pt.
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
+rchitektur.tex
+
+[32 <./Grafiken/Overlay_Tabellenseite.png>]))
+(./Kapitel/2. Hauptteil/4. Implementierung.tex
+
+[33 <./Grafiken/Overlay_Ausgabeseite.png>]
+<Grafiken/Ablaufdiagramm.png, id=415, 497.35812pt x 391.4625pt>
+File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
+<use Grafiken/Ablaufdiagramm.png>
+Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 10.
+(pdftex.def)             Requested size: 418.96548pt x 329.76404pt.
+
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
+Daten.tex)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
+)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.3 Entwicklung der Benutzeroberfläc
+he.tex)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
+rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
+
+[34 <./Grafiken/Ablaufdiagramm.png>]
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
+e Systemlandschaft.tex)
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
+ung.tex)
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
+.tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
+
+[35]
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
+tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
+ Erweiterungen.tex))
+
+[36]
+pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 \section{Literaturverzeichnis}
+                                    
+
+LaTeX Warning: Empty bibliography on input line 152.
+
+
+
+[1]
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \section{Anhangsverzeichnis}
+                                  
+
+[2] (./Kapitel/6. Erklärung/Erklärung.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Erklärung}
+                        )
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+
+[3] (out/main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 28397 strings out of 467797
+ 548119 string characters out of 5435982
+ 1585142 words of memory out of 5000000
+ 56310 multiletter control sequences out of 15000+600000
+ 660419 words of font info for 82 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 108i,21n,107p,11249b,2389s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texl
+ive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type
+1/urw/helvetic/uhvro8a.pfb>
+Output written on out/main.pdf (45 pages, 844231 bytes).
+PDF statistics:
+ 719 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 251 named destinations out of 1000 (max. 500000)
+ 554 words of extra memory for PDF output out of 10000 (max. 10000000)
+
