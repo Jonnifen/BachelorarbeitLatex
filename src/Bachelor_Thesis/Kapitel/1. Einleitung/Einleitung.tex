@@ -7,55 +7,101 @@
 \newpage
 \section{Einleitung}
 \label{sec:einleitung}
-Das Aufbereiten von Daten, sowohl in Bezug auf die Struktur, in der die Datensätze gespeichert werden,
-als auch in der visuellen Darstellung einzelner Datenreihen, ist für das
-Verstehen der dahinterliegenden Prozesse und der effizienten Arbeit mit ihnen unerlässlich.
-Das Erfassen von Messdaten und ihre Aufbereitung, so wie ihre Interpretation
-ist aus der modernen Welt nicht mehr wegzudenken.
-In allen Bereichen der Wissenschaft werden Messdaten erhoben, egal ob bei medizinischen Studien,
-Wetterdaten oder in der Industrie erhobenen Testdaten, Sie müssen alle
-verständlich aufbereitet werden.
 
-Die Speicherung,Aufbereitung und Visualisierung von größeren Datenmengen wir heutzutage meisten mit Softwaretools durchgeführt.
-Aus diesem Grund gibt es eine Vielzahl von Anbietern die
-Lizenzen für solchen Softwaretools vertreiben.
-Diese Tools sind oft aber allgemein gehalten und biete daher für fachspezifische Bereiche nicht den
-passenden Aufbau und Funktionen, welches sich Effiziente, Umgänglichkeit und
-vor alledem in der Genauigkeit widerspiegelt.
 
-Das Ziel dieser Arbeit ist es, eine Web-Applikation zu entwickeln, die als solch ein Softwaretool
-fungieren soll, welches spezifisch für einen Anwendungsbereich zugeschnitten ist.
-Die Applikation soll XML-Datensätze, die aus einem Umrichter-Teststand
-stammen strukturiert Speicher und visuell Darstellen kommen.
-Diese visuellen Daten sollen sowohl firmenintern zur Analyse als auch als in einem
-Kundenbericht nach außen weitergegeben werden, daher soll die Visualisierung sowohl
-einfach verständlich also auch professionell gehalten sein, hierbei soll
-möglichst auf eine intuitive und simple Nutzeroberfläche geachtet werden.
-Weiterhin soll die Applikation gut erweiterbar sein, um zukünftige Funktionen
-unkompliziert in die Software einzubetten.
-Zudem soll eine möglichst einfache Implementierung in die bestehende Softwareumgebung der Firma in dessen Rahmen
-diese Arbeite durchgeführt wird gewährleistet sein.
 
-Um das gesetzt Ziel und die Anforderungen im Zeitrahmen dieser Arbeit bestmöglich zu erfüllen, wird nach
-dem Erlangen und Ausformulieren der theoretischen Grundlagen der Erstellung für
-den eigentlichen Entwicklungsprozess der Web-Applikation eine inkrementelle und
-iterative Vorgehensweise vorgesehen.
-Diese soll für Flexibilität und gutes Risikomanagement in Bezug auf die Abgabe sorgen, da selbst bei Komplikation
-eine funktionelle Version zur Abgabe bereitsteht.
-Dieser Ansatz zur Entwicklung der Software wird sich nur geringfügig auf den Aufbaue der
-wissenschaftlichen Arbeit auswirken, sie wird nur in den theoretischen
-Grundlagen und im Fazit behandelt werden.
 
-Der allgemeine Aufbau des Hauptteils der Arbeit beginnt mit den Kapitel \ref{sec:grundlagen}. Grundlagen,
-die sich mit den theoretischen Hintergründen zur
-Entwicklung der Applikation, sowie mit den einzelnen zu implementierenden Funktionen beschäftigt.
-Gefolgt von Kapitel \ref{sec:analyse-und-konzeption}. Analyse und Konzeption, welches sich mit dem bestehenden System
-und den einzufügenden Strukturen befasst.
-Das dritte Kapitel \ref{sec:implementierung}. Implemetierung beschreibt die Entwicklung der Web-Applikation.
-Kapitel \ref{sec:integration-und-test}. Integration und Test beschreibt die Imtegration in das bestehende System und
-das Testen der Funktionalität.
-Abschließend Kapitel \ref{sec:fazit-und-ausblick}. Fazit und Ausblick werden die Ergebnisse zusammengefasst
-und ein Ausblick auf mögliche Erweiterungen gegeben.
+
+
+„Data is the new oil. Like oil, data is valuable, but if
+unrefined it cannot really be used.“
+
+– Clive Humby (2006).
+
+Die Aufbereitung von Daten, sowohl hinsichtlich ihrer
+Speicherstruktur als auch ihrer visuellen Darstellung, ist entscheidend, um die
+zugrunde liegenden Prozesse zu verstehen und effizient mit den Daten arbeiten
+zu können. Das Erfassen, Aufbereiten und Interpretieren von Messdaten ist aus
+der modernen Welt nicht mehr wegzudenken. In nahezu allen Bereichen der
+Wissenschaft werden Messdaten erhoben, sei es in medizinischen Studien, bei
+Wetteranalysen oder in industriellen Testverfahren. Damit diese Daten nutzbar
+sind, müssen sie verständlich aufbereitet werden.
+
+
+
+Die Speicherung, Verarbeitung und Visualisierung großer
+Datenmengen erfolgt heutzutage überwiegend mithilfe spezialisierter
+Softwaretools. Entsprechend existiert eine Vielzahl kommerzieller Anbieter, die
+Lizenzen für solche Lösungen vertreiben. Diese Tools sind jedoch meist
+allgemein gehalten und bieten für fachspezifische Anwendungen nicht immer den
+passenden Aufbau oder die erforderlichen Funktionen. Dies wirkt sich
+insbesondere auf Effizienz, Benutzerfreundlichkeit und Genauigkeit aus. Ein
+Beispiel für die praktische Relevanz der Datenaufbereitung ist die Anwendung im
+Bereich erneuerbarer Energien, die im Rahmen dieser Arbeit untersucht wird.
+
+
+
+Ziel dieser Arbeit ist die Entwicklung einer
+Web-Applikation, die als spezifisches Softwaretool für einen klar definierten
+Anwendungsbereich dient. Neben der Umsetzung werden auch der Aufbau, die
+Funktionsweise und das methodische Vorgehen beschrieben.
+
+
+
+Die Firma, für die dieses Softwaretool entwickelt wird, ist
+ein Serviceprovider für die Instandhaltung von Windenergieanlagen. Der
+Teststand, an dem die Software eingesetzt werden soll, dient der Prüfung von
+Umrichtern, die aus Windenergieanlagen stammen. Mittels eines firmeneigenen
+Prüfverfahrens wird dabei festgestellt, ob diese Komponenten erneut in den
+Anlagen verwendet werden können. Die im Rahmen der Tests erhobenen Messdaten
+werden zusammen mit den zugehörigen Parametern und Informationen in Form von
+XML-Dateien ausgegeben.
+
+
+
+Die Applikation soll diese XML-Datensätze strukturiert in
+einer Datenbank speichern und anschließend visuell aufbereiten. Die so
+erzeugten Darstellungen dienen sowohl der internen Analyse als auch der
+externen Kommunikation in Form von Kundenberichten. Dabei wird besonderer Wert
+auf eine professionelle und leicht verständliche Visualisierung gelegt. Zudem
+soll die Nutzeroberfläche intuitiv gestaltet und die Software modular
+erweiterbar sein, sodass zukünftige Funktionen problemlos ergänzt werden
+können. Ebenso wichtig ist eine einfache Integration in die bestehende
+Systemlandschaft der Firma.
+
+
+
+Um das gesetzte Ziel und die Anforderungen im Zeitrahmen
+dieser Arbeit bestmöglich zu erfüllen, wird nach dem Erlangen und
+Ausformulieren der theoretischen Grundlagen für die Erstellung der
+Web-Applikation eine inkrementelle und iterative Vorgehensweise vorgesehen.
+Diese soll für Flexibilität und hervorragendes Risikomanagement in Bezug auf
+die Abgabe sorgen, da selbst bei Komplikationen eine funktionelle Version
+vorliegt.
+
+
+
+Die generellen Anforderungen und ihre Interpretation werden
+in Kapitel \ref{sec:definition-der-anforderungen-und-ihre-interpretation}
+behandelt. Das Kapitel \ref{sec:grundlagen} Das Kapitel „Grundlagen“
+beschäftigt sich mit den theoretischen Hintergründen zur Entwicklung der
+Applikation sowie mit den einzelnen zu implementierenden Funktionen. Gefolgt
+von Kapitel \ref{sec:analyse-und-konzeption} „Analyse und Konzeption“, welches
+sich mit dem bestehenden System und den einzufügenden Strukturen befassen. Das
+dritte Kapitel \ref{sec:implementierung} „Implementierung“ beschreibt die
+Entwicklung der Web-Applikation. Kapitel \ref{sec:integration-und-test}
+„Integration und Test“ beschreibt die Einbindung in das bestehende System und
+das Testen der Funktionalität. Abschließend Kapitel
+\ref{sec:fazit-und-ausblick} „Fazit und Ausblick“ werden die Ergebnisse
+zusammengefasst. und ein Ausblick auf mögliche Erweiterungen gegeben.
+
+
+
+
+
+
+
+
 
 
 

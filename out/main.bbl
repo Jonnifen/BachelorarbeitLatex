@@ -45,36 +45,45 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{langid}{german}
       \field{title}{USTB DWT (XCT0006-1) Main Manual V1.0}
       \field{year}{2018}
     \endentry
     \entry{Neumann2019}{incollection}{}{}
       \name{author}{1}{}{%
-        {{hash=92d2b2b630c433068c4599d75ec6bd0f}{%
+        {{hash=60184058f20debe5c6caeeede9e6ac86}{%
            family={Neumann},
            familyi={N\bibinitperiod},
-           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Gustaf},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           given={Gustaf},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
       }
       \list{publisher}{1}{%
-        {Berlin : GITO}%
+        {GITO}%
       }
-      \strng{namehash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{fullhash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{fullhashraw}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{bibnamehash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{authorbibnamehash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{authornamehash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{authorfullhash}{92d2b2b630c433068c4599d75ec6bd0f}
-      \strng{authorfullhashraw}{92d2b2b630c433068c4599d75ec6bd0f}
+      \strng{namehash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{fullhash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{fullhashraw}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{bibnamehash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{authorbibnamehash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{authornamehash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{authorfullhash}{60184058f20debe5c6caeeede9e6ac86}
+      \strng{authorfullhashraw}{60184058f20debe5c6caeeede9e6ac86}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Gronau, Norbert ; Becker, Jörg ; Kliewer, Natalia ; Leimeister, Jan Marco ; Overhage, Sven (Herausgeber): Enzyklopädie der Wirtschaftsinformatik – Online-Lexikon}
-      \field{note}{[Online; Stand 18. August 2025]}
+      \field{booktitle}{Enzyklopädie der Wirtschaftsinformatik – Online-Lexikon}
+      \field{langid}{german}
+      \field{note}{Online; abgerufen am 18.08.2025}
       \field{title}{Auszeichnungssprache}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
       \field{year}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://wi-lex.de/index.php/lexikon/technologische-und-methodische-grundlagen/sprache/auszeichnungssprache/
       \endverb
@@ -91,7 +100,7 @@
            giveni={P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Institut für Softwarewissenschaften Universität Wien}%
+        {Institut für Softwarewissenschaften, Universität Wien}%
       }
       \strng{namehash}{364e3c9c063fe4a4cf5b8903b42ff370}
       \strng{fullhash}{364e3c9c063fe4a4cf5b8903b42ff370}
@@ -105,9 +114,21 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://homepage.univie.ac.at/peter.brezany/teach/kfk/02ws-vo/skriptum/14-01-03.pdf}
+      \field{howpublished}{Vorlesungsskript}
+      \field{langid}{german}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{XML und Datenbanken}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
       \field{year}{2003}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://homepage.univie.ac.at/peter.brezany/teach/kfk/02ws-vo/skriptum/14-01-03.pdf
+      \endverb
+      \verb{url}
+      \verb https://homepage.univie.ac.at/peter.brezany/teach/kfk/02ws-vo/skriptum/14-01-03.pdf
+      \endverb
     \endentry
     \entry{Becher2022}{inbook}{}{}
       \name{author}{1}{}{%
@@ -137,6 +158,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{XML: DTD, XML-Schema, XPath, XQuery, XSL-FO, SAX, DOM}
       \field{isbn}{978-3-658-35435-0}
+      \field{langid}{german}
       \field{title}{XML-Grundlagen}
       \field{year}{2022}
       \verb{doi}
@@ -149,7 +171,7 @@
       \verb https://doi.org/10.1007/978-3-658-35435-0_1
       \endverb
     \endentry
-    \entry{XPath2025}{misc}{}{}
+    \entry{XPath2025}{online}{}{}
       \name{author}{1}{}{%
         {{hash=ffd866295775cf403f28540355e77d56}{%
            family={Jung},
@@ -169,100 +191,116 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.homepage-webhilfe.de/XML/XPath/}}
-      \field{note}{Zugriff am: 2025-09-22}
-      \field{title}{Homepage Webhilfe Grundlagen XPath}
+      \field{langid}{german}
+      \field{note}{Online; abgerufen am 22.09.2025}
+      \field{title}{Homepage Webhilfe: Grundlagen XPath}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
       \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.homepage-webhilfe.de/XML/XPath/
+      \endverb
+      \verb{url}
+      \verb https://www.homepage-webhilfe.de/XML/XPath/
+      \endverb
     \endentry
     \entry{ElementTree2025}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 21.08.2025}
       \field{title}{xml.etree.ElementTree — The ElementTree XML API}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
       \endverb
       \verb{url}
       \verb https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
       \endverb
-      \warn{\item online entry 'ElementTree2025' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 21. August 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{xml.dom.minidom}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{xml.dom.minidom — Minimal DOM implementation}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.python.org/3/library/xml.dom.minidom.html
       \endverb
       \verb{url}
       \verb https://docs.python.org/3/library/xml.dom.minidom.html
       \endverb
-      \warn{\item online entry 'xml.dom.minidom' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{xml.sax}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{xml.sax — Support for SAX2 parsers}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://docs.python.org/3/library/xml.sax.html
       \endverb
       \verb{url}
       \verb https://docs.python.org/3/library/xml.sax.html
       \endverb
-      \warn{\item online entry 'xml.sax' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{lxml}{online}{}{}
       \name{author}{1}{}{%
@@ -284,104 +322,114 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{lxml - XML and HTML with Python}
+      \field{note}{Online; abgerufen am 22.09.2025}
+      \field{title}{lxml — XML and HTML with Python}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://lxml.de/
       \endverb
       \verb{url}
       \verb https://lxml.de/
       \endverb
-      \warn{\item online entry 'lxml' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{BeautifulSoup}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{4}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{beautifulsoup4 4.13.5}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://pypi.org/project/beautifulsoup4/
       \endverb
       \verb{url}
       \verb https://pypi.org/project/beautifulsoup4/
       \endverb
-      \warn{\item online entry 'BeautifulSoup' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{xmlschema}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{5}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{xmlschema 4.1.0}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://pypi.org/project/xmlschema/
       \endverb
       \verb{url}
       \verb https://pypi.org/project/xmlschema/
       \endverb
-      \warn{\item online entry 'xmlschema' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{defusedxml}{online}{}{}
       \name{author}{1}{}{%
-        {{hash=9688a568902e4b07b60557b566bdd820}{%
-           family={Foundation},
-           familyi={F\bibinitperiod},
-           given={Python\bibnamedelima Software},
-           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c7b5508dc5e59a2846d22617276cc27c}{%
+           family={{Python Software Foundation}},
+           familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{fullhashraw}{9688a568902e4b07b60557b566bdd820}
-      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
-      \strng{authorfullhashraw}{9688a568902e4b07b60557b566bdd820}
+      \strng{namehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{fullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{bibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorbibnamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authornamehash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhash}{c7b5508dc5e59a2846d22617276cc27c}
+      \strng{authorfullhashraw}{c7b5508dc5e59a2846d22617276cc27c}
       \field{extraname}{6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{defusedxml 0.7.1}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://pypi.org/project/defusedxml/
       \endverb
       \verb{url}
       \verb https://pypi.org/project/defusedxml/
       \endverb
-      \warn{\item online entry 'defusedxml' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{untangle}{online}{}{}
       \name{author}{1}{}{%
@@ -403,14 +451,18 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{Online; abgerufen am 22.09.2025}
       \field{title}{untangle: Convert XML to Python objects}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://untangle.readthedocs.io/en/latest/
       \endverb
       \verb{url}
       \verb https://untangle.readthedocs.io/en/latest/
       \endverb
-      \warn{\item online entry 'untangle' (/home/jbf/PycharmProjects/BachelorarbeitLatex1/src/Bachelor_Thesis/Literatur.bib): Invalid format '[Online; Stand 22. September 2025]' of date field 'date' - ignoring}
     \endentry
     \entry{Fuchs2021}{book}{}{}
       \name{author}{1}{}{%
@@ -440,7 +492,8 @@
       \field{labeltitlesource}{title}
       \field{edition}{1. Ausgabe}
       \field{isbn}{978-3-98569-009-1}
-      \field{month}{7}
+      \field{langid}{german}
+      \field{month}{07}
       \field{title}{SQL: Grundlagen und Datenbankdesign}
       \field{year}{2021}
     \endentry
@@ -471,6 +524,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-658-21330-5}
+      \field{langid}{german}
       \field{title}{Datenorganisation und Datenbanken: Praxisorientierte Übungen mit MS Access 2016}
       \field{year}{2018}
       \verb{doi}
@@ -509,8 +563,9 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2. aktualisierte Auflage}
+      \field{edition}{2., aktualisierte Auflage}
       \field{isbn}{978-3-658-25729-3}
+      \field{langid}{german}
       \field{title}{Datenmodellierung: Einführung in die Entity-Relationship-Modellierung und das Relationenmodell}
       \field{year}{2019}
       \verb{doi}
