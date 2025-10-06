@@ -1,22 +1,21 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Beispiel der Graphen aus Teststandprogramm}}{4}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Aufbau des Teststandes}}{7}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces XML Prolog Beispielcode}}{10}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces XML Elemente Beispielcode}}{11}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces XML Attribute Beispielcode}}{11}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Beispiel XPath-Ausdruck}}{15}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Aufbau unferänderlicher XML-Berichtstruktur}}{25}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Elementaufbau aus XML-Bericht}}{26}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Direkte Kinderelement unter Stammelement}}{26}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces XML-Strukturbeispiel Info-Element}}{27}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces XML-Strukturbeispiel Testbench-Element}}{27}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces XML-Strukturbeispiel Testmodulheader}}{28}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel XPowertest Floatblock-Elemente}}{28}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{29}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{30}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{31}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum einlesen der XML-Struktur}}{32}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum ausgeben der Berichtstabelle}}{33}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Benutzeroberflächenentwurf der Seite zum ausgeben der Graphen}}{34}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{35}{figure.20}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Aufbau des Teststandes}}{8}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces XML Prolog Beispielcode}}{11}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces XML Elemente Beispielcode}}{12}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces XML Attribute Beispielcode}}{12}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Beispiel XPath-Ausdruck}}{16}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Aufbau unferänderlicher XML-Berichtstruktur}}{26}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Elementaufbau aus XML-Bericht}}{27}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Direkte Kinderelement unter Stammelement}}{27}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces XML-Strukturbeispiel Info-Element}}{28}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces XML-Strukturbeispiel Testbench-Element}}{28}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces XML-Strukturbeispiel Testmodulheader}}{29}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Beispiel XPowertest Floatblock-Elemente}}{29}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{30}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{31}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{32}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{33}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{34}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{35}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{36}{figure.19}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -9,91 +9,43 @@
 \label{sec:einleitung}
 
 
+„Data is the new oil. Like oil, data is valuable, but if unrefined it cannot really be used.“
+Clive Humby (2006)
+
+Die Aufbereitung von Daten, sowohl in ihrer Struktur als auch in ihrer Darstellung, ist entscheidend, um technische Prozesse zu verstehen und effizient mit großen Datenmengen arbeiten zu können.
+Das Erfassen, Aufbereiten und Interpretieren von Messdaten ist heute aus der Industrie und Wissenschaft nicht mehr wegzudenken.
+In nahezu allen technischen Bereichen werden Daten erhoben, sei es in der Forschung, bei Qualitätsprüfungen oder in industriellen Testverfahren.
+Damit diese Daten nutzbar sind, müssen sie verständlich aufbereitet und übersichtlich dargestellt werden.
+
+Die Verarbeitung und Visualisierung großer Datenmengen erfolgt heutzutage meist mithilfe spezialisierter Softwarelösungen.
+Viele dieser Systeme sind jedoch allgemein gehalten und nur begrenzt auf spezifische technische Anwendungen anpassbar.
+Das kann sich negativ auf Effizienz, Benutzerfreundlichkeit und Aussagekraft der Ergebnisse auswirken.
+Besonders in Bereichen, in denen die Datensätze komplex und individuell strukturiert sind, wie bei der Prüfung von Leistungselektronik aus Windenergieanlagen, besteht Bedarf an speziell angepassten Softwarelösungen.
+
+Ziel dieser Arbeit ist es, eine Web-Applikation zu entwickeln, die automatisch erzeugte XML-Berichte eines Umrichter-Teststandes einliest, die enthaltenen Mess- und Gerätedaten in einer Datenbank speichert und diese anschließend grafisch aufbereitet.
+Auf diese Weise sollen die Daten besser ausgewertet und sowohl für interne Analysen als auch für externe Berichte genutzt werden können.
+Dabei liegt der Fokus auf einer übersichtlichen Benutzeroberfläche, einer modularen Erweiterbarkeit und einer einfachen Integration in die bestehende Systemlandschaft des Unternehmens.
+
+Die Arbeit entstand in Zusammenarbeit mit einem Serviceanbieter für die Instandhaltung von Windenergieanlagen.
+Der zugrunde liegende Teststand wird zur Überprüfung von Umrichtern eingesetzt, die aus bestehenden Anlagen stammen.
+Mithilfe spezieller Prüfverfahren wird bestimmt, ob diese Geräte nach der Instandsetzung wiederverwendet werden können.
+Die dabei entstehenden XML-Dateien enthalten sämtliche Messwerte, Parameter und Prüfstandsinformationen und bilden die Grundlage für die zu entwickelnde Software.
+
+Für die Umsetzung wurde ein iteratives Vorgehen gewählt.
+Das bedeutet, dass die Anwendung schrittweise entwickelt und nach jedem Zwischenschritt getestet und verbessert wird.
+Dieses Vorgehen orientiert sich an Prinzipien agiler Softwareentwicklung, um flexibel auf mögliche Anpassungen reagieren zu können.
+So entsteht eine funktionierende Anwendung, die sich im Laufe der Entwicklung immer weiter verfeinern lässt.
+
+Die Arbeit gliedert sich in sieben Kapitel.
+Nach dieser Einleitung werden in Kapitel 2 die funktionalen und nicht-funktionalen Anforderungen beschrieben.
+Kapitel 3 behandelt die theoretischen und technologischen Grundlagen, die für die Entwicklung der Anwendung relevant sind.
+In Kapitel 4 folgen die Analyse der vorhandenen Strukturen und der Entwurf der Systemarchitektur.
+Kapitel 5 beschreibt die Implementierung der Applikation, während Kapitel 6 die Integration in die bestehende Systemumgebung und die Testdurchführung erläutert.
+Kapitel 7 fasst die Ergebnisse zusammen und gibt einen Ausblick auf mögliche Erweiterungen.
 
 
 
 
-„Data is the new oil. Like oil, data is valuable, but if
-unrefined it cannot really be used.“
-
-– Clive Humby (2006).
-
-Die Aufbereitung von Daten, sowohl hinsichtlich ihrer
-Speicherstruktur als auch ihrer visuellen Darstellung, ist entscheidend, um die
-zugrunde liegenden Prozesse zu verstehen und effizient mit den Daten arbeiten
-zu können. Das Erfassen, Aufbereiten und Interpretieren von Messdaten ist aus
-der modernen Welt nicht mehr wegzudenken. In nahezu allen Bereichen der
-Wissenschaft werden Messdaten erhoben, sei es in medizinischen Studien, bei
-Wetteranalysen oder in industriellen Testverfahren. Damit diese Daten nutzbar
-sind, müssen sie verständlich aufbereitet werden.
-
-
-
-Die Speicherung, Verarbeitung und Visualisierung großer
-Datenmengen erfolgt heutzutage überwiegend mithilfe spezialisierter
-Softwaretools. Entsprechend existiert eine Vielzahl kommerzieller Anbieter, die
-Lizenzen für solche Lösungen vertreiben. Diese Tools sind jedoch meist
-allgemein gehalten und bieten für fachspezifische Anwendungen nicht immer den
-passenden Aufbau oder die erforderlichen Funktionen. Dies wirkt sich
-insbesondere auf Effizienz, Benutzerfreundlichkeit und Genauigkeit aus. Ein
-Beispiel für die praktische Relevanz der Datenaufbereitung ist die Anwendung im
-Bereich erneuerbarer Energien, die im Rahmen dieser Arbeit untersucht wird.
-
-
-
-Ziel dieser Arbeit ist die Entwicklung einer
-Web-Applikation, die als spezifisches Softwaretool für einen klar definierten
-Anwendungsbereich dient. Neben der Umsetzung werden auch der Aufbau, die
-Funktionsweise und das methodische Vorgehen beschrieben.
-
-
-
-Die Firma, für die dieses Softwaretool entwickelt wird, ist
-ein Serviceprovider für die Instandhaltung von Windenergieanlagen. Der
-Teststand, an dem die Software eingesetzt werden soll, dient der Prüfung von
-Umrichtern, die aus Windenergieanlagen stammen. Mittels eines firmeneigenen
-Prüfverfahrens wird dabei festgestellt, ob diese Komponenten erneut in den
-Anlagen verwendet werden können. Die im Rahmen der Tests erhobenen Messdaten
-werden zusammen mit den zugehörigen Parametern und Informationen in Form von
-XML-Dateien ausgegeben.
-
-
-
-Die Applikation soll diese XML-Datensätze strukturiert in
-einer Datenbank speichern und anschließend visuell aufbereiten. Die so
-erzeugten Darstellungen dienen sowohl der internen Analyse als auch der
-externen Kommunikation in Form von Kundenberichten. Dabei wird besonderer Wert
-auf eine professionelle und leicht verständliche Visualisierung gelegt. Zudem
-soll die Nutzeroberfläche intuitiv gestaltet und die Software modular
-erweiterbar sein, sodass zukünftige Funktionen problemlos ergänzt werden
-können. Ebenso wichtig ist eine einfache Integration in die bestehende
-Systemlandschaft der Firma.
-
-
-
-Um das gesetzte Ziel und die Anforderungen im Zeitrahmen
-dieser Arbeit bestmöglich zu erfüllen, wird nach dem Erlangen und
-Ausformulieren der theoretischen Grundlagen für die Erstellung der
-Web-Applikation eine inkrementelle und iterative Vorgehensweise vorgesehen.
-Diese soll für Flexibilität und hervorragendes Risikomanagement in Bezug auf
-die Abgabe sorgen, da selbst bei Komplikationen eine funktionelle Version
-vorliegt.
-
-
-
-Die generellen Anforderungen und ihre Interpretation werden
-in Kapitel \ref{sec:definition-der-anforderungen-und-ihre-interpretation}
-behandelt. Das Kapitel \ref{sec:grundlagen} Das Kapitel „Grundlagen“
-beschäftigt sich mit den theoretischen Hintergründen zur Entwicklung der
-Applikation sowie mit den einzelnen zu implementierenden Funktionen. Gefolgt
-von Kapitel \ref{sec:analyse-und-konzeption} „Analyse und Konzeption“, welches
-sich mit dem bestehenden System und den einzufügenden Strukturen befassen. Das
-dritte Kapitel \ref{sec:implementierung} „Implementierung“ beschreibt die
-Entwicklung der Web-Applikation. Kapitel \ref{sec:integration-und-test}
-„Integration und Test“ beschreibt die Einbindung in das bestehende System und
-das Testen der Funktionalität. Abschließend Kapitel
-\ref{sec:fazit-und-ausblick} „Fazit und Ausblick“ werden die Ergebnisse
-zusammengefasst. und ein Ausblick auf mögliche Erweiterungen gegeben.
 
 
 

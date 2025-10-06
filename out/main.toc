@@ -4,59 +4,59 @@
 \contentsline {section}{Abkürzungsverzeichnis}{VI}{section*.6}%
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {section}{\numberline {2}Definition der Anforderungen und ihre Interpretation}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Defintion der Anforderungen}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Technische Anforderungen}{3}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Nutzeranforderungen}{3}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Anforderungen an die Datenbank}{4}{subsubsection.2.1.3}%
-\contentsline {section}{\numberline {3}Grundlagen}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Überblick über den Umrichter-Prüfstand}{6}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Aufbau des Teststandes}{6}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Testmodule}{7}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Testablauf}{8}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Verarbeitung von XML-Daten}{10}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}XML-Strukturaufbau}{10}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Verarbeiten von XML-Dateien}{11}{subsubsection.3.2.2}%
-\contentsline {paragraph}{\numberline {3.2.2.1}XML-Paser}{12}{paragraph.3.2.2.1}%
-\contentsline {paragraph}{\numberline {3.2.2.2}Adressierung mit XPath}{13}{paragraph.3.2.2.2}%
-\contentsline {paragraph}{\numberline {3.2.2.3}Pythonbibliotheken für XML-Verarbeitung}{15}{paragraph.3.2.2.3}%
-\contentsline {subsection}{\numberline {3.3}Datenbankentwurf und Normalisierung}{17}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Datenbankstruktur}{17}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Datenintegrität und Normalisierung}{18}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Vorgehen zur Erstellung der Datenbank}{18}{subsubsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.4}Grundlagen der Datenvisualisierung}{20}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Begriff und Zielsetzung}{20}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Theoretische Grundlagen}{20}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}Formen der Datenvisualisierung}{20}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Qualitätskriterien}{21}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {3.4.5}Technologische Aspekte}{21}{subsubsection.3.4.5}%
-\contentsline {subsubsection}{\numberline {3.4.6}Graphen erstellung mit JS}{21}{subsubsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.5}Anforderungen an modulare Softwareentwicklung}{23}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Klare Modulabgrenzung und Verantwortlichkeiten}{23}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Geringe Kopplung und hohe Kohäsion}{23}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Einheitliche Schnittstellen}{23}{subsubsection.3.5.3}%
-\contentsline {subsubsection}{\numberline {3.5.4}Wiederverwendbarkeit}{23}{subsubsection.3.5.4}%
-\contentsline {subsubsection}{\numberline {3.5.5}Erweiterbarkeit und Anpassungsfähigkeit}{24}{subsubsection.3.5.5}%
-\contentsline {subsubsection}{\numberline {3.5.6}Testbarkeit}{24}{subsubsection.3.5.6}%
-\contentsline {subsubsection}{\numberline {3.5.7}Konsistenz und Standardisierung}{24}{subsubsection.3.5.7}%
-\contentsline {section}{\numberline {4}Analyse und Konzeption}{25}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Analyse der generierten XML-Berichte und bestehenden Strukturen}{25}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}XML-Berichtsstrukturschema}{25}{subsubsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.2}Datenbankdesign und Strukturkonzeption}{29}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Grundkonzept des Benutzeroberflächen-Design}{31}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Entwurf der Applikationsarchitektur}{34}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Implementierung}{35}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Einlesen und Verarbeiten von XML-Daten}{35}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Implementierung der Datenbank}{35}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Entwicklung der Benutzeroberfläche}{35}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Technische Details zur Visualisierung}{35}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Integration und Test}{36}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Einbindung in die bestehende Systemlandschaft}{36}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Testmethoden und Durchführung}{36}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Ergebnisse der Testmethoden}{36}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Fazit und Ausblick}{37}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{37}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Kritische Bewertung}{37}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Möglichkeiten für zukünftige Erweiterungen}{37}{subsection.7.3}%
+\contentsline {subsection}{\numberline {2.1}Funktionale Anforderungen}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Nicht-funktionale Anforderungen}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Anforderungen an die Datenbank}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Zusammenfassung}{6}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Grundlagen}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Überblick über den Umrichter-Prüfstand}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Aufbau des Teststandes}{7}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Testmodule}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Testablauf}{9}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Verarbeitung von XML-Daten}{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}XML-Strukturaufbau}{11}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Verarbeiten von XML-Dateien}{12}{subsubsection.3.2.2}%
+\contentsline {paragraph}{\numberline {3.2.2.1}XML-Paser}{13}{paragraph.3.2.2.1}%
+\contentsline {paragraph}{\numberline {3.2.2.2}Adressierung mit XPath}{14}{paragraph.3.2.2.2}%
+\contentsline {paragraph}{\numberline {3.2.2.3}Pythonbibliotheken für XML-Verarbeitung}{16}{paragraph.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.3}Datenbankentwurf und Normalisierung}{18}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Datenbankstruktur}{18}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Datenintegrität und Normalisierung}{19}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Vorgehen zur Erstellung der Datenbank}{19}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Grundlagen der Datenvisualisierung}{21}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Begriff und Zielsetzung}{21}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Theoretische Grundlagen}{21}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Formen der Datenvisualisierung}{21}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Qualitätskriterien}{22}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Technologische Aspekte}{22}{subsubsection.3.4.5}%
+\contentsline {subsubsection}{\numberline {3.4.6}Graphen erstellung mit JS}{22}{subsubsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.5}Anforderungen an modulare Softwareentwicklung}{24}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Klare Modulabgrenzung und Verantwortlichkeiten}{24}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Geringe Kopplung und hohe Kohäsion}{24}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Einheitliche Schnittstellen}{24}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}Wiederverwendbarkeit}{24}{subsubsection.3.5.4}%
+\contentsline {subsubsection}{\numberline {3.5.5}Erweiterbarkeit und Anpassungsfähigkeit}{25}{subsubsection.3.5.5}%
+\contentsline {subsubsection}{\numberline {3.5.6}Testbarkeit}{25}{subsubsection.3.5.6}%
+\contentsline {subsubsection}{\numberline {3.5.7}Konsistenz und Standardisierung}{25}{subsubsection.3.5.7}%
+\contentsline {section}{\numberline {4}Analyse und Konzeption}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analyse der generierten XML-Berichte und bestehenden Strukturen}{26}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}XML-Berichtsstrukturschema}{26}{subsubsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.2}Datenbankdesign und Strukturkonzeption}{30}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Grundkonzept des Benutzeroberflächen-Design}{32}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Entwurf der Applikationsarchitektur}{35}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Implementierung}{36}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Einlesen und Verarbeiten von XML-Daten}{36}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Implementierung der Datenbank}{36}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Entwicklung der Benutzeroberfläche}{36}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Technische Details zur Visualisierung}{36}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Integration und Test}{37}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Einbindung in die bestehende Systemlandschaft}{37}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Testmethoden und Durchführung}{37}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ergebnisse der Testmethoden}{37}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Fazit und Ausblick}{38}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Zusammenfassung der Ergebnisse}{38}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Kritische Bewertung}{38}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Möglichkeiten für zukünftige Erweiterungen}{38}{subsection.7.3}%
 \contentsline {section}{\numberline {i}Literaturverzeichnis}{i}{section.1}%
 \contentsline {section}{\numberline {ii}Anhangsverzeichnis}{iii}{section.2}%
 \contentsline {section}{\numberline {iii}Erklärung}{iv}{section.3}%
