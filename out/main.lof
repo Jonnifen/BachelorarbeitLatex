@@ -17,5 +17,7 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{33}{figure.16}%
 \contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{34}{figure.17}%
 \contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{35}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{36}{figure.19}%
+\contentsline {figure}{\numberline {19}{\ignorespaces schematisches Architekturdiagramm der Applikation}}{36}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Verzeichnisstruktur der Flask-Applikation}}{37}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{40}{figure.21}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  6 OCT 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  7 OCT 2025 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,7 +918,274 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen184
+\pgfutil@tempdimb=\dimen185
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box65
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen186
+\pgf@y=\dimen187
+\pgf@xa=\dimen188
+\pgf@ya=\dimen189
+\pgf@xb=\dimen190
+\pgf@yb=\dimen191
+\pgf@xc=\dimen192
+\pgf@yc=\dimen193
+\pgf@xd=\dimen194
+\pgf@yd=\dimen195
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count451
+\c@pgf@countb=\count452
+\c@pgf@countc=\count453
+\c@pgf@countd=\count454
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count455
+ (c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count456
+\pgfsyssoftpath@bigbuffer@items=\count457
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count458
+\pgfmath@box=\box66
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count459
+))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count460
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen271
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen275
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count461
+\pgf@shadingcount=\count462
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box70
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box71
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
+)
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count463
+\pgfplotmarksize=\dimen281
+)
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikz@lastmovetox=\dimen286
+\tikz@lastmovetoy=\dimen287
+\tikzleveldistance=\dimen288
+\tikzsiblingdistance=\dimen289
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count464
+\tikznumberofchildren=\count465
+\tikznumberofcurrentchild=\count466
+\tikz@fig@count=\count467
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count468
+\pgfmatrixcurrentcolumn=\count469
+\pgf@matrix@numberofcolumns=\count470
+)
+\tikz@expandcount=\count471
+
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
+e.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen290
+\pgfarrowlength=\dimen291
+\pgfarrowwidth=\dimen292
+\pgfarrowlinewidth=\dimen293
+)
+(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -938,7 +1205,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count451
+\BKM@id=\count472
 ))
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 25
 .
@@ -973,21 +1240,21 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-\big@size=\dimen184
+\big@size=\dimen294
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count452
-\scratchdimen=\dimen185
-\scratchbox=\box65
-\nofMPsegments=\count453
-\nofMParguments=\count454
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count455
-\MPscratchDim=\dimen186
-\MPnumerator=\count456
-\makeMPintoPDFobject=\count457
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count473
+\scratchdimen=\dimen295
+\scratchbox=\box76
+\nofMPsegments=\count474
+\nofMParguments=\count475
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count476
+\MPscratchDim=\dimen296
+\MPnumerator=\count477
+\makeMPintoPDFobject=\count478
+\everyMPtoPDFconversion=\toks44
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1044,7 +1311,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 25.
-\c@lstlisting=\count458
+\c@lstlisting=\count479
 Package tocbasic Info: setting babel extension for `lol' on input line 25.
 \scr@dte@lstlisting@maxnumwidth=\skip107
 Package biblatex Info: Trying to load language 'ngerman'...
@@ -1080,7 +1347,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.bbl)
 Package biblatex Info: Reference section=0 on input line 25.
 Package biblatex Info: Reference segment=0 on input line 25.
-<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=4, 597.55246pt x 845.
+<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=7, 597.55246pt x 845.
 07718pt>
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
@@ -1088,7 +1355,7 @@ df)
 Package pdftex.def Info: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf  
 used on input line 28.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=6, page=1, 597.55246p
+<Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf, id=9, page=1, 597.55246p
 t x 845.07718pt>
 File: Deckblatt/Deckblatt Bachelorthesis Jon Feddersen.pdf Graphic file (type p
 df)
@@ -1181,24 +1448,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 47.
+(Font)              scaled to size 10.40245pt on input line 48.
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 47.
+(babel)             Reported on input line 48.
 [2])
-\tf@toc=\write4
-\openout4 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 
 
 [3] (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
 
 
 [4] (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
 
 
@@ -1261,7 +1528,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 
 
 [7]
-<Grafiken/Test Cabin.jpg, id=361, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=367, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 47.
@@ -1489,7 +1756,7 @@ Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
 Aus-le-se-funk-tio-nen der Web-Applikation. 
  []
 
-<Grafiken/XML-Strukturdiagramm.png, id=611, 539.01375pt x 348.30125pt>
+<Grafiken/XML-Strukturdiagramm.png, id=617, 539.01375pt x 348.30125pt>
 File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
 <use Grafiken/XML-Strukturdiagramm.png>
 Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
@@ -1498,7 +1765,7 @@ Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line
 
 
 [26 <./Grafiken/XML-Strukturdiagramm.png>]
-<Grafiken/Elementaufbau.png, id=620, 754.31813pt x 119.44624pt>
+<Grafiken/Elementaufbau.png, id=626, 754.31813pt x 119.44624pt>
 File: Grafiken/Elementaufbau.png Graphic file (type png)
 <use Grafiken/Elementaufbau.png>
 Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 40.
@@ -1523,18 +1790,18 @@ LaTeX Warning: Reference `XML-Schema' on page 30 undefined on input line 18.
 
 
 [30]
-<Grafiken/Bild von ER-Modell.png, id=712, 562.1pt x 396.48125pt>
+<Grafiken/Bild von ER-Modell.png, id=718, 562.1pt x 396.48125pt>
 File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
 <use Grafiken/Bild von ER-Modell.png>
 Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
 .
 (pdftex.def)             Requested size: 418.96548pt x 295.52106pt.
-<Grafiken/Tabellendiagramm Datenbank.png, id=714, 550.055pt x 449.17813pt>
+<Grafiken/Tabellendiagramm Datenbank.png, id=720, 513.41812pt x 417.05812pt>
 File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
 <use Grafiken/Tabellendiagramm Datenbank.png>
 Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
  line 45.
-(pdftex.def)             Requested size: 418.96548pt x 342.13971pt.
+(pdftex.def)             Requested size: 418.96548pt x 340.33528pt.
 )
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
 oberflächen-Design.tex
@@ -1542,13 +1809,13 @@ oberflächen-Design.tex
 [31 <./Grafiken/Bild von ER-Modell.png>]
 
 [32 <./Grafiken/Tabellendiagramm Datenbank.png>]
-<Grafiken/Overlay_Einleseseite.png, id=730, 690.07813pt x 520.94624pt>
+<Grafiken/Overlay_Einleseseite.png, id=736, 690.07813pt x 520.94624pt>
 File: Grafiken/Overlay_Einleseseite.png Graphic file (type png)
 <use Grafiken/Overlay_Einleseseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Einleseseite.png  used on input line 
 25.
 (pdftex.def)             Requested size: 418.96548pt x 316.28233pt.
-<Grafiken/Overlay_Tabellenseite.png, id=732, 516.93124pt x 387.4475pt>
+<Grafiken/Overlay_Tabellenseite.png, id=738, 516.93124pt x 387.4475pt>
 File: Grafiken/Overlay_Tabellenseite.png Graphic file (type png)
 <use Grafiken/Overlay_Tabellenseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
@@ -1557,7 +1824,7 @@ Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
 
 
 [33 <./Grafiken/Overlay_Einleseseite.png>]
-<Grafiken/Overlay_Ausgabeseite.png, id=739, 519.44063pt x 494.34688pt>
+<Grafiken/Overlay_Ausgabeseite.png, id=745, 519.44063pt x 494.34688pt>
 File: Grafiken/Overlay_Ausgabeseite.png Graphic file (type png)
 <use Grafiken/Overlay_Ausgabeseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line 
@@ -1567,15 +1834,60 @@ Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
 rchitektur.tex
 
-[34 <./Grafiken/Overlay_Tabellenseite.png>]))
-(./Kapitel/2. Hauptteil/4. Implementierung.tex
+[34 <./Grafiken/Overlay_Tabellenseite.png>]
 
 [35 <./Grafiken/Overlay_Ausgabeseite.png>]
-<Grafiken/Ablaufdiagramm.png, id=750, 497.35812pt x 391.4625pt>
+Overfull \hbox (17.16997pt too wide) in paragraph at lines 18--19
+[]\T1/phv/m/n/10.95 Pr�sentationsschicht (Fron-tend): Be-reit-stel-lung der Be-
+nut-ze-ro-ber-fl�-che �ber HTML-Templates,
+ []
+
+<Grafiken/Architekturdiagramm.png, id=757, 469.755pt x 343.2825pt>
+File: Grafiken/Architekturdiagramm.png Graphic file (type png)
+<use Grafiken/Architekturdiagramm.png>
+Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 3
+2.
+(pdftex.def)             Requested size: 418.96548pt x 306.16473pt.
+<Grafiken/App-Ordnerstruktur.png, id=758, 173.64874pt x 869.2475pt>
+File: Grafiken/App-Ordnerstruktur.png Graphic file (type png)
+<use Grafiken/App-Ordnerstruktur.png>
+Package pdftex.def Info: Grafiken/App-Ordnerstruktur.png  used on input line 49
+.
+(pdftex.def)             Requested size: 79.3839pt x 397.3784pt.
+
+Overfull \hbox (65.8041pt too wide) in paragraph at lines 50--50
+[][][]\T1/phv/m/n/10.95 Verzeichnisstruktur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T1/phv/m/n/10.95 der
+ []
+
+
+Overfull \hbox (6.51088pt too wide) in paragraph at lines 50--50
+\T1/phv/m/n/10.95 Flask-
+ []
+
+
+Overfull \hbox (29.0733pt too wide) in paragraph at lines 50--50
+\T1/phv/m/n/10.95 Applikation| 
+ []
+
+
+
+[36 <./Grafiken/Architekturdiagramm.png>]
+
+[37 <./Grafiken/App-Ordnerstruktur.png>]
+
+[38])) (./Kapitel/2. Hauptteil/4. Implementierung.tex
+
+[39]
+<Grafiken/Ablaufdiagramm.png, id=781, 309.155pt x 273.02pt>
 File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
 <use Grafiken/Ablaufdiagramm.png>
 Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 10.
-(pdftex.def)             Requested size: 418.96548pt x 329.76404pt.
+(pdftex.def)             Requested size: 418.96548pt x 370.02751pt.
 
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
 Daten.tex)
@@ -1586,7 +1898,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[36 <./Grafiken/Ablaufdiagramm.png>]
+[40 <./Grafiken/Ablaufdiagramm.png>]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -1594,13 +1906,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[37]
+[41]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[38]
+[42]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1681,47 +1993,28 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28550 strings out of 467797
- 552584 string characters out of 5435982
- 1591767 words of memory out of 5000000
- 56406 multiletter control sequences out of 15000+600000
+ 38874 strings out of 467797
+ 780662 string characters out of 5435982
+ 1788732 words of memory out of 5000000
+ 66513 multiletter control sequences out of 15000+600000
  662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11249b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.20} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.2.1.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.2.1.2} has been referenced but does n
-ot exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.2.1.1} has been referenced but does n
-ot exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texliv
-e/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2025/tex
-mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvet
-ic/uhvro8a.pfb>
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texl
+ive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2025/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
+etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (49 pages, 868938 bytes).
+df (53 pages, 967743 bytes).
 PDF statistics:
- 1087 PDF objects out of 1200 (max. 8388607)
- 983 compressed objects within 10 object streams
- 298 named destinations out of 1000 (max. 500000)
- 549 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1125 PDF objects out of 1200 (max. 8388607)
+ 1012 compressed objects within 11 object streams
+ 305 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
 
