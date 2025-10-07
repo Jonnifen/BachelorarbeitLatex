@@ -1,2 +1,31 @@
 \subsection{Entwurf der Applikationsarchitektur}
 \label{subsec:entwurf-der-applikationsarchitektur}
+
+
+Der Entwurf der Applikationsarchitektur bildet die konzeptionelle Grundlage für die technische Umsetzung der entwickelten Web-Applikation.
+Das Ziel ist es, eine Struktur zu schaffen, die modular, wartbar und erweiterbar ist, und die gleichzeitig den funktionalen Anforderungen gerecht wird und sich in die bestehende Systemlandschaft integrieren lässt.
+Die Architektur der Anwendung ist schichten- und komponentenorientiert aufgebaut und nutzt das Webframework Flask, welches eine klare Trennung zwischen der Präsentations-, Logik- und Datenhaltungsschicht ermöglicht.
+
+
+\subsubsection{Architekturübersicht}
+
+Die Applikation soll als serverbasierte Webanwendung im Client-Server-Modell funktionieren.
+Das bedeutet: Während der Server die Datenverarbeitung, -speicherung und -bereitstellung übernimmt, ermöglicht der Client über den Webbrowser die Darstellung und Interaktion.
+Die Anwendung ist in mehrere Schichten gegliedert, zu denen man die einzelnen Programmteile zuordnen kann.
+Die Anwendung wird in folgende Schichten gegliedert:
+
+\begin{itemize}
+\item Präsentationsschicht (Frontend): Bereitstellung der Benutzeroberfläche über HTML-Templates, CSS und JavaScript.
+
+\item
+Applikationslogik (Backend): Implementierung der Geschäftslogik, Steuerung des Datenflusses und Verarbeitung der XML-Dateien.
+
+\item
+Datenhaltungsschicht: Persistente Speicherung der extrahierten Mess- und Gerätedaten in einer relationalen Datenbank mittels ORM.
+
+\end{itemize}
+
+Ein schematisches Architekturdiagramm dieser Struktur ist in Abbildung XX dargestellt.
+
+
+
