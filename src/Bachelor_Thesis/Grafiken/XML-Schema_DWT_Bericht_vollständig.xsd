@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Studio (Community Edition) (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="test">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="name" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="testbench">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="name" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="testmodule">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="integer">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:unsignedByte">
+                      <xs:attribute name="name" type="xs:string" use="optional" />
+                      <xs:attribute name="min" type="xs:unsignedByte" use="optional" />
+                      <xs:attribute name="max" type="xs:unsignedByte" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="name" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Phase_U">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="parameters">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedShort">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="hex">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="measurements">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedByte">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:unsignedByte" use="optional" />
+                                    <xs:attribute name="max" type="xs:unsignedByte" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="max" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="floatblock">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="size" type="xs:unsignedShort" use="optional" />
+                                    <xs:attribute name="duration" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Phase_V">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="parameters">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedShort">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="hex">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="measurements">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedByte">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:unsignedByte" use="optional" />
+                                    <xs:attribute name="max" type="xs:unsignedByte" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="max" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="floatblock">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="size" type="xs:unsignedShort" use="optional" />
+                                    <xs:attribute name="duration" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Phase_W">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="parameters">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:decimal">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedShort">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="hex">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="measurements">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:choice maxOccurs="unbounded">
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="integer">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:unsignedByte">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:unsignedByte" use="optional" />
+                                    <xs:attribute name="max" type="xs:unsignedByte" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="float">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:float">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="min" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="max" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="string">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                            <xs:element minOccurs="0" maxOccurs="unbounded" name="floatblock">
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="xs:string">
+                                    <xs:attribute name="name" type="xs:string" use="optional" />
+                                    <xs:attribute name="size" type="xs:unsignedShort" use="optional" />
+                                    <xs:attribute name="duration" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="unit" type="xs:string" use="optional" />
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:choice>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="string">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="name" type="xs:string" use="optional" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:unsignedByte" use="optional" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
