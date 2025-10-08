@@ -1,34 +1,34 @@
 \subsection{Verarbeitung von XML-Daten}
 \label{subsec:verarbeitung-von-xml-daten}
 %------------------------------------------------------------------------------------------------------
-Dieses Kapitel behandelt einige Grundlegende und für dies Arbeit relevante Aspekte von dem Dokumententype \ac{XML},
-da die Messwerte bzw. die Berichte die der Testand generiert im diesem Format vorliegen.
-
+Dieses Kapitel behandelt einige grundlegende und für diese Arbeit relevante Aspekte von dem Dokumententyp \ac{XML}.
+Da die Messwerte und Berichte, die der Teststand generiert, in diesem Format vorliegen, ist es relevant, dieses Kapitel zu behandeln.
 
 Bei \ac{XML} handelt es sich um eine Auszeichnungssprache, also eine
-formale Sprache, die verwendet werden, um die Struktur und Darstellung von Daten oder Texten zu beschreiben \cite*{Neumann2019}.
+formale Sprache, die verwendet wird, um die Struktur und Darstellung von Daten oder Texten zu beschreiben \cite*{Neumann2019}.
 \ac{XML} wurde entwickelt, um Informationen in einem maschinenlesbaren und strukturierten Format zu speichern und zu übermitteln.
-Sie wird hauptsächlich in Bereichen wie Webdiensten, Datenbanken, Konfigurationsdateien eingesetzt.
-\ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau und kann sowohl für Menschen
-als auch für Maschinen interpretiert werden.\cite*[4]{PeterBrezany2003}
+Sie wird hauptsächlich in Bereichen wie Webdiensten, Datenbanken und Konfigurationsdateien eingesetzt.
+\ac{XML} ermöglicht die hierarchische Organisation von Informationen in einem strukturierten Aufbau und kann sowohl von Menschen
+als auch von Maschinen interpretiert werden. \cite*[4]{PeterBrezany2003}
 
-Das Grundkonzept hinter \ac{XML} war, eine universelle einsetzbare und erweiterbare Sprache zu erschaffen, die von verschiedenen Systemen
-unabhängig von deren grundlegenden Technologieansatz genutzt werden kann.
-Hierbei ware das angestrebte Ziel Daten in einem einheitlichen Standard zwischen verschiedenen Anwendungen und Plattformen zu speichern und auszutauschen
-zu kömmen.\cite*[3-5]{PeterBrezany2003}
+Das Grundkonzept hinter \ac{XML} war, eine universell einsetzbare und erweiterbare Sprache zu erschaffen, die von verschiedenen Systemen
+unabhängig von deren fundamentalen Technologieansatz genutzt werden kann.
+Hierbei wäre das angestrebte Ziel, Daten in einem einheitlichen Standard zwischen verschiedenen Anwendungen und Plattformen zu speichern und auszutauschen.
+zu kommen. \cite*[3-5] {PeterBrezany2003}
+
 %------------------------------------------------------------------------------------------------------
 \subsubsection{XML-Strukturaufbau}
 %------------------------------------------------------------------------------------------------------
-Eine \ac{XML}-Datei beginnt mit Prolog, der die \ac{XML}-Version und die verwendete Zeichencodierung definiert.
-In Abbildung \ref{fig:XML Prolog Beispielcode} ist ein häufig genutzter Prolog dargestellt, der auch in den Teststand-Berichten genutzt wird.
+
+Eine \ac{XML}-Datei beginnt mit einem Prolog, der die \ac{XML}-Version und die verwendete Zeichencodierung definiert.
+In Abbildung \ref{fig: XML Prolog Beispielcode} ist ein häufig genutzter Prolog dargestellt, der auch in den Teststand-Berichten zum Einsatz kommt.
 Die erste Zeile des Prologs ist die sogenannte \ac{XML}-Deklaration.
-Die XML-Deklaration enthält häufig die Attribute sind version und encoding, jedoch nur das Attribut version ist Pflicht.
+Die XML-Deklaration enthält häufig die Attribute „version“ und „encoding“, jedoch ist nur das Attribut „version“ Pflicht.
 Werden auch die anderen notiert, müssen sie in der angegebenen Reihenfolge deklariert werden.
-Attribut version Mit version wird die verwendete \ac{XML}-Version angegeben.
-Das Attribut encoding gibt die im Dokument verwendete Zeichenkodierung an, d. h. mit welcher Codierung die Datei gespeichert wird.
-Fehlt die Angabe wird als Vorgabe UTF-8 (8-Bit Unicode Transformation Format) verwendet.
-Neben der \ac{XML}-Deklaration können im Prolog auch noch Verarbeitungsanweisungen und Verweise auf eine \ac{DTD} deklariert werden,
-dies sind jedoch optional und für diese Arbeit nicht weiter relevant.
+Attribut „version“: Mit „version“ wird die verwendete \ac{XML}-Version angegeben.
+Das Attribut „encoding“ gibt die im Dokument verwendete Zeichenkodierung an, d. h., mit welcher Codierung die Datei gespeichert wird.
+Fehlt die Angabe, wird als Vorgabe UTF-8 (8-Bit Unicode Transformation Format) verwendet.
+Neben der \ac{XML}-Deklaration können im Prolog auch noch Verarbeitungsanweisungen und Verweise auf eine \ac{DTD} deklariert werden. Diese sind jedoch optional und für diese Arbeit nicht weiter relevant.
 \cite*[8,9]{Becher2022}
 
 \begin{figure}[H]
@@ -36,125 +36,137 @@ dies sind jedoch optional und für diese Arbeit nicht weiter relevant.
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <?xml version="1.0" encoding="UTF-8"?>
+    <root>
+    ....
+    </root>
 \end{lstlisting}
 \end{minipage}
 \caption{XML Prolog Beispielcode}
-\label{fig:XML Prolog Beispielcode}
+\label{fig: XML Prolog Beispielcode}
     {Quelle: eigene Darstellung}
 \end{figure}
 
 
-Der Hauptteil eines \ac{XML}-Dokument besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
-Für jedes Element gibt es ein Start- und ein EndTag, welcher das Element beginnt und beendet.
-Ein Starttag kann beispielsweise „<NamedesTags>“ so aus, dann würde der dazugehörige Endtag „</NamedesTags>“ so aussehen.
+Der Hauptteil eines \ac{XML}-Dokuments besteht aus einer Reihe von Elementen, die durch Tags markiert sind.
+Für jedes Element gibt es ein Starttag und ein Endtag, welche das Element beginnen und beenden.
+Ein Starttag kann beispielsweise so aussehen: „<NamedesTags>“ So aus, dann würde der dazugehörige Endtag „</NamedesTags>“ so aussehen.
 Der entscheidende Unterschied ist hierbei der Schrägstrich beim Endtag.
-Der Name des Elementes wird durch den Inhalt der Keiler- und Großer-Zeichen bestimmt, bei diesem Beispiel wäre der Name „NamedesTags“.
-Elemente haben einen Inhalt der aus Text, weiteren Elementen oder aus beidem bestehen kann,
-wenn Elemente andere Elemente beinhalten werden Sie als Elternelemente und die enthaltenen Elemente oft Kindelemente bezeichnet.
-Diese Eigenschaft der Elementente sorg dafür das \ac{XML}-Datein einer hierarchischen Baumstruktur folgen.
-Hierbei wird das oberste Element als Wurzelelement bezeichnet, im Englischen „root element“.\cite*[10-14]{Becher2022}
-
+Der Name des Elementes wird durch den Inhalt der Keiler- und Großer-Zeichen bestimmt.
+Bei diesem Beispiel wäre der Name „NamedesTags“.
+Elemente haben einen Inhalt, der aus Text, weiteren Elementen oder aus beidem bestehen kann.
+Wenn Elemente andere Elemente beinhalten, werden sie als Elternelemente und die enthaltenen Elemente oft als Kindelemente bezeichnet.
+Diese Eigenschaft der Elemente sorgt dafür, dass \ac{XML}-Dateien einer hierarchischen Baumstruktur folgen.
+Hierbei wird das oberste Element als Wurzelelement bezeichnet, im Englischen „root“. \cite*[10-14]{Becher2022}
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
-<buch><!-- Das Element "Buch" enthät 2 Kinderelement-->
+<buch><!-- Das Element "Buch" enthält 2 Kinderelement-->
   <titel>XML-Grundlagen</titel>
   <autor>Max Mustermann</autor>
 </buch>
 \end{lstlisting}
 \end{minipage}
-\caption{XML Elemente Beispielcode}
+\caption{XML-Elemente Beispielcode}
 \label{fig:XML Elemente Beispielcode}
     {Quelle: eigene Darstellung}
 \end{figure}
 
-Jedes Element kann neben Inhalt auch beliebig vielen Attributen ausgestattet sein, die zusätzliche Informationen enthalten.
-Attribute werden im Start-Tag eines Elements definiert, diese bestehen immer aus einem Attributnamen und einem Wert.
-Der Wert wird dabei mit Anführungszeichen deklariert, wie in Abbildung \ref{fig:XML Attribute Beispielcode} gezeigt. \cite*[10-14]{Becher2022}
+Jedes Element kann neben Inhalt auch mit beliebig vielen Attributen ausgestattet sein, die zusätzliche Informationen enthalten.
+Attribute werden im Starttag eines Elements definiert. Diese bestehen immer aus einem Attributnamen und einem Wert.
+Der Wert wird dabei mit Anführungszeichen deklariert, wie in Abbildung \ref{fig: XML Attribute Beispielcode} gezeigt. \cite*[10-14]{Becher2022}
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <buch genre="Lehrbuch">ES</buch>
-    <!--Hier ist das Attribute "genre" mit dem Inhat "Lehrbuch"-->
+    <!--Hier ist das Attribut "genre"  mit dem Inhalt "Lehrbuch"-->
 \end{lstlisting}
 \end{minipage}
-\caption{XML Attribute Beispielcode}
-\label{fig:XML Attribute Beispielcode}
+\caption{XML-Attribut Beispielcode}
+\label{fig: XML Attribute Beispielcode}
     {Quelle: eigene Darstellung}
 \end{figure}
 
-
 Kommentare werden mit den Tags „<!--“ und „-->“ eingefügt und dienen der Dokumentation oder dem Hinweis auf bestimmte Teile des Codes \cite*[10-14]{Becher2022}.
 Dies ist für die automatisch generierten Berichte irrelevant, jedoch für das Beschreiben der Beispiele hilfreich.
-In Abbildung \ref{fig:XML Elemente Beispielcode} und Abbildung \ref{fig:XML Attribute Beispielcode} werde diese zur Beschreiben verwendet.
-Kommentare werden beim Parsen des Dokuments ignoriert, parsen und Paser werden nachfolgenden Kapitel behandelt.
+In Abbildung \ref{fig:XML Elemente Beispielcode} und Abbildung \ref{fig: XML Attribute Beispielcode} werden diese zur Beschreibung verwendet.
+Kommentare werden beim Parsen des Dokuments ignoriert.
+Parsen und Parser werden im nachfolgenden Kapitel behandelt.
+
 %------------------------------------------------------------------------------------------------------
 \subsubsection{Verarbeiten von XML-Dateien}
 %------------------------------------------------------------------------------------------------------
 In diesem Abschnitt wird eine Zusammenfassung der grundlegenden Methoden und Techniken gegeben,
 um \ac{XML}-Dateien mithilfe verschiedener Tools unabhängig von der verwendeten Programmiersprache zu verarbeiten.
 Es wird beschrieben, wie man \ac{XML}-Dateien analysiert, modifiziert und überprüft, um sie für verschiedene Zwecke einsatzbereit zu machen.
-An Ende des Abschnittes wird jedoch etwas genauer auf Methoden die in Python genutzt werde eingegangen.
+Am Ende des Abschnittes wird jedoch etwas genauer auf Methoden, die in Python genutzt werden, eingegangen.
 
-\paragraph{XML-Paser}
 
-Der erste Schritt beim verarbeiten einer \ac{XML}-Daten ist das Parsen.
-Hierbei wird die \ac{XML}-Datei in ein Programm geladen und in ein Format umgewandelt, das das Programm interpretieren kann.
-XML-Paser prüfen hierbei auch die \ac{XML}-Daten auf Korrektheit, also ob die Voralien eingehalten werden und das Dokument vollständig ist.
-Dabei wird in nicht-validierte Parser und validierende Paser differenziert.
-Der Unterschied besteht dadrin, dass validierte Paser neben der  korrekte Schachtelung und Bezeichnung der Strukturelemente
-wie die nicht-validierten Paser auch noch auf eine Vorgabe einer Dokumenttypdefinition oder eines Schemas prüfen.\cite*[10]{Becher2022}
+\paragraph{XML-Parser}
 
-Paser werden verwendet um eine Applikation über eine \ac{API} eine Schnittstelle auf ein \ac{XML}-Dokument zu geben.
-Bei \ac{API}s wird in diesem Bereich zwischen zwei Grundtypen unterschieden:\cite*[405]{Becher2022}
+\\
 
+Der erste Schritt beim Verarbeiten einer \ac{XML}-Datei ist das Parsen.
+Hierbei wird die \ac{XML}-Datei in ein Programm geladen und in ein Format umgewandelt, das dieses interpretieren kann.
+XML-Parser prüfen hierbei auch die \ac{XML}-Daten auf Korrektheit, also ob die Vorlagen eingehalten werden und das Dokument vollständig ist.
+Dabei wird zwischen nicht-validierenden und validierenden Parsern differenziert.
+Der Unterschied besteht darin, dass validierte Paser neben der korrekten Schachtelung und Bezeichnung der Strukturelemente
+wie die nicht validierten Parser auch noch auf eine Vorgabe einer Dokumenttypdefinition oder eines Schemas prüfen. \cite*[10]{Becher2022}
+
+Parser werden verwendet, um einer Applikation über eine \ac{API} eine Schnittstelle zu einem \ac{XML}-Dokument zu geben.
+Bei \ac{API}s wird in diesem Bereich zwischen zwei Grundtypen unterschieden: \cite*[405]{Becher2022}
+
+\textbf{Baumbasiert}\\
 Die baumbasierten \ac{API}s lesen über den \ac{XML}-Parser das \ac{XML}-Dokument ein,
 parst es und erzeugt ein Modell als Baum von Knoten im Arbeitsspeicher.
-Auf Grunde der im \ac{XML}-Dokument vorkommenden Informationseinheiten wird in verschiedene Knotentypen unterschieden.
+Auf Grund der im \ac{XML}-Dokument vorkommenden Informationseinheiten wird in verschiedene Knotentypen unterschieden.
 Das generierte Modell dient der Applikation für die weitere anwendungsspezifische Verarbeitung.
-Ein Beispiel für eine baumbasierte \ac{API}s ist \ac{DOM}.
+Ein Beispiel für eine baumbasierte \ac{API} ist \ac{DOM}.
 
-\ac{DOM}ist Ein objektorientiertes Modell, das die Struktur eines \ac{XML}-Dokuments abbildet.
-In der Baumstruktur wird das gesamte Dokument abgebildet, indem jedes Element, Attribut und jeder Text bzw. Inhalt als Knoten gilt.
+\ac{DOM} ist ein objektorientiertes Modell, das die Struktur eines \ac{XML}-Dokuments abbildet.
+In der Baumstruktur wird das gesamte Dokument abgebildet, indem jedes Element, jedes Attribut und jeder Text bzw. Inhalt als Knoten gilt.
 Das \ac{DOM} hat den Vorteil, dass es das \ac{XML}-Dokument vollständig im Arbeitsspeicher darstellt, was das Durchsuchen und Bearbeiten des Dokuments erleichtert.
-Zudem bittet es eine einfache Schnittstelle bereitstellt, um XML-Daten zu erreichen und zu verändern.
+Zudem bietet es eine einfache Schnittstelle, um XML-Daten zu erreichen und zu verändern.
 Allerdings benötigt diese Herangehensweise viel Speicherplatz,
-da es das gesamte Dokument im Arbeitsspeicher ablegt, was bei großen \ac{XML}-Dokumenten ein Problem darstellen kann.\cite*[413,414]{Becher2022}
+da es das gesamte Dokument im Arbeitsspeicher ablegt, was bei umfangreichen \ac{XML}-Dokumenten ein Problem darstellen kann. \cite*[413,414]{Becher2022}
 
 
-Die ereignisbasierten \ac{API}s lesen \ac{XML}-Dokument sequenziell von begin durch
+\textbf{Ereignisbasiert}\\
+Die ereignisbasierten \ac{API}s lesen \ac{XML}-Dokumente sequenziell von Beginn an.
 ein und meldet während des Lesens jedes Ereignis durch sogenannte Callbacks an die aufrufende Applikation zurück.
 Ein Ereignis ist ein Signal, das Änderungen in dem Markup-Status anzeigt.
-Das bedeutet Ereignisse tritten bei Element-Tags, Zeichendaten, Kommentaren, Verarbeitungsanweisungen, sowie bei den Grenzen des Dokumentes auf.
+Das bedeutet, Ereignisse traten bei Element-Tags, Zeichendaten, Kommentaren und Verarbeitungsanweisungen sowie bei den Grenzen des Dokumentes auf.
 Der Parser sendet hierbei durch die Callbacks eine Mitteilung an die aufrufende Applikation, welche Ereignisse eingetreten sind.
 Das Programm, das den Parser aufgerufen hat, muss nun das Ereignis interpretieren und entsprechend reagieren.
 Das \ac{XML}-Dokument wird hierbei nicht vollständig im Arbeitsspeicher gespeichert, sondern in Teilen gelesen und bearbeitet.
 Deshalb eignen sich ereignisbasierte \ac{API}s besonders gut für die Verarbeitung großer \ac{XML}-Dateien, da dies für eine geringe Arbeitsspeicherbelastung sorgt.
 Trotz der Effizienz hinsichtlich des Speicherverbrauchs sind ereignisbasierte \ac{API}s für die Datenmanipulation nicht sonderlich gut geeignet.
-Es wird nämlich durch das Teileweise einlesen keine umfassende Dokumentstruktur wie beim aufgebaut Die baumbasierten \ac{API}s,
-welches die Manipulation bzw. bearbeitung erschwert.
-Ein Beispiel für eine große ereignisbasierte \ac{API} ist \ac{SAX}.
-Diese \ac{API} abreitet nach dem oben beschriebenen Prinzip und wurde ursprünglich als Java-\ac{API} entwickelt, inzwischen gibt es \ac{SAX} auch für weiter Sprachen wie
-z. B. C++, Perl und Python.\cite*[405]{Becher2022}
+Durch das teilweise Einlesen wird nämlich keine umfassende Dokumentstruktur wie beim vollständigen Aufbauen erzeugt. Die baumbasierten \ac{API}s,
+welches die Manipulation bzw. Bearbeitung erschwert.
+Ein Beispiel für eine bedeutende ereignisbasierte \ac{API} ist \ac{SAX}.
+Diese \ac{API} arbeitet nach dem oben beschriebenen Prinzip und wurde ursprünglich als Java-\ac{API} entwickelt. Inzwischen gibt es \ac{SAX} auch für weitere Sprachen wie
+z. B. C++, Perl und Python. \cite*[405]{Becher2022}
+
 
 \paragraph{Adressierung mit XPath}
 
-Neben dem Einlesen der \ac{XML}-Datei muss zum verwenden der Daten in dem \ac{XML}-Dokument navigiert werden, um bestimmt Knoten zu adressieren.
-Aus diesem Grund wurde die Abfragesprache XML Path Language kurz XPath entwickelt.
-XPath wird hauptsächlich in der Transformationssprache \ac{XSLT} eingesetzt, welche \ac{XML}-Dateien in ander Datenformate umwandeln soll.
-Zudem wird XPath in anderen Programmiersprachen wie z.B. JavaScript, C# oder einigen Pythonbibliotheken für die Adressierung von Bestandteilen des \ac{XML}-Baumes verwendet.
+\\
 
-Im Zusammenhang mit \ac{XML} und XPath wird oft der Begriff Knoten verwindet.
-Knoten beschreiben Teile des \ac{XML}-Dokumentes können, aber auch über das Wurzelknoten das gesamte Dokument beschreiben.
-Knoten können alle im \ac{XML}-Dokument vorhanden strukturelle Teile sein,
-daher kann bei Knoten zwischen ein paar unterschiedlichen Typen unterschieden:
+Neben dem Einlesen der \ac{XML}-Datei muss zum Verwenden der Daten in dem \ac{XML}-Dokument navigiert werden, um bestimmte Knoten zu adressieren.
+Aus diesem Grund wurde die Abfragesprache XML Path Language, kurz XPath, entwickelt.
+XPath wird hauptsächlich in der Transformationssprache \ac{XSLT} eingesetzt, welche \ac{XML}-Dateien in andere Datenformate umwandeln soll.
+Zudem wird XPath in anderen Programmiersprachen wie z. B. JavaScript, C# oder einigen Pythonbibliotheken für die Adressierung von Bestandteilen des \ac{XML}-Baumes verwendet.
+
+Im Zusammenhang mit \ac{XML} und XPath wird oft der Begriff „Knoten“ verwendet.
+Knoten können Teile des \ac{XML}-Dokumentes beschreiben, aber auch über den Wurzelknoten das gesamte Dokument.
+Knoten können alle im \ac{XML}-Dokument vorhandenen strukturellen Teile sein.
+Daher kann zwischen den verschiedenen Typen von Knoten im \ac{XML}-Dokument unterschieden werden:
 
 \begin{itemize}
-\item Wurzelknoten, auch Dokumentknoten oder root genannt: Ursprung des \ac{XML}-Dokuments.
+\item Wurzelknoten: Auch Dokumentknoten oder root genannt, sind der Ursprung des \ac{XML}-Dokuments.
 \item Elementknoten: ein beliebiges Element.
 \item Textknoten: ein Text, welcher einem Element untergeordnet ist.
 \item Attributknoten: ein beliebiges Attribut eines Elements.
@@ -163,12 +175,11 @@ daher kann bei Knoten zwischen ein paar unterschiedlichen Typen unterschieden:
 \item Verarbeitungsanweisungsknoten: ein XML-Verarbeitungshinweis.
 \end{itemize}
 
-Über dies Knoten kann man durch die \ac{XML}-Struktur navigieren, aber um nach den Knoten zu adressieren werden Achsen benötigt.
-Achsen spezifiziert die Beziehung zwischen den Knote, um so die gewünschten Knoten zu selektieren.
-Es gibt Achsen, welche nur ein Knoten adressieren, so wie Achsen welche mehrere Knoten gleichzeitig auswählen.
+Über diesen Knoten kann man durch die \ac{XML}-Struktur navigieren, aber um die Knoten zu adressieren, werden Achsen benötigt.
+Achsen spezifiziert die Beziehung zwischen den Knoten, um so die gewünschten Knoten zu selektieren.
+Es gibt Achsen, welche nur einen Knoten adressieren, so wie Achsen, welche mehrere Knoten gleichzeitig auswählen.
 In der folgenden Tabelle \ref{tab:Übersicht über XPath-Achsen} werden die verschiedenen Achsen benannt und beschrieben.
-Für alle Achsen die keine Kurz-Notation enthalten muss im Code der Name ganz ausgeschrieben werden. \cite*{XPath2025}
-
+Für alle Achsen, die keine Kurz-Notation enthalten, muss im Code der Name ganz ausgeschrieben werden. \cite*{XPath2025}
 
 \begin{table}[H]
     \centering
@@ -211,27 +222,27 @@ Für alle Achsen die keine Kurz-Notation enthalten muss im Code der Name ganz au
     {\small Quelle: eigene Darstellung nach Tabelle aus \cite*{XPath2025}}
 \end{table}
 
-Um die Selektierung der Knoten noch weiter einzugrenzen, können sogenannte Prädikate verwendet werden.
-Prädikate befinden sich immer in eckigen Klammer und in diesen können verschiedene Operatoren genutzt werden.
-Dazu zählen die mathematischen Operatoren +(Addition), -(Subtraktion), *(Multiplikation), div(Division) und mod(Modulo, Divisionsrest),
-aber auch die logischen Operatoren and (und) und or (oder) sowie die Vergleichsoperatoren =(gleich), !=(ungleich),
-<(kleiner als), <=(kleiner-gleich), >(größer als) und >=(größer-gleich).
-Mit diese Operatoren und Aneinanderreihungen von diesen kann eine Vielzahl von Sucheingrenzungen geschaffen werden,
-welche die Genauigkeit der Suchen stark erhöhen und variable gestalten. \cite*{XPath2025}
 
-Ein XPath-Ausdruck, also ein Path welcher zur Adressierung von einem oder mehren Knoten verwendet wird,
+Um die Selektierung der Knoten noch weiter einzugrenzen, können sogenannte Prädikate verwendet werden.
+Prädikate befinden sich immer in eckigen Klammern und in diesen können verschiedene Operatoren genutzt werden.
+Dazu zählen die mathematischen Operatoren + (Addition), – (Subtraktion), × (Multiplikation), div (Division) und mod (Modulo, Divisionsrest),
+aber auch die logischen Operatoren and (und) und or (oder) sowie die Vergleichsoperatoren = (gleich) und != (ungleich),
+< (kleiner als), ≤ (kleiner-gleich), > (größer als) und ≥ (größer-gleich).
+Mit diesen Operatoren und Aneinanderreihungen von diesen kann eine Vielzahl von Sucheingrenzungen geschaffen werden,
+welche die Genauigkeit der Suchen stark erhöhen und variabel gestalten. \cite{XPath2025}
+
+Ein XPath-Ausdruck, also ein Path, welcher zur Adressierung von einem oder mehreren Knoten verwendet wird,
 besteht aus einem oder mehreren Lokalisierungsschritten.
-EinLokalisierungsschritt besteht aus weiteren 3 Teilen: der Achse, einem Knotentest und bei Bedarf aus einem oder mehreren Prädikaten.
-Der Knotentest ist hierbei nichts anders als der Name der Knotens.
-Für die richtige Form des Lokalisierungsschrittes muss der Achsenname mit zwei
-(Doppel-Doppelpunkt getrennt von dem Knotentest getrennt werden, bei Kurz-Notationen können die Doppelpunkte jedoch weggelassen werden.
-Wenn anstelle des Knotenteste bzw.
-dem Knotenname das Wildcard-Zeichen * in einem Lokalisierungsschritte verwendet wird,
-werden unabhängig vom Namen und Achsen alle Knoten selektiert, welche sich unter dem letzten Lokalisierungsschritte befinden.
-Die Lokalisierungsschritte werden mithilfe des Schrägstrichs / voneinander getrennt. \cite*{XPath2025}
-In der folgenden Abbildung \ref{fig: XPath-Ausdruck} ist ein Beispiel für ein XPath-Ausdruck.
-Dieser XPath würde in einem XML-Dokument mit Bucher das erste Buch auswählen welches vor 1900 erschienen ist, geht dann
-zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
+Ein Lokalisierungsschritt besteht aus weiteren 3 Teilen: der Achse, einem Knotentest und bei Bedarf aus einem oder mehreren Prädikaten.
+Der Knotentest ist hierbei nichts anderes als der Name des Knotens.
+Für die korrekte Form des Lokalisierungsschrittes muss der Achsenname durch zwei Doppelpunkte vom Knotentest getrennt werden.
+Bei Kurz-Notationen können die Doppelpunkte jedoch weggelassen werden, wenn anstelle des Knotentests bzw.
+dem Knotennamen das Wildcard-Zeichen in einem Lokalisierungsschritt verwendet wird,
+werden unabhängig vom Namen und von den Achsen alle Knoten selektiert, welche sich unter dem letzten Lokalisierungsschritt befinden.
+Die Lokalisierungsschritte werden mithilfe des Schrägstrichs „/“ voneinander getrennt. \cite{XPath2025}
+In der folgenden Abbildung \ref{fig: XPath-Ausdruck} ist ein Beispiel für einen XPath-Ausdruck.
+Dieser XPath würde in einem XML-Dokument mit Büchern das erste Buch auswählen, welches vor 1900 erschienen ist.
+Geht dann zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
 
 
 \begin{figure}[H]
@@ -247,16 +258,19 @@ zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
 \end{figure}
 
 
-\paragraph{Pythonbibliotheken für XML-Verarbeitung}\\
-Für die Bearbeitung von \ac{XML}-Dokumenten gibt es in Python einige Bibliothek.
-Diese basieren auf den obengenannten Ansätzen, sind jedoch in dem Umfang deutlich kleiner gehalten und bitten weniger Funktionen.
-Im folgen wird einige wichtige Bibliotheken genannt und kurz erläuter:
+\paragraph{Pythonbibliotheken für XML-Verarbeitung}
+
+\\
+
+Für die Bearbeitung von \ac{XML}-Dokumenten gibt es in Python einige Bibliotheken.
+Diese basieren auf den obengenannten Ansätzen, sind jedoch in dem Umfang deutlich kleiner gehalten und bieten weniger Funktionen.
+Im Folgenden werden einige wichtige Bibliotheken genannt und kurz erläutert:
 
 \textbf{xml.etree.ElementTree}\\
 Die Standardbibliothek für XML in Python.
-Sie einfach zu benutzen und es sind keine Zusatzinstallation.
+Sie sind einfach zu benutzen und es sind keine Zusatzinstallationen.
 Gut geeignet, um kleine bis mittlere XML-Dateien zu verarbeiten.
-Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber keine \ac{XSLT} oder komplexe Features für \ac{XML}-Dokumenten bietet.\cite*{ElementTree2025}
+Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber bietet keine \ac{XSLT} oder komplexe Features für \ac{XML}-Dokumenten. \cite*{ElementTree2025}
 
 \textbf{xml.dom.minidom}\\
 Eine DOM-basierte Implementierung in Python.
@@ -266,13 +280,13 @@ Bietet feine Kontrolle, wirkt aber oft sperrig und weniger performant. \cite*{xm
 \textbf{xml.sax}\\
 Ein eventbasiertes XML-Parsing.
 Liest XML zeilenweise und löst Ereignisse aus, wenn Elemente gefunden werden.
-Sehr speichersparend und ideal für sehr große XML-Dateien, aber auch komplizierter in der Anwendung.\cite*{xml.sax}
+Sehr speichersparend und ideal für sehr große XML-Dateien, aber auch komplizierter in der Anwendung. \cite*{xml.sax}
 
 \textbf{lxml}\\
 Die leistungsfähigste XML/HTML-Bibliothek in Python.
 Basiert auf den C-Bibliotheken libxml2 und libxslt und ist daher sehr schnell.
 Unterstützt XPath, \ac{XSLT}, Validierung und kann sowohl sauberes XML als auch „kaputtes“ HTML verarbeiten.
-Der wird oft als heutiger De-facto-Standard für komplexe XML-Verarbeitung in Python bezeichnet.\cite*{lxml}
+Der wird oft als heutiger De-facto-Standard für komplexe XML-Verarbeitung in Python bezeichnet. \cite*{lxml}
 
 \textbf{BeautifulSoup}\\
 Eigentlich für HTML gedacht, funktioniert aber auch mit XML. Sehr tolerant gegenüber fehlerhaftem Code, was es beim Web-Scraping nützlich macht.
@@ -281,15 +295,15 @@ Langsamer als lxml, aber sehr einfach in der Benutzung. \cite*{BeautifulSoup}
 \textbf{xmlschema}\\
 Spezialisiert auf \ac{XSD}.
 \ac{XSD} ist eine Sprache, die die Struktur und den Inhalt von XML-Dokumenten definiert.
-Xmlschema kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln.
+XML-Schema kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln.
 Gut geeignet, wenn du sicherstellen musst, dass XML-Daten einer bestimmten Struktur entsprechen. \cite*{xmlschema}
 
 \textbf{defusedxml}\\
 Eine sichere Variante der Standardbibliotheken.
 Schützt vor bekannten XML-Sicherheitslücken wie „Billion Laughs“ oder \ac{XXE}.
-Billion Laughs beschreibt das Einsetzen von stark verschachtelten und sich wiederholenden \ac{XML}-Strukturen die wenn Sie in
-den Parser geladen werden dadurch zu Speicher- oder CPU-Überlastung führen.
-Mit \ac{XXE} können Befehle im XML-Struktur genutzt werden, welche zu Sicherheitslücke beim XML-Parsing führen.
+Billion Laughs beschreibt das Einsetzen von stark verschachtelten und sich wiederholenden \ac{XML}-Strukturen, die, wenn Sie in
+den Parser geladen werden, wodurch es zu Speicher- oder CPU-Überlastung führen kann.
+Mit \ac{XXE} können Befehle in der XML-Struktur genutzt werden, welche zu Sicherheitslücken beim XML-Parsing führen.
 So können Angreifer externe Entitäten einbinden, um Daten auszulesen oder sogar Befehle auszuführen.
 Wichtig, wenn XML aus unsicheren Quellen kommt. \cite*{defusedxml}
 
@@ -297,5 +311,3 @@ Wichtig, wenn XML aus unsicheren Quellen kommt. \cite*{defusedxml}
 Sehr einfache Bibliothek, die XML in Python-Objekte übersetzt.
 Damit können XML-Strukturen fast wie normale Attribute angesprochen werden.
 Gut für kleine Projekte, aber eingeschränkt im Funktionsumfang. \cite*{untangle}
-
-\pagebreak

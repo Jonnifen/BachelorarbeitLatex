@@ -1,4 +1,4 @@
-\usepackage{biblatex}\subsection{Datenbankentwurf und Normalisierung}
+\subsection{Datenbankentwurf und Normalisierung}
 \label{subsec:datenbankentwurf-und-normalisierung}
 %------------------------------------------------------------------------------------------------------
 Datenbanken sind strukturierte Zusammenstellungen von Daten, die elektronisch gespeichert und verwaltet werden.
@@ -6,7 +6,7 @@ Ihr Hauptziel ist es, große Datenmengen strukturiert zu speichern, den Zugriff 
 Datenbanken haben im Vergleich zu anderen Dateisystemen Mechanismen, die mehreren Benutzern die parallele Nutzung ermöglichten,
 sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen.\cite*[6]{Fuchs2021}
 
-In der folgen werden die Hauptanforderungen an Datenbanken bzw. Datenbankmanagementsysteme kurz zusammengefasst:  \cite*[7]{Herrmann2018},\cite*[6]{Fuchs2021}Fuchs2021
+In der folgen werden die Hauptanforderungen an Datenbanken bzw. Datenbankmanagementsysteme kurz zusammengefasst:  \cite*[7]{Herrmann2018},\cite*[6]{Fuchs2021}
 \begin{itemize}
 \item Datenunabhängigkeit: Speicherung unabhängig von Programmen und Plattformen
 \item
@@ -158,4 +158,37 @@ Ein Wartungsplan kümmert sich anschließend um die Betreuung, schult die Endben
 
 \end{enumerate}
 
-\pagebreak
+\subsubsection{Methoden zum Datenbankzugriff in Flask}
+Direkte Verwendung von SQL mit sqlite3 oder mysql.connector
+
+Die einfachste Form der Datenbankanbindung erfolgt über ein direktes Python-Modul für die jeweilige Datenbank (z. B. SQLite oder MySQL). Dabei werden SQL-Befehle manuell geschrieben und ausgeführt.
+
+Diese Methode ist transparent, aber fehleranfälliger und erfordert Kenntnisse in SQ
+
+
+Verwendung von Flask-SQLAlchemy (ORM)
+
+Flask-SQLAlchemy ist eine der beliebtesten und professionellsten Methoden für Flask-Anwendungen.
+
+Es basiert auf SQLAlchemy, einem mächtigen Object-Relational Mapper (ORM), der SQL-Tabellen als Python-Klassen abbildet.
+
+Dadurch entfällt das manuelle Schreiben vieler SQL-Befehle.
+
+
+SQLModel – moderne Alternative (von FastAPI inspiriert)
+
+SQLModel (von Sebastián Ramírez, dem Autor von FastAPI) kombiniert Pydantic-Modelle mit SQLAlchemy ORM.
+
+Dadurch entstehen typsichere Datenmodelle, die gleichzeitig als ORM und als Validierungsobjekte verwendet werden können.
+
+
+Verwendung von Flask-Peewee
+
+Peewee ist ein leichtgewichtiger ORM, der einfacher zu verwenden ist als SQLAlchemy.
+
+Er eignet sich für kleinere Projekte mit geringem Datenbankumfang.
+
+
+Zur persistenten Datenspeicherung wird das ORM-Framework \textit{Flask-SQLAlchemy} verwendet, das auf \textit{SQLAlchemy} basiert.
+Es ermöglicht die objektorientierte Abbildung relationaler Datenbanken und vereinfacht den Zugriff auf Daten über Python-Klassen.
+Dadurch wird eine saubere Trennung von Anwendungslogik und Datenzugriffsschicht erreicht.
