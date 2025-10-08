@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  7 OCT 2025 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  8 OCT 2025 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1848,42 +1848,21 @@ File: Grafiken/Architekturdiagramm.png Graphic file (type png)
 Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 3
 2.
 (pdftex.def)             Requested size: 418.96548pt x 306.16473pt.
-<Grafiken/App-Ordnerstruktur.png, id=758, 173.64874pt x 869.2475pt>
-File: Grafiken/App-Ordnerstruktur.png Graphic file (type png)
-<use Grafiken/App-Ordnerstruktur.png>
-Package pdftex.def Info: Grafiken/App-Ordnerstruktur.png  used on input line 49
-.
-(pdftex.def)             Requested size: 79.3839pt x 397.3784pt.
-
-Overfull \hbox (65.8041pt too wide) in paragraph at lines 50--50
-[][][]\T1/phv/m/n/10.95 Verzeichnisstruktur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/phv/m/n/10.95 der
- []
-
-
-Overfull \hbox (6.51088pt too wide) in paragraph at lines 50--50
-\T1/phv/m/n/10.95 Flask-
- []
-
-
-Overfull \hbox (29.0733pt too wide) in paragraph at lines 50--50
-\T1/phv/m/n/10.95 Applikation| 
- []
-
 
 
 [36 <./Grafiken/Architekturdiagramm.png>]
 
-[37 <./Grafiken/App-Ordnerstruktur.png>]
+[37]
+<Grafiken/Min Ordnerstruktur Projekt.png, id=771, 855.69687pt x 233.37187pt>
+File: Grafiken/Min Ordnerstruktur Projekt.png Graphic file (type png)
+<use Grafiken/Min Ordnerstruktur Projekt.png>
+Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
+ line 125.
+(pdftex.def)             Requested size: 441.01773pt x 120.27509pt.
+)) (./Kapitel/2. Hauptteil/4. Implementierung.tex
 
-[38])) (./Kapitel/2. Hauptteil/4. Implementierung.tex
-
-[39]
-<Grafiken/Ablaufdiagramm.png, id=781, 309.155pt x 273.02pt>
+[38 <./Grafiken/Min Ordnerstruktur Projekt.png>]
+<Grafiken/Ablaufdiagramm.png, id=777, 309.155pt x 273.02pt>
 File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
 <use Grafiken/Ablaufdiagramm.png>
 Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 10.
@@ -1898,7 +1877,7 @@ he.tex)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[40 <./Grafiken/Ablaufdiagramm.png>]
+[39 <./Grafiken/Ablaufdiagramm.png>]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -1906,13 +1885,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[41]
+[40]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[42]
+[41]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -1998,10 +1977,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38874 strings out of 467797
- 780662 string characters out of 5435982
- 1788732 words of memory out of 5000000
- 66513 multiletter control sequences out of 15000+600000
+ 38877 strings out of 467797
+ 780918 string characters out of 5435982
+ 1788738 words of memory out of 5000000
+ 66517 multiletter control sequences out of 15000+600000
  662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11249b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2011,10 +1990,10 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (53 pages, 967743 bytes).
+df (52 pages, 1043167 bytes).
 PDF statistics:
- 1125 PDF objects out of 1200 (max. 8388607)
- 1012 compressed objects within 11 object streams
- 305 named destinations out of 1000 (max. 500000)
+ 1121 PDF objects out of 1200 (max. 8388607)
+ 1009 compressed objects within 11 object streams
+ 304 named destinations out of 1000 (max. 500000)
  587 words of extra memory for PDF output out of 10000 (max. 10000000)
 

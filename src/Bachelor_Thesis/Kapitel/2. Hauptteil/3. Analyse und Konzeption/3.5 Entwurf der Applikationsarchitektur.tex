@@ -37,21 +37,6 @@ Ein schematisches Architekturdiagramm dieser Struktur ist in Abbildung \ref{fig:
 
 \subsubsection*{Präsentationsschicht}
 
-\begin{figure}[H]
-  \centering
-    \begin{minipage}{0.8\textwidth}
-    \small
-    Die Abbildung zeigt den Aufbau der Flask-Applikation.
-    Im Verzeichnis \texttt{blueprints} befinden sich die einzelnen Routen-Module,
-    während im Ordner \texttt{models} die Datenbankmodelle definiert sind.
-  \end{minipage}
-  \begin{minipage}{0.2\textwidth}
-    \includegraphics[width=0.9\textwidth, height=0.8\textheight, keepaspectratio]{Grafiken/App-Ordnerstruktur.png}
-    \caption{Verzeichnisstruktur der Flask-Applikation}
-    \label{fig:app-structure}
-  \end{minipage}\hfill
-
-\end{figure}
 
 Die Präsentationsschicht besteht aus einer Kombination aus HTML-Templates und statischen Ressourcen (CSS, JavaScript), die im Verzeichnis templates/ bzw. static/ abgelegt sind.
 
@@ -135,6 +120,13 @@ Die Beziehungen zwischen den Modellen ermöglichen eine strukturierte und relati
 Migrationen werden mit \textit{Alembic} verwaltet, wie das Verzeichnis migrations/ zeigt.
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
+    \caption{Grundlegenden Struktur des Applikations-Ordners}
+    \label{fig: Grundlegenden Struktur des Applikations-Ordners}
+    {Quelle: Eigene Darstellung mit Microsoft Visio}
+\end{figure}
 
 \subsubsection{Kommunikation und Datenfluss}
 
