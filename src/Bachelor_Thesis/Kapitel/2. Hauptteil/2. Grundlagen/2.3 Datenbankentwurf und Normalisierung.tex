@@ -173,19 +173,20 @@ Hier werden zwei der meistgenutzten Ansätze  vorgestellt und Vor-/Nachteilen au
 
 Bei dieser Methode wird direkt mit einem Datenbanktreiber (z. B. psycopg2, mariaDB oder mysql-connector) gearbeitet.
 SQL-Statements werden als Strings formuliert und über einen Cursor ausgeführt.
+Ein Cursor ist ein Steuerobjekt, das SQL-Befehle ausführt und Ergebnisse verwaltet.
 Diese Methode eignet sich vorwiegend für kleine Anwendungen oder für hochoptimierte Spezialfälle, bei den abstrakte Ein- und Auslesen-Befehle vorgenommen werden.
-Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite*{mysql_connector_python}\cite*{psycopg2}\cite*{mariadb_connector_python}
+Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite*{mysql_connector_python} \cite*{psycopg2} \cite*{mariadb_connector_python}
 
 \begin{enumerate}
 
 \item
-Der Verbindungsaufbau zur Datenbank wird über eine
+Der Verbindungsaufbau zu einer Datenbank.
 \item
-Ausführung eines SQL-Statements (z. B. SELECT, INSERT, UPDATE, DELETE)
+Ausführung eines SQL-Statements durch einen Cursor (z. B. SELECT, INSERT, UPDATE, DELETE).
 \item
-Abrufen der Resultate
+Abrufen der Resultate und Überführen in eine geeignete Datenstruktur (z. B. eine Liste oder Dictionary).
 \item
-Schließen der Verbindung
+Schließen der Verbindung nach fertiger Ausführung.
 
 \end{enumerate}
 
@@ -237,6 +238,7 @@ Mit Flask-SQLAlchemy definiert man Modelle als Python-Klassen, die automatisch a
 Die Objekte dieser Klassen repräsentieren Datensätze, und Operationen daran (z. B. session.add(), session.commit()) generieren hinter den Kulissen passende SQL-Befehle.\cite*{flask_sqlalchemy_docs}
 
 In der folgenden Tabelle \ref{tab:sqlalchemy_vor_nachteile} werden einige Vor- und Nachteil der Methode bzw. SQLAlchemy aufgeführt.
+Neben SQLAlchemy gibt es noch einige andere Python-Bibliotheken die \ac{ORM}- nutzen z. B. .
 
 \begin{table}[H]
     \centering
