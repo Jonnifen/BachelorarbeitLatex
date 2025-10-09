@@ -238,7 +238,8 @@ Mit Flask-SQLAlchemy definiert man Modelle als Python-Klassen, die automatisch a
 Die Objekte dieser Klassen repräsentieren Datensätze, und Operationen daran (z. B. session.add(), session.commit()) generieren hinter den Kulissen passende SQL-Befehle.\cite*{flask_sqlalchemy_docs}
 
 In der folgenden Tabelle \ref{tab:sqlalchemy_vor_nachteile} werden einige Vor- und Nachteil der Methode bzw. SQLAlchemy aufgeführt.
-Neben SQLAlchemy gibt es noch einige andere Python-Bibliotheken die \ac{ORM}- nutzen z. B. .
+Neben SQLAlchemy gibt es noch einige andere Python-Bibliotheken die \ac{ORM}- nutzen z. B. SQLModel.
+Sie ermöglicht es, ein Modell zu definieren, das sowohl als ORM-Klasse als auch als Validierungs- / Datentypklasse (Pydantic) dient\cite*{sqlmodel_docs}.
 
 \begin{table}[H]
     \centering

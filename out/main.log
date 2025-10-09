@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  9 OCT 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  9 OCT 2025 21:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1798,7 +1798,11 @@ or  <return>  to continue without it.
 Package acronym Info: Label `acro:ORM' newly defined as it shall be overridden
 although it is yet undefined on input line 226.
 
-Underfull \hbox (badness 1701) in paragraph at lines 252--252
+LaTeX Warning: Citation 'sqlmodel_docs' on page 16 undefined on input line 242.
+
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 253--253
 []|\T1/phv/m/n/10.95 Automatisches Er-stel-len und Ak-tua-li-sie-ren
  []
 
@@ -2076,6 +2080,11 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2083,7 +2092,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  38900 strings out of 467797
  781864 string characters out of 5435982
- 1791429 words of memory out of 5000000
+ 1791457 words of memory out of 5000000
  66539 multiletter control sequences out of 15000+600000
  662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2094,7 +2103,7 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (51 pages, 1047532 bytes).
+df (51 pages, 1047817 bytes).
 PDF statistics:
  1129 PDF objects out of 1200 (max. 8388607)
  1018 compressed objects within 11 object streams

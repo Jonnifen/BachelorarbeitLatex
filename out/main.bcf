@@ -2415,6 +2415,7 @@
     <bcf:citekey order="39" intorder="1">miguelgrinberg_flask_mega_tutorial_db</bcf:citekey>
     <bcf:citekey order="40" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="41" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">sqlmodel_docs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
