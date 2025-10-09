@@ -578,6 +578,160 @@
       \verb https://doi.org/10.1007/978-3-658-25730-9
       \endverb
     \endentry
+    \entry{mysql_connector_python}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d51288dc67d9f5e0330d927a009e208b}{%
+           family={{Oracle Corporation}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Oracle Corporation}%
+      }
+      \strng{namehash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{fullhash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{fullhashraw}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{bibnamehash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{authorbibnamehash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{authornamehash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{authorfullhash}{d51288dc67d9f5e0330d927a009e208b}
+      \strng{authorfullhashraw}{d51288dc67d9f5e0330d927a009e208b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 9.1.0, zuletzt abgerufen am 09. Oktober 2025}
+      \field{title}{MySQL Connector/Python}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://pypi.org/project/mysql-connector-python/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/mysql-connector-python/
+      \endverb
+    \endentry
+    \entry{psycopg2}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=c786609cf9285fad776207b12160823a}{%
+           family={{Federico Di Gregorio}},
+           familyi={F\bibinitperiod}}}%
+        {{hash=38f90f0d751f91a6e9408197d3c730d7}{%
+           family={{Daniele Varrazzo}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Psycopg Project}%
+      }
+      \strng{namehash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{fullhash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{fullhashraw}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{bibnamehash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{authorbibnamehash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{authornamehash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{authorfullhash}{48a48e2245dfb8f781ef2553c2f162ce}
+      \strng{authorfullhashraw}{48a48e2245dfb8f781ef2553c2f162ce}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Version 2.9.10, zuletzt abgerufen am 09. Oktober 2025}
+      \field{title}{psycopg2 – PostgreSQL Database Adapter for Python}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://pypi.org/project/psycopg2/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/psycopg2/
+      \endverb
+    \endentry
+    \entry{mariadb_connector_python}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1dc102a68b76700cdc02f1d7a578b433}{%
+           family={{MariaDB Foundation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {MariaDB Foundation}%
+      }
+      \strng{namehash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{fullhash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{fullhashraw}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{bibnamehash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{authorbibnamehash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{authornamehash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{authorfullhash}{1dc102a68b76700cdc02f1d7a578b433}
+      \strng{authorfullhashraw}{1dc102a68b76700cdc02f1d7a578b433}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zuletzt abgerufen am 09. Oktober 2025}
+      \field{title}{MariaDB Connector/Python Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://mariadb.com/docs/connectors/mariadb-connector-python
+      \endverb
+      \verb{url}
+      \verb https://mariadb.com/docs/connectors/mariadb-connector-python
+      \endverb
+    \endentry
+    \entry{miguelgrinberg_flask_mega_tutorial_db}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=eeba7ae00fae9a99a709f6f40abb3917}{%
+           family={Grinberg},
+           familyi={G\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{fullhash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{fullhashraw}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{bibnamehash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{authorbibnamehash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{authornamehash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{authorfullhash}{eeba7ae00fae9a99a709f6f40abb3917}
+      \strng{authorfullhashraw}{eeba7ae00fae9a99a709f6f40abb3917}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 8. Oktober 2025}
+      \field{title}{The Flask Mega-Tutorial, Part IV: Database}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
+      \endverb
+      \verb{url}
+      \verb https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
+      \endverb
+    \endentry
+    \entry{flask_sqlalchemy_docs}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=4441b404549896eed56d1c0d79733b99}{%
+           family={{Pallets Projects}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \strng{bibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorbibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authornamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 8. Oktober 2025}
+      \field{title}{Flask-SQLAlchemy Documentation (Version 3.x)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://flask-sqlalchemy.readthedocs.io/en/stable/quickstart/
+      \endverb
+      \verb{url}
+      \verb https://flask-sqlalchemy.readthedocs.io/en/stable/quickstart/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

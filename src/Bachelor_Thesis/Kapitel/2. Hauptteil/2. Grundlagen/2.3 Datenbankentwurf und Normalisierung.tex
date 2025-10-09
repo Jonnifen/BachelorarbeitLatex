@@ -32,6 +32,7 @@ Redundanzfreiheit: Daten nur einmal speichern, Redundanz vermeiden
 %------------------------------------------------------------------------------------------------------
 \subsubsection{Datenbankstruktur}
 %------------------------------------------------------------------------------------------------------
+
 Die Struktur der Datenbank legt fest, wie das Datenbanksystem organisiert ist und wie die Datenelemente angeordnet sind.
 Das Grundprinzip relationaler Datenbanken sind im Grunde Tabellen und die Beziehungen zwischen diesen.
 Die Hauptbestandteile sind: \cite*[35]{Gadatsch2019}
@@ -39,15 +40,15 @@ Die Hauptbestandteile sind: \cite*[35]{Gadatsch2019}
 \begin{itemize}
 \item Tabellen – das grundlegende Element, welches Daten in Zeilen (Tupeln) und Spalten (Attributen) strukturiert.
 \item Ein Datensatz in einer Tabelle wird durch Primärschlüssel (Primary Keys) eindeutig identifiziert.
-\item Schlüssel aus anderen Tabellen (Foreign Keys)  Tabellenverknüpfung, um die referenzielle Integrität zu gewährleisten.
+\item Schlüssel aus anderen Tabellen (Foreign Keys): Tabellenverknüpfung, um die referenzielle Integrität zu gewährleisten.
 \item Indizes: Datenstrukturen, die das Beschleunigen von Abfragen ermöglichen.
-\item Views: sie sind virtuelle Tabellen und beruhen auf den Ergebnissen von Abfragen.
-\item Constraints: Vorgaben zur Gewährleistung der Datenintegrität (z.B. Wertebereiche, Pflichtfelder oder Dopplungen).
+\item Views: Sie sind virtuelle Tabellen und beruhen auf den Ergebnissen von Abfragen.
+\item Constraints: Vorgaben zur Gewährleistung der Datenintegrität (z. B. Wertebereiche, Pflichtfelder oder Dopplungen).
 \end{itemize}
-%------------------------------------------------------------------------------------------------------
-\subsubsection{Datenintegrität und Normalisierung}
-%------------------------------------------------------------------------------------------------------
-Ein methodischer Ansatz zur Reduzierung von Redundanzen und Anomalien ist die Normalisierung.
+\textit{%------------------------------------------------------------------------------------------------------
+}\subsubsection{Datenintegrität und Normalisierung}
+\textit{%------------------------------------------------------------------------------------------------------
+}Ein methodischer Ansatz zur Reduzierung von Redundanzen und Anomalien ist die Normalisierung.
 Der Prozess erfolgt schrittweise durch die Normalformen, die durch Indizes (1NF, 2NF, 3NF, BCNF) definiert sind.
 Alle Normalformen haben spezifische Arten von Datenanomalien zum Ziel: \cite*[38-41]{Gadatsch2019}
 
@@ -76,10 +77,10 @@ Referentielle Integrität (gültige Fremdschlüsselverweise).
 
 \end{itemize}
 
-%------------------------------------------------------------------------------------------------------
-\subsubsection{Vorgehen zur Erstellung der Datenbank}
-%------------------------------------------------------------------------------------------------------
-Bei der Erstellung einer Datenbank sollte nach folgendem Schema vorgegangen werden.
+\textit{%------------------------------------------------------------------------------------------------------
+}\subsubsection{Vorgehen zur Erstellung der Datenbank}
+\textit{%------------------------------------------------------------------------------------------------------
+}Bei der Erstellung einer Datenbank sollte nach folgendem Schema vorgegangen werden.
 Bei diesem Schema gilt es, sowohl technische als auch konzeptionelle Aspekte zu berücksichtigen: \cite*[9-11]{Herrmann2018}
 
 \begin{enumerate}
@@ -88,7 +89,7 @@ Bei diesem Schema gilt es, sowohl technische als auch konzeptionelle Aspekte zu 
 Anforderungsanalyse
 
 Zuerst wird im Hinblick auf das Geschäftsumfeld bestimmt, welchen konkreten Zweck die Datenbank erfüllen soll.
-Hierbei ist die Zweckbestimmung  entscheidend, da sie festlegt, welche Daten als relevant gelten.
+Hierbei ist die Zweckbestimmung entscheidend, da sie festlegt, welche Daten als relevant gelten.
 Der Konzeptvorschlag, der das Projektziel definiert und die Vorgehensweise umreißt, ist das Ergebnis.
 \begin{itemize}
 
@@ -105,9 +106,9 @@ Definition von Integritäts- und Sicherheitsanforderungen.
 Konzeptionelles Datenmodell
 
 Es soll das geschäftliche Umfeld betrachtet werden.
-Die bestehende Objekte (z.B. Reports mit Materialnummer, Datum, Version), deren Attribute sowie die Beziehungen und Einschränkungen zwischen diesen Objekten.
+Die bestehenden Objekte (z. B. Reports mit Materialnummer, Datum, Version), deren Attribute sowie die Beziehungen und Einschränkungen zwischen diesen Objekten.
 Das Entity-Relationship-Modell (ERM) nach Chen oder das PrecisedERM (PERM) werden häufig zur Modellierung verwendet.
-Der konzeptionelle Entwurf ist die Grundlage für die nächste Phase und dient als Diskussionsgrundlage.
+Der konzeptionelle Entwurf ist die Grundlage für die nächste Phase und dient als Diskussionsbasis.
 \begin{itemize}
 
 \item Die Entwicklung eines Entity-Relationship-Modells (ERM), das die reale Welt in Entitäten, Attribute und Beziehungen abbildet.
@@ -124,19 +125,18 @@ Transformationsregeln garantieren, dass Beziehungen und Integritätsbedingungen 
 \begin{itemize}
 
 \item Transformation des konzeptionellen Modells in ein relationales Schema.
-\item Festlegung von Tabellen, Spalten (Attribute), Primärschlüsseln und Fremdschlüsseln.
-\item Definition von Datentypen und Zellenkofigurationen (z.B. NOT NULL, UNIQUE, CHECK).
+\item Festlegung von Tabellen, Spalten (Attributen), Primärschlüsseln und Fremdschlüsseln.
+\item Definition von Datentypen und Zellkonfigurationen (z. B. NOT NULL, UNIQUE, CHECK).
 \end{itemize}
 
 \item
 Physisches Datenmodell
 
 Eine physische Datenbankstruktur wird durch \ac{SQL} erstellt, basierend auf dem logischen Entwurf.
-Die konkrete Festlegung von Tabellen, Indizes, Constraints usw. erfolgt dabei durch  Das System,
-das wir implementiert haben, wird immer wieder getestet und zusammen mit den Nutzerinnen auf fachliche Richtigkeit überprüft.
+Die konkrete Festlegung von Tabellen, Indizes, Constraints usw. erfolgt dabei durch das implementierte System, welches immer wieder getestet und zusammen mit den Nutzerinnen auf fachliche Richtigkeit überprüft wird.
 \begin{itemize}
 
-\item Realisierung des logischen Modells in einer spezifischen Datenbankmanagementsoftware (z.B. MySQL, Mariadb oder Microsoft SQL Server).er).
+\item Realisierung des logischen Modells in einer spezifischen Datenbankmanagementsoftware (z. B. MySQL, MariaDB oder Microsoft SQL Server).
 \item Die Verbesserung der Speicherstrukturen, der Indexierung und der Partitionierung.
 
 \end{itemize}
@@ -146,9 +146,11 @@ Implementierung und Prüfung
 
 Nach der erfolgreichen Umsetzung wird das System vom Kunden gemäß einem vorher festgelegten Abnahmeplan freigegeben.
 Ein Wartungsplan kümmert sich anschließend um die Betreuung, schult die Endbenutzer und überwacht die IT-Umgebung kontinuierlich.
+
+
 \begin{itemize}
 
-\item Den Aufbau der Tabellen und Relationen entsprechend dem Datenbankschema.
+\item Der Aufbau der Tabellen und Relationen erfolgt entsprechend dem Datenbankschema.
 
 \item Die Testdaten implementieren.
 
@@ -158,37 +160,106 @@ Ein Wartungsplan kümmert sich anschließend um die Betreuung, schult die Endben
 
 \end{enumerate}
 
+
 \subsubsection{Methoden zum Datenbankzugriff in Flask}
-Direkte Verwendung von SQL mit sqlite3 oder mysql.connector
 
-Die einfachste Form der Datenbankanbindung erfolgt über ein direktes Python-Modul für die jeweilige Datenbank (z. B. SQLite oder MySQL). Dabei werden SQL-Befehle manuell geschrieben und ausgeführt.
-
-Diese Methode ist transparent, aber fehleranfälliger und erfordert Kenntnisse in SQ
+In diesem Abschnitt werden die maßgeblichen Methoden für die Arbeit mit SQL-Datenbanken in Flask vorgestellt, ihre Charakteristika erläutert und ein Vergleich gezogen.
+Hier werden zwei der meistgenutzten Ansätze  vorgestellt und Vor-/Nachteilen aufgezeigt.
 
 
-Verwendung von Flask-SQLAlchemy (ORM)
+\textbf{Direkter SQL-Zugriff via DB-Treiber}
 
-Flask-SQLAlchemy ist eine der beliebtesten und professionellsten Methoden für Flask-Anwendungen.
+\\
 
-Es basiert auf SQLAlchemy, einem mächtigen Object-Relational Mapper (ORM), der SQL-Tabellen als Python-Klassen abbildet.
+Bei dieser Methode wird direkt mit einem Datenbanktreiber (z. B. psycopg2, mariaDB oder mysql-connector) gearbeitet.
+SQL-Statements werden als Strings formuliert und über einen Cursor ausgeführt.
+Diese Methode eignet sich vorwiegend für kleine Anwendungen oder für hochoptimierte Spezialfälle, bei den abstrakte Ein- und Auslesen-Befehle vorgenommen werden.
+Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite*{mysql_connector_python}\cite*{psycopg2}\cite*{mariadb_connector_python}
 
-Dadurch entfällt das manuelle Schreiben vieler SQL-Befehle.
+\begin{enumerate}
+
+\item
+Der Verbindungsaufbau zur Datenbank wird über eine
+\item
+Ausführung eines SQL-Statements (z. B. SELECT, INSERT, UPDATE, DELETE)
+\item
+Abrufen der Resultate
+\item
+Schließen der Verbindung
+
+\end{enumerate}
+
+In der folgenden Tabelle \ref{tab:sql_vor_nachteile} werden einige Vor- und Nachteil der Methode aufgeführt.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.47\textwidth}|p{0.47\textwidth}|}
+        \hline
+        \textbf{Vorteile} & \textbf{Nachteile} \\
+        \hline
+        Maximale Kontrolle über das ausgeführte SQL &
+        Gefahr für SQL-Injections, wenn Parameter nicht sicher gebunden werden \\
+        \hline
+        Kein Overhead durch zusätzliche Abstraktionsschichten &
+        Manuelle Fehleranfälligkeit (z. B. bei Verbindungshandling oder Transaktionen) \\
+        \hline
+        Nützlich bei komplexen, datenbankspezifischen Abfragen,
+        die ein ORM möglicherweise schwer modellieren kann &
+        Schwer zu skalieren bei komplexer Domänenlogik \\
+        \hline
+        \textemdash &
+        Geringe Lesbarkeit, insbesondere bei vielen Joins oder Abhängigkeiten \\
+        \hline
+    \end{tabular}
+    \caption{Vor- und Nachteile des direkten SQL-Zugriffs in Flask}
+    \label{tab:sql_vor_nachteile}
+    \vspace{0.2cm}
+    {Quelle: eigene Darstellung}
+\end{table}
 
 
-SQLModel – moderne Alternative (von FastAPI inspiriert)
+\textbf{Object-Relational Mapping}
 
-SQLModel (von Sebastián Ramírez, dem Autor von FastAPI) kombiniert Pydantic-Modelle mit SQLAlchemy ORM.
+\\
 
-Dadurch entstehen typsichere Datenmodelle, die gleichzeitig als ORM und als Validierungsobjekte verwendet werden können.
+\ac{ORM} eine Methode in der Softwareentwicklung, die es ermöglicht, Objekte aus einer objektorientierten Programmiersprache auf
+Tabellen in einer relationalen Datenbank abzubilden, um die Interaktion mit Datenbanken zu erleichtern.
+Entwickler müssen keine SQL-Abfragen mehr manuell erstellen.
+Sie interagieren einfach mit Objekten in ihrer Programmiersprache,
+und das ORM-Tool wandelt dies in die passenden Datenbankoperationen um. \cite*{miguelgrinberg_flask_mega_tutorial_db}
+Eine der am meisten verwendete ist Python-Bibliothek für diese Methode ist SQLAlchemy.
 
+SQLAlchemy ist ein umfangreiches Toolkit und \ac{ORM} für relationale Datenbanken.
+In Flask nutzt man normalerweise die Erweiterung Flask-SQLAlchemy, die SQLAlchemy in die Kontextstruktur von Flask
+integriert und den typischen Boilerplate-Aufwand reduziert.\cite*{flask_sqlalchemy_docs}
 
-Verwendung von Flask-Peewee
+Mit Flask-SQLAlchemy definiert man Modelle als Python-Klassen, die automatisch auf Datenbanktabellen abgebildet werden (Declarative Mapping).
+Die Objekte dieser Klassen repräsentieren Datensätze, und Operationen daran (z. B. session.add(), session.commit()) generieren hinter den Kulissen passende SQL-Befehle.\cite*{flask_sqlalchemy_docs}
 
-Peewee ist ein leichtgewichtiger ORM, der einfacher zu verwenden ist als SQLAlchemy.
+In der folgenden Tabelle \ref{tab:sqlalchemy_vor_nachteile} werden einige Vor- und Nachteil der Methode bzw. SQLAlchemy aufgeführt.
 
-Er eignet sich für kleinere Projekte mit geringem Datenbankumfang.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{0.47\textwidth}|p{0.47\textwidth}|}
+        \hline
+        \textbf{Vorteile} & \textbf{Nachteile} \\
+        \hline
+        ORM-Abstraktion: Arbeiten mit Objekten statt SQL &
+        Leicht höhere Komplexität als direkter SQL-Zugriff \\
+        \hline
+        Automatisches Erstellen und Aktualisieren von Tabellen &
+        Performance bei sehr großen Datenmengen leicht geringer \\
+        \hline
+        Integriert gut in Flask &
+        — \\
+        \hline
+        Kompatibel mit vielen Datenbanken (SQLite, MySQL, PostgreSQL, etc.) &
+        — \\
+        \hline
+    \end{tabular}
+    \caption{Vor- und Nachteile der Verwendung von Flask-SQLAlchemy}
+    \label{tab:sqlalchemy_vor_nachteile}
+    \vspace{0.2cm}
+    {\small Quelle: eigene Darstellung}
+\end{table}
 
-
-Zur persistenten Datenspeicherung wird das ORM-Framework \textit{Flask-SQLAlchemy} verwendet, das auf \textit{SQLAlchemy} basiert.
-Es ermöglicht die objektorientierte Abbildung relationaler Datenbanken und vereinfacht den Zugriff auf Daten über Python-Klassen.
-Dadurch wird eine saubere Trennung von Anwendungslogik und Datenzugriffsschicht erreicht.

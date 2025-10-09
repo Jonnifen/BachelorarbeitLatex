@@ -2409,6 +2409,12 @@
     <bcf:citekey order="33" intorder="1">Gadatsch2019</bcf:citekey>
     <bcf:citekey order="34" intorder="1">Gadatsch2019</bcf:citekey>
     <bcf:citekey order="35" intorder="1">Herrmann2018</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">mysql_connector_python</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">psycopg2</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">mariadb_connector_python</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">miguelgrinberg_flask_mega_tutorial_db</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
