@@ -464,6 +464,79 @@
       \verb https://untangle.readthedocs.io/en/latest/
       \endverb
     \endentry
+    \entry{FlaskDocumentation}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4441b404549896eed56d1c0d79733b99}{%
+           family={{Pallets Projects}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \strng{bibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorbibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authornamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://flask.palletsprojects.com/en/stable/}}
+      \field{note}{Zugriff am 10. Oktober 2025}
+      \field{title}{Flask Documentation}
+      \field{year}{2024}
+    \endentry
+    \entry{FlaskLifecycle}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4441b404549896eed56d1c0d79733b99}{%
+           family={{Pallets Projects}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \strng{bibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorbibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authornamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://flask.palletsprojects.com/en/stable/lifecycle/}}
+      \field{note}{Zugriff am \today}
+      \field{title}{Flask Application Lifecycle}
+      \field{year}{2024}
+    \endentry
+    \entry{Kennedy2024_FlaskRequests}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6bc0df90129de23223c04db56e402a9}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{fullhash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{fullhashraw}{b6bc0df90129de23223c04db56e402a9}
+      \strng{bibnamehash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{authorbibnamehash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{authornamehash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{authorfullhash}{b6bc0df90129de23223c04db56e402a9}
+      \strng{authorfullhashraw}{b6bc0df90129de23223c04db56e402a9}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://testdriven.io/blog/how-are-requests-processed-in-flask/}}
+      \field{note}{Zugriff am \today}
+      \field{title}{How Are Requests Processed in Flask?}
+      \field{year}{2024}
+    \endentry
     \entry{Fuchs2021}{book}{}{}
       \name{author}{1}{}{%
         {{hash=dc6f26654ce555bbbfbfaf64936fbd0c}{%
@@ -486,8 +559,8 @@
       \strng{authornamehash}{dc6f26654ce555bbbfbfaf64936fbd0c}
       \strng{authorfullhash}{dc6f26654ce555bbbfbfaf64936fbd0c}
       \strng{authorfullhashraw}{dc6f26654ce555bbbfbfaf64936fbd0c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1. Ausgabe}
@@ -704,6 +777,35 @@
       \verb https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
       \endverb
     \endentry
+    \entry{flask_official_sqlalchemy_pattern}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=4441b404549896eed56d1c0d79733b99}{%
+           family={{Pallets Projects}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{fullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \strng{bibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorbibnamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authornamehash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
+      \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 8. Oktober 2025}
+      \field{title}{Using SQLAlchemy with Flask}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/stable/patterns/sqlalchemy/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/stable/patterns/sqlalchemy/
+      \endverb
+    \endentry
     \entry{flask_sqlalchemy_docs}{manual}{}{}
       \name{author}{1}{}{%
         {{hash=4441b404549896eed56d1c0d79733b99}{%
@@ -718,6 +820,7 @@
       \strng{authornamehash}{4441b404549896eed56d1c0d79733b99}
       \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
       \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
+      \field{extraname}{4}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -730,6 +833,36 @@
       \endverb
       \verb{url}
       \verb https://flask-sqlalchemy.readthedocs.io/en/stable/quickstart/
+      \endverb
+    \endentry
+    \entry{sqlmodel_docs}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=f5305ee02dd2a5c6215b53401b4a10b0}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{fullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{fullhashraw}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{bibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorbibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authornamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorfullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorfullhashraw}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 8. Oktober 2025}
+      \field{title}{SQLModel Documentation}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://sqlmodel.tiangolo.com/
+      \endverb
+      \verb{url}
+      \verb https://sqlmodel.tiangolo.com/
       \endverb
     \endentry
   \enddatalist

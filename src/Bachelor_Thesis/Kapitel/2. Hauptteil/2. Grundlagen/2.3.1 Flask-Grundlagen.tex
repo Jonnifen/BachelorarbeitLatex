@@ -1,0 +1,58 @@
+\subsection{Flask-Grundlagen und Funktionsweise}\label{subsec:flask-grundlagen-und-funktionsweise}
+
+In diesem Unterkapitel wird das Webframework Flask, das in der Web-Applikation genutzt wird, behandelt.
+Ein grundlegender Überblick wird gegeben und sein wichtiger Funktionsablauf wird erläutert.
+
+\subsubsection{Überblick}
+
+Flask ist ein schlankes Webframework für Python, das auf WSGI (Web Server Gateway Interface) basiert.
+Das Web Server Gateway Interface (WSGI) ist eine Schnittstelle, die es Webservern ermöglicht, mit Python-Webanwendungen oder -Frameworks zu kommunizieren.  Der Begriff „leichtgewichtiges“ bedeutet in diesem Zusammenhang, dass der Framework-Kern mit Bedacht minimalistisch entworfen wurde und viele Funktionen nur durch Erweiterungen hinzugefügt werden können.
+In der Standardkonfiguration setzt sich Flask aus zwei zentralen Komponenten zusammen: \cite{FlaskDocumentation}
+\begin{itemize}
+
+    \item Werkzeug: Ist eine Sammlung von Funktionen zum Erstellen von WSGI-Anwendungen, die HTTP-Requests und -Responses abstrahiert und die Schnittstelle zwischen dem Webserver und der Python-Anwendung ermöglicht.  Außerdem umfasst sie Funktionen zum Aufspüren und Beheben von Fehlern (Debugging), zum Zuordnen von URLs zu Funktionen oder Aktionen in einer Webanwendung (URL-Routing) sowie Hilfsfunktionen für die Arbeit mit HTTP (HTTP-Utilities).
+
+    \item Jinja2: eine Template-Engine, die es ermöglicht, HTML-Dateien mit Platzhaltern, Schleifen, Bedingungen und weiteren Syntaxelementen zu erstellen, um sie dynamisch in der Anwendung zu rendern. Sie erlaubt so die dynamische Erstellung von HTML-Seiten (oder anderen Textdateien), indem Python-Daten in Platzhalter innerhalb einer Vorlage (Template) eingefügt werden.
+
+\end{itemize}
+
+
+\subsubsection{Grundprinzip der Funktionsweise}
+
+Die beiden obengenannten zentralen Komponenten bilden die Grundlagen für die Funktionsweise von Flask.
+
+Für die Darstellung im Browser werden die Seiten der Applikation serverseitig dynamisch erstellt und an den Client gesendet, indem diese Template-Vorlagen genutzt werden.
+Die HTTP-Anfragen (Requests) des Clients werden über die WSGI-Schnittstelle, die Werkzeug bereitstellt, entgegengenommen, von der Anwendung verarbeitet und als HTTP-Antworten (Responses) an den Webserver zurückgeschickt. Hierbei kümmert sich Jinja2 um die dynamische Erstellung der HTML-Seiten, während Werkzeug die Kommunikation zwischen Webserver und Anwendung regelt. Die Auslieferung von dynamisch generierten Webseiten wird durch das Zusammenwirken dieser beiden Komponenten ermöglicht.
+
+Um die Funktionsweise von Flask zu veranschaulichen, wird im Folgenden ein typischer Ablauf einer Webanfrage kurz beschrieben: \cite{FlaskLifecycle,Kennedy2024_FlaskRequests}
+\begin{enumerate}
+
+
+    \item \textbf{Erhalt einer HTTP-Anfrage}\\
+Ein Webclient (wie ein Browser) schickt eine Anfrage an den Webserver, der sie über die WSGI-Schnittstelle an die Flask-Anwendung weiterleitet.
+
+
+
+    \item \textbf{Routing}\\
+Flask untersucht die URL und weist sie einer passenden View-Funktion zu.  Dies erfolgt über sogenannte Routen, die mit dem Dekorator @app.route() festgelegt werden.
+
+
+
+
+    \item \textbf{Bearbeitung der Anfrage}\\
+Die Geschäftslogik wird in der zugeordneten Funktion ausgeführt; dazu gehört unter anderem das Auslesen von Parametern, der Zugriff auf eine Datenbank oder die Aufbereitung von Daten.
+
+
+
+
+    \item \textbf{Template Rendering (optional)}\\
+Falls die Antwort HTML-basiert ist, wird ein Jinja2-Template mit dynamischen Daten gefüllt und gerendert.
+
+
+
+
+    \item \textbf{Erzeugung der HTTP-Antwort}\\
+Flask gibt die fertige Antwort (z. B. HTML, JSON oder Redirect) an den Client zurück.
+
+
+\end{enumerate}

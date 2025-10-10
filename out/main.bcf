@@ -2402,17 +2402,21 @@
     <bcf:citekey order="26" intorder="1">xmlschema</bcf:citekey>
     <bcf:citekey order="27" intorder="1">defusedxml</bcf:citekey>
     <bcf:citekey order="28" intorder="1">untangle</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Fuchs2021</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Herrmann2018</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">FlaskDocumentation</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">FlaskLifecycle</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">Kennedy2024_FlaskRequests</bcf:citekey>
     <bcf:citekey order="31" intorder="1">Fuchs2021</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Gadatsch2019</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Gadatsch2019</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Herrmann2018</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Fuchs2021</bcf:citekey>
     <bcf:citekey order="34" intorder="1">Gadatsch2019</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">Herrmann2018</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">mysql_connector_python</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">psycopg2</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">mariadb_connector_python</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Gadatsch2019</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Gadatsch2019</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Herrmann2018</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">mysql_connector_python</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">psycopg2</bcf:citekey>
+    <bcf:citekey order="38" intorder="3">mariadb_connector_python</bcf:citekey>
     <bcf:citekey order="39" intorder="1">miguelgrinberg_flask_mega_tutorial_db</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">flask_official_sqlalchemy_pattern</bcf:citekey>
     <bcf:citekey order="40" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="41" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="42" intorder="1">sqlmodel_docs</bcf:citekey>

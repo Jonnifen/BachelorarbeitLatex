@@ -175,7 +175,7 @@ Bei dieser Methode wird direkt mit einem Datenbanktreiber (z. B. psycopg2, maria
 SQL-Statements werden als Strings formuliert und über einen Cursor ausgeführt.
 Ein Cursor ist ein Steuerobjekt, das SQL-Befehle ausführt und Ergebnisse verwaltet.
 Diese Methode eignet sich vorwiegend für kleine Anwendungen oder für hochoptimierte Spezialfälle, bei den abstrakte Ein- und Auslesen-Befehle vorgenommen werden.
-Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite*{mysql_connector_python} \cite*{psycopg2} \cite*{mariadb_connector_python}
+Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite{mysql_connector_python,psycopg2,mariadb_connector_python}
 
 \begin{enumerate}
 
@@ -227,9 +227,9 @@ In der folgenden Tabelle \ref{tab:sql_vor_nachteile} werden einige Vor- und Nach
 Tabellen in einer relationalen Datenbank abzubilden, um die Interaktion mit Datenbanken zu erleichtern.
 Entwickler müssen keine SQL-Abfragen mehr manuell erstellen.
 Sie interagieren einfach mit Objekten in ihrer Programmiersprache,
-und das ORM-Tool wandelt dies in die passenden Datenbankoperationen um. \cite*{miguelgrinberg_flask_mega_tutorial_db}
-Eine der am meisten verwendete ist Python-Bibliothek für diese Methode ist SQLAlchemy.
+und das ORM-Tool wandelt dies in die passenden Datenbankoperationen um. \cite{miguelgrinberg_flask_mega_tutorial_db,flask_official_sqlalchemy_pattern}
 
+Eine der am meisten verwendeten Python-Bibliothek für diese Methode ist SQLAlchemy.
 SQLAlchemy ist ein umfangreiches Toolkit und \ac{ORM} für relationale Datenbanken.
 In Flask nutzt man normalerweise die Erweiterung Flask-SQLAlchemy, die SQLAlchemy in die Kontextstruktur von Flask
 integriert und den typischen Boilerplate-Aufwand reduziert.\cite*{flask_sqlalchemy_docs}
