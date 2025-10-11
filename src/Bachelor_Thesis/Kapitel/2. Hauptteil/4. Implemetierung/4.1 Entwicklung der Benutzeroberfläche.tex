@@ -1,0 +1,36 @@
+\subsection{Entwicklung der Benutzeroberfläche}
+\label{subsec:entwicklung-der-benutzeroberflache}
+Aufbau der Präsentationsschicht
+
+
+Die Benutzeroberfläche wurde in HTML, CSS und JavaScript unter Verwendung der Jinja2-Template-Engine realisiert.
+
+Alle relevanten Dateien für die Darstellung der Seiten befinden sich in den Ordnern \code{static} und \code{static}.
+Hierbei dient das HTML-Dokument \code{base}
+
+
+
+
+Sie ist in drei Hauptseiten unterteilt:
+
+\begin{enumerate}
+
+\item
+Upload-Seite: Hochladen und Einlesen von XML-Dateien,
+
+\item
+Berichtstabelle: Übersicht aller eingelesenen Testberichte,
+
+\item
+Visualisierungsseite: Darstellung ausgewählter Messdaten in grafischer Form.
+
+\end{enumerate}
+
+Die Navigation erfolgt über eine feste Menüleiste, wodurch eine einheitliche Benutzerführung gewährleistet wird.
+Systemmeldungen (z. B. Upload-Erfolg oder Fehlermeldungen) werden direkt auf den jeweiligen Seiten angezeigt.
+Die grafische Visualisierung der Messdaten wurde mithilfe der Bibliothek Chart.js umgesetzt.
+Sie erlaubt die Darstellung von Linien- und Balkendiagrammen und bildet damit die Grundlage für die geplante interaktive Auswertung.
+Die derzeitige Visualisierung erfüllt die funktionalen Anforderungen, soll jedoch im Hinblick auf Darstellungsqualität,
+Interaktivität und Layout weiter verbessert werden.
+
+

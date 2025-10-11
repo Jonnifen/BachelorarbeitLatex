@@ -123,17 +123,10 @@ Migrationen werden mit \textit{Alembic} verwaltet, wie das Verzeichnis migration
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegenden Struktur des Applikations-Ordners}
-    \label{fig: Grundlegenden Struktur des Applikations-Ordners}
+    \caption{Grundlegende Struktur des Applikations-Ordners}
+    \label{fig: Grundlegende Struktur des Applikations-Ordners}
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
-
-\subsubsection{Kommunikation und Datenfluss}
-
-Alles startet mit dem Hochladen einer XML-Datei über die Weboberfläche.
-Der Blueprint upload übergibt die Datei an das Modul xml\_ingest, welches die XML-Struktur analysiert, relevante Informationen extrahiert und sie über die Datenmodelle in der Datenbank speichert.
- Die über den Blueprint reports oder dut gespeicherten Daten können anschließend abgerufen und visuell über die Templates dargestellt werden.
- Die Schichten kommunizieren ausschließlich über klar definierte Schnittstellen und ORM-Modelle, was eine lose Kopplung und eine hohe Wartbarkeit ermöglicht.
 
 
 

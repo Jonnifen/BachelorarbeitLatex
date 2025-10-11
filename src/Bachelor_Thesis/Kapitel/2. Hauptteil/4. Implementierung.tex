@@ -1,24 +1,22 @@
-%! Author = jbf
-%! Date = 31.07.25
-
-\newpage
 \section{Implementierung}
 \label{sec:implementierung}
 
 
-In diesem Kapitel wird die technische Umsetzung der in Kapitel 4 beschriebenen Applikationsarchitektur behandelt.
-Hierbei werden die einzelnen Bausteine der erstellten Web-Applikation erklärt, die Implementierung beschrieben
-und die Beziehung zwischen den Modulen dargestellt.
+In diesem Kapitel wird die Umsetzung des im vorherigen beschriebenen Konzepts bis zum Punkt der Abgabe erläutert.
+Bei dieser Form der Applikation handelt es sich um einen lauffähigen Prototyp, der bisher nicht verlässlich einsetzbar wäre.
+Der Fokus der Implementierung lag bei diesem auf der Realisierung der Kernfunktionen zur Verarbeitung, Speicherung und Darstellung der XML-basierten Testberichte.
+Der Prototyp bildet damit die grundsätzlichen Funktionsabläufe der geplanten Web-Applikation ab, stellt jedoch noch kein vollständig ausgereiftes Produkt dar.
+Die Mängel, nötigen Änderungen und Erweiterungen bis zu einem nutzbaren Produkt werden in den Kapiteln 6 und 7 behandelt.
 
 Die Implementierung erfolgte schrittweise in iterativen Entwicklungszyklen.
-Zunächst wurde das Grundgerüst der Flask-Anwendung erstellt, anschließend die Datenbankanbindung und zuletzt die
-Benutzeroberfläche mit den Auswertungs- und Visualisierungsfunktionen integriert.
-Dieser Aufbau erleichterte die fortlaufende Validierung und Testung einzelner Funktionsbereiche während der Entwicklung.
+Zunächst wurde das Grundgerüst der Flask-Anwendung erstellt, dann die Einlesefunktion erstellt.
+Anschließend die Datenbankanbindung und zuletzt die Benutzeroberfläche mit den Auswertungs- und Visualisierungsfunktionen integriert.
+Dabei wurde besonderer Wert auf eine modulare Struktur gelegt, um die Erweiterbarkeit des Systems zu gewährleisten.
 
-Die in diesem Kapitel dargestellten Ergebnisse entsprechen dem Stand zur Abgabe der Arbeit.
-Die Vollkommenheit und Funktionalität zu dem Abgabezeitpunkt wird in den späteren Kapiteln 6 und 7 behandelt.
+Die beschreibung der Implemtierung wird hier in die Architekturschichten unterteil, so ein aufeinader aufbauende erkärung zu schaffen.
 
-\input{Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-Daten}
-\input{Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank}
-\input{Kapitel/2. Hauptteil/4. Implemetierung/4.3 Entwicklung der Benutzeroberfläche}
+\input{Kapitel/2. Hauptteil/4. Implemetierung/4.0.0 Programmstruktur}
+\input{Kapitel/2. Hauptteil/4. Implemetierung/4.1 Entwicklung der Benutzeroberfläche}
+\input{Kapitel/2. Hauptteil/4. Implemetierung/4.2 Einlesen und Verarbeiten von XML-Daten}
+\input{Kapitel/2. Hauptteil/4. Implemetierung/4.3 Implementierung der Datenbank}
 \input{Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisierung}

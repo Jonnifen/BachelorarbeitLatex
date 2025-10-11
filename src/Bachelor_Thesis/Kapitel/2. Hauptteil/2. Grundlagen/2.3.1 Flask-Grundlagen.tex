@@ -27,29 +27,17 @@ Die HTTP-Anfragen (Requests) des Clients werden über die WSGI-Schnittstelle, di
 Um die Funktionsweise von Flask zu veranschaulichen, wird im Folgenden ein typischer Ablauf einer Webanfrage kurz beschrieben: \cite{FlaskLifecycle,Kennedy2024_FlaskRequests}
 \begin{enumerate}
 
-
     \item \textbf{Erhalt einer HTTP-Anfrage}\\
 Ein Webclient (wie ein Browser) schickt eine Anfrage an den Webserver, der sie über die WSGI-Schnittstelle an die Flask-Anwendung weiterleitet.
-
-
 
     \item \textbf{Routing}\\
 Flask untersucht die URL und weist sie einer passenden View-Funktion zu.  Dies erfolgt über sogenannte Routen, die mit dem Dekorator @app.route() festgelegt werden.
 
-
-
-
     \item \textbf{Bearbeitung der Anfrage}\\
 Die Geschäftslogik wird in der zugeordneten Funktion ausgeführt; dazu gehört unter anderem das Auslesen von Parametern, der Zugriff auf eine Datenbank oder die Aufbereitung von Daten.
 
-
-
-
     \item \textbf{Template Rendering (optional)}\\
 Falls die Antwort HTML-basiert ist, wird ein Jinja2-Template mit dynamischen Daten gefüllt und gerendert.
-
-
-
 
     \item \textbf{Erzeugung der HTTP-Antwort}\\
 Flask gibt die fertige Antwort (z. B. HTML, JSON oder Redirect) an den Client zurück.

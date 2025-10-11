@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  10 OCT 2025 18:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  11 OCT 2025 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1219,6 +1219,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 12.
+
+
+LaTeX Warning: Label `fig: Genaue Struktur des Applikations-Ordners' multiply d
+efined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1241,8 +1246,7 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 \big@size=\dimen294
-
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count473
 \scratchdimen=\dimen295
@@ -1505,7 +1509,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 
 
 [3]
-<Grafiken/Test Cabin.jpg, id=328, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=318, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 47.
@@ -1827,7 +1831,24 @@ thek, die auf D3.js ba-siert. Bie-tet ei-ne ein-fa-che Komponenten-
 (./Kapitel/2. Hauptteil/2. Grundlagen/2.5 Anforderungen an modulare Softwareent
 wicklung.tex
 
-[19])
+LaTeX Warning: Citation 'ISOIEC9126-1991' on page 19 undefined on input line 6.
+
+
+
+Overfull \hbox (2.31824pt too wide) in paragraph at lines 4--7
+\T1/phv/m/n/10.95 Die Norm \T1/phv/b/n/10.95 ISO/IEC 9126 \T1/phv/m/n/10.95 be-
+schreibt ein Qua-li-t‰ts-mo-dell f¸r Soft-wa-re-pro-duk-te, das meh-re-re Haupt
+-
+ []
+
+
+
+[19]
+
+LaTeX Warning: Citation 'ISOIEC9126-1991' on page 20 undefined on input line 41
+.
+
+)
 
 [20]) (./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.0 Definition der Anforderun
@@ -1846,7 +1867,7 @@ m-men-de In-for-ma-tio-nen (z.B. Test-
 [23])
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Grundlegender Ablauf des 
 Programmes.tex
-<Grafiken/Ablaufdiagramm.png, id=640, 309.155pt x 273.02pt>
+<Grafiken/Ablaufdiagramm.png, id=629, 309.155pt x 273.02pt>
 File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
 <use Grafiken/Ablaufdiagramm.png>
 Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 19.
@@ -1864,13 +1885,13 @@ Aus-le-se-funk-tio-nen der Web-Applikation.
 
 
 [25 <./Grafiken/Ablaufdiagramm.png>]
-<Grafiken/XML-Strukturdiagramm.png, id=657, 539.01375pt x 348.30125pt>
+<Grafiken/XML-Strukturdiagramm.png, id=647, 539.01375pt x 348.30125pt>
 File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
 <use Grafiken/XML-Strukturdiagramm.png>
 Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
 27.
 (pdftex.def)             Requested size: 418.96548pt x 270.73318pt.
-<Grafiken/Elementaufbau.png, id=659, 754.31813pt x 119.44624pt>
+<Grafiken/Elementaufbau.png, id=649, 754.31813pt x 119.44624pt>
 File: Grafiken/Elementaufbau.png Graphic file (type png)
 <use Grafiken/Elementaufbau.png>
 Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 40.
@@ -1894,7 +1915,7 @@ turkonzeption.tex
 
 LaTeX Warning: Reference `XML-Schema' on page 30 undefined on input line 18.
 
-<Grafiken/Bild von ER-Modell.png, id=752, 562.1pt x 396.48125pt>
+<Grafiken/Bild von ER-Modell.png, id=742, 562.1pt x 396.48125pt>
 File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
 <use Grafiken/Bild von ER-Modell.png>
 Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
@@ -1903,7 +1924,7 @@ Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
 
 
 [30]
-<Grafiken/Tabellendiagramm Datenbank.png, id=759, 513.41812pt x 417.05812pt>
+<Grafiken/Tabellendiagramm Datenbank.png, id=749, 513.41812pt x 417.05812pt>
 File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
 <use Grafiken/Tabellendiagramm Datenbank.png>
 Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
@@ -1916,13 +1937,13 @@ Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
 oberfl√§chen-Design.tex
 
 [32 <./Grafiken/Tabellendiagramm Datenbank.png>]
-<Grafiken/Overlay_Einleseseite.png, id=774, 690.07813pt x 520.94624pt>
+<Grafiken/Overlay_Einleseseite.png, id=764, 690.07813pt x 520.94624pt>
 File: Grafiken/Overlay_Einleseseite.png Graphic file (type png)
 <use Grafiken/Overlay_Einleseseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Einleseseite.png  used on input line 
 25.
 (pdftex.def)             Requested size: 418.96548pt x 316.28233pt.
-<Grafiken/Overlay_Tabellenseite.png, id=776, 516.93124pt x 387.4475pt>
+<Grafiken/Overlay_Tabellenseite.png, id=766, 516.93124pt x 387.4475pt>
 File: Grafiken/Overlay_Tabellenseite.png Graphic file (type png)
 <use Grafiken/Overlay_Tabellenseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
@@ -1931,7 +1952,7 @@ Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
 
 
 [33 <./Grafiken/Overlay_Einleseseite.png>]
-<Grafiken/Overlay_Ausgabeseite.png, id=783, 519.44063pt x 494.34688pt>
+<Grafiken/Overlay_Ausgabeseite.png, id=773, 519.44063pt x 494.34688pt>
 File: Grafiken/Overlay_Ausgabeseite.png Graphic file (type png)
 <use Grafiken/Overlay_Ausgabeseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line 
@@ -1949,7 +1970,7 @@ Overfull \hbox (17.16997pt too wide) in paragraph at lines 18--19
 nut-ze-ro-ber-fl‰-che ¸ber HTML-Templates,
  []
 
-<Grafiken/Architekturdiagramm.png, id=795, 469.755pt x 343.2825pt>
+<Grafiken/Architekturdiagramm.png, id=785, 469.755pt x 343.2825pt>
 File: Grafiken/Architekturdiagramm.png Graphic file (type png)
 <use Grafiken/Architekturdiagramm.png>
 Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 3
@@ -1960,25 +1981,34 @@ Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 3
 [36 <./Grafiken/Architekturdiagramm.png>]
 
 [37]
-<Grafiken/Min Ordnerstruktur Projekt.png, id=809, 855.69687pt x 233.37187pt>
+<Grafiken/Min Ordnerstruktur Projekt.png, id=799, 855.69687pt x 233.37187pt>
 File: Grafiken/Min Ordnerstruktur Projekt.png Graphic file (type png)
 <use Grafiken/Min Ordnerstruktur Projekt.png>
 Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
  line 125.
 (pdftex.def)             Requested size: 441.01773pt x 120.27509pt.
 )) (./Kapitel/2. Hauptteil/4. Implementierung.tex
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.0.0 Programmstruktur.tex
+File: Grafiken/Min Ordnerstruktur Projekt.png Graphic file (type png)
+<use Grafiken/Min Ordnerstruktur Projekt.png>
+Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
+ line 15.
+(pdftex.def)             Requested size: 441.01773pt x 120.27509pt.
 
-[38 <./Grafiken/Min Ordnerstruktur Projekt.png>]
-(./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Einlesen und Verarbeiten von XML-
-Daten.tex)
-(./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Implementierung der Datenbank.tex
-)
-(./Kapitel/2. Hauptteil/4. Implemetierung/4.3 Entwicklung der Benutzeroberfl√§c
+
+[38 <./Grafiken/Min Ordnerstruktur Projekt.png>])
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Entwicklung der Benutzeroberfl√§c
 he.tex)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Einlesen und Verarbeiten von XML-
+Daten.tex
+
+[39])
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.3 Implementierung der Datenbank.tex
+)
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[39]
+[40]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchf√ºhr
@@ -1986,13 +2016,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[40]
+[41]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 M√∂glichkeiten f√ºr zuk√ºnftige
  Erweiterungen.tex))
 
-[41]
+[42]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -2087,30 +2117,39 @@ L3 programming layer <2025-09-02>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38945 strings out of 467797
- 783412 string characters out of 5435982
- 1791886 words of memory out of 5000000
- 66565 multiletter control sequences out of 15000+600000
+ 38948 strings out of 467797
+ 783753 string characters out of 5435982
+ 1792088 words of memory out of 5000000
+ 66564 multiletter control sequences out of 15000+600000
  662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11249b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texl
-ive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2025/t
-exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
-/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
-etic/uhvro8a.pfb>
+
+pdfTeX warning (dest): name{figure.23} has been referenced but does not exist, 
+replaced by a fixed one
+
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texliv
+e/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2025/tex
+mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvet
+ic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (52 pages, 1052273 bytes).
+df (53 pages, 1055291 bytes).
 PDF statistics:
- 1175 PDF objects out of 1200 (max. 8388607)
- 1063 compressed objects within 11 object streams
- 319 named destinations out of 1000 (max. 500000)
- 579 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1151 PDF objects out of 1200 (max. 8388607)
+ 1038 compressed objects within 11 object streams
+ 318 named destinations out of 1000 (max. 500000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 

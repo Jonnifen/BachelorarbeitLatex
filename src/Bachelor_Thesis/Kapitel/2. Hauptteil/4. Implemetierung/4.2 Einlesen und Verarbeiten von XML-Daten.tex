@@ -1,0 +1,14 @@
+\subsection{Einlesen und Verarbeiten von XML-Daten}
+\label{subsec:einlesen-und-verarbeiten-von-xml-daten}
+
+
+Das Einlesen der Testberichte erfolgt über eine speziell vorgesehene Upload-Seite der Web-Applikation.
+Diese Upload-Seite wird verwendet, um die Testberichte einzulesen.
+aus den  Nach dem Hochladen wird die XML-Datei vom Modul „xml\_ingest.py“ verarbeitet.
+Dieses Modul überprüft die Struktur des Dokuments, extrahiert die relevanten Daten und überführt sie mittels ORM-Methoden in die relationale Datenbank.
+Der XML-Parser basiert auf der Bibliothek lxml, da diese eine effiziente und robuste Verarbeitung von hierarchischen Datenstrukturen ermöglicht.
+Der Parser analysiert die Struktur der XML-Dateien, validiert die Inhalte und übergibt sie an das Datenmodell.
+Für standardisierte Berichte mit drei Devices under Test (DUTs) funktioniert dieser Prozess zuverlässig.
+
+
+
