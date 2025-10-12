@@ -35,10 +35,21 @@ Ein schematisches Architekturdiagramm dieser Struktur ist in Abbildung \ref{fig:
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
 
-\subsubsection*{Präsentationsschicht}
+Der Entwurf der Ordnerstruktur für die Applikation wird in Abbildung \ref{fig: Grundlegende Ordnerstruktur der Applikations} dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
+    \caption{Grundlegende Ordnerstruktur der Applikations}
+    \label{fig: Grundlegende Ordnerstruktur der Applikations}
+    {Quelle: Eigene Darstellung mit Microsoft Visio}
+\end{figure}
+
+\subsubsection{Präsentationsschicht}
 
 
-Die Präsentationsschicht besteht aus einer Kombination aus HTML-Templates und statischen Ressourcen (CSS, JavaScript), die im Verzeichnis templates/ bzw. static/ abgelegt sind.
+Die Präsentationsschicht besteht aus einer Kombination aus HTML-Templates und statischen Ressourcen (CSS, JavaScript),
+die im Verzeichnis templates/ bzw. static/ abgelegt werden.
 
 
 \begin{itemize}
@@ -49,13 +60,13 @@ Die Templates upload.html, reports.html und dut\_report.html bilden die Kernseit
 \item
 Statische Dateien wie style.css und dut\_plots.js dienen der Gestaltung und der interaktiven Darstellung von Messergebnissen.
 
-Die Kommunikation mit der Logikschicht erfolgt über die definierten \textit{Flask Blueprints}, die als modulare Controller agieren.
+Die Kommunikation mit der Logikschicht erfolgt über die definierten Flask Blueprints, die als modulare Controller agieren.
 
 \end{itemize}
 
-\subsubsection*{Applikationslogik}
+\subsubsection{Applikationslogik}
 
-Die zentrale Geschäftslogik ist in modularen \textit{Blueprints} und \textit{Service-Komponenten} realisiert.
+Die zentrale Geschäftslogik ist in modularen Blueprints und Service-Komponenten realisiert.
 
 Die drei Blueprints upload, reports und dut kapseln die jeweiligen Funktionsbereiche:
 
@@ -93,11 +104,11 @@ report\_builders.py dient der Erstellung und Formatierung von Report-Daten für 
 Die Applikationslogik wird über die Datei run.py initialisiert, welche den Flask-Server startet und die Anwendungskonfiguration aus config.py einliest.
 
 
-\subsubsection*{Datenhaltungsschicht}
+\subsubsection{Datenhaltungsschicht}
 
-Die Datenhaltung erfolgt über ein relationales Datenbanksystem, das über das Flask-eigene \textit{SQLAlchemy ORM} angebunden ist.
+Die Datenhaltung soll  über ein relationales Datenbanksystem erfolgt, das über das Flask-eigene \textit{SQLAlchemy ORM} angebunden ist.
 
-Die Datenmodelle sind im Verzeichnis models/ definiert und bilden die logischen Entitäten der Prüfanlage ab, darunter:
+Die Datenmodelle sollen im Verzeichnis models/ definiert werden und sollen die logischen Entitäten der Prüfanlage abbilden darunter:
 
 \begin{itemize}
 
@@ -120,13 +131,7 @@ Die Beziehungen zwischen den Modellen ermöglichen eine strukturierte und relati
 Migrationen werden mit \textit{Alembic} verwaltet, wie das Verzeichnis migrations/ zeigt.
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegende Struktur des Applikations-Ordners}
-    \label{fig: Grundlegende Struktur des Applikations-Ordners}
-    {Quelle: Eigene Darstellung mit Microsoft Visio}
-\end{figure}
+
 
 
 

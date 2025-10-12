@@ -1,11 +1,17 @@
 \subsection{Einlesen und Verarbeiten von XML-Daten}
 \label{subsec:einlesen-und-verarbeiten-von-xml-daten}
 
+Wie bereits in vorherigen Unterkapitel erläutert beginnt das Einlesen und verarbeiten mit der Übergabe des Inhaltes aus der
+Upload-Seite der Web-Applikation über die Post-Methode.
 
-Das Einlesen der Testberichte erfolgt über eine speziell vorgesehene Upload-Seite der Web-Applikation.
-Diese Upload-Seite wird verwendet, um die Testberichte einzulesen.
+Der daraus erhlatenen Daten (\code{xml\_data}) werden in die Funktion \code{upload()} in der route.py für die Upload-Seite
+
 aus den  Nach dem Hochladen wird die XML-Datei vom Modul „xml\_ingest.py“ verarbeitet.
-Dieses Modul überprüft die Struktur des Dokuments, extrahiert die relevanten Daten und überführt sie mittels ORM-Methoden in die relationale Datenbank.
+Dieses Modul überprüft die Struktur des Dokuments, extrahiert die relevanten Daten
+
+
+
+und überführt sie mittels ORM-Methoden in die relationale Datenbank.
 Der XML-Parser basiert auf der Bibliothek lxml, da diese eine effiziente und robuste Verarbeitung von hierarchischen Datenstrukturen ermöglicht.
 Der Parser analysiert die Struktur der XML-Dateien, validiert die Inhalte und übergibt sie an das Datenmodell.
 Für standardisierte Berichte mit drei Devices under Test (DUTs) funktioniert dieser Prozess zuverlässig.

@@ -42,5 +42,20 @@ Falls die Antwort HTML-basiert ist, wird ein Jinja2-Template mit dynamischen Dat
     \item \textbf{Erzeugung der HTTP-Antwort}\\
 Flask gibt die fertige Antwort (z. B. HTML, JSON oder Redirect) an den Client zurück.
 
-
 \end{enumerate}
+
+
+\subsubsection{Blueprints in Flask}
+
+Flask ermöglicht es, über interne Funktionen und Klassen sogenannte Blueprints zu erstellen und zu nutzen.
+Blueprints sind eine strukturierte Möglichkeit, Webanwendungen modular aufzubauen.
+Ein Blueprint stellt ein logisches Teilmodul der Anwendung dar und kann eigene Routen, Templates, statische Dateien und Logik enthalten.
+Dadurch lassen sich umfangreiche Projekte in klar abgegrenzte Funktionsbereiche unterteilen, was die Übersichtlichkeit und Wartbarkeit der Anwendung erhöht.
+Jeder Blueprint wird in einer separaten Datei definiert und anschließend in der Hauptapplikation registriert.
+Dieses Vorgehen ermöglicht es, neue Funktionsmodule ohne Eingriff in bestehende Komponenten zu ergänzen.
+Somit befördert Blueprint das Unterteilen in modulare Softwarearchitektur, insbesondere die geringe Kopplung und hohe Kohäsion zwischen den Modulen.\cite{FlaskBlueprints}
+
+
+
+
+
