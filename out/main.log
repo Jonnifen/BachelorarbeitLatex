@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  12 OCT 2025 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  12 OCT 2025 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1587,49 +1587,29 @@ Overfull \hbox (3.03555pt too wide) in paragraph at lines 85--86
 
 
 [7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:111: La
-TeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 Package acronym Info: Label `acro:API' newly defined as it shall be overridden
-although it is yet undefined on input line 119.
+although it is yet undefined on input line 117.
 Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
-although it is yet undefined on input line 127.
+although it is yet undefined on input line 125.
 Package acronym Info: Label `acro:SAX' newly defined as it shall be overridden
-although it is yet undefined on input line 149.
+although it is yet undefined on input line 147.
 
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:157: La
-TeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ []
 
 Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
 
-although it is yet undefined on input line 160.
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:161: Yo
+although it is yet undefined on input line 156.
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:157: Yo
 u can't use `macro parameter character #' in horizontal mode.
-l.161 ...grammiersprachen wie z. B. JavaScript, C#
+l.157 ...grammiersprachen wie z. B. JavaScript, C#
                                                    oder einigen Pythonbiblio...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1640,7 +1620,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 [9]
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:230: La
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:226: La
 TeX Error: Unicode character ≤ (U+2264)
                not set up for use with LaTeX.
 
@@ -1648,14 +1628,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 < (kleiner als), ≤
+l.226 < (kleiner als), ≤
                            (kleiner-gleich), > (größer als) und ≥ (grö�...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:230: La
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:226: La
 TeX Error: Unicode character ≥ (U+2265)
                not set up for use with LaTeX.
 
@@ -1663,7 +1643,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 ...kleiner-gleich), > (größer als) und ≥
+l.226 ...kleiner-gleich), > (größer als) und ≥
                                                    (größer-gleich).
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1680,59 +1660,44 @@ File: lstlang2.sty 2024/09/23 1.10c listings language file
 File: lstlang3.sty 2024/09/23 1.10c listings language file
 )
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:251: Pa
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:247: Pa
 ckage Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 \begin{lstlisting}[language=XPath]
+l.247 \begin{lstlisting}[language=XPath]
                                         
 The following languages weren't loadable:
     ,xpath$
 This may cause errors in the sequel.
 
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:251: Pa
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:247: Pa
 ckage Listings Error: language xpath undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 \begin{lstlisting}[language=XPath]
+l.247 \begin{lstlisting}[language=XPath]
                                         
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:264: La
-TeX Error: There's no line here to end.
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.264 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (7.7702pt too wide) in paragraph at lines 265--268
-[] \T1/phv/b/n/10.95 2.2.2.3. Py-thon-bi-blio-the-ken f�r XML-Verarbeitung[][] 
-\T1/phv/m/n/10.95 F�r die Be-ar-bei-tung von [][]-Dokumenten
  []
 
 
 
 [11]
 Package acronym Info: Label `acro:XSD' newly defined as it shall be overridden
-although it is yet undefined on input line 296.
+although it is yet undefined on input line 290.
 Package acronym Info: Label `acro:XXE' newly defined as it shall be overridden
-although it is yet undefined on input line 303.
+although it is yet undefined on input line 297.
 ) (./Kapitel/2. Hauptteil/2. Grundlagen/2.3.1 Flask-Grundlagen.tex
 
 [12]
@@ -2180,7 +2145,7 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (57 pages, 1998723 bytes).
+df (57 pages, 1998748 bytes).
 PDF statistics:
  1221 PDF objects out of 1440 (max. 8388607)
  1096 compressed objects within 11 object streams
