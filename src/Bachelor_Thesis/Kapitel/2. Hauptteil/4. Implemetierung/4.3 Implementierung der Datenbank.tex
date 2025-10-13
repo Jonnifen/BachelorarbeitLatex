@@ -1,59 +1,50 @@
 \subsection{Implementierung der Datenbank}
 \label{subsec:implementierung-der-datenbank}
 
+In diesem Unterkapitel wird die Einbindung der Datenbank in die Applikation, so wie die Implemetierung grob erläutert.
+Der haupt Fokus leigt hierbei auf der Einbindung und der Methode zum erstellen über Flask-SQLAlchemy.
+Die Datenbank wurde mithilfe der Bithiotek Flask-SQLAlchemy erstellt, hierbei wurden die Bithioteken
+Flask-Migration für die Verwaltung von Datenbankschemata genutzt.
 
-Die Datenbank wurde mithilfe von Flask-SQLAlchemy umgesetzt, das als ORM-Schicht die Kommunikation zwischen Anwendung und MariaDB realisiert.
+
+Implementierung der Datenbank mit Flask-Migrate
+
+
+funktionsweise
+
+flaskmigrate und  umgesetzt und in die , das als ORM-Schicht
+die Kommunikation zwischen Anwendung und MariaDB realisiert.
+
 Grundlage des Datenmodells bildet das in Kapitel 4 entwickelte Entity-Relationship-Modell (ERM).
 
-
 Die implementierten Tabellen umfassen Entitäten für:
-
 
 \begin{itemize}
 
 \item
 Berichte (report)
 
-
-
-
 \item
 Testmodule (module)
-
-
-
 
 \item
 Prüfanlagen und Teststände (testbench)
 
-
-
-
 \item
 Messdaten (measurement)
-
-
-
 
 \item
 Parameter (parameter)
 
-
-
-
 \item
 DUTs (dut)
-
-
-
 
 \end{itemize}
 
 Über Fremdschlüsselbeziehungen werden die jeweiligen Abhängigkeiten zwischen den Entitäten abgebildet.
-
-Die Datenbankanbindung erwies sich als stabil; Testeinträge konnten erfolgreich erstellt, abgefragt und gelöscht werden. Durch die Nutzung des ORM-Modells ist die Implementierung klar strukturiert und leicht wartbar.
-
-
-Geplant ist eine Erweiterung der Datenbank um Benutzer- und Rollenmodelle, um künftig eine differenzierte Benutzerhierarchie (z. B. Administratoren, Standardnutzer, Gastzugänge) zu ermöglichen.
+Die Datenbankanbindung erwies sich als stabil; Testeinträge konnten erfolgreich erstellt, abgefragt und gelöscht werden.
+Durch die Nutzung des ORM-Modells ist die Implementierung klar strukturiert und leicht wartbar.
+Geplant ist eine Erweiterung der Datenbank um Benutzer- und Rollenmodelle, um künftig eine differenzierte Benutzerhierarchie
+(z. B. Administratoren, Standardnutzer, Gastzugänge) zu ermöglichen.
 
 

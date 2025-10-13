@@ -35,11 +35,12 @@ Der Inhalt wird zurückgegeben, außer wenn der Name nicht gefunden wird.
 Dann wird ein Standardwert zurückgegeben.
 Dieser Standardwert löst beim Eintragen in die Datenbank bewusst Fehler aus, um Fehler in der Übertragung und der
 Verarbeitung der XML-Daten zu erkennen.
-Für den Code zu \code{get\_value\_by\_name() siehe Abbildung \ref{fig: Codeausschnitt für die Suchfunktion in den Listen}.
+
+Für den Code zu \code{get\_value\_by\_name()} siehe Abbildung \ref{fig: Codeausschnitt für die Suchfunktion in den Listen}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/get value by name}
+    \includegraphics[width=1\textwidth]{Grafiken/get.png}
     \caption{Codeausschnitt für die Suchfunktion in den Listen}
     \label{fig: Codeausschnitt für die Suchfunktion in den Listen}
     {Quelle: Eigene Darstellung}
@@ -54,7 +55,7 @@ Bei einem Fehler werden alle Transaktionen rückgängig gemacht und die ausstehe
 Neben dieser Sicherung werden alle vermeintlichen Eintragungen bzw. \ac{ORM}-Objekte noch mal in der Datenbank über
 Funktionen \code{execute()} und \code{select()} gesucht.
 Wenn das Element bereits in der Datenbank existiert, wird es nicht eingefügt, um Dopplungen zu vermeiden. Ein Codebeispiel für
-Die Sicherung ist in Abbildung \ref{fig: Beispiel ORM-Objekt} dargestellt.
+die Sicherung ist in Abbildung \ref{fig: Beispiel ORM-Objekt} dargestellt.
 Die Prüfungen sind in diesem Prototyp nicht identisch und können geringfügige Variationen beinhalten.
 
 \begin{figure}[H]
@@ -71,7 +72,7 @@ In Abbildung \ref{fig: Code routes.py aus Upload-Seite} ist der Code aus der \co
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/5.3.1}
+    \includegraphics[width=1\textwidth]{Grafiken/Code route Up}
     \caption{Code routes.py aus Upload-Seite}
     \label{fig: Code routes.py aus Upload-Seite}
     {Quelle: Eigene Darstellung}

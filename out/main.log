@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  13 OCT 2025 03:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  13 OCT 2025 05:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1505,7 +1505,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 
 
 [3]
-<Grafiken/Test Cabin.jpg, id=341, 506.8755pt x 337.698pt>
+<Grafiken/Test Cabin.jpg, id=347, 506.8755pt x 337.698pt>
 File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
 <use Grafiken/Test Cabin.jpg>
 Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 47.
@@ -1819,7 +1819,7 @@ m-men-de In-for-ma-tio-nen (z.B. Test-
 [23])
 (./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Grundlegender Ablauf des 
 Programmes.tex
-<Grafiken/Ablaufdiagramm.png, id=657, 309.155pt x 273.02pt>
+<Grafiken/Ablaufdiagramm.png, id=663, 309.155pt x 273.02pt>
 File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
 <use Grafiken/Ablaufdiagramm.png>
 Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 19.
@@ -1837,13 +1837,13 @@ Aus-le-se-funk-tio-nen der Web-Applikation.
 
 
 [25 <./Grafiken/Ablaufdiagramm.png>]
-<Grafiken/XML-Strukturdiagramm.png, id=674, 539.01375pt x 348.30125pt>
+<Grafiken/XML-Strukturdiagramm.png, id=680, 539.01375pt x 348.30125pt>
 File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
 <use Grafiken/XML-Strukturdiagramm.png>
 Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
 27.
 (pdftex.def)             Requested size: 418.96548pt x 270.73318pt.
-<Grafiken/Elementaufbau.png, id=676, 754.31813pt x 119.44624pt>
+<Grafiken/Elementaufbau.png, id=682, 754.31813pt x 119.44624pt>
 File: Grafiken/Elementaufbau.png Graphic file (type png)
 <use Grafiken/Elementaufbau.png>
 Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 40.
@@ -1864,7 +1864,7 @@ Overfull \hbox (3.03555pt too wide) in paragraph at lines 199--200
 turkonzeption.tex
 
 [29]
-<Grafiken/Bild von ER-Modell.png, id=771, 562.1pt x 396.48125pt>
+<Grafiken/Bild von ER-Modell.png, id=777, 562.1pt x 396.48125pt>
 File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
 <use Grafiken/Bild von ER-Modell.png>
 Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
@@ -1873,7 +1873,7 @@ Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
 
 
 [30]
-<Grafiken/Tabellendiagramm Datenbank.png, id=780, 513.41812pt x 417.05812pt>
+<Grafiken/Tabellendiagramm Datenbank.png, id=786, 513.41812pt x 417.05812pt>
 File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
 <use Grafiken/Tabellendiagramm Datenbank.png>
 Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
@@ -1886,13 +1886,13 @@ Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
 oberflächen-Design.tex
 
 [32 <./Grafiken/Tabellendiagramm Datenbank.png>]
-<Grafiken/Overlay_Einleseseite.png, id=795, 690.07813pt x 520.94624pt>
+<Grafiken/Overlay_Einleseseite.png, id=801, 690.07813pt x 520.94624pt>
 File: Grafiken/Overlay_Einleseseite.png Graphic file (type png)
 <use Grafiken/Overlay_Einleseseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Einleseseite.png  used on input line 
 25.
 (pdftex.def)             Requested size: 418.96548pt x 316.28233pt.
-<Grafiken/Overlay_Tabellenseite.png, id=797, 516.93124pt x 387.4475pt>
+<Grafiken/Overlay_Tabellenseite.png, id=803, 516.93124pt x 387.4475pt>
 File: Grafiken/Overlay_Tabellenseite.png Graphic file (type png)
 <use Grafiken/Overlay_Tabellenseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
@@ -1901,7 +1901,7 @@ Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
 
 
 [33 <./Grafiken/Overlay_Einleseseite.png>]
-<Grafiken/Overlay_Ausgabeseite.png, id=804, 519.44063pt x 494.34688pt>
+<Grafiken/Overlay_Ausgabeseite.png, id=810, 519.44063pt x 494.34688pt>
 File: Grafiken/Overlay_Ausgabeseite.png Graphic file (type png)
 <use Grafiken/Overlay_Ausgabeseite.png>
 Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line 
@@ -1919,13 +1919,13 @@ Overfull \hbox (17.16997pt too wide) in paragraph at lines 18--19
 nut-ze-ro-ber-fl�-che �ber HTML-Templates,
  []
 
-<Grafiken/Architekturdiagramm.png, id=816, 469.755pt x 343.2825pt>
+<Grafiken/Architekturdiagramm.png, id=822, 469.755pt x 343.2825pt>
 File: Grafiken/Architekturdiagramm.png Graphic file (type png)
 <use Grafiken/Architekturdiagramm.png>
 Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 3
 2.
 (pdftex.def)             Requested size: 418.96548pt x 306.16473pt.
-<Grafiken/Min Ordnerstruktur Projekt.png, id=818, 855.69687pt x 233.37187pt>
+<Grafiken/Min Ordnerstruktur Projekt.png, id=824, 855.69687pt x 233.37187pt>
 File: Grafiken/Min Ordnerstruktur Projekt.png Graphic file (type png)
 <use Grafiken/Min Ordnerstruktur Projekt.png>
 Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
@@ -1953,13 +1953,13 @@ Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
 he.tex
 
 [39]
-<Grafiken/Bild XML hochladen.png, id=841, 1926.19624pt x 1045.40562pt>
+<Grafiken/Bild XML hochladen.png, id=847, 1926.19624pt x 1045.40562pt>
 File: Grafiken/Bild XML hochladen.png Graphic file (type png)
 <use Grafiken/Bild XML hochladen.png>
 Package pdftex.def Info: Grafiken/Bild XML hochladen.png  used on input line 23
 .
 (pdftex.def)             Requested size: 441.01773pt x 239.35353pt.
-<Grafiken/Bild Reports.png, id=843, 1924.18875pt x 1046.91125pt>
+<Grafiken/Bild Reports.png, id=849, 1924.18875pt x 1046.91125pt>
 File: Grafiken/Bild Reports.png Graphic file (type png)
 <use Grafiken/Bild Reports.png>
 Package pdftex.def Info: Grafiken/Bild Reports.png  used on input line 34.
@@ -1967,7 +1967,7 @@ Package pdftex.def Info: Grafiken/Bild Reports.png  used on input line 34.
 
 
 [40 <./Grafiken/Bild XML hochladen.png>]
-<Grafiken/Bild DUT-Report.png, id=850, 1926.19624pt x 1048.41687pt>
+<Grafiken/Bild DUT-Report.png, id=856, 1926.19624pt x 1048.41687pt>
 File: Grafiken/Bild DUT-Report.png Graphic file (type png)
 <use Grafiken/Bild DUT-Report.png>
 Package pdftex.def Info: Grafiken/Bild DUT-Report.png  used on input line 45.
@@ -1975,7 +1975,7 @@ Package pdftex.def Info: Grafiken/Bild DUT-Report.png  used on input line 45.
 
 
 [41 <./Grafiken/Bild Reports.png> <./Grafiken/Bild DUT-Report.png>]
-<Grafiken/Beispiel Programmcode aus upload.html.png, id=858, 822.57312pt x 310.
+<Grafiken/Beispiel Programmcode aus upload.html.png, id=865, 822.57312pt x 310.
 66063pt>
 File: Grafiken/Beispiel Programmcode aus upload.html.png Graphic file (type png
 )
@@ -2002,38 +2002,49 @@ xml_ingest.py
 
 
 [42 <./Grafiken/Beispiel Programmcode aus upload.html.png>]
-
-LaTeX Warning: Reference `Codeausschnitt für die Listenspeicherung mit Hilfsfu
-nktionen' on page 43 undefined on input line 19.
-
-<Grafiken/5.3 Listen.png, id=866, 849.67438pt x 507.8975pt>
+<Grafiken/5.3 Listen.png, id=873, 849.67438pt x 507.8975pt>
 File: Grafiken/5.3 Listen.png Graphic file (type png)
 <use Grafiken/5.3 Listen.png>
 Package pdftex.def Info: Grafiken/5.3 Listen.png  used on input line 24.
 (pdftex.def)             Requested size: 441.01773pt x 263.61998pt.
-)
-Runaway argument?
-{get\_value\_by\_name() siehe Abbildung \ref {fig: Codeausschnitt fü\ETC.
-./Kapitel/2. Hauptteil/4. Implementierung.tex:21: File ended while scanning use
- of \code.
-<inserted text> 
-                \par 
-l.21 ....2 Einlesen und Verarbeiten von XML-Daten}
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+<Grafiken/get.png, id=876, 700.11563pt x 447.6725pt>
+File: Grafiken/get.png Graphic file (type png)
+<use Grafiken/get.png>
+Package pdftex.def Info: Grafiken/get.png  used on input line 43.
+(pdftex.def)             Requested size: 441.01773pt x 282.001pt.
 
 
+[43 <./Grafiken/5.3 Listen.png>]
+<Grafiken/Beispiel ORM Obj.png, id=886, 760.34062pt x 528.97626pt>
+File: Grafiken/Beispiel ORM Obj.png Graphic file (type png)
+<use Grafiken/Beispiel ORM Obj.png>
+Package pdftex.def Info: Grafiken/Beispiel ORM Obj.png  used on input line 63.
+(pdftex.def)             Requested size: 441.01773pt x 306.83066pt.
+
+
+[44 <./Grafiken/get.png>]
+<Grafiken/Code route Up.png, id=893, 765.35938pt x 491.33563pt>
+File: Grafiken/Code route Up.png Graphic file (type png)
+<use Grafiken/Code route Up.png>
+Package pdftex.def Info: Grafiken/Code route Up.png  used on input line 75.
+(pdftex.def)             Requested size: 441.01773pt x 283.12306pt.
+
+
+[45 <./Grafiken/Beispiel ORM Obj.png>])
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.3 Implementierung der Datenbank.tex
 
+Overfull \hbox (12.60698pt too wide) in paragraph at lines 18--19
+[]\T1/phv/m/n/10.95 Grundlage des Da-ten-mo-dells bil-det das in Ka-pi-tel 4 en
+t-wi-ckel-te Entity-Relationship-Modell (ERM). 
+ []
 
-[43 <./Grafiken/5.3 Listen.png>])
+
+
+[46 <./Grafiken/Code route Up.png>])
 (./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
 rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
 
-[44]
+[47]
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.1 Einbindung in die bestehend
 e Systemlandschaft.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchführ
@@ -2041,13 +2052,13 @@ ung.tex)
 (./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
 .tex)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
 
-[45]
+[48]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
 tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
-[46]
+[49]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -2152,10 +2163,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39037 strings out of 467797
- 786733 string characters out of 5435982
- 1792594 words of memory out of 5000000
- 66640 multiletter control sequences out of 15000+600000
+ 39074 strings out of 467797
+ 787732 string characters out of 5435982
+ 1792769 words of memory out of 5000000
+ 66671 multiletter control sequences out of 15000+600000
  662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11249b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2165,10 +2176,10 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (58 pages, 2155740 bytes).
+df (61 pages, 2487758 bytes).
 PDF statistics:
- 1241 PDF objects out of 1440 (max. 8388607)
- 1112 compressed objects within 12 object streams
- 331 named destinations out of 1000 (max. 500000)
- 604 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 1136 compressed objects within 12 object streams
+ 337 named destinations out of 1000 (max. 500000)
+ 619 words of extra memory for PDF output out of 10000 (max. 10000000)
 
