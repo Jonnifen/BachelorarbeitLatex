@@ -1,4 +1,4 @@
-\usepackage{hyperref}\subsection{Einlesen und Verarbeiten von XML-Daten}
+\subsection{Einlesen und Verarbeiten von XML-Daten}
 \label{subsec:einlesen-und-verarbeiten-von-xml-daten}
 
 Wie bereits im vorherigen Unterkapitel erläutert, beginnt das Einlesen und Verarbeiten mit der Übergabe des Inhaltes aus der
@@ -16,15 +16,15 @@ vorsortiert und gespeichert.
 
 Die Hilfsfunktionen nutzen hierbei die XPath-Adressierung über die Funktion \code{xpath()} aus der Bibliothek \code{lxml}
 bzw. aus dem Modul \code{lxml.etree}, um die relevanten Daten als Listen zurückzugeben.
-In Abbildung \ref{} ist zur Veranschaulichung ein Codeabschnitt dargestellt, in den über die Hilfsfunktionen die Variablen
+In Abbildung \ref{fig: Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen} ist zur Veranschaulichung ein Codeabschnitt dargestellt, in den über die Hilfsfunktionen die Variablen
 für das Vorsortieren und Speichern befüllt werden.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{Grafiken/5.3 Listen}
-    \caption{Grundlegende Ordnerstruktur der Applikations}
-    \label{fig: Grundlegende Ordnerstruktur der Applikations}
-    {Quelle: Eigene Darstellung mit Microsoft Visio}
+    \caption{Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}
+    \label{fig: Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}
+    {Quelle: Eigene Darstellung}
 \end{figure}
 
 Nach dem Vorsortieren und Speichern werden \ac{ORM}-Objekte für das Überführen der Daten in die Datenbank erstellt.
@@ -35,14 +35,14 @@ Der Inhalt wird zurückgegeben, außer wenn der Name nicht gefunden wird.
 Dann wird ein Standardwert zurückgegeben.
 Dieser Standardwert löst beim Eintragen in die Datenbank bewusst Fehler aus, um Fehler in der Übertragung und der
 Verarbeitung der XML-Daten zu erkennen.
-Für den Code zu \code{get\_value\_by\_name() siehe Abbildung \ref{}.
+Für den Code zu \code{get\_value\_by\_name() siehe Abbildung \ref{fig: Codeausschnitt für die Suchfunktion in den Listen}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegende Ordnerstruktur der Applikations}
-    \label{fig: Grundlegende Ordnerstruktur der Applikations}
-    {Quelle: Eigene Darstellung mit Microsoft Visio}
+    \includegraphics[width=1\textwidth]{Grafiken/get value by name}
+    \caption{Codeausschnitt für die Suchfunktion in den Listen}
+    \label{fig: Codeausschnitt für die Suchfunktion in den Listen}
+    {Quelle: Eigene Darstellung}
 \end{figure}
 
 Die \ac{ORM}-Objekte werden durch die Funktionen \code{.session.add()} und \code{.session.flush()} schon in die Datenbank geschrieben,
@@ -54,27 +54,27 @@ Bei einem Fehler werden alle Transaktionen rückgängig gemacht und die ausstehe
 Neben dieser Sicherung werden alle vermeintlichen Eintragungen bzw. \ac{ORM}-Objekte noch mal in der Datenbank über
 Funktionen \code{execute()} und \code{select()} gesucht.
 Wenn das Element bereits in der Datenbank existiert, wird es nicht eingefügt, um Dopplungen zu vermeiden. Ein Codebeispiel für
-Die Sicherung ist in Abbildung \ref{} dargestellt.
+Die Sicherung ist in Abbildung \ref{fig: Beispiel ORM-Objekt} dargestellt.
 Die Prüfungen sind in diesem Prototyp nicht identisch und können geringfügige Variationen beinhalten.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegende Ordnerstruktur der Applikations}
-    \label{fig: Grundlegende Ordnerstruktur der Applikations}
-    {Quelle: Eigene Darstellung mit Microsoft Visio}
+    \includegraphics[width=1\textwidth]{Grafiken/Beispiel ORM Obj}
+    \caption{Beispiel ORM-Objekt}
+    \label{fig: Beispiel ORM-Objekt}
+    {Quelle: Eigene Darstellung}
 \end{figure}
 
 Bei einem erfolgreichen Einfügen wird die Report-ID aus dem Eintrag aus der Datenbank an \code{upload()} zurückgegeben.
 Diese erstellt dann eine Erfolgsnachricht, welche dann auf der Benutzeroberfläche der Seite ausgegeben wird.
-In Abbildung \ref{} ist der Code aus der \code{routes.py}von der Upload-Seite dargestellt.
+In Abbildung \ref{fig: Code routes.py aus Upload-Seite} ist der Code aus der \code{routes.py} von der Upload-Seite dargestellt.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegende Ordnerstruktur der Applikations}
-    \label{fig: Grundlegende Ordnerstruktur der Applikations}
-    {Quelle: Eigene Darstellung mit Microsoft Visio}
+    \includegraphics[width=1\textwidth]{Grafiken/5.3.1}
+    \caption{Code routes.py aus Upload-Seite}
+    \label{fig: Code routes.py aus Upload-Seite}
+    {Quelle: Eigene Darstellung}
 \end{figure}
 
 

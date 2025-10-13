@@ -537,6 +537,36 @@
       \field{title}{How Are Requests Processed in Flask?}
       \field{year}{2024}
     \endentry
+    \entry{FlaskBlueprints}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f4ce5f0c86b5e556d86b2a917c5c42fe}{%
+           family={Projects},
+           familyi={P\bibinitperiod},
+           given={Pallets},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{fullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{fullhashraw}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{bibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorbibnamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authornamehash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorfullhash}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \strng{authorfullhashraw}{f4ce5f0c86b5e556d86b2a917c5c42fe}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 12. Oktober 2025}
+      \field{title}{Flask Documentation – Blueprints}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://flask.palletsprojects.com/en/stable/blueprints/
+      \endverb
+      \verb{url}
+      \verb https://flask.palletsprojects.com/en/stable/blueprints/
+      \endverb
+    \endentry
     \entry{Fuchs2021}{book}{}{}
       \name{author}{1}{}{%
         {{hash=dc6f26654ce555bbbfbfaf64936fbd0c}{%
@@ -764,8 +794,8 @@
       \strng{authornamehash}{eeba7ae00fae9a99a709f6f40abb3917}
       \strng{authorfullhash}{eeba7ae00fae9a99a709f6f40abb3917}
       \strng{authorfullhashraw}{eeba7ae00fae9a99a709f6f40abb3917}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zugriff am 8. Oktober 2025}
@@ -793,8 +823,8 @@
       \strng{authorfullhash}{4441b404549896eed56d1c0d79733b99}
       \strng{authorfullhashraw}{4441b404549896eed56d1c0d79733b99}
       \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zugriff am 8. Oktober 2025}
