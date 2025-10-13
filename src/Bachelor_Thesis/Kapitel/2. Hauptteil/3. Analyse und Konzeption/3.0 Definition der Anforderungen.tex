@@ -1,7 +1,6 @@
 \subsection{Definition der Anforderungen}
 \label{sec:definition-der-anforderungen-und-ihre-interpretation}
 
-
 In diesem Abschnitt werden die funktionalen und nicht-funktionalen Anforderungen der zu entwickelnden Web-Applikation beschrieben.
 Sie wurden in Abstimmung mit den späteren Nutzerinnen und Nutzern sowie den betreuenden Personen im Unternehmen festgelegt.
 Die Anforderungen bilden die Grundlage für den Entwurf und die Umsetzung der Software und dienen dazu, deren Zielsetzung, Funktionsumfang und technische Rahmenbedingungen klar zu definieren.
@@ -13,45 +12,38 @@ Die funktionalen Anforderungen beschreiben die vorgesehenen Funktionen und Ablä
 Sie definieren, was die Anwendung leisten soll und wie die Nutzerinnen und Nutzer mit ihr interagieren können.
 
 \begin{enumerate}
-  \item \textbf{Navigation und Benutzerführung} \\
+  \item Navigation und Benutzerführung \\
   Die Applikation soll eine einfache und übersichtliche Navigation ermöglichen.
   Der Wechsel zwischen den Hauptfunktionen erfolgt über eine feststehende Menüleiste im oberen Bereich der Benutzeroberfläche.
-  Dadurch können die Bereiche \textit{Upload}, \textit{Berichte} und \textit{Diagramme} direkt aufgerufen werden.
+  Dadurch können die Bereiche Upload, Berichte und Analyse direkt aufgerufen werden.
 
-  \item \textbf{Einlesen von XML-Dateien} \\
+  \item Einlesen von XML-Dateien \\
   Das Einlesen der automatisch generierten XML-Berichte erfolgt über eine Upload-Seite.
   Die Anwendung soll sowohl ältere als auch neuere XML-Strukturen verarbeiten können, da der Teststand unterschiedliche Versionen erzeugt.
 
-  \item \textbf{Datenverarbeitung und Speicherung} \\
+  \item Datenverarbeitung und Speicherung \\
   Nach dem Upload sollen die XML-Dateien automatisch geparst, validiert und in die Datenbank überführt werden.
   Doppelte Einträge sollen erkannt und vermieden werden.
 
-  \item \textbf{Anzeige der Berichte} \\
+  \item Anzeige der Berichte \\
   Die gespeicherten Berichte sollen tabellarisch dargestellt werden.
   Jede Zeile repräsentiert einen Testbericht und zeigt die wichtigsten Informationen wie Datum, Seriennummer, Materialnummer und Testergebnis an.
 
-  \item \textbf{Filter- und Suchfunktionen} \\
+  \item Filter- und Suchfunktionen \\
   Die Berichtstabelle soll über Filteroptionen verfügen, um gezielt nach bestimmten Kriterien
   (z.\,B. Datum, Seriennummer, Testmodul oder Ergebnisstatus) zu suchen.
 
-  \item \textbf{Grafische Darstellung der Testdaten} \\
+  \item Grafische Darstellung der Testdaten \\
   Die Anwendung soll die Messergebnisse der einzelnen Module grafisch darstellen.
   Die Diagramme sind nach Modulen sortiert und enthalten eine klare Achsenbeschriftung sowie Legenden.
-  Das Layout der Diagramme orientiert sich an den Graphen des Teststandprogramms, um den Nutzerinnen und Nutzern die Interpretation zu erleichtern.
+  Das Layout der Diagramme soll sich an orientiert den Graphen des Teststandprogramms, um den Nutzerinnen und Nutzern die Interpretation zu erleichtern.
 
-  \item \textbf{Systemmeldungen und Fehlermanagement} \\
+  \item Systemmeldungen und Fehlermanagement \\
   Nach erfolgreichen oder fehlerhaften Aktionen (z.\,B. Upload, Datenbankeintrag, Filterabfrage) sollen entsprechende Systemmeldungen angezeigt werden, um den Benutzerstatus transparent zu machen.
 
-  \item \textbf{Exportfunktionen \textbf{(NEU)}} \\
-  Die Anwendung soll die Möglichkeit bieten, ausgewählte Datensätze oder Berichte in ein externes Format zu exportieren (z.\,B. CSV oder Excel).
-  Dadurch können die Daten auch außerhalb der Anwendung weiterverarbeitet werden.
-
-  \item \textbf{Modulare Erweiterbarkeit \textbf{(NEU)}} \\
-  Neue Funktionen, etwa zusätzliche Testmodule oder Analysefunktionen, sollen über separate Module oder Blueprints ergänzt werden können, ohne bestehende Teile der Anwendung zu verändern.
-
-  \item \textbf{Benutzerverwaltung (optional) \textbf{(NEU)}} \\
-  Die Architektur der Applikation soll es ermöglichen, zukünftig eine einfache Benutzerverwaltung zu integrieren.
-  Damit können verschiedene Rollen (z.\,B. Administrator, Nutzer, Gast) eingeführt werden.
+  \item Exportfunktionen \\
+  Die Anwendung soll die Möglichkeit bieten, ausgewählte Graphen in ein externes Format zu exportieren.
+  Dadurch können die Graphen auch außerhalb der Anwendung weiterverarbeitet werden.
 \end{enumerate}
 
 \subsubsection{Nicht-funktionale Anforderungen}
@@ -61,39 +53,39 @@ Die nicht-funktionalen Anforderungen beschreiben die Qualitätsmerkmale der Soft
 Sie legen fest, unter welchen Bedingungen die Applikation betrieben werden soll und welche Eigenschaften sie erfüllen muss.
 
 \begin{enumerate}
-  \item \textbf{Plattform und Laufzeitumgebung} \\
+  \item Plattform und Laufzeitumgebung \\
   Die Web-Applikation wird auf einem unternehmenseigenen Apache2-Server betrieben.
   Sie basiert auf Python und dem Webframework Flask.
 
-  \item \textbf{Performance} \\
+  \item Performance \\
   Das System muss auch bei größeren XML-Dateien zuverlässig arbeiten.
   Eine aktive Laufzeitoptimierung ist nicht erforderlich, solange der Arbeitsfluss nicht beeinträchtigt wird.
 
-  \item \textbf{Usability} \\
+  \item Usability \\
   Die Benutzeroberfläche soll intuitiv bedienbar sein und eine klare Struktur aufweisen.
   Eingabefehler sollen vermieden und, wenn möglich, automatisch erkannt werden.
 
-  \item \textbf{Modularität und Wartbarkeit} \\
+  \item Modularität und Wartbarkeit \\
   Die Applikation ist modular aufgebaut, um eine einfache Pflege und spätere Erweiterung zu ermöglichen.
   Änderungen an einzelnen Komponenten sollen keine Anpassungen an anderen Modulen erfordern.
 
-  \item \textbf{Sicherheit und Datenintegrität \textbf{(NEU)}} \\
+  \item Sicherheit und Datenintegrität \\
   XML-Dateien müssen vor dem Einlesen auf korrekte Struktur und mögliche Sicherheitsrisiken geprüft werden
   (z.\,B. Schutz vor fehlerhaften oder manipulierten Dateien).
 
-  \item \textbf{Fehler- und Ausnahmebehandlung \textbf{(NEU)}} \\
+  \item Fehler- und Ausnahmebehandlung \\
   Unerwartete Systemfehler sollen abgefangen und im Log gespeichert werden.
   Für Benutzerinnen und Benutzer werden stattdessen verständliche Fehlermeldungen ausgegeben.
 
-  \item \textbf{Skalierbarkeit \textbf{(NEU)}} \\
+  \item Skalierbarkeit \\
   Das System soll bei Bedarf mit minimalem Aufwand um zusätzliche Funktionen, Testmodule oder Datenquellen erweitert werden können.
 
-  \item \textbf{Kompatibilität \textbf{(NEU)}} \\
+  \item Kompatibilität \\
   Die Applikation soll auf allen gängigen Browsern lauffähig sein (z.\,B. Chrome, Edge, Firefox).
 
-  \item \textbf{Dokumentation und Nachvollziehbarkeit \textbf{(NEU)}} \\
+  \item Dokumentation und Nachvollziehbarkeit \\
   Der Code soll übersichtlich dokumentiert werden.
-  Wichtige Abläufe (Upload, Datenverarbeitung, Visualisierung) werden nachvollziehbar in der Projektdokumentation beschrieben.
+  Wichtige Abläufe (Upload, Datenverarbeitung, Visualisierung) werden nachvollziehbar beschrieben.
 \end{enumerate}
 
 \subsubsection{Anforderungen an die Datenbank}
@@ -103,28 +95,30 @@ Die Datenbank ist ein zentraler Bestandteil der Anwendung.
 Sie speichert alle relevanten Testdaten, Parameter und Informationen aus den XML-Berichten.
 
 \begin{enumerate}
-  \item Die Datenbank basiert auf dem relationalen Datenbanksystem \textbf{MariaDB}.
 
-  \item Sie muss in der Lage sein, sämtliche in den XML-Berichten enthaltenen Daten vollständig abzubilden,
+  \item Datenbanksystem \\
+  Die Datenbank basiert auf dem relationalen Datenbanksystem MariaDB.
+
+  \item Vollständige Abbildung der XML-Daten \\
+  Sie muss in der Lage sein, sämtliche in den XML-Berichten enthaltenen Daten vollständig abzubilden,
   um die Wiederherstellung eines gesamten Testberichts theoretisch zu ermöglichen.
 
-  \item Datendopplungen sollen vermieden werden.
+  \item Vermeidung von Datendopplungen \\
+  Datendopplungen sollen vermieden werden.
   Häufig vorkommende Informationen (z.\,B. Teststandname, Versionsnummern, DUT-Typen) werden ausgelagert und über Fremdschlüssel referenziert.
 
-  \item Für DUT-Typen und Seriennummern werden separate Informationstabellen angelegt,
+  \item Strukturierung von Gerätedaten \\
+  Für DUT-Typen und Seriennummern werden separate Informationstabellen angelegt,
   um Redundanzen zu vermeiden und die Datenstruktur klar zu halten.
 
-  \item Die Datenbankstruktur soll so gestaltet sein, dass zukünftige Teststände oder zusätzliche Testmodule problemlos integriert werden können.
+  \item Erweiterbarkeit der Datenbankstruktur \\
+  Die Datenbankstruktur soll so gestaltet sein, dass zukünftige Teststände oder zusätzliche Testmodule problemlos integriert werden können.
 
-  \item \textbf{Verwendung von ORM-Technologie \textbf{(NEU)}} \\
-  Für die Kommunikation zwischen Anwendung und Datenbank wird \textbf{SQLAlchemy} eingesetzt.
-  Dadurch kann der Datenzugriff objektorientiert erfolgen, was die Wartbarkeit und Lesbarkeit des Codes verbessert.
-
-  \item \textbf{Versionierung und Migration \textbf{(NEU)}} \\
-  Änderungen an der Datenbankstruktur werden mit \textbf{Alembic} verwaltet,
+  \item Versionierung und Migration \\
+  Änderungen an der Datenbankstruktur werden verwaltet,
   um eine konsistente Weiterentwicklung der Datenbank sicherzustellen.
 
-  \item \textbf{Datenvalidierung und Konsistenzprüfung \textbf{(NEU)}} \\
+  \item Datenvalidierung und Konsistenzprüfung \\
   Beim Einfügen neuer Datensätze sollen Validierungen sicherstellen,
   dass die Werte logisch und formal korrekt sind (z.\,B. keine Nullwerte bei Pflichtfeldern, korrekte Datentypen).
 \end{enumerate}

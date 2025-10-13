@@ -215,8 +215,31 @@ Die \ac{XML}-Struktur ist in sich geschlossen, aber es werden keine Daten von de
 
 \subsubsection{Einbindungskonzept der XML-Daten in die Applikation}
 
-Für das Parsen wird die Bibliothek \code{lxml} genutzt.
+Die XML-Daten sollen über die Bibliothek \code{lxml} eingebunden werden.
+Die Wahl für das Nutzen dieser Bibliothek wird in folgenden Stichpunkten erläutert: \cite{lxml}
 
+\begin{enumerate}
+
+\item Hohe Performance \\
+Durch die Implementierung in C ist \textit{lxml} deutlich schneller als rein in Python geschriebene Parser.
+
+\item Kompatibel zu ElementTree \\
+\textit{lxml} ist API-kompatibel zur Standardbibliothek \textit{xml.etree.ElementTree}, was die Migration erleichtert.
+
+\item XPath- und XSLT-Unterstützung \\
+\textit{lxml} ermöglicht die Nutzung leistungsfähiger XML-Technologien wie XPath zur gezielten Abfrage von Knoten sowie
+\item XSLT zur Transformation von XML-Daten in andere Formate (z. B. HTML oder strukturierte Textausgaben).
+
+\item Schema-Validierung \\
+Das Modul unterstützt die Validierung von XML-Dokumenten anhand von XSD- oder DTD-Schemata.
+Was die Absicherung beim Einlesen stark erhöhen kann.
+
+\item Namespace-Unterstützung \\
+Ermöglicht den Umgang mit standardisierten XML-Formaten, was als Sicherung beim Parsen genutzt werden kann.
+
+\end{enumerate}
+
+Auf Grund dieser genannten Eigenschaften wurde \textit{lxml} für das Einbinden ausgewählt.
 
 
 

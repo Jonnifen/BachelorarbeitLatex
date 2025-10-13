@@ -1,37 +1,37 @@
 \subsection{Anforderungen an modulare Softwareentwicklung (nach ISO/IEC 9126)}
 \label{sec:anforderungen-an-modulare-softwareentwicklung-(nach-iso/iec-9126)}
 
-Die Norm \textbf{ISO/IEC 9126} beschreibt ein Qualitätsmodell für Softwareprodukte, das mehrere Haupt- und Untermerkmale definiert.
+Die Norm ISO/IEC 9126 beschreibt ein Qualitätsmodell für Softwareprodukte, das mehrere Haupt- und Untermerkmale definiert.
 Diese Merkmale lassen sich auf die modulare Softwareentwicklung übertragen, da sie zentrale Eigenschaften wie Wartbarkeit, Erweiterbarkeit und Austauschbarkeit quantifizierbar machen.
-Eine modulare Architektur erfüllt diese Qualitätsziele durch klar definierte Schnittstellen, lose Kopplung und eine hohe Kohäsion der Module.\cite{ISOIEC9126-1991}
+Eine modulare Architektur erfüllt diese Qualitätsziele, wenn sie folgende Eigenschaften grundlegen erfüllt sind:\cite{ISOIEC9126-1991}
 
 \begin{itemize}
-    \item \textbf{Funktionalität:}
+    \item Funktionalität:
     Jedes Modul soll die vorgesehenen Aufgaben korrekt und zweckmäßig ausführen.
     Eine hohe Funktionalität setzt voraus, dass Module die geforderten Spezifikationen erfüllen, interoperabel mit anderen Komponenten sind und relevante Standards einhalten.
     \emph{Untermerkmale: Eignung, Korrektheit, Interoperabilität, Konformität, Sicherheit.}
 
-    \item \textbf{Zuverlässigkeit:}
+    \item Zuverlässigkeit:
     Module sollen auch unter unerwarteten Bedingungen stabil arbeiten und definierte Wiederherstellungsmechanismen besitzen.
     Eine hohe Zuverlässigkeit gewährleistet, dass Fehlfunktionen lokal begrenzt bleiben und das Gesamtsystem funktionsfähig bleibt.
     \emph{Untermerkmale: Reife, Fehlertoleranz, Wiederherstellbarkeit.}
 
-    \item \textbf{Benutzbarkeit:}
+    \item Benutzbarkeit:
     Module und Schnittstellen sollen verständlich, erlernbar und bedienbar sein.
     Diese Anforderung gilt sowohl für Benutzerschnittstellen als auch für APIs, um eine konsistente Integration und Nutzung zu ermöglichen.
     \emph{Untermerkmale: Verständlichkeit, Erlernbarkeit, Bedienbarkeit.}
 
-    \item \textbf{Effizienz:}
+    \item Effizienz:
     Module sollen vorhandene Ressourcen optimal nutzen und geforderte Leistungswerte einhalten.
     Eine effiziente Implementierung trägt zu einem stabilen Laufzeitverhalten und einer guten Skalierbarkeit des Gesamtsystems bei.
     \emph{Untermerkmale: Zeitverhalten, Ressourcenverhalten.}
 
-    \item \textbf{Wartbarkeit:}
+    \item Wartbarkeit:
     Module sollen leicht analysierbar, anpassbar und testbar sein.
     Änderungen müssen möglichst lokal vorgenommen werden können, ohne unbeabsichtigte Auswirkungen auf andere Systemkomponenten zu verursachen.
     \emph{Untermerkmale: Analysierbarkeit, Änderbarkeit, Stabilität, Testbarkeit.}
 
-    \item \textbf{Portabilität:}
+    \item Portabilität:
     Module sollen an unterschiedliche Zielumgebungen anpassbar und bei gleichbleibender Schnittstelle austauschbar sein.
     Dadurch wird die Wiederverwendung und langfristige Nutzbarkeit der Software verbessert.
     \emph{Untermerkmale: Anpassbarkeit, Installierbarkeit, Konformität, Austauschbarkeit.}

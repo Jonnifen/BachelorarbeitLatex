@@ -9,6 +9,14 @@ Die Architektur der Anwendung ist schichten- und komponentenorientiert aufgebaut
 
 \subsubsection{Architekturübersicht}
 
+
+Der Entwurf der Applikationsarchitektur bildet die konzeptionelle Grundlage für die technische Umsetzung der entwickelten Web-Applikation.
+Das Ziel ist es, eine Struktur zu schaffen, die modular, wartbar und erweiterbar ist und die gleichzeitig den funktionalen Anforderungen gerecht wird und sich in die bestehende Systemlandschaft integrieren lässt.
+Die Architektur der Anwendung ist schichten- und komponentenorientiert aufgebaut und nutzt das Webframework Flask, welches eine klare Trennung zwischen der Präsentations-, Logik- und Datenhaltungsschicht ermöglicht.
+
+
+\subsubsection{Architekturübersicht}
+\label{subsubsec:arch}
 Die Applikation soll als serverbasierte Webanwendung im Client-Server-Modell funktionieren.
 Das bedeutet: Während der Server die Datenverarbeitung, -speicherung und -bereitstellung übernimmt, ermöglicht der Client über den Webbrowser die Darstellung und Interaktion.
 Die Anwendung ist in mehrere Schichten gegliedert, zu denen man die einzelnen Programmteile zuordnen kann.
@@ -21,7 +29,7 @@ Die Anwendung wird in folgende Schichten gegliedert:
 Applikationslogik (Backend): Implementierung der Geschäftslogik, Steuerung des Datenflusses und Verarbeitung der XML-Dateien.
 
 \item
-Datenhaltungsschicht: Persistente Speicherung der extrahierten Mess- und Gerätedaten in einer relationalen Datenbank mittels ORM.
+Datenhaltungsschicht: persistente Speicherung der extrahierten Mess- und Gerätedaten in einer relationalen Datenbank mittels ORM.
 
 \end{itemize}
 
@@ -30,18 +38,18 @@ Ein schematisches Architekturdiagramm dieser Struktur ist in Abbildung \ref{fig:
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Grafiken/Architekturdiagramm}
-    \caption{schematisches Architekturdiagramm der Applikation}
+    \caption{Schematisches Architekturdiagramm der Applikation}
     \label{fig:arch_minimal}
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
 
-Der Entwurf der Ordnerstruktur für die Applikation wird in Abbildung \ref{fig: Grundlegende Ordnerstruktur der Applikations} dargestellt.
+Der Entwurf der Ordnerstruktur für die Applikation wird in Abbildung \ref{fig: Grundlegende Ordnerstruktur der Applikation} dargestellt.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{Grafiken/Min Ordnerstruktur Projekt}
-    \caption{Grundlegende Ordnerstruktur der Applikations}
-    \label{fig: Grundlegende Ordnerstruktur der Applikations}
+    \includegraphics[width=1\textwidth]{Grafiken/Minimale Ordnerstruktur Projekt}
+    \caption{Grundlegende Ordnerstruktur der Applikation}
+    \label{fig: Grundlegende Ordnerstruktur der Applikation}
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
 
@@ -51,22 +59,23 @@ Der Entwurf der Ordnerstruktur für die Applikation wird in Abbildung \ref{fig: 
 Die Präsentationsschicht besteht aus einer Kombination aus HTML-Templates und statischen Ressourcen (CSS, JavaScript),
 die im Verzeichnis templates/ bzw. static/ abgelegt werden.
 
-
 \begin{itemize}
 
 \item
-Die Templates upload.html, reports.html und dut\_report.html bilden die Kernseiten der Weboberfläche.
+Die Templates für die einzelnen Seiten der Applikation für das Hochladen, die Darstellung der sich in der Datenbank befinden Berichte
+und grafische Darstellungen bilden den Kern der Weboberfläche.
 
 \item
-Statische Dateien wie style.css und dut\_plots.js dienen der Gestaltung und der interaktiven Darstellung von Messergebnissen.
+Statische Dateien wie CSS-Stylesheets und das JavaScript für die Erstellung der Graphen dienen der Gestaltung und der
+interaktiven Darstellung von Messergebnissen.
 
-Die Kommunikation mit der Logikschicht erfolgt über die definierten Flask Blueprints, die als modulare Controller agieren.
+Die Kommunikation mit der Logikschicht erfolgt über die definierten Flask-Blueprints, die als modulare Controller agieren.
 
 \end{itemize}
 
 \subsubsection{Applikationslogik}
 
-Die zentrale Geschäftslogik ist in modularen Blueprints und Service-Komponenten realisiert.
+Die zentrale Geschäftslogik ist in modularen Blueprints und Servicekomponenten realisiert.
 
 Die drei Blueprints upload, reports und dut kapseln die jeweiligen Funktionsbereiche:
 
@@ -83,52 +92,40 @@ reports: Zusammenstellung und Ausgabe von Auswertungen.
 
 \end{itemize}
 
-Unterstützt werden diese durch das Modul services/, das die eigentliche Logik zur Datenverarbeitung bereitstellt:
+Unterstützt werden diese durch das Modul in dem Ordner services/, das die eigentliche Logik zur Datenverarbeitung bereitstellt.
+Dieser Ordner soll Dateien für folgende Aufgaben beinhalten:
 
 \begin{itemize}
 
 \item
-xml\_ingest.py übernimmt das Parsen und Einlesen der XML-Daten.
+Eine Datei für das Übernehmen des Parsens und Einlesens der XML-Daten.
 
 \item
-queries.py enthält vordefinierte Datenbankabfragen.
+Eine Datei für vordefinierte Datenbankabfragen.
 
 \item
-utils.py und utils\_timeseries.py stellen Hilfsfunktionen zur Verfügung, z. B. zur Zeitreihenanalyse und Datenaufbereitung.
+Eine Datei für Hilfsfunktionen, z. B. zur Zeitreihenanalyse und Datenaufbereitung.
 
 \item
-report\_builders.py dient der Erstellung und Formatierung von Report-Daten für die grafische Darstellung.
+Eine Datei dient der Erstellung und Formatierung von Report-Daten für die grafische Darstellung.
 
 \end{itemize}
 
-Die Applikationslogik wird über die Datei run.py initialisiert, welche den Flask-Server startet und die Anwendungskonfiguration aus config.py einliest.
+Die Applikationslogik soll über die Datei \code{run.py} initialisiert werden, welche den Flask-Server startet und die Anwendungskonfiguration aus \code{config.py} einliest.
 
 
 \subsubsection{Datenhaltungsschicht}
 
-Die Datenhaltung soll  über ein relationales Datenbanksystem erfolgt, das über das Flask-eigene SQLAlchemy \ac{ORM} angebunden ist.
+Die Datenhaltung soll über ein relationales Datenbanksystem erfolgen, das über das Flask-eigene SQLAlchemy \ac{ORM} angebunden ist.
+Dabei sollen die Datenmodelle im Verzeichnis models/ definiert werden und die logischen Entitäten der Prüfanlage abbilden.
+Die Dateien werden nach den Tabellen in Abbildung \ref{fig: Darstellung der Datenbanktabellen und ihrer Verbindungen} unterteilt.
+Außerdem sollen die Beziehungen zwischen den Modellen ermöglichen, dass eine strukturierte und relationale Abbildung der Prüfdaten dargestellt wird.
+Wodurch eine effiziente Abfrage und Analyse möglich ist.
 
-Die Datenmodelle sollen im Verzeichnis models/ definiert werden und sollen die logischen Entitäten der Prüfanlage abbilden darunter:
+Für die Migrationen werden mit \textit{Alembic} verwaltet, wodurch das Verzeichnis migrations/ zustande kommen soll.
 
-\begin{itemize}
 
-\item
-dut.py (Device Under Test)
 
-\item
-measurement.py (Messdaten)
-
-\item
-parameter.py (Prüfparameter)
-
-\item
-testbench.py, module.py und ref.py (Referenzdaten und Prüfaufbau)
-
-\end{itemize}
-
-Die Beziehungen zwischen den Modellen ermöglichen eine strukturierte und relationale Abbildung der Prüfdaten, wodurch eine effiziente Abfrage und Analyse möglich ist.
-
-Migrationen werden mit \textit{Alembic} verwaltet, wie das Verzeichnis migrations/ zeigt.
 
 
 
