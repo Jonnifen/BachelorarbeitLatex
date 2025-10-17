@@ -1,2 +1,22 @@
 \subsection{Zusammenfassung der Ergebnisse}
 \label{subsec:zusammenfassung-der-ergebnisse}
+
+Ziel dieser Arbeit war die Entwicklung einer modular aufgebauten, serverbasierten Web-Applikation zur Verarbeitung,
+Speicherung und Visualisierung von XML-Daten, die aus den Prüfverfahren eines Umrichter-Teststands stammen.
+Die Anwendung sollte die automatisch erzeugten XML-Berichte einlesen,
+die enthaltenen Messdaten in einer Datenbank speichern und anschließend grafisch darstellen.
+
+Die Arbeit umfasste die Grundlagen zur Erstellung, Beschreibung und Bewertung der Applikation, die fundamentale Konzeption, die Implementierung sowie die Testung eines funktionalen Prototyps.
+
+Bei der Konzeptentwicklung und -umsetzung wurde insbesondere auf die vorher festgelegten Anforderungen sowie die während des Erstellungsprozesses geforderten Änderungsvorschläge durch das Unternehmen geachtet.
+Zudem wurde besonderer Wert auf eine modulare, erweiterbare und wartbare Architektur gelegt, um schnelle Änderungen durchzuführen.
+Durch den Einsatz von Flask als Webframework und Flask-Blueprint konnte eine klare Trennung zwischen Präsentations-, Logik- und Datenhaltungsschicht umgesetzt werden.
+Das ORM-Framework Flask-SQLAlchemy wurde hierbei für die Datenbankerstellung und -anbindung genutzt, wodurch die Verarbeitung und Verwaltung der XML-Strukturen effizient und strukturiert realisiert werden konnte.
+
+Die entwickelte Applikation bzw. der Applikations-Prototyp ist in der Lage, einen Großteil der vom Teststand erzeugten XML-Berichte automatisiert zu verarbeiten, redundante Einträge zu vermeiden und die Daten konsistent in der Datenbank abzulegen.
+Über die Benutzeroberfläche können vorhandene Berichte durchsucht, gefiltert und ausgewählte Datensätze visualisiert werden.
+Damit wurde das Hauptziel dieser Arbeit, die automatisierte Datenaufbereitung und visuelle Darstellung von Prüfdaten, weitestgehend erreicht.
+Hierfür wird eine Unregelmäßigkeit in der Berichtstruktur zugrunde gelegt, die dem Entwickler entgangen ist und durch bestimmte Bauformen der zu testenden Einrichtung ausgelöst wird.
+
+
+

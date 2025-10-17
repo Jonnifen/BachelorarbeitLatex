@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  13 OCT 2025 15:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  14 OCT 2025 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2041,7 +2041,19 @@ ung.tex)
 
 [47]
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
-tex) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
+tex
+Overfull \hbox (8.05074pt too wide) in paragraph at lines 4--8
+\T1/phv/m/n/10.95 Ziel die-ser Ar-beit war die Ent-wick-lung ei-ner mo-du-lar a
+uf-ge-bau-ten, ser-ver-ba-sier-ten Web-Applikation
+ []
+
+
+Overfull \hbox (2.41315pt too wide) in paragraph at lines 11--15
+\T1/phv/m/n/10.95 Pr�sentations-, Logik- und Da-ten-hal-tungs-schicht um-ge-set
+zt wer-den. Das ORM-Framework Flask-
+ []
+
+) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex))
 
@@ -2141,10 +2153,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--168
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2163,7 +2171,7 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (60 pages, 2504058 bytes).
+df (60 pages, 2505798 bytes).
 PDF statistics:
  1287 PDF objects out of 1440 (max. 8388607)
  1148 compressed objects within 12 object streams
