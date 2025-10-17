@@ -2421,10 +2421,11 @@
     <bcf:citekey order="41" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="42" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="43" intorder="1">sqlmodel_docs</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">ISOIEC9126-1991</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">Wilke2020Datenvisualisierung</bcf:citekey>
     <bcf:citekey order="45" intorder="1">ISOIEC9126-1991</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">lxml</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">mariadb.org</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">ISOIEC9126-1991</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">lxml</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">mariadb.org</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

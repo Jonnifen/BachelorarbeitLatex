@@ -4,29 +4,29 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces XML-Elemente Beispielcode}}{7}{figure.3}%
 \contentsline {figure}{\numberline {4}{\ignorespaces XML-Attribut Beispielcode}}{7}{figure.4}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Beispiel XPath-Ausdruck}}{11}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{25}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Aufbau unferänderlicher XML-Berichtstruktur}}{26}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Elementaufbau aus XML-Bericht}}{26}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Direkte Kinderelement unter Stammelement}}{27}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces XML-Strukturbeispiel Info-Element}}{27}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces XML-Strukturbeispiel Testbench-Element}}{28}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces XML-Strukturbeispiel Testmodulheader}}{28}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel XPowertest Floatblock-Elemente}}{29}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{29}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{31}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{32}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{33}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{34}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{35}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Schematisches Architekturdiagramm der Applikation}}{37}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Grundlegende Ordnerstruktur der Applikation}}{37}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Genaue Struktur des Applikations-Ordners}}{39}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Erstellte Webseite für XML hochladen in Browserfenster}}{40}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Erstellte Webseite für Report-Tabelle in Browserfenster}}{41}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Erstellte Webseite für Analyse in Browserfenster}}{41}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Beispiel Programmcode aus upload.html}}{42}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}}{43}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Codeausschnitt für die Suchfunktion in den Listen}}{44}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Beispiel ORM-Objekt}}{45}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Code routes.py aus Upload-Seite}}{46}{figure.30}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Grundlegedes Ablaufdiagramm der Nutzung der Web-Applikation}}{27}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Aufbau unferänderlicher XML-Berichtstruktur}}{28}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Elementaufbau aus XML-Bericht}}{28}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Direkte Kinderelement unter Stammelement}}{29}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces XML-Strukturbeispiel Info-Element}}{29}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces XML-Strukturbeispiel Testbench-Element}}{30}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces XML-Strukturbeispiel Testmodulheader}}{30}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Beispiel XPowertest Floatblock-Elemente}}{31}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{31}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{33}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{34}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{35}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{36}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{37}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Schematisches Architekturdiagramm der Applikation}}{39}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Grundlegende Ordnerstruktur der Applikation}}{39}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Genaue Struktur des Applikations-Ordners}}{41}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Erstellte Webseite für XML hochladen in Browserfenster}}{42}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Erstellte Webseite für Report-Tabelle in Browserfenster}}{43}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Erstellte Webseite für Analyse in Browserfenster}}{43}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Beispiel Programmcode aus upload.html}}{44}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}}{45}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Codeausschnitt für die Suchfunktion in den Listen}}{46}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Beispiel ORM-Objekt}}{47}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Code routes.py aus Upload-Seite}}{48}{figure.30}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
