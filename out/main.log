@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  21 OCT 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  21 OCT 2025 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1418,123 +1418,974 @@ io-nen des Un-ter-neh-mens, in dem die Bachelor-
 
 [2{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
 5/texmf-dist/fonts/enc/dvips/base/8r.enc}])
-(C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
-
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 66.
-Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 66.
+(C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 66.
+ 7.
+
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 66.
+ 7.
 
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 66.
+ 7.
 
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 66.
+ 7.
 
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-6.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
+.
 
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 66.
- [2]
-(C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:32: Missing $ i
-nserted.
-<inserted text> 
-                $
-l.32 ...belle-Klasse Report_Table}}{49}{figure.31}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:32: Extra }, or
- forgotten $.
-<argument> ...iel der Tabelle-Klasse Report_Table}
-                                                  }\nobreak {\normalfont \no...
-l.32 ...belle-Klasse Report_Table}}{49}{figure.31}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:32: Extra }, or
- forgotten $.
-<argument> ...el der Tabelle-Klasse Report_Table}}
-                                                  \nobreak {\normalfont \nor...
-l.32 ...belle-Klasse Report_Table}}{49}{figure.31}
-                                                  %
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 
 
-LaTeX Font Warning: Command \normalsize invalid in math mode on input line 32.
-
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:32: Missing $ i
-nserted.
-<inserted text> 
-                $
-l.32 ...belle-Klasse Report_Table}}{49}{figure.31}
-                                                  %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 48.
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 48.
+[2])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
- [][] []\T1/phv/m/n/10.95 Beispiel der Tabelle-Klasse Report$[]\OML/ztmcm/m/it/
-10.95 able[]$  
+
+[3] (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+
+
+[4] (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+
+
+[5]
+
+[6] (./Kapitel/1. Einleitung/Einleitung.tex
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 
+      [1]) (./Kapitel/2. Hauptteil/2. Grundlagen.tex
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \newpage
+             [2]
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.1 √úberblick √ºber den Umrichter-Pr√ºfs
+tand.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 2.
+Package acronym Info: Label `acro:DUTs' newly defined as it shall be overridden
+
+although it is yet undefined on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
+6.
+ (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 26.
+
+
+[3]
+<Grafiken/Test Cabin.jpg, id=367, 506.8755pt x 337.698pt>
+File: Grafiken/Test Cabin.jpg Graphic file (type jpg)
+<use Grafiken/Test Cabin.jpg>
+Package pdftex.def Info: Grafiken/Test Cabin.jpg  used on input line 47.
+(pdftex.def)             Requested size: 352.81552pt x 235.06784pt.
+Package acronym Info: Label `acro:FSW' newly defined as it shall be overridden
+although it is yet undefined on input line 67.
+Package acronym Info: Label `acro:OCP' newly defined as it shall be overridden
+although it is yet undefined on input line 68.
+
+
+[4 <./Grafiken/Test Cabin.jpg>]
+Package acronym Info: Label `acro:DSCP' newly defined as it shall be overridden
+
+although it is yet undefined on input line 70.
+Package acronym Info: Label `acro:BIT' newly defined as it shall be overridden
+although it is yet undefined on input line 79.
+Package acronym Info: Label `acro:OTP' newly defined as it shall be overridden
+although it is yet undefined on input line 81.
+
+
+[5]
+Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
+although it is yet undefined on input line 120.
+) (./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex
+Package acronym Info: Label `acro:DTD' newly defined as it shall be overridden
+although it is yet undefined on input line 31.
+
+
+[6] (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 38.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 38.
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:65: LaT
+eX Error: Invalid UTF-8 byte sequence (√\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 <buch><!-- Das Element "Buch" enth√§lt 
+                                            2 Kinderelement-->
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:65: LaT
+eX Error: Invalid UTF-8 byte "A4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 <buch><!-- Das Element "Buch" enth√§lt 
+                                            2 Kinderelement-->
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+Overfull \hbox (3.03555pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[] 
  []
 
-Runaway argument?
-{\@nameuse {scr@tso@figure@numberformat}{\@nameuse {scr@tso@figure@nu\ETC.
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:33: TeX capacit
-y exceeded, sorry [main memory size=5000000].
-<argument> ...ure@numberformat}{\@nameuse {scr@tso
-                                                  @figure@numberformat}{\@na...
-l.33 ...llen der Hauptapplikation}}{50}{figure.32}
-                                                  %
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
 
- 
+
+[7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+Package acronym Info: Label `acro:API' newly defined as it shall be overridden
+although it is yet undefined on input line 117.
+Package acronym Info: Label `acro:DOM' newly defined as it shall be overridden
+although it is yet undefined on input line 125.
+Package acronym Info: Label `acro:SAX' newly defined as it shall be overridden
+although it is yet undefined on input line 147.
+
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+Package acronym Info: Label `acro:XSLT' newly defined as it shall be overridden
+
+although it is yet undefined on input line 156.
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:157: Yo
+u can't use `macro parameter character #' in horizontal mode.
+l.157 ...grammiersprachen wie z. B. JavaScript, C#
+                                                   oder einigen Pythonbiblio...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+
+[9]
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:226: La
+TeX Error: Unicode character ‚â§ (U+2264)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 < (kleiner als), ‚â§
+                           (kleiner-gleich), > (gr√∂√üer als) und ‚â• (gr√∂√...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:226: La
+TeX Error: Unicode character ‚â• (U+2265)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...kleiner-gleich), > (gr√∂√üer als) und ‚â•
+                                                   (gr√∂√üer-gleich).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[10] (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+)
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:247: Pa
+ckage Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \begin{lstlisting}[language=XPath]
+                                        
+The following languages weren't loadable:
+    ,xpath$
+This may cause errors in the sequel.
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.2 Verarbeitung von XML-Daten.tex:247: Pa
+ckage Listings Error: language xpath undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.247 \begin{lstlisting}[language=XPath]
+                                        
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+
+[11]
+Package acronym Info: Label `acro:XSD' newly defined as it shall be overridden
+although it is yet undefined on input line 290.
+Package acronym Info: Label `acro:XXE' newly defined as it shall be overridden
+although it is yet undefined on input line 297.
+) (./Kapitel/2. Hauptteil/2. Grundlagen/2.3.1 Flask-Grundlagen.tex
+
+[12]
+
+[13])
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.t
+ex
+Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
+although it is yet undefined on input line 10.
+
+
+[14]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 52.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 52.
+
+
+[15]
+Overfull \hbox (8.6897pt too wide) in paragraph at lines 132--133
+[]\T1/phv/m/n/10.95 Definition von Da-ten-ty-pen und Zell-kon-fi-gu-ra-tio-nen 
+(z. B. NOT NULL, UN-I-QUE, CHECK). 
+ []
+
+
+
+[16]
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.te
+x:176: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 204--204
+[]|\T1/phv/m/n/10.95 Maximale Kon-trol-le ¸ber das aus-ge-f¸hr-te
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 210--211
+[]|\T1/phv/m/n/10.95 N¸tzlich bei kom-ple-xen, da-ten-bank-s-pe-zi-fi-
+ []
+
+
+
+[17]
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.3 Datenbankentwurf und Normalisierung.te
+x:228: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package acronym Info: Label `acro:ORM' newly defined as it shall be overridden
+although it is yet undefined on input line 229.
+
+Underfull \hbox (badness 1701) in paragraph at lines 256--256
+[]|\T1/phv/m/n/10.95 Automatisches Er-stel-len und Ak-tua-li-sie-ren
+ []
+
+
+
+[18])
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.te
+x
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:25: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \textbf
+            {Geeignete Skalierung der Achsen}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 25
+[][]
+ []
+
+
+
+[19]
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:32: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \textbf
+            {Klarheit und Lesbarkeit}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 32
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:40: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \textbf
+            {Konsistente und sparsame Liniengestaltung}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 40
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:48: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \textbf
+            {Farben gezielt und barrierefrei einsetzen}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 48
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:55: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \textbf
+            {Visueller √úberlastung}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:61: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \textbf
+            {Korrekte Darstellung und Kontext}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 61
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:68: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \textbf
+            {Behandlung √ºberlappender Linien}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 68
+[][]
+ []
+
+
+./Kapitel/2. Hauptteil/2. Grundlagen/2.4 Grundlagen der Datenvisualisierung.tex
+:74: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \textbf
+            {Verst√§ndliche Hervorhebung wichtiger Daten}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 74
+[][]
+ []
+
+
+
+[20]
+Package acronym Info: Label `acro:SVG' newly defined as it shall be overridden
+although it is yet undefined on input line 91.
+
+Overfull \hbox (18.17204pt too wide) in paragraph at lines 107--111
+[]\T1/phv/b/n/10.95 Recharts \T1/phv/m/n/10.95 Ei-ne React-spezifische Bi-blio-
+thek, die auf D3.js ba-siert. Bie-tet ei-ne ein-fa-che Komponenten-
+ []
+
+)
+(./Kapitel/2. Hauptteil/2. Grundlagen/2.5 Anforderungen an modulare Softwareent
+wicklung.tex
+Overfull \hbox (2.31824pt too wide) in paragraph at lines 4--7
+\T1/phv/m/n/10.95 Die Norm ISO/IEC 9126 be-schreibt ein Qua-li-t‰ts-mo-dell f¸r
+ Soft-wa-re-pro-duk-te, das meh-re-re Haupt-
+ []
+
+
+
+[21])
+
+[22]) (./Kapitel/2. Hauptteil/3. Analyse und Konzeption.tex
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.0 Definition der Anforderun
+gen.tex
+
+[23]
+
+[24]
+Overfull \hbox (3.30017pt too wide) in paragraph at lines 106--109
+\T1/phv/m/n/10.95 Datendopplungen sol-len ver-mie-den wer-den. H‰u-fig vor-kom-
+men-de In-for-ma-tio-nen (z.B. Test-
+ []
+
+
+
+[25])
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.1 Grundlegender Ablauf des 
+Programmes.tex
+<Grafiken/Ablaufdiagramm.png, id=707, 309.155pt x 273.02pt>
+File: Grafiken/Ablaufdiagramm.png Graphic file (type png)
+<use Grafiken/Ablaufdiagramm.png>
+Package pdftex.def Info: Grafiken/Ablaufdiagramm.png  used on input line 22.
+(pdftex.def)             Requested size: 418.96548pt x 370.02751pt.
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.2 Analyse der generierten X
+ML-Berichte und der bestehenden Strukturen.tex
+
+[26]
+Overfull \hbox (11.94147pt too wide) in paragraph at lines 4--8
+\T1/phv/m/n/10.95 stel-lung der Da-ten-bank und das Ver-st‰nd-nis der Ein- und 
+Aus-le-se-funk-tio-nen der Web-Applikation. 
+ []
+
+
+
+[27 <./Grafiken/Ablaufdiagramm.png>]
+<Grafiken/XML-Strukturdiagramm.png, id=721, 539.01375pt x 348.30125pt>
+File: Grafiken/XML-Strukturdiagramm.png Graphic file (type png)
+<use Grafiken/XML-Strukturdiagramm.png>
+Package pdftex.def Info: Grafiken/XML-Strukturdiagramm.png  used on input line 
+27.
+(pdftex.def)             Requested size: 418.96548pt x 270.73318pt.
+<Grafiken/Elementaufbau.png, id=723, 754.31813pt x 119.44624pt>
+File: Grafiken/Elementaufbau.png Graphic file (type png)
+<use Grafiken/Elementaufbau.png>
+Package pdftex.def Info: Grafiken/Elementaufbau.png  used on input line 40.
+(pdftex.def)             Requested size: 418.96548pt x 66.34265pt.
+
+
+[28 <./Grafiken/XML-Strukturdiagramm.png> <./Grafiken/Elementaufbau.png>]
+
+[29]
+
+[30]
+Overfull \hbox (3.03555pt too wide) in paragraph at lines 199--200
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+
+[31])
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.3 Datenbankdesign und Struk
+turkonzeption.tex
+
+[32]
+<Grafiken/Bild von ER-Modell.png, id=832, 562.1pt x 396.48125pt>
+File: Grafiken/Bild von ER-Modell.png Graphic file (type png)
+<use Grafiken/Bild von ER-Modell.png>
+Package pdftex.def Info: Grafiken/Bild von ER-Modell.png  used on input line 34
+.
+(pdftex.def)             Requested size: 418.96548pt x 295.52106pt.
+<Grafiken/Tabellendiagramm Datenbank.png, id=834, 513.41812pt x 417.05812pt>
+File: Grafiken/Tabellendiagramm Datenbank.png Graphic file (type png)
+<use Grafiken/Tabellendiagramm Datenbank.png>
+Package pdftex.def Info: Grafiken/Tabellendiagramm Datenbank.png  used on input
+ line 45.
+(pdftex.def)             Requested size: 418.96548pt x 340.33528pt.
+
+
+[33 <./Grafiken/Bild von ER-Modell.png>])
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.4 Grundkonzept des Benutzer
+oberfl√§chen-Design.tex
+
+[34 <./Grafiken/Tabellendiagramm Datenbank.png>]
+<Grafiken/Overlay_Einleseseite.png, id=849, 690.07813pt x 520.94624pt>
+File: Grafiken/Overlay_Einleseseite.png Graphic file (type png)
+<use Grafiken/Overlay_Einleseseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Einleseseite.png  used on input line 
+25.
+(pdftex.def)             Requested size: 418.96548pt x 316.28233pt.
+<Grafiken/Overlay_Tabellenseite.png, id=851, 516.93124pt x 387.4475pt>
+File: Grafiken/Overlay_Tabellenseite.png Graphic file (type png)
+<use Grafiken/Overlay_Tabellenseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Tabellenseite.png  used on input line
+ 43.
+(pdftex.def)             Requested size: 418.96548pt x 314.03175pt.
+
+
+[35 <./Grafiken/Overlay_Einleseseite.png>]
+<Grafiken/Overlay_Ausgabeseite.png, id=858, 519.44063pt x 494.34688pt>
+File: Grafiken/Overlay_Ausgabeseite.png Graphic file (type png)
+<use Grafiken/Overlay_Ausgabeseite.png>
+Package pdftex.def Info: Grafiken/Overlay_Ausgabeseite.png  used on input line 
+59.
+(pdftex.def)             Requested size: 418.96548pt x 398.72157pt.
+)
+(./Kapitel/2. Hauptteil/3. Analyse und Konzeption/3.5 Entwurf der Applikationsa
+rchitektur.tex
+
+[36 <./Grafiken/Overlay_Tabellenseite.png>]
+
+[37 <./Grafiken/Overlay_Ausgabeseite.png>]
+Overfull \hbox (17.16997pt too wide) in paragraph at lines 26--27
+[]\T1/phv/m/n/10.95 Pr‰sentationsschicht (Fron-tend): Be-reit-stel-lung der Be-
+nut-ze-ro-ber-fl‰-che ¸ber HTML-Templates,
+ []
+
+<Grafiken/Architekturdiagramm.png, id=871, 469.755pt x 343.2825pt>
+File: Grafiken/Architekturdiagramm.png Graphic file (type png)
+<use Grafiken/Architekturdiagramm.png>
+Package pdftex.def Info: Grafiken/Architekturdiagramm.png  used on input line 4
+0.
+(pdftex.def)             Requested size: 418.96548pt x 306.16473pt.
+
+
+[38]
+<Grafiken/Minimale Ordnerstruktur Projekt.png, id=878, 781.92125pt x 182.6825pt
+>
+File: Grafiken/Minimale Ordnerstruktur Projekt.png Graphic file (type png)
+<use Grafiken/Minimale Ordnerstruktur Projekt.png>
+Package pdftex.def Info: Grafiken/Minimale Ordnerstruktur Projekt.png  used on 
+input line 50.
+(pdftex.def)             Requested size: 441.01773pt x 103.03738pt.
+
+
+[39 <./Grafiken/Architekturdiagramm.png> <./Grafiken/Minimale Ordnerstruktur Pr
+ojekt.png>])) (./Kapitel/2. Hauptteil/4. Implementierung.tex
+
+[40] (./Kapitel/2. Hauptteil/4. Implemetierung/4.0.0 Programmstruktur.tex
+<Grafiken/Min Ordnerstruktur Projekt.png, id=893, 855.69687pt x 233.37187pt>
+File: Grafiken/Min Ordnerstruktur Projekt.png Graphic file (type png)
+<use Grafiken/Min Ordnerstruktur Projekt.png>
+Package pdftex.def Info: Grafiken/Min Ordnerstruktur Projekt.png  used on input
+ line 15.
+(pdftex.def)             Requested size: 441.01773pt x 120.27509pt.
+)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.1 Entwicklung der Benutzeroberfl√§c
+he.tex
+
+[41 <./Grafiken/Min Ordnerstruktur Projekt.png>]
+<Grafiken/Bild XML hochladen.png, id=900, 1926.19624pt x 1045.40562pt>
+File: Grafiken/Bild XML hochladen.png Graphic file (type png)
+<use Grafiken/Bild XML hochladen.png>
+Package pdftex.def Info: Grafiken/Bild XML hochladen.png  used on input line 21
+.
+(pdftex.def)             Requested size: 441.01773pt x 239.35353pt.
+<Grafiken/Bild Reports.png, id=902, 1924.18875pt x 1046.91125pt>
+File: Grafiken/Bild Reports.png Graphic file (type png)
+<use Grafiken/Bild Reports.png>
+Package pdftex.def Info: Grafiken/Bild Reports.png  used on input line 32.
+(pdftex.def)             Requested size: 441.01773pt x 239.93787pt.
+
+
+[42 <./Grafiken/Bild XML hochladen.png>]
+<Grafiken/Bild DUT-Report.png, id=910, 1926.19624pt x 1048.41687pt>
+File: Grafiken/Bild DUT-Report.png Graphic file (type png)
+<use Grafiken/Bild DUT-Report.png>
+Package pdftex.def Info: Grafiken/Bild DUT-Report.png  used on input line 43.
+(pdftex.def)             Requested size: 441.01773pt x 240.04297pt.
+
+
+[43 <./Grafiken/Bild Reports.png> <./Grafiken/Bild DUT-Report.png>]
+<Grafiken/Beispiel Programmcode aus upload.html.png, id=918, 822.57312pt x 310.
+66063pt>
+File: Grafiken/Beispiel Programmcode aus upload.html.png Graphic file (type png
+)
+<use Grafiken/Beispiel Programmcode aus upload.html.png>
+Package pdftex.def Info: Grafiken/Beispiel Programmcode aus upload.html.png  us
+ed on input line 61.
+(pdftex.def)             Requested size: 441.01773pt x 166.55968pt.
+
+Overfull \hbox (9.10118pt too wide) in paragraph at lines 74--82
+\T1/phv/m/n/10.95 lo-gik ge-sen-det wer-den, so-bald der Be-nut-zer den But-ton
+ \T1/phv/m/sl/10.95 ^^Rspei-chern^^P \T1/phv/m/n/10.95 be-t‰-tigt. ‹ber das ^^R
+csrf_token^^P-
+ []
+
+)
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.2 Einlesen und Verarbeiten von XML-
+Daten.tex
+Overfull \hbox (6.71725pt too wide) in paragraph at lines 7--13
+\T1/phv/m/n/10.95 Upload-Seite ¸ber-ge-ben. wei-ter-ge-ge-ben und von der Funk-
+ti-on \T1/cmtt/m/n/10.95 ingest_xml() \T1/phv/m/n/10.95 aus \T1/cmtt/m/n/10.95 
+xml_ingest.py
+ []
+
+
+
+[44 <./Grafiken/Beispiel Programmcode aus upload.html.png>]
+<Grafiken/5.3 Listen.png, id=925, 849.67438pt x 507.8975pt>
+File: Grafiken/5.3 Listen.png Graphic file (type png)
+<use Grafiken/5.3 Listen.png>
+Package pdftex.def Info: Grafiken/5.3 Listen.png  used on input line 24.
+(pdftex.def)             Requested size: 441.01773pt x 263.61998pt.
+<Grafiken/get.png, id=928, 700.11563pt x 447.6725pt>
+File: Grafiken/get.png Graphic file (type png)
+<use Grafiken/get.png>
+Package pdftex.def Info: Grafiken/get.png  used on input line 43.
+(pdftex.def)             Requested size: 441.01773pt x 282.001pt.
+
+
+[45 <./Grafiken/5.3 Listen.png>]
+<Grafiken/Beispiel ORM Obj.png, id=938, 760.34062pt x 528.97626pt>
+File: Grafiken/Beispiel ORM Obj.png Graphic file (type png)
+<use Grafiken/Beispiel ORM Obj.png>
+Package pdftex.def Info: Grafiken/Beispiel ORM Obj.png  used on input line 63.
+(pdftex.def)             Requested size: 441.01773pt x 306.83066pt.
+
+
+[46 <./Grafiken/get.png>]
+<Grafiken/Code route Up.png, id=945, 765.35938pt x 491.33563pt>
+File: Grafiken/Code route Up.png Graphic file (type png)
+<use Grafiken/Code route Up.png>
+Package pdftex.def Info: Grafiken/Code route Up.png  used on input line 75.
+(pdftex.def)             Requested size: 441.01773pt x 283.12306pt.
+
+
+[47 <./Grafiken/Beispiel ORM Obj.png>])
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.3 Implementierung der Datenbank.tex
+<Grafiken/5.4 Class.png, id=954, 959.08313pt x 518.43687pt>
+File: Grafiken/5.4 Class.png Graphic file (type png)
+<use Grafiken/5.4 Class.png>
+Package pdftex.def Info: Grafiken/5.4 Class.png  used on input line 18.
+(pdftex.def)             Requested size: 441.01773pt x 238.39684pt.
+
+
+[48 <./Grafiken/Code route Up.png>]
+<Grafiken/createapp.png, id=962, 722.7pt x 680.5425pt>
+File: Grafiken/createapp.png Graphic file (type png)
+<use Grafiken/createapp.png>
+Package pdftex.def Info: Grafiken/createapp.png  used on input line 34.
+(pdftex.def)             Requested size: 441.01773pt x 415.29646pt.
+
+
+[49 <./Grafiken/5.4 Class.png>]
+<Grafiken/Config.png, id=970, 697.60625pt x 182.6825pt>
+File: Grafiken/Config.png Graphic file (type png)
+<use Grafiken/Config.png>
+Package pdftex.def Info: Grafiken/Config.png  used on input line 55.
+(pdftex.def)             Requested size: 441.01773pt x 115.48918pt.
+
+
+[50 <./Grafiken/createapp.png>])
+(./Kapitel/2. Hauptteil/4. Implemetierung/4.4 Technische Details zur Visualisie
+rung.tex)) (./Kapitel/2. Hauptteil/5. Integration und Test.tex
+
+[51 <./Grafiken/Config.png>]
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.2 Testmethoden und Durchf√ºhr
+ung.tex)
+(./Kapitel/2. Hauptteil/5. Integration und Test/5.3 Ergebnisse der Testmethoden
+.tex
+
+[52]
+<Grafiken/Beispiel Fehler Seriennummeranzahl.png, id=993, 1050.92625pt x 614.29
+5pt>
+File: Grafiken/Beispiel Fehler Seriennummeranzahl.png Graphic file (type png)
+<use Grafiken/Beispiel Fehler Seriennummeranzahl.png>
+Package pdftex.def Info: Grafiken/Beispiel Fehler Seriennummeranzahl.png  used 
+on input line 107.
+(pdftex.def)             Requested size: 441.01773pt x 257.78654pt.
+
+
+[53]
+<Grafiken/Beispiel Fehler Wasserkuehlung vs Luftkuehlung.png, id=1002, 1384.171
+25pt x 286.06876pt>
+File: Grafiken/Beispiel Fehler Wasserkuehlung vs Luftkuehlung.png Graphic file 
+(type png)
+<use Grafiken/Beispiel Fehler Wasserkuehlung vs Luftkuehlung.png>
+Package pdftex.def Info: Grafiken/Beispiel Fehler Wasserkuehlung vs Luftkuehlun
+g.png  used on input line 124.
+(pdftex.def)             Requested size: 441.01773pt x 91.14227pt.
+)) (./Kapitel/3. Schluss/6. Fazit und Ausblick.tex
+
+[54 <./Grafiken/Beispiel Fehler Seriennummeranzahl.png> <./Grafiken/Beispiel Fe
+hler Wasserkuehlung vs Luftkuehlung.png>]
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.1 Zusammenfassung der Ergebnisse.
+tex
+Overfull \hbox (8.05074pt too wide) in paragraph at lines 4--8
+\T1/phv/m/n/10.95 Ziel die-ser Ar-beit war die Ent-wick-lung ei-ner mo-du-lar a
+uf-ge-bau-ten, ser-ver-ba-sier-ten Web-Applikation
+ []
+
+
+Overfull \hbox (2.41315pt too wide) in paragraph at lines 11--15
+\T1/phv/m/n/10.95 Pr‰sentations-, Logik- und Da-ten-hal-tungs-schicht um-ge-set
+zt wer-den. Das ORM-Framework Flask-
+ []
+
+) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
+(./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 M√∂glichkeiten f√ºr zuk√ºnftige
+ Erweiterungen.tex
+
+[55]))
+
+[56]
+pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.149 \section{Literaturverzeichnis}
+                                    
+Overfull \hbox (1.6138pt too wide) in paragraph at lines 153--153
+[]\T1/phv/m/n/10.95 G. Neu-mann, ^^R  Aus-zeich-nungs-spra-che,^^P in \T1/phv/m
+/sl/10.95 En-zy-klo-p‰-die der Wirt-schafts-in-for-ma-tik ^^U Online-
+ []
+
+
+Overfull \hbox (11.65038pt too wide) in paragraph at lines 153--153
+\T1/phv/m/n/10.95 Adres-se: [][]$\T1/cmtt/m/n/10.95 https : / / wi -[] lex . de
+ / index . php / lexikon / technologische -[] und -[] methodische -[]
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
+(Font)              scaled to size 10.40245pt on input line 152.
+
+Overfull \hbox (9.52328pt too wide) in paragraph at lines 153--153
+[]\T1/phv/m/n/10.95 C. Ste-fa-nes-cu. ^^R  un-tan-gle: Con-vert XML to Py-thon 
+ob-jects.^^P On-li-ne; ab-ge-ru-fen am 22.09.2025,
+ []
+
+
+
+[1]
+Overfull \hbox (5.38086pt too wide) in paragraph at lines 153--153
+[]\T1/phv/m/n/10.95 E. Fuchs, \T1/phv/m/sl/10.95 SQL: Grund-la-gen und Da-ten-b
+ank-de-sign\T1/phv/m/n/10.95 , 1. Aus-ga-be. Bo-den-heim: HERDT-Verlag,
+ []
+
+
+Overfull \hbox (17.99489pt too wide) in paragraph at lines 153--153
+\T1/phv/m/n/10.95 09. Ok-to-ber 2025, Ma-riaDB Foun-da-ti-on. Adres-se: [][]$\T
+1/cmtt/m/n/10.95 https : / / mariadb . com / docs / connectors /
+ []
+
+
+Overfull \hbox (2.06839pt too wide) in paragraph at lines 153--153
+[]\T1/phv/m/n/10.95 S. RamÌrez, \T1/phv/m/sl/10.95 SQLM-odel Do-cu-men-ta-ti-on
+\T1/phv/m/n/10.95 , Zu-griff am 8. Ok-to-ber 2025, 2025. Adres-se: [][]$\T1/cmt
+t/m/n/10.95 https :
+ []
+
+
+
+[2]
+Overfull \hbox (10.80772pt too wide) in paragraph at lines 153--153
+[]\T1/phv/m/sl/10.95 Recharts ^^V A com-po-sa-ble char-ting li-bra-ry built wit
+h Re-act com-ponents\T1/phv/m/n/10.95 , [][]$\T1/cmtt/m/n/10.95 https : / / rec
+harts .
+ []
+
+
+Package biblatex Warning: No driver for 'standard'.
+(biblatex)                Using fallback driver on input line 152.
+
+
+
+[3]
+pdfTeX warning (ext4): destination with the same identifier (name{section.2}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.157 \section{Anhangsverzeichnis}
+                                  
+
+[4] (./Kapitel/6. Erkl√§rung/Erkl√§rung.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Erkl√§rung}
+                        )
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--169
+
+ []
+
+
+
+[5] (C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 37394 strings out of 467797
- 745565 string characters out of 5435982
- 5000001 words of memory out of 5000000
- 65482 multiletter control sequences out of 15000+600000
- 647142 words of font info for 70 fonts, out of 8000000 for 9000
+ 39275 strings out of 467797
+ 792046 string characters out of 5435982
+ 1795949 words of memory out of 5000000
+ 66838 multiletter control sequences out of 15000+600000
+ 662857 words of font info for 82 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 481i,21n,483p,11249b,2389s stack positions out of 10000i,1000n,20000p,200000b,200000s
-C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.lof:33:  ==> Fatal 
-error occurred, no output PDF file produced!
+ 108i,20n,107p,11249b,2437s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texl
+ive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2025/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
+etic/uhvro8a.pfb>
+Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
+df (68 pages, 3574080 bytes).
+PDF statistics:
+ 1395 PDF objects out of 1440 (max. 8388607)
+ 1237 compressed objects within 13 object streams
+ 371 named destinations out of 1000 (max. 500000)
+ 665 words of extra memory for PDF output out of 10000 (max. 10000000)
+

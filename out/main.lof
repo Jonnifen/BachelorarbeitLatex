@@ -29,8 +29,9 @@
 \contentsline {figure}{\numberline {28}{\ignorespaces Codeausschnitt für die Suchfunktion in den Listen}}{46}{figure.28}%
 \contentsline {figure}{\numberline {29}{\ignorespaces Beispiel ORM-Objekt}}{47}{figure.29}%
 \contentsline {figure}{\numberline {30}{\ignorespaces Code routes.py aus Upload-Seite}}{48}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Beispiel der Tabelle-Klasse Report_Table}}{49}{figure.31}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Beispiel der Tabelle-Klasse Report-Table}}{49}{figure.31}%
 \contentsline {figure}{\numberline {32}{\ignorespaces Funktion für das Erstellen der Hauptapplikation}}{50}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Beispiel Fehler Seriennummeranzahl}}{53}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Beispiel Fehler Wassserkühlung vs Luftkühlung}}{53}{figure.34}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Config-Klasse für Datenbankverbindung}}{51}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Beispiel Fehler Seriennummeranzahl}}{54}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Beispiel Fehler Wassserkühlung vs Luftkühlung}}{54}{figure.35}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
