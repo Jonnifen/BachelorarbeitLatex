@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  21 OCT 2025 21:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  22 OCT 2025 01:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,7 +1488,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 
+l.44 
       [1]) (./Kapitel/2. Hauptteil/2. Grundlagen.tex
 
 
@@ -2394,13 +2394,15 @@ Overfull \hbox (2.41315pt too wide) in paragraph at lines 11--15
 zt wer-den. Das ORM-Framework Flask-
  []
 
-) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex)
+) (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.2 Kritische Bewertung.tex
+
+[59])
 (./Kapitel/3. Schluss/6. Fazit und Ausblick/6.3 Möglichkeiten für zukünftige
  Erweiterungen.tex
 
-[59]))
+[60]))
 
-[60]
+[61]
 pdfTeX warning (ext4): destination with the same identifier (name{section.1}) h
 as been already used, duplicate ignored
 <to be read again> 
@@ -2508,9 +2510,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39342 strings out of 467797
- 793440 string characters out of 5435982
- 1796245 words of memory out of 5000000
+ 39343 strings out of 467797
+ 793447 string characters out of 5435982
+ 1796257 words of memory out of 5000000
  66877 multiletter control sequences out of 15000+600000
  668415 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2524,10 +2526,10 @@ lvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive
 /2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (72 pages, 3836258 bytes).
+df (73 pages, 3839797 bytes).
 PDF statistics:
- 1478 PDF objects out of 1728 (max. 8388607)
- 1299 compressed objects within 13 object streams
- 389 named destinations out of 1000 (max. 500000)
+ 1486 PDF objects out of 1728 (max. 8388607)
+ 1305 compressed objects within 14 object streams
+ 390 named destinations out of 1000 (max. 500000)
  701 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -61,7 +61,7 @@
 \contentsline {section}{\numberline {6}Fazit und Ausblick}{59}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Zusammenfassung der Ergebnisse}{59}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Kritische Bewertung}{59}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Möglichkeiten für zukünftige Erweiterungen}{60}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}Ausblick und möglichkeiten für zukünftige Erweiterungen}{60}{subsection.6.3}%
 \contentsline {section}{\numberline {i}Literaturverzeichnis}{i}{section.1}%
 \contentsline {section}{\numberline {ii}Anhangsverzeichnis}{iv}{section.2}%
 \contentsline {section}{\numberline {iii}Erklärung}{v}{section.3}%
