@@ -2422,10 +2422,17 @@
     <bcf:citekey order="42" intorder="1">flask_sqlalchemy_docs</bcf:citekey>
     <bcf:citekey order="43" intorder="1">sqlmodel_docs</bcf:citekey>
     <bcf:citekey order="44" intorder="1">Wilke2020Datenvisualisierung</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">ISOIEC9126-1991</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">ISOIEC9126-1991</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">lxml</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">mariadb.org</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Wilke2020Datenvisualisierung</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Chartjs2025</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">D3js2025</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Plotlyjs2025</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">ECharts2025</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Visjs2025</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">Recharts2025</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">ISOIEC9126-1991</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">ISOIEC9126-1991</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">lxml</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">mariadb.org</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

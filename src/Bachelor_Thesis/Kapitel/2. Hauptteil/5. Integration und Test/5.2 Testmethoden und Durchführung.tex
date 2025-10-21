@@ -1,2 +1,37 @@
 \subsection{Testmethode und Durchführung}
 \label{subsec:testmethoden-und-durchfuhrung}
+
+Der Prototyp wurde, um seine grundlegenden Funktionen zu testen, mit mehreren möglichst unterschiedlichen XML-Berichten getestet.
+Hierfür stand ein Adminreport des Teststandes, der mehrere Testberichte enthält, zur Verfügung.
+Es wurden 20 Berichte für Tests ausgewählt.
+Es wurde darauf geachtet, zwei Berichte mit der gleichen Materialnummer und somit \ac{DUTs} des gleichen Typs zu verwenden.
+Hierbei wurde ein Test mit einem erfolgreichen Testergebnis und ein Test, bei dem ein Fehler aufgetreten ist, zum Testen ausgewählt.
+Somit werden 10 DUT-Typen getestet.
+
+Hierbei wurde nachfolgendem Testablauf gefolgt:
+
+\begin{enumerate}
+
+    \item Einlesen des XML-Berichtes, bei Fehler genauere Analyse der Ursache, sonst fortfahren.
+    \item Überprüfen der Werte in der Datenbank. Hierbei wurde eine grafische Verwaltungsoberfläche für
+    Datenbankmanagementsysteme (HeidiSQL) zu Hilfe genommen, um sich die Dateneinträge genauer erfassen zu können.
+    Die Datenbankeinträge des Berichtes werden auf Existenz und Richtigkeit überprüft.
+    \item Überprüfen der Ausgabe des Berichtes in der Tabelle auf der Webseite „Report-Tabelle“.
+    Der Tabellenbeitrag Richtigkeit überprüft.
+    \item Überprüfen der ausgegebenen Graphen und Werte auf der Webseite für das visuelle Ausgeben der Daten.
+    Die Graphen und Werte werden auf Existenz und Richtigkeit überprüft.
+    \item Eintragen der Ergebnisse in eine Tabelle für einen allgemeinen Überblick.
+
+\end{enumerate}
+
+Die verwendeten XML-Berichte zum Testen wurden im Ordner „Testreports“ im Programmordner gespeichert.
+Vor dem Darstellen der Ergebnisse sollte noch angemerkt werden, dass es sich bei allen XML-Berichten um Berichte handelt, die dargestellt werden sollten.
+Ausnahme hierbei bildet der DUT-Type mit der ID 115, welcher einer Sondertestform entspricht und nur aus Driver-Consumption-Tests besteht, die hintereinander durchgeführt werden.
+Zudem wurde bei DUT-Type mit der ID 110 ein zweiter Test mit positivem Ergebnis verwendet, da keine negativen Tests in dem Adminreport vorhanden waren.
+Die Ergebnisse werden so wie die Tabelle im nachfolgenden Unterkapitel dargestellt und erläutert.
+
+
+
+
+
+

@@ -1,38 +1,35 @@
 \subsection{Grundlagen der Datenvisualisierung}
 \label{subsec:grundlagen-der-datenvisualisierung}
 
-In diesem Kapitel der Arbeit wird die Art der Graphen zum visualisieruern der Messdaten erläutert und Anforderungen an die Umsetzung formuliert,
+In diesem Unterkapitel der Arbeit wird die Art der Graphen zum Visualisieren der Messdaten erläutert und Anforderungen an die Umsetzung formuliert,
 so wie mögliche kurzer Überblick zu Bibliotheken für die Umsetzung durchgeführt.
 \subsubsection{Visualisierung von Zeitreihen}
 
-Für das Darstellen der zu visualisierten Testergebnisse sollen nach Claus O. Wilke Liniendiagramme gebutzt werden.
-Da die Messwerte der dazustellenden Testmodule anhand des Zeitverlaufes zugeordnet werden, somit haben die Daten eine inhärente Reihenfolge.
+Für das Darstellen der zu visualisierenden Testergebnisse sollen nach Claus O. Wilke Liniendiagramme genutzt werden.
+Da die Messwerte der dazustellenden Testmodule anhand des Zeitverlaufs zugeordnet werden, haben die Daten somit eine inhärente Reihenfolge.
 
-Man kann die Messungen nicht einfach vertauschen, ohne die zeitliche Information zu verlieren.
-Das bedeutet die Messwerte können nach dieser Zeitreihe geordnet werden und so Vor- und Nachfoger definiert werden, um zusätzlich Information zu erfassen.
+Das bedeutet, die Messwerte können nach dieser Zeitreihe geordnet werden und so Vor- und Nachfolger definiert werden, um zusätzlich Informationen zu erfassen.
+Die Messungen können nicht einfach vertauscht werden, ohne die zeitliche Information zu verlieren.
 
-Liniendiagramme eignen sich für solche Daten, bei denen die Reihenfolge eine Rolle spielt
-zum Beispiel bei Zeitverläufen, Messreihen oder Funktionswerten für eine gute darstellung.
-Die Linie im Diagramm verbindet die Punkte in dieser Reihenfolge und zeigt dadurch den Verlauf oder Trend über die Zeit (oder eine andere geordnete Dimension).\cite{Wilke2020Datenvisualisierung}
-
-
-Wilke, Claus O.. Datenvisualisierung – Grundlagen und Praxis: Wie Sie aussagekräftige Diagramme und Grafiken gestalten (Animals) (S.119). O'Reilly. Kindle-Version.
+Liniendiagramme eignen sich für solche Daten, bei denen die Reihenfolge einen Teil der Informationen enthält sehr gut.
+Zum Beispiel bei Zeitverläufen, Messreihen oder Funktionswerten für eine gute Darstellung.
+Die Linie im Diagramm verbindet die Punkte in dieser Reihenfolge und zeigt dadurch den Verlauf oder Trend über die Zeit bzw. andere Dimensionen auf. \cite{Wilke2020Datenvisualisierung}
 
 
-\subsubsection{Anforderungen an Liniendiagramme nach }
+\subsubsection{Anforderungen an Liniendiagramme}
 
-Im folgenden werden Anforderung für das erstellen von gut dargestellten Grafen nach beschrieben. Diese Anforderungen sollen
-bei dem erstelle Graphen und der Auswahl der Bibliotheken fürs die Erstellung im späteren Arbeitsverlauf berücksichtigt werden:
+Im Folgenden werden Anforderungen für das Erstellen von gut dargestellten Grafen nach Claus O. Wilke beschrieben.
+Diese Anforderungen sollen bei dem erstellten Graphen und der Auswahl der Bibliotheken für die Erstellung im späteren Arbeitsverlauf berücksichtigt werden: \cite{Wilke2020Datenvisualisierung}
 
 \item
-Geeignete Skalierung der Achsen
+\textbf{Geeignete Skalierung der Achsen}
 
 Eine korrekte und sinnvolle Skalierung der Achsen ist entscheidend, um die Daten realistisch darzustellen.
 Die Achsen sollten gleichmäßig skaliert und klar beschriftet sein.
 Ungleichmäßige Skalierungen oder willkürliche Achsenschnitte können die visuelle Wahrnehmung von Trends verfälschen und sollten vermieden werden.
 
 \item
-Klarheit und Lesbarkeit
+\textbf{Klarheit und Lesbarkeit}
 
 Liniendiagramme müssen so gestaltet sein, dass die dargestellten Informationen schnell und eindeutig erfassbar sind.
 Dazu gehören klar beschriftete Achsentitel, Einheiten und Legenden.
@@ -40,82 +37,80 @@ Linien und Beschriftungen sollten gut lesbar sein, ohne sich gegenseitig zu übe
 Eine angemessene Linienbreite und Schriftgröße trägt wesentlich zur Verständlichkeit bei.
 
 \item
-Konsistente und sparsame Liniengestaltung
+\textbf{Konsistente und sparsame Liniengestaltung}
 
 Eine konsistente visuelle Gestaltung unterstützt die Vergleichbarkeit zwischen mehreren Linien.
 Unterschiedliche Linienarten – etwa durch Farbe oder Strichmuster – sollten nur eingesetzt werden, wenn sie zur Unterscheidung notwendig sind.
 Gleiche Bedeutungen müssen stets durch dieselbe visuelle Kodierung wiedergegeben werden. Eine übermäßige Verwendung von Markern oder Symbolen kann die Lesbarkeit beeinträchtigen und sollte vermieden werden.
 
 \item
-Farben gezielt und barrierefrei einsetzen
+\textbf{Farben gezielt und barrierefrei einsetzen}
+
 Farben dienen der Unterscheidung und Hervorhebung, sollten jedoch bewusst und zurückhaltend eingesetzt werden.
 Die gewählten Farbtöne müssen ausreichend kontrastreich und auch für Personen mit Farbsehschwächen unterscheidbar sein.
 Wenn bestimmte Linien besonders hervorgehoben werden sollen, sollte dies dezent und mit klarer inhaltlicher Begründung geschehen, um den Fokus der Betrachtenden zu lenken, ohne die Gesamtwirkung zu stören.
 
 \item
-Visueller Überlastung
+\textbf{Visueller Überlastung}
 
 Überflüssige grafische Elemente wie 3D-Effekte, Schatten, starke Gitterlinien oder dekorative Symbole sollten vermieden werden, da sie die Wahrnehmung der eigentlichen Daten stören.
 Ein reduziertes, funktionales Design lenkt den Blick auf die wesentlichen Inhalte und erhöht die Lesbarkeit des Diagramms.
 
 \item
-Korrekte Darstellung und Kontext
+\textbf{Korrekte Darstellung und Kontext}
 
 Ein Liniendiagramm sollte den dargestellten Sachverhalt klar erkennbar machen.
 Dazu gehören ein prägnanter Titel, eine verständliche Legende und gegebenenfalls ein Untertitel oder eine erläuternde Beschriftung.
 Werden mehrere Diagramme zum Vergleich gezeigt, ist eine einheitliche Achsenskalierung erforderlich, um falsche Eindrücke zu vermeiden und die Vergleichbarkeit sicherzustellen.
+
 \item
-Behandlung überlappender Linien
+\textbf{Behandlung überlappender Linien}
 
 Wenn mehrere Linien in einem Diagramm dargestellt werden, kann es zu Überlappungen kommen, die die Lesbarkeit beeinträchtigen.
 In solchen Fällen empfiehlt Wilke den Einsatz von Transparenz, dünneren Linien oder unterschiedlichen Stricharten.
 Diese Maßnahmen ermöglichen es, auch bei komplexen Darstellungen den Überblick zu behalten.
 \item
-Verständliche Hervorhebung wichtiger Daten
+\textbf{Verständliche Hervorhebung wichtiger Daten}
 
 Besonders relevante Trends, Ereignisse oder Datenpunkte dürfen hervorgehoben werden, beispielsweise durch eine andere Linienfarbe oder eine beschriftete Markierung.
 Solche Hervorhebungen sollten jedoch gezielt und sparsam erfolgen, um den Blick der Betrachtenden zu lenken, ohne die übrigen Daten in den Hintergrund zu drängen.
 
-\subsubsection{Graphen erstellung mit JS}
+\subsubsection{Graphenerstellung mit JS}
 
-\subsubsection{Graphen erstellung mit JS}
 In diesem Abschnitt werden einige JavaScript-Bibliotheken für das Erstellen von Graphen
 in Kurzfassung erläutern, um einen groben Überblick zu erhalten.
 Die endgültige Auswahl wird in Kapitel 3 genauer beschrieben.
 
 \textbf{Chart.js}
-Eine einfache und beliebte Bibliothek für Standarddiagramme wie Balken, Linien
+Eine einfache Bibliothek für Standarddiagramme wie Balken, Linien
 oder Kreisdiagramme. Schnell eingebunden, gute Standardoptik, ideal für
-kleinere Projekte oder schnelle Visualisierungen.
+kleinere Projekte oder schnelle Visualisierungen. \cite{Chartjs2025}
 
 \textbf{D3.js}
-Eine sehr mächtige Low-Level-Bibliothek, die mit SVG, Canvas und HTML arbeitet.
+Eine mächtige Low-Level-Bibliothek, die mit \ac{SVG}, Canvas und HTML arbeitet.
 Extrem flexibel für individuelle und interaktive Visualisierungen, aber mit
-einer steilen Lernkurve.
+einer steilen Lernkurve. \cite{D3js2025}
 
 \textbf{Plotly.js}
 Bietet viele interaktive Diagramme (Zoom, Hover, Export als PNG). Unterstützt
 auch 3D- und wissenschaftliche Charts. Gut geeignet für Dashboards und
-Datenanalyse.
+Datenanalyse. \cite{Plotlyjs2025}
 
 \textbf{ECharts}
 Eine leistungsstarke Open-Source-Bibliothek von Apache. Unterstützt viele
-Diagrammtypen (z.B. Heatmaps, Maps, Candlesticks) mit Animationen und
-Interaktivität. Besonders beliebt für komplexe Enterprise-Web-Applikationen.
-
-\textbf{Highcharts}
-Eine professionelle, kommerzielle Lösung (kostenlos für private Nutzung).
-Sehr einfach konfigurierbar, liefert Business-taugliche Diagramme mit vielen
-Optionen. Oft in Unternehmen eingesetzt.
+Diagrammtypen (z. B. Heatmaps, Maps, Candlesticks) mit Animationen und
+Interaktivität. \cite{ECharts2025}
 
 \textbf{vis.js}
 Spezialisiert auf Netzwerk- und Zeitachsenvisualisierungen. Eignet sich
-besonders für Knoten-Graphen, Beziehungen oder Prozessdiagramme mit
-Interaktivität.
+besonders geeignet für Knoten-Graphen, Beziehungen oder Prozessdiagramme mit Interaktivität. \cite{Visjs2025}
 
 \textbf{Recharts}
 Eine React-spezifische Bibliothek, die auf D3.js basiert.
 Bietet eine einfache Komponenten-API für gängige Diagramme.
-Ideal, wenn eine Web-Applikation mit React entwickelt wird.
+Ideal, wenn eine Web-Applikation mit React entwickelt wird. \cite{Recharts2025}
+
+
+
 
 
