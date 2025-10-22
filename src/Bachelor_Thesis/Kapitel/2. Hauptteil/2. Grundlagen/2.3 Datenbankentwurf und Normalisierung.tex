@@ -6,10 +6,10 @@ Außerdem werden zwei Methoden zum Einbinden in die Applikation aufgezeigt.
 
 Datenbanken sind strukturierte Zusammenstellungen von Daten, die elektronisch gespeichert und verwaltet werden.
 Ihr Hauptziel ist es, große Datenmengen strukturiert zu speichern, den Zugriff zu optimieren und die Integrität der Daten zu gewährleisten.
-Datenbanken haben im Vergleich zu anderen Dateisystemen Mechanismen, die mehreren Benutzern die parallele Nutzung ermöglichten,
-sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen.\cite*[6]{Fuchs2021}
+Datenbanken haben im Vergleich zu anderen Dateisystemen Mechanismen, die mehreren Benutzern die parallele Nutzung ermöglichen,
+sowie redundante Datenhaltung vermeiden und die effiziente Abfragen über spezielle Sprachen wie die \ac{SQL} ermöglichen. \cite*[6]{Fuchs2021}
 
-In der folgen werden die Hauptanforderungen an Datenbanken bzw. Datenbankmanagementsysteme kurz zusammengefasst:  \cite*[7]{Herrmann2018},\cite*[6]{Fuchs2021}
+In der Folge werden die Hauptanforderungen an Datenbanken bzw. Datenbankmanagementsysteme kurz zusammengefasst: \cite*[7]{Herrmann2018},\cite*[6]{Fuchs2021}
 \begin{itemize}
 \item Datenunabhängigkeit: Speicherung unabhängig von Programmen und Plattformen
 \item
@@ -167,7 +167,7 @@ Ein Wartungsplan kümmert sich anschließend um die Betreuung, schult die Endben
 \subsubsection{Methoden zum Datenbankzugriff in Flask}
 
 In diesem Abschnitt werden die maßgeblichen Methoden für die Arbeit mit SQL-Datenbanken in Flask vorgestellt, ihre Charakteristika erläutert und ein Vergleich gezogen.
-Hier werden zwei der meistgenutzten Ansätze  vorgestellt und Vor-/Nachteilen aufgezeigt.
+Hier werden zwei der meistgenutzten Ansätze vorgestellt und Vor- und Nachteilen aufgezeigt.
 
 
 \textbf{Direkter SQL-Zugriff via DB-Treiber}
@@ -177,8 +177,8 @@ Hier werden zwei der meistgenutzten Ansätze  vorgestellt und Vor-/Nachteilen au
 Bei dieser Methode wird direkt mit einem Datenbanktreiber (z. B. psycopg2, mariaDB oder mysql-connector) gearbeitet.
 SQL-Statements werden als Strings formuliert und über einen Cursor ausgeführt.
 Ein Cursor ist ein Steuerobjekt, das SQL-Befehle ausführt und Ergebnisse verwaltet.
-Diese Methode eignet sich vorwiegend für kleine Anwendungen oder für hochoptimierte Spezialfälle, bei den abstrakte Ein- und Auslesen-Befehle vorgenommen werden.
-Ein typischer Ablauf für diese Methode läuft wie flogt ab: \cite{mysql_connector_python,psycopg2,mariadb_connector_python}
+Diese Methode eignet sich vorwiegend für kleine Anwendungen oder für hochoptimierte Spezialfälle, bei denen abstrakte Ein- und Auslesen-Befehle vorgenommen werden.
+Ein typischer Ablauf für diese Methode läuft wie folgt ab: \cite{mysql_connector_python,psycopg2,mariadb_connector_python}
 
 \begin{enumerate}
 
@@ -193,7 +193,7 @@ Schließen der Verbindung nach fertiger Ausführung.
 
 \end{enumerate}
 
-In der folgenden Tabelle \ref{tab:sql_vor_nachteile} werden einige Vor- und Nachteil der Methode aufgeführt.
+In der folgenden Tabelle \ref{tab:sql_vor_nachteile} werden einige Vor- und Nachteile der Methode aufgeführt.
 
 \begin{table}[H]
     \centering
@@ -229,19 +229,19 @@ In der folgenden Tabelle \ref{tab:sql_vor_nachteile} werden einige Vor- und Nach
 \ac{ORM} eine Methode in der Softwareentwicklung, die es ermöglicht, Objekte aus einer objektorientierten Programmiersprache auf
 Tabellen in einer relationalen Datenbank abzubilden, um die Interaktion mit Datenbanken zu erleichtern.
 Entwickler müssen keine SQL-Abfragen mehr manuell erstellen.
-Sie interagieren einfach mit Objekten in ihrer Programmiersprache,
+Sie interagieren einfach mit Objekten in ihrer Programmiersprache
 und das ORM-Tool wandelt dies in die passenden Datenbankoperationen um. \cite{miguelgrinberg_flask_mega_tutorial_db,flask_official_sqlalchemy_pattern}
 
-Eine der am meisten verwendeten Python-Bibliothek für diese Methode ist SQLAlchemy.
+Eine der am meisten verwendeten Python-Bibliotheken für diese Methode ist SQLAlchemy.
 SQLAlchemy ist ein umfangreiches Toolkit und \ac{ORM} für relationale Datenbanken.
 In Flask nutzt man normalerweise die Erweiterung Flask-SQLAlchemy, die SQLAlchemy in die Kontextstruktur von Flask
-integriert und den typischen Boilerplate-Aufwand reduziert.\cite*{flask_sqlalchemy_docs}
+integriert und den typischen Boilerplate-Aufwand reduziert. \cite*{flask_sqlalchemy_docs}
 
 Mit Flask-SQLAlchemy definiert man Modelle als Python-Klassen, die automatisch auf Datenbanktabellen abgebildet werden (Declarative Mapping).
-Die Objekte dieser Klassen repräsentieren Datensätze, und Operationen daran (z. B. session.add(), session.commit()) generieren hinter den Kulissen passende SQL-Befehle.\cite*{flask_sqlalchemy_docs}
+Die Objekte dieser Klassen repräsentieren Datensätze, und Operationen daran (z. B. session.add(), session.commit()) generieren passende SQL-Befehle.\cite*{flask_sqlalchemy_docs}
 
-In der folgenden Tabelle \ref{tab:sqlalchemy_vor_nachteile} werden einige Vor- und Nachteil der Methode bzw. SQLAlchemy aufgeführt.
-Neben SQLAlchemy gibt es noch einige andere Python-Bibliotheken die \ac{ORM}- nutzen z. B. SQLModel.
+In der folgenden Tabelle \ref{tab:sqlalchemy_vor_nachteile} werden einige Vor- und Nachteile der Methode bzw. von SQLAlchemy aufgeführt.
+Neben SQLAlchemy gibt es noch einige andere Python-Bibliotheken, die \ac{ORM} nutzen z. B. SQLModel.
 Sie ermöglicht es, ein Modell zu definieren, das sowohl als ORM-Klasse als auch als Validierungs- / Datentypklasse (Pydantic) dient\cite*{sqlmodel_docs}.
 
 \begin{table}[H]

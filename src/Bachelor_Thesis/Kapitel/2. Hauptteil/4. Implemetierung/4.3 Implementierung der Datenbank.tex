@@ -27,7 +27,8 @@ Alle Klassen aus \code{models} sind identisch aufgebaut und folgen demselben Sch
 Alle Klassen besitzen den Import der globalen Instanz \code{db} aus dem Modul \code{extensions}.
 Diese Instanz bindet SQLAlchemy in die Flask-Applikation ein und wird beim Starten der Hauptapplikation initialisiert.
 Über diese Instanz \code{db} können alle Modelle registriert und Datenbankoperationen wie Abfragen, Einfügungen oder Aktualisierungen ausgeführt werden.
-Die Funktion zum Erstellen Hauptapplikation ist in Abbildung \ref{fig: Funktion für das Erstellen der Hauptapplikation} abgebildet, sie liegt in der Datei \code{\_\_init\_\_.py} und wird über \code{run.py} ausgeführt.
+Die Funktion zum Erstellen der Hauptapplikation ist in Abbildung \ref{fig: Funktion für das Erstellen der Hauptapplikation} abgebildet.
+Sie liegt in der Datei \code{\_\_init\_\_.py} und wird über \code{run.py} ausgeführt.
 
 \begin{figure}[H]
     \centering
@@ -46,7 +47,7 @@ Es können nicht zwei Datensätze mit denselben Werten existieren.
 
 Dies dient als zusätzliche Sicherheitsinstanz neben dem selbst erstellten Duplizierungsschutz in \code{ingest\_xml()}.
 Die Verbindungen der Datenbank werden über die Klasse Config in der Datei \code{config.py} definiert.
-Hierbei wird im Fall, dass die Datenbank nicht vorhanden ist und getestet werden soll, eine SQlLite-Datenbank erstellt und genutzt.
+Hierbei wird im Fall, dass die Datenbank nicht vorhanden ist und getestet werden soll, eine SQLite-Datenbank erstellt und genutzt.
 Die genaue Bezeichnung der \code{DATENBANK\_URL} und dem \code{FLASK\_SECRET\_KEY} ist in \code{.env} definiert.
 In der folgenden Abbildung \ref{fig:Config-Klasse für Datenbankverbindung} ist die Klasse \code{Config} zum Verbinden mit der Datenbank abgebildet.
 

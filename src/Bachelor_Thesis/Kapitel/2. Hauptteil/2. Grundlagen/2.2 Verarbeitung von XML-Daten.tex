@@ -110,9 +110,9 @@ Am Ende des Abschnittes wird jedoch etwas genauer auf Methoden, die in Python ge
 Der erste Schritt beim Verarbeiten einer \ac{XML}-Datei ist das Parsen.
 Hierbei wird die \ac{XML}-Datei in ein Programm geladen und in ein Format umgewandelt, das dieses interpretieren kann.
 XML-Parser prüfen hierbei auch die \ac{XML}-Daten auf Korrektheit, also ob die Vorlagen eingehalten werden und das Dokument vollständig ist.
-Dabei wird zwischen nicht-validierenden und validierenden Parsern differenziert.
-Der Unterschied besteht darin, dass validierte Paser neben der korrekten Schachtelung und Bezeichnung der Strukturelemente
-wie die nicht validierten Parser auch noch auf eine Vorgabe einer Dokumenttypdefinition oder eines Schemas prüfen. \cite*[10]{Becher2022}
+Dabei wird zwischen nicht-validierenden und validierenden Parsern unterschieden.
+Der Unterschied besteht darin, dass validierende Parser neben der korrekten Schachtelung und Bezeichnung der Strukturelemente
+wie die nicht-validierende Parser auch noch auf eine Vorgabe einer Dokumenttypdefinition oder eines Schemas prüfen. \cite*[10]{Becher2022}
 
 Parser werden verwendet, um einer Applikation über eine \ac{API} eine Schnittstelle zu einem \ac{XML}-Dokument zu geben.
 Bei \ac{API}s wird in diesem Bereich zwischen zwei Grundtypen unterschieden: \cite*[405]{Becher2022}
@@ -238,7 +238,7 @@ werden unabhängig vom Namen und von den Achsen alle Knoten selektiert, welche s
 Die Lokalisierungsschritte werden mithilfe des Schrägstrichs „/“ voneinander getrennt. \cite{XPath2025}
 In der folgenden Abbildung \ref{fig: XPath-Ausdruck} ist ein Beispiel für einen XPath-Ausdruck.
 Dieser XPath würde in einem XML-Dokument mit Büchern das erste Buch auswählen, welches vor 1900 erschienen ist.
-Geht dann zu nächsten Geschwisterelement weiter und gibt den Titel zurück.
+Geht dann zum nächsten Geschwisterelement weiter und gibt den Titel zurück.
 
 
 \begin{figure}[H]
@@ -262,9 +262,9 @@ Im Folgenden werden einige wichtige Bibliotheken genannt und kurz erläutert:
 
 \textbf{xml.etree.ElementTree}\\
 Die Standardbibliothek für XML in Python.
-Sie sind einfach zu benutzen und es sind keine Zusatzinstallationen.
+Sie ist einfach zu benutzen und es sind keine Zusatzinstallationen neben Python notwendig.
 Gut geeignet, um kleine bis mittlere XML-Dateien zu verarbeiten.
-Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber bietet keine \ac{XSLT} oder komplexe Features für \ac{XML}-Dokumenten. \cite*{ElementTree2025}
+Unterstützt grundlegendes Parsen, Schreiben und einfaches XPath, aber bietet keine \ac{XSLT} oder komplexe Features für \ac{XML}-Dokumente. \cite*{ElementTree2025}
 
 \textbf{xml.dom.minidom}\\
 Eine DOM-basierte Implementierung in Python.
@@ -290,7 +290,7 @@ Langsamer als lxml, aber sehr einfach in der Benutzung. \cite*{BeautifulSoup}
 Spezialisiert auf \ac{XSD}.
 \ac{XSD} ist eine Sprache, die die Struktur und den Inhalt von XML-Dokumenten definiert.
 XML-Schema kann XML-Dokumente validieren und direkt in Python-Objekte umwandeln.
-Gut geeignet, wenn du sicherstellen musst, dass XML-Daten einer bestimmten Struktur entsprechen. \cite*{xmlschema}
+Gut geeignet, wenn sicherstellen werden muss, dass XML-Daten einer bestimmten Struktur entsprechen. \cite*{xmlschema}
 
 \textbf{defusedxml}\\
 Eine sichere Variante der Standardbibliotheken.

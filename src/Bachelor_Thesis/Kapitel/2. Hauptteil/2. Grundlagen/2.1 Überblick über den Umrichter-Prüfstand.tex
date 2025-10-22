@@ -1,4 +1,3 @@
-
 \subsection{Überblick über den Umrichter-Prüfstand}
 \label{subsec:uberblick-uber-den-umrichter-prufstand}
 
@@ -20,11 +19,10 @@ Diese Bezeichnung kommt auch in den Berichten auf dem Teststand vor, daher hat d
 %------------------------------------------------------------------------------------------------------
 Die Test-Bench besteht aus mehreren Komponenten, die sich im Testraum in unterschiedlichen Schaltschränken befinden.
 Der Teststand besteht aus folgenden Hauptkomponenten:
-Die Test-Bench besteht aus mehreren Komponenten, die sich im Testraum in unterschiedlichen Schaltschränken befinden, und der Teststand umfasst folgende Hauptkomponenten:
 \begin{itemize}
 
 \item Das Netzteil wandelt die 400-V-Netzspannung in eine isolierte Gleichspannung für den Zwischenkreis um.
-Das Netzteil liefert maximal 80 kW mit 1200 V DC oder 800 V DC, welche Werte verwendet werden, kann vor Teststart bestimmt werden.
+Das Netzteil liefert maximal 80 kW mit 1200 V DC oder 800 V DC. Welche Werte verwendet werden, kann vor Teststart bestimmt werden.
 In Abbildung \ref{fig: Aufbau des Teststandes} wird das Netzteil als PSU bezeichnet, was für „Power Supply Unit“ steht.
 \item Das Elektronik-Rack, auf dem die Mess- und Steuerkomponenten befestigt sind, ist ein wichtiger Bestandteil des Teststandes.
 Hier befindet sich auch der (XCS2100) System-Controller, der das ganze System mit dem PC, auf dem die Test-Bench-Software läuft, via Ethernet verbindet.
@@ -54,14 +52,14 @@ ein PC mit einer Software zum Steuern der Testeinrichtung sowie eine Betriebsanz
 %------------------------------------------------------------------------------------------------------
 Es gibt mehrere Testmodule, die auf dem Teststand laufen und verschiedene Funktionen der Umrichter testen.
 Einige der Funktionen eines DUT können mit dem gleichen Modus eines Testmoduls überprüft werden, indem die entsprechenden Parameter ausgewählt werden.
-Jeder Testablauf ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametern.
+Jeder Test bzw. jeses Testmodule ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametern.
 \\
-Im Folgenden wird eine kurze Beschreibung der Funktionen der für diese Arbeit relevanten Testmodule gegeben.
+Im Folgenden wird eine kurze Beschreibung der Funktionen der für diese Arbeit relevanten Testmodule gegeben:
 
-Driver Consumption Test:
-Der Driver Consumption Test überprüft den Stromverbrauch des Treibers im Leerlauf und während Pulssprüngen.
+\textbf{Driver-Consumption-Test:}
+Der Driver-Consumption-Test überprüft den Stromverbrauch des Treibers im Leerlauf und während Pulssprüngen.
 
-Pulse Test:
+\textbf{Pulse-Test:}
 Der Impulstest verfügt über drei Funktionsmodi.
 \begin{itemize}
     \item Im Modus \ac{FSW} kann überprüft werden, ob die Halbleiter, die sich in den \ac{DUTs} befinden, generell schalten.
@@ -70,8 +68,7 @@ Der Impulstest verfügt über drei Funktionsmodi.
     \item Im Modus \ac{DSCP} wird ein harter Kurzschluss, also ein vollständiger und sofortiger Kurzschluss, überprüft.
 \end{itemize}
 
-
-Power Test:
+\textbf{Power-Test:}
 Mit diesem Test werden zwei verschiedene Funktionen getestet werden:
 
 \begin{itemize}
@@ -79,7 +76,7 @@ Mit diesem Test werden zwei verschiedene Funktionen getestet werden:
     \item \ac{BIT} dient dazu, die \ac{DUTs} zyklisch zu betreiben und so reale Betriebszustände zu simulieren.
     Zudem kann mit Hilfe dieser Funktion die Kühltemperatur überprüft werden, um die korrekte Wärmeübertragung der Halbleiter sicherzustellen.
     \item Während des \ac{OTP} wird ein DUT, ähnlich wie beim \ac{BIT}, nur mit reduzierter
-    Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst.\cite*{Main_Manuel_USTB2018}
+    Kühlung betrieben, bis die maximal zulässige Kühlkörpertemperatur erreicht ist und die Temperaturschutzschaltung auslöst. \cite*{Main_Manuel_USTB2018}
 
 \end{itemize}
 
@@ -90,12 +87,12 @@ Die Schrittfolge des Testablaufes mit Montage der \ac{DUTs} ist klar festgelegt 
 Die Montage läuft wie folgt ab:
 \begin{enumerate}
 
-\item Die Umrichter werden auf dem Carrier befestigt. Es werden meist 3 dieser Geräte gleichzeitig getestet, Abweichungen je nach Bauform.
+\item Die Umrichter werden auf dem Carrier befestigt. Es werden meist 3 dieser Geräte gleichzeitig getestet, Abweichungen sind je nach Bauform der \ac{DUTs} möglich.
 Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von links nach rechts U-V-W. Dies ist für das Layout des Berichtes relevant.
 \item Der Kühlkreislauf wird angeschlossen, je nach Umrichtertyp Lüftungs- oder Wasserkühlung.
 \item Die \ac{DUTs} werden mit den AC- und DC-Link-Kontakten verbunden, um das Gerät zu betreiben und die DC-Spannung wieder abzuleiten.
 \item Das Anbringen von Signalkabeln zwischen DUT und Merkurbox. Die Merkurbox dient als Schnittstelle zwischen \ac{DUTs} und Testbench.
-\item Das Montieren von VCE-Klemmen an die AC-Kontakte der \ac{DUTs}.
+\item Das Montieren von VCE-Klemmen an die AC-Kontakte der \ac{DUTs} zum Controller des Teststandes.
 
 \end{enumerate}
 
@@ -109,16 +106,16 @@ Das eigentliche Testen mit den verschiedenen Testmodulen wird autonom durchgefü
 Im Unternehmen läuft der Test regulär wie folgt ab:
 \begin{enumerate}
 
-\item Durchführung des Driver Consumption Testes, um die Stromversorgung der Treiberplatine auf den Umrichter zu testen.
-\item Durchführung des Pulse Testes im Modus Functional-Switching, dies prüft die Umrichter.
-\item Durchführung des Power Testes, in den Berichten auch XPower Test genannt.
+\item Durchführung des Driver-Consumption-Testes, um die Stromversorgung der Treiberplatine auf den Umrichter zu testen.
+\item Durchführung des-Pulse-Testes im Modus Functional-Switching, dies prüft die Umrichter.
+\item Durchführung des Power-Testes, in den Berichten auch XPower-Test genannt.
 Dieser Test simuliert die Belastung der Umrichter im Feld und überprüft,
 ob sich die Werte in einem bestimmten Toleranzbereich befinden.
 
 \end{enumerate}
 
-Nach dem Durchlaufen eines Tests wird automatisch ein \ac{XML}-Datenfile mit den erhobenen Messdaten generiert,
-die enthaltenen Messwerte und alle vorher bestimmten Einstellungen erstellt und in eine Datei eingefügt.
+Nach dem Durchlaufen eines Tests wird automatisch eine \ac{XML}-Struktur mit den erhobenen Messdaten und allen vorher bestimmten Einstellungen in Adminreport generiert.
+Diese Struktur wird manuell in eine separate \ac{XML}-Datei eingefügt und so gespeichert.
 Bei der Demontage nach dem Testdurchlauf werden alle Schritte in umgekehrter Reihenfolge durchgeführt.
 %------------------------------------------------------------------------------------------------------
 

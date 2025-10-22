@@ -25,9 +25,9 @@
 \contentsline {subsubsection}{\numberline {2.4.4}Methoden zum Datenbankzugriff in Flask}{17}{subsubsection.2.4.4}%
 \contentsline {subsection}{\numberline {2.5}Grundlagen der Datenvisualisierung}{19}{subsection.2.5}%
 \contentsline {subsubsection}{\numberline {2.5.1}Visualisierung von Zeitreihen}{19}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Anforderungen an Liniendiagramme}{19}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2}Anforderungen an Liniendiagramme}{20}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Graphenerstellung mit JS}{21}{subsubsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.6}Anforderungen an modulare Softwareentwicklung (nach ISO/IEC 9126)}{21}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}Anforderungen an modulare Softwareentwicklung (nach ISO/IEC 9126)}{22}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Analyse und Konzeption}{23}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Definition der Anforderungen}{23}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Funktionale Anforderungen}{23}{subsubsection.3.1.1}%
@@ -40,13 +40,12 @@
 \contentsline {subsection}{\numberline {3.4}Datenbankdesign und Strukturkonzeption}{32}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Betrachtung der Anforderungen}{32}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Konzeptionelles Datenmodell}{33}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Grundkonzept des Benutzeroberflächen-Design}{34}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Grundkonzept des Benutzeroberflächen-Designs}{34}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Entwurf der Applikationsarchitektur}{37}{subsection.3.6}%
 \contentsline {subsubsection}{\numberline {3.6.1}Architekturübersicht}{37}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Architekturübersicht}{38}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Präsentationsschicht}{39}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Applikationslogik}{40}{subsubsection.3.6.4}%
-\contentsline {subsubsection}{\numberline {3.6.5}Datenhaltungsschicht}{40}{subsubsection.3.6.5}%
+\contentsline {subsubsection}{\numberline {3.6.2}Präsentationsschicht}{39}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Applikationslogik}{39}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Datenhaltungsschicht}{40}{subsubsection.3.6.4}%
 \contentsline {section}{\numberline {4}Implementierung}{41}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Programmstruktur}{41}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Entwicklung der Benutzeroberfläche}{42}{subsection.4.2}%

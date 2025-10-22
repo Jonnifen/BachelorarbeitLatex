@@ -64,7 +64,7 @@ Der Code aus \code{upload.html} ist in der Abbildung \ref{fig: Programmcode aus 
     {Quelle: eigene Darstellung}
 \end{figure}
 
-Wie bereits oben schon genannt, erweitert das Template \code{upload.html}die
+Wie bereits oben schon genannt, erweitert das Template \code{upload.html} die
 in \code{base.html} definierte Grundstruktur und fügt deren allgemeine Elemente
 wie Navigationsleiste, Kopfbereich und Mitteilungsfeld ein. Innerhalb des „blocks
 content“ wird der seitenindividuelle Inhalt definiert. Hierzu gehört ein
@@ -81,15 +81,32 @@ Stammelement „<test>“ bis zum schließenden „</test>“ vollständig
 einzufügen.
 
 Beim Betätigen des Buttons wird der Inhalt des Textfeldes an
-die zugehörige Flask-Route, in diesen Fall \code{routes.py} in Unterordner \code{upload}
-in blueprints übergeben, wo die Daten serverseitig verarbeitet werden.
-Die Applikationslogik übernimmt in diesem Fall anschließend das Einlesen, Validieren und Speichern
-der XML-Struktur in der Datenbank.
+die zugehörige Flask-Route, in diesem Fall \code{routes.py} im Unterordner \code{upload}
+in \code{blueprints} übergeben, wo die Daten serverseitig verarbeitet werden.
+Die Applikationslogik übernimmt in diesem Fall anschließend das Einlesen, Validieren und Speichern der XML-Struktur in der Datenbank.
 
 Dieses Prinzip findet sich in gleicher Form auch in den
 anderen Templates für die Filterfunktionen der Applikation wieder, wodurch eine einheitliche und
 konsistente Interaktion zwischen Benutzeroberfläche und Logikschicht
 gewährleistet wird.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -15,22 +15,22 @@ beschrieben, kann ein Element Attribute, andere Elemente und einen Inhaltswert b
 
 Das Stammelement heißt in allen automatisch
 generierten Berichten „test“ und besitzt immer das Attribut „id“. Die Zahl in
-diesem Attribut beschreibt den Typ des \ac{DUTs} die in diesem Test geprüft wurden.
+diesem Attribut beschreibt den Typ des \ac{DUTs}, die in diesem Test geprüft wurden.
 
 Das Stammelement hat die Unter- bzw.
 Kinderelemente „info“, „testbench“, „string“ und dreimal „testmodule“.
 Diese Elemente haben wiederum alle weiter Unterelemente und Attribute.
-In der folgenden Abbildung \ref{fig: Aufbau unferänderlicher XML-Berichtstruktur} ist die unveränderliche Struktur eines Testberichtes abgebildet, welcher erfolgreich durchgeführt wurde.
+In der folgenden Abbildung \ref{fig: Aufbau unveränderlicher XML-Berichtstruktur} ist die unveränderliche Struktur eines Testberichtes abgebildet, welcher erfolgreich durchgeführt wurde.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Grafiken/XML-Strukturdiagramm}
-    \caption{Aufbau unferänderlicher XML-Berichtstruktur}
-    \label{fig: Aufbau unferänderlicher XML-Berichtstruktur}
+    \caption{Aufbau unveränderlicher XML-Berichtstruktur}
+    \label{fig: Aufbau unveränderlicher XML-Berichtstruktur}
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
 
-Hierbei sollte angemerkt werden, dass in allen Testberichten die Elemente, die kein Unterelement besitzen gleich aufgebaut sind.
+Hierbei sollte angemerkt werden, dass in allen Testberichten die Elemente, die kein Unterelement besitzen, gleich aufgebaut sind.
 Sie besitzen mindestens das Attribut „name“ und ihre Elementenbezeichnung ist immer nach dem Datentyp ihres Inhalts benannt.
 Für ein besseres Verständnis siehe Abbildung \ref{fig: Elementaufbau aus XML-Bericht}.
 
@@ -43,12 +43,11 @@ Für ein besseres Verständnis siehe Abbildung \ref{fig: Elementaufbau aus XML-B
     {Quelle: Eigene Darstellung mit Microsoft Visio}
 \end{figure}
 
-Jedes der Elemente „testmodule“ hat ein Attribut
-„name“, durch welches Sie unterschieden werden können. Das Element „string“ hat
+Jedes der Elemente „testmodule“ hat ein Attribut „name“, durch welches Sie unterschieden werden können. Das Element „string“ hat
 ein Namensattribut mit der Bezeichnung „test sequence status“. Der Inhalt
 dieses Elementes gibt an, ob der Test erfolgreich abgeschlossen wurde oder ob
 es einen Fehler bzw. eine Grenzüberschreitung von Messwerten gab.
-Die hier genannten eigenschaften sind in der Abbildung \ref{fig: Direkte Kinderelement unter Stammelement} zu erkennen.
+Die hier genannten Eigenschaften sind in der Abbildung \ref{fig: Direkte Kinderelemente unter Stammelement} zu erkennen.
 
 \begin{figure}[H]
 \centering
@@ -66,8 +65,8 @@ Die hier genannten eigenschaften sind in der Abbildung \ref{fig: Direkte Kindere
     </test>
 \end{lstlisting}
 \end{minipage}
-\caption{Direkte Kinderelement unter Stammelement}
-\label{fig: Direkte Kinderelement unter Stammelement}
+\caption{Direkte Kinderelemente unter Stammelement}
+\label{fig: Direkte Kinderelemente unter Stammelement}
     {Quelle: Eigene Darstellung}
 \end{figure}
 
@@ -75,19 +74,19 @@ Die hier genannten eigenschaften sind in der Abbildung \ref{fig: Direkte Kindere
 Das Element „info“ enthält in seinen Unterelementen die allgemeinen Testinformationen, wie die Startzeit des Tests,
 die Typen-ID, die Konfigurationsbezeichnung des Teststandes, die Bezeichnung des angeschlossenen Carriers und die
 Seriennummern des \ac{DUTs}. Diese Elemente haben keine Unterelemente und sind alle mit einem Namensattribut und einem Inhalt definiert.
-Für die genauen Bezeichnungen und Struktur siehe Abbildung \ref{fig: XML-Strukturbeispiel Info-Element}
+Für die genauen Bezeichnungen und Struktur siehe Abbildung \ref{fig: XML-Strukturbeispiel Info-Element}.
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <info>
-	<string name="Time">2023-09-21_08:36:33</string>
-	<string name="Material_number">124</string>
-	<string name="Configuration">L_3DUT_3P1Q</string>
-	<string name="ID_Carrier_left">Carrier 1</string>
-	<string name="ID_DUT_R">10-29550</string>
-	<string name="ID_DUT_S">10-29396</string>
+    <string name="Time">2023-09-21_08:36:33</string>
+    <string name="Material_number">124</string>
+    <string name="Configuration">L_3DUT_3P1Q</string>
+    <string name="ID_Carrier_left">Carrier 1</string>
+    <string name="ID_DUT_R">10-29550</string>
+    <string name="ID_DUT_S">10-29396</string>
         <string name="ID_DUT_T">10-29482</string>
 </info>
 \end{lstlisting}
@@ -106,9 +105,9 @@ Die genauen Bezeichnungen und die Struktur sind in Abbildung \ref{fig: XML-Struk
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <testbench>
-	<string name="Testbench_name">USTB_DtWind</string>
-	<string name="Testbench_HW_revision">V1.5</string>
-	<string name="Version_GUI">V1.4.1</string>
+    <string name="Testbench_name">USTB_DtWind</string>
+    <string name="Testbench_HW_revision">V1.5</string>
+    <string name="Version_GUI">V1.4.1</string>
         <string name="Version_controller">V1.3.2</string>
 </testbench>
 \end{lstlisting}
@@ -123,19 +122,19 @@ Die Testmodule-Elemente sind alle nach dem gleichen Schema aufgebaut. Die ersten
 zu dem Status des Testmoduls, der Tages- und Uhrzeit des Tests und welche Versionen davon verwendet wurden.
 Danach befinden sich noch drei weitere Elemente im Element „module“.
 Diese Elemente heißen „Phase U“, „Phase V“ und „Phase W“.
-Sie besitzen kein Namensattribut, siehe Abblidung \ref{fig: XML-Strukturbeispiel Testmodulheader}.
+Sie besitzen kein Namensattribut, siehe Abbildung \ref{fig: XML-Strukturbeispiel Testmodulheader}.
 
 \begin{figure}[H]
 \centering
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <testmodule name="DriverConsumptionTest">
-	<integer name="TestSuccessful" min="1" max="1">1</integer>
-	<string name="Testresult">
+    <integer name="TestSuccessful" min="1" max="1">1</integer>
+    <string name="Testresult">
         Test finished successfully!</string>
-	<string name="Time">2023-09-21_08:36:42</string>
-	<string name="Version_DLL">V1.2.4</string>
-	<string name="Version_BALI">V1.2.4</string>
+    <string name="Time">2023-09-21_08:36:42</string>
+    <string name="Version_DLL">V1.2.4</string>
+    <string name="Version_BALI">V1.2.4</string>
     <Phase_U>...</Phase_U>
     <Phase_V>...</Phase_V>
     <Phase_W>...</Phase_W>
@@ -161,7 +160,7 @@ Die meisten Attributswerte finden sich schon in den Parametern wieder und sind s
 Nur bei den Floatblock-Elementen, also Elementen mit der Bezeichnung Floatblock, sind besondere Attribute zu finden,
 welche nicht gedoppelt vorkommen.
 Diese Elemente umfassen zusätzlich die Attribute „size“ und „duration“, welche die Anzahl der in dem Inhalt enthaltenen
-Floatwerte und die Dauer der Werteaufnahme angeben dies ist in Abbildung \ref{fig: Beispiel XPowertest Floatblock-Elemente} zu erkennen.
+Floatwerte und die Dauer der Werteaufnahme angeben Dies ist in Abbildung \ref{fig: Beispiel XPowertest Floatblock-Elemente} zu erkennen.
 Diese sind für die grafische Darstellung besonders relevant.
 
 \begin{figure}[H]
@@ -177,8 +176,8 @@ Diese sind für die grafische Darstellung besonders relevant.
     {Quelle: Eigene Darstellung}
 \end{figure}
 
-Auf der Phasenebene treten keine Veränderungen in der \ac{XML}-Struktur auf, variieren lediglich die Elemente unter den
-Phasenelementen von Bericht zu Bericht etwas.
+Auf der Phasenebene treten keine Veränderungen in der \ac{XML}-Struktur auf, lediglich die Elemente unter den
+Phasenelementen von Bericht zu Bericht variieren etwas.
 Die beträchtliche Ausnahme von dieser Regel bilden die Berichte, bei denen ein Fehler aufgetreten ist oder sogar der
 Testvorgang abgebrochen wurde. Bei diesen Berichten hört die \ac{XML}-Struktur bei den fehlgeschlagenen Testmodulen schon auf.
 Der Testbericht ist aber in sich geschlossen. Das bedeutet, die \ac{XML}-Struktur ist vollkommen und kann von einem \ac{XML}-Parser eingelesen werden.
@@ -195,12 +194,12 @@ Die \ac{XML}-Struktur ist in sich geschlossen, aber es werden keine Daten von de
 \begin{minipage}{0.95\textwidth}
 \begin{lstlisting}[language=XML]
 <testmodule name="DriverConsumptionTest">
-	<integer name="TestSuccessful" min="1" max="1">0</integer>
-	<string name="Testresult">Idrv not within limits on Phase U
+    <integer name="TestSuccessful" min="1" max="1">0</integer>
+    <string name="Testresult">Idrv not within limits on Phase U
 0x30010019 !
 0x30010013</string>
-	<string name="Time">2021-03-10_09:10:37</string>
-	<string name="Version_DLL">V1.2.4</string>
+    <string name="Time">2021-03-10_09:10:37</string>
+    <string name="Version_DLL">V1.2.4</string>
     <string name="Version_BALI">V1.2.4</string>
     <Phase_U>...</Phase_U>
     <Phase_V>...</Phase_V>
@@ -227,8 +226,8 @@ Durch die Implementierung in C ist \textit{lxml} deutlich schneller als rein in 
 \textit{lxml} ist API-kompatibel zur Standardbibliothek \textit{xml.etree.ElementTree}, was die Migration erleichtert.
 
 \item XPath- und XSLT-Unterstützung \\
-\textit{lxml} ermöglicht die Nutzung leistungsfähiger XML-Technologien wie XPath zur gezielten Abfrage von Knoten sowie
-\item XSLT zur Transformation von XML-Daten in andere Formate (z. B. HTML oder strukturierte Textausgaben).
+\code{lxml} ermöglicht die Nutzung XML-Technologien wie XPath zur gezielten Abfrage von Knoten sowie
+XSLT zur Transformation von XML-Daten in andere Formate (z. B. HTML oder strukturierte Textausgaben).
 
 \item Schema-Validierung \\
 Das Modul unterstützt die Validierung von XML-Dokumenten anhand von XSD- oder DTD-Schemata.
@@ -239,7 +238,9 @@ Ermöglicht den Umgang mit standardisierten XML-Formaten, was als Sicherung beim
 
 \end{enumerate}
 
-Auf Grund dieser genannten Eigenschaften wurde \textit{lxml} für das Einbinden ausgewählt.
+Aufgrund dieser genannten Eigenschaften wurde \textit{lxml} für das Einbinden ausgewählt.
+
+
 
 
 
