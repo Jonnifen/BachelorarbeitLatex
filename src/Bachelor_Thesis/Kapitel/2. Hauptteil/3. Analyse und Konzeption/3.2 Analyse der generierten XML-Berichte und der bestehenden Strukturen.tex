@@ -19,7 +19,7 @@ diesem Attribut beschreibt den Typ des \ac{DUTs}, die in diesem Test geprüft wu
 
 Das Stammelement hat die Unter- bzw.
 Kinderelemente „info“, „testbench“, „string“ und dreimal „testmodule“.
-Diese Elemente haben wiederum alle weiter Unterelemente und Attribute.
+Diese Elemente haben wiederum alle weitere Unterelemente und Attribute.
 In der folgenden Abbildung \ref{fig: Aufbau unveränderlicher XML-Berichtstruktur} ist die unveränderliche Struktur eines Testberichtes abgebildet, welcher erfolgreich durchgeführt wurde.
 
 \begin{figure}[H]
@@ -73,7 +73,7 @@ Die hier genannten Eigenschaften sind in der Abbildung \ref{fig: Direkte Kindere
 
 Das Element „info“ enthält in seinen Unterelementen die allgemeinen Testinformationen, wie die Startzeit des Tests,
 die Typen-ID, die Konfigurationsbezeichnung des Teststandes, die Bezeichnung des angeschlossenen Carriers und die
-Seriennummern des \ac{DUTs}. Diese Elemente haben keine Unterelemente und sind alle mit einem Namensattribut und einem Inhalt definiert.
+Seriennummern der \ac{DUTs}. Diese Elemente haben keine Unterelemente und sind alle mit einem Namensattribut und einem Inhalt definiert.
 Für die genauen Bezeichnungen und Struktur siehe Abbildung \ref{fig: XML-Strukturbeispiel Info-Element}.
 
 \begin{figure}[H]
@@ -119,7 +119,7 @@ Die genauen Bezeichnungen und die Struktur sind in Abbildung \ref{fig: XML-Struk
 
 
 Die Testmodule-Elemente sind alle nach dem gleichen Schema aufgebaut. Die ersten Unterelemente enthalten Grundinformationen
-zu dem Status des Testmoduls, der Tages- und Uhrzeit des Tests und welche Versionen davon verwendet wurden.
+zum Status des Testmoduls, der Tages- und Uhrzeit des Tests und welche Versionen davon verwendet wurden.
 Danach befinden sich noch drei weitere Elemente im Element „module“.
 Diese Elemente heißen „Phase U“, „Phase V“ und „Phase W“.
 Sie besitzen kein Namensattribut, siehe Abbildung \ref{fig: XML-Strukturbeispiel Testmodulheader}.
@@ -159,8 +159,8 @@ Elementinhalt angesiedelt sein muss, um kein positives bzw. fehlerfreies Ergebni
 Die meisten Attributswerte finden sich schon in den Parametern wieder und sind somit doppelt im Bericht zu finden.
 Nur bei den Floatblock-Elementen, also Elementen mit der Bezeichnung Floatblock, sind besondere Attribute zu finden,
 welche nicht gedoppelt vorkommen.
-Diese Elemente umfassen zusätzlich die Attribute „size“ und „duration“, welche die Anzahl der in dem Inhalt enthaltenen
-Floatwerte und die Dauer der Werteaufnahme angeben Dies ist in Abbildung \ref{fig: Beispiel XPowertest Floatblock-Elemente} zu erkennen.
+Diese Elemente umfassen zusätzlich die Attribute „size“ und „duration“, welche die Anzahl der im Inhalt enthaltenen
+Floatwerte und die Dauer der Werteaufnahme angeben, dies ist in Abbildung \ref{fig: Beispiel XPowertest Floatblock-Elemente} zu erkennen.
 Diese sind für die grafische Darstellung besonders relevant.
 
 \begin{figure}[H]
@@ -184,7 +184,7 @@ Der Testbericht ist aber in sich geschlossen. Das bedeutet, die \ac{XML}-Struktu
 Es befinden sich nur weniger Testmodul-Elemente in dem Bericht und im Element für den Testsequenzstatus ist folgender Inhalt
 enthalten „Test sequence finished with errors“. Zudem wird bei dem Testmodul, bei dem der Fehler aufgetreten ist, unter
 dem Element mit dem Namen „Testresult“ ein Fehlercode und seine Bedeutung ausgegeben. In Abbildung \ref{fig: Beispiel Fehler bei DriverConsumptionTest} ist ein
-Beispiel für einen Bericht, welcher beim ersten Testmodul einen Fehler ausgegeben hatte.
+Beispiel für einen Bericht, welcher bei dem ersten Testmodul einen Fehler ausgegeben hatte.
 Bei einem Ausfall eines der zu testenden \ac{DUTs} gibt es die Besonderheit, dass die anderen noch funktionsfähigen \ac{DUTs}
 keine weiteren Datenaufnahmen mehr machen können. Denn das System benötigt alle drei Phasen, um den Test durchzuführen.
 Die \ac{XML}-Struktur ist in sich geschlossen, aber es werden keine Daten von den anderen \ac{DUTs} mehr aufgenommen.

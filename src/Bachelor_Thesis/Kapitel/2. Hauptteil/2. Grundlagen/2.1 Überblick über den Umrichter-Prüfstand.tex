@@ -11,7 +11,7 @@ In dem hier vorliegenden Fall wird der Teststand verwendet, um die aus dem Feld 
 Die weitere Nutzungstauglichkeit wird ermittelt, indem die Messwerte mit Mittelwerten, die von mehreren fabrikneuen Umrichtern stammen, verglichen werden.
 Diese Messwerte müssen sich in einem vorher definierten Toleranzbereich befinden, um weiter im Feld verwendet zu werden.
 
-Die Umrichter werden in der gegebenen Fachliteratur zur Test-Bench als \ac{DUTs} bezeichnet.
+Die Umrichter werden in der gegebenen Fachliteratur zu der Test-Bench als \ac{DUTs} oder \ac{DUT} bezeichnet.
 Diese Bezeichnung kommt auch in den Berichten auf dem Teststand vor, daher hat der Autor diese Abkürzung übernommen.
 
 %------------------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ ein PC mit einer Software zum Steuern der Testeinrichtung sowie eine Betriebsanz
 %------------------------------------------------------------------------------------------------------
 Es gibt mehrere Testmodule, die auf dem Teststand laufen und verschiedene Funktionen der Umrichter testen.
 Einige der Funktionen eines DUT können mit dem gleichen Modus eines Testmoduls überprüft werden, indem die entsprechenden Parameter ausgewählt werden.
-Jeder Test bzw. jeses Testmodule ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametern.
+Jeder Test bzw. jedes Testmodul ist autonom und kann mehrmals ausgeführt werden, auch mit unterschiedlichen Parametern.
 \\
 Im Folgenden wird eine kurze Beschreibung der Funktionen der für diese Arbeit relevanten Testmodule gegeben:
 
@@ -87,7 +87,7 @@ Die Schrittfolge des Testablaufes mit Montage der \ac{DUTs} ist klar festgelegt 
 Die Montage läuft wie folgt ab:
 \begin{enumerate}
 
-\item Die Umrichter werden auf dem Carrier befestigt. Es werden meist 3 dieser Geräte gleichzeitig getestet, Abweichungen sind je nach Bauform der \ac{DUTs} möglich.
+\item Die Umrichter werden auf dem Carrier befestigt. Es werden meist 3 dieser Geräte gleichzeitig getestet, Abweichungen sind je nach Bauform der \ac{DUT} möglich.
 Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von links nach rechts U-V-W. Dies ist für das Layout des Berichtes relevant.
 \item Der Kühlkreislauf wird angeschlossen, je nach Umrichtertyp Lüftungs- oder Wasserkühlung.
 \item Die \ac{DUTs} werden mit den AC- und DC-Link-Kontakten verbunden, um das Gerät zu betreiben und die DC-Spannung wieder abzuleiten.
@@ -97,9 +97,9 @@ Die Reihenfolge der elektrischen Phasen ist bei Draufsicht des Carriers von link
 \end{enumerate}
 
 Vor Beginn des Testablaufs benötigt die Test-Bench noch weitere Informationen zu den \ac{DUTs}, Testsequenzen und der Hardware-Topologie.
-Diese Daten können über das Scannen von vorliegenden QR- oder Barcodes eingefügt werden.
+Diese Daten können über das Scannen von vorliegenden \ac{QR}- oder Barcodes eingefügt werden.
 Alternativ können diese auch über ein Eingabefenster im Teststandprogramm eingetragen werden.
-Je nach Topologiekonfiguration kann auch ein zweiter Träger mit \ac{DUTs} gescannt werden,
+Je nach Topologiekonfiguration kann auch ein zweiter Träger mit \ac{DUTs} gescannt werden.
 Dies kommt bei dem Test, den das Unternehmen durchführt, nicht vor. \cite*{Main_Manuel_USTB2018}
 
 Das eigentliche Testen mit den verschiedenen Testmodulen wird autonom durchgeführt.

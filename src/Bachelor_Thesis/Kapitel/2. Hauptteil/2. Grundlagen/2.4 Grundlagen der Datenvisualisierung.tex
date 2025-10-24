@@ -1,24 +1,26 @@
 \subsection{Grundlagen der Datenvisualisierung}
 \label{subsec:grundlagen-der-datenvisualisierung}
 
-In diesem Unterkapitel der Arbeit wird die Art der Graphen zum Visualisieren der Messdaten erläutert und Anforderungen an die Umsetzung formuliert,
-so wie mögliche kurzer Überblick zu Bibliotheken für die Umsetzung durchgeführt.
+In diesem Unterkapitel der Arbeit wird die Art der Graphen zum Visualisieren der Messdaten erläutert und Anforderungen an die Umsetzung formuliert.
+Es wird zudem ein Überblick über einige JavaScript-Bibliotheken gegeben, die für die Nutzung in Betracht gezogen werden könnten.
+
 \subsubsection{Visualisierung von Zeitreihen}
 
-Für das Darstellen der zu visualisierenden Testergebnisse sollen nach Claus O. Wilke Liniendiagramme genutzt werden.
+Für das Darstellen der zu visualisierenden Testergebnisse sollen nach \cite{Wilke2020Datenvisualisierung} Liniendiagramme genutzt werden.
 Da die Messwerte der dazustellenden Testmodule anhand des Zeitverlaufs zugeordnet werden, haben die Daten somit eine inhärente Reihenfolge.
 
 Das bedeutet, die Messwerte können nach dieser Zeitreihe geordnet werden und so Vor- und Nachfolger definiert werden, um zusätzliche Informationen zu erfassen.
 Die Messungen können nicht einfach vertauscht werden, ohne die zeitliche Information zu verlieren.
 
+
 Liniendiagramme eignen sich für solche Daten, bei denen die Reihenfolge einen Teil der Informationen enthält, sehr gut.
-Zum Beispiel bei Zeitverläufen, Messreihen oder Funktionswerten für eine gute Darstellung.
-Die Linie im Diagramm verbindet die Punkte in dieser Reihenfolge und zeigt dadurch den Verlauf oder Trend über die Zeit bzw. andere Dimensionen auf. \cite{Wilke2020Datenvisualisierung}
+Sie werden daher oft für die Darstellung von Zeitverläufen, Messreihen oder Funktionswerten verwendet.
+Die Linie im Graph verbindet die Punkte in dieser Reihenfolge und zeigt dadurch den Verlauf oder Trend über die Zeit bzw. andere Dimensionen auf. \cite{Wilke2020Datenvisualisierung}
 
 
 \subsubsection{Anforderungen an Liniendiagramme}
 
-Im Folgenden werden Anforderungen für das Erstellen von gut dargestellten Grafen nach Claus O. Wilke beschrieben.
+Im Folgenden werden Anforderungen für das Erstellen von gut dargestellten Graphen nach \cite{Wilke2020Datenvisualisierung} beschrieben.
 Diese Anforderungen sollen bei dem erstellten Graphen und der Auswahl der Bibliotheken für die Erstellung im späteren Arbeitsverlauf berücksichtigt werden: \cite{Wilke2020Datenvisualisierung}
 
 \item
@@ -52,10 +54,10 @@ Die gewählten Farbtöne müssen ausreichend kontrastreich und auch für Persone
 Wenn bestimmte Linien besonders hervorgehoben werden sollen, sollte dies dezent und mit klarer inhaltlicher Begründung geschehen, um den Fokus der Betrachtenden zu lenken, ohne die Gesamtwirkung zu stören.
 
 \item
-\textbf{Visueller Überlastung}
+\textbf{Visuelle Überlastung}
 
 Überflüssige grafische Elemente wie 3D-Effekte, Schatten, starke Gitterlinien oder dekorative Symbole sollten vermieden werden, da sie die Wahrnehmung der eigentlichen Daten stören.
-Ein reduziertes, funktionales Design lenkt den Blick auf die wesentlichen Inhalte und erhöht die Lesbarkeit des Diagramms.
+Ein reduziertes, funktionales Design lenkt den Blick auf die wesentlichen Inhalte und erhöht die Lesbarkeit des Graphen.
 
 \item
 \textbf{Korrekte Darstellung und Kontext}
@@ -79,7 +81,7 @@ Solche Hervorhebungen sollten jedoch gezielt und sparsam erfolgen, um den Blick 
 \subsubsection{Graphenerstellung mit JS}
 
 In diesem Abschnitt werden einige JavaScript-Bibliotheken für das Erstellen von Graphen
-In Kurzfassung erläutern, um einen groben Überblick zu erhalten.
+in Kurzfassung erläutern, um einen groben Überblick zu erhalten.
 Die endgültige Auswahl wird in Kapitel 3 genauer beschrieben.
 
 \textbf{Chart.js}

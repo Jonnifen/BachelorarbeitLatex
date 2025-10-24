@@ -12,13 +12,13 @@ Das Erstellen der Berichtstabelle für die Seite „Report-Tabelle“ läuft wie
 \begin{enumerate}
 
     \item Beim Laden der Seite oder beim Bestätigen bzw. Zurücksetzen der Filterbedingungen wird die Funktion \code{report()} der Seite ausgeführt.
-    Diese übermittelte die Filterinhalte über die GET-Methode an die Funktion \code{query_reports()} aus der Datei \code{queries.py}.
+    Diese übermittelte die Filterinhalte über die GET-Methode an die Funktion \code{query\_reports()} aus der Datei \code{queries.py}.
     Diese Funktion führt über \code{db} einen SELECT-Befehl über die Reportdaten aus, welche die Filterbedingungen erfüllen.
     \item Die ausgewählten Datensätze werden nach Rp\_id geordnet und an die Funktion \code{report()} aus der Route-Datei der Seite zurückgegeben.
     Die Datei \code{route.py} ist für die Veranschaulichung in Abbildung \ref{fig:Code routes.py aus Report-Tabellen-Seite} dargestellt.
     \item Diese Funktion lädt das Template der Seite neu und übergibt die ausgewählten Datensätze.
     \item Durch das erneute Laden wird mittels der HTML-Datei \code{reports.html} und der JavaScript-Datei \code{datatable.js} eine Tabelle mit den
-    Ausgewählten Datensätzen erstellt.
+    ausgewählten Datensätzen erstellt.
 
 \end{enumerate}
 
