@@ -12,31 +12,31 @@
 \contentsline {figure}{\numberline {11}{\ignorespaces XML-Strukturbeispiel Testbench-Element}}{30}{figure.11}%
 \contentsline {figure}{\numberline {12}{\ignorespaces XML-Strukturbeispiel Testmodulheader}}{30}{figure.12}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Beispiel XPowertest Floatblock-Elemente}}{31}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{31}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{33}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{34}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{35}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{36}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{37}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Schematisches Architekturdiagramm der Applikation}}{38}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Grundlegende Ordnerstruktur der Applikation}}{39}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Genaue Struktur des Applikations-Ordners}}{41}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Erstellte Webseite für XML hochladen in Browserfenster}}{42}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Erstellte Webseite für Report-Tabelle in Browserfenster}}{43}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Erstellte Webseite für Analyse in Browserfenster}}{43}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Beispiel Programmcode aus upload.html}}{44}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}}{45}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Codeausschnitt für die Suchfunktion in den Listen}}{46}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Beispiel ORM-Objekt}}{47}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Code routes.py aus Upload-Seite}}{48}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Beispiel der Tabelle-Klasse Report-Table}}{49}{figure.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Funktion für das Erstellen der Hauptapplikation}}{50}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Config-Klasse für Datenbankverbindung}}{51}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Code routes.py aus Report-Tabellen-Seite}}{52}{figure.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Ausschnitt der Report-Tabelle}}{53}{figure.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Beispielcode einer Such-Funktion}}{54}{figure.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Beispiel-Graph für PulsTest-Daten}}{54}{figure.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Beispiel-Graph für XPowerTest-Daten}}{55}{figure.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Beispiel Fehler Seriennummeranzahl}}{58}{figure.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Beispiel Fehler Wassserkühlung vs Luftkühlung}}{58}{figure.40}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Beispiel Fehler bei DriverConsumptionTest}}{32}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces ER-Modell Überlegung der Datenbankstruktur}}{34}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Darstellung der Datenbanktabellen und ihrer Verbindungen}}{35}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Einlesen der XML-Struktur}}{36}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Berichtstabelle}}{37}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Benutzeroberflächenentwurf der Seite zum Ausgeben der Graphen}}{38}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Schematisches Architekturdiagramm der Applikation}}{39}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Grundlegende Ordnerstruktur der Applikation}}{40}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Genaue Struktur des Applikations-Ordners}}{42}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Erstellte Webseite für XML hochladen in Browserfenster}}{43}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Erstellte Webseite für Report-Tabelle in Browserfenster}}{44}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Erstellte Webseite für Analyse in Browserfenster}}{44}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Beispiel Programmcode aus upload.html}}{45}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Codeausschnitt für die Listenspeicherung mit Hilfsfunktionen}}{46}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Codeausschnitt für die Suchfunktion in den Listen}}{47}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Beispiel ORM-Objekt}}{48}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Code routes.py aus Upload-Seite}}{49}{figure.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Beispiel der Tabelle-Klasse Report-Table}}{50}{figure.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Funktion für das Erstellen der Hauptapplikation}}{51}{figure.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Config-Klasse für Datenbankverbindung}}{52}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Code routes.py aus Report-Tabellen-Seite}}{53}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Ausschnitt der Report-Tabelle}}{54}{figure.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Beispielcode einer Such-Funktion}}{55}{figure.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Beispiel-Graph für PulsTest-Daten}}{55}{figure.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Beispiel-Graph für XPowerTest-Daten}}{56}{figure.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Beispiel Fehler Seriennummeranzahl}}{59}{figure.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Beispiel Fehler Wassserkühlung vs Luftkühlung}}{59}{figure.40}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
