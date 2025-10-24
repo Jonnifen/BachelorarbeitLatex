@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  24 OCT 2025 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.26)  24 OCT 2025 13:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2409,49 +2409,49 @@ as been already used, duplicate ignored
                    \relax 
 l.2 \section{ErklÃ¤rung}
                         
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--24
+Underfull \hbox (badness 10000) in paragraph at lines 8--25
 
  []
 
 
-Overfull \hbox (16.60149pt too wide) in paragraph at lines 27--34
+Overfull \hbox (16.60149pt too wide) in paragraph at lines 28--35
 \T1/phv/m/sl/10.95 Gram-mar Che-cker \T1/phv/m/n/10.95 und \T1/phv/m/sl/10.95 C
 hatGPT\T1/phv/m/n/10.95 ) \T1/phv/m/sl/10.95 aus-schlieÿ-lich \T1/phv/m/n/10.95
  zu fol-gen-den Zwe-cken ein-ge-setzt: (i) Rechtschreib-
  []
 
 )
-Overfull \hbox (9.0498pt too wide) in paragraph at lines 35--190
+Overfull \hbox (9.0498pt too wide) in paragraph at lines 36--190
 \T1/phv/m/n/10.95 geb-nis-se stam-men von mir. Al-le ver-wen-de-ten Quel-len (e
 in-schlieÿ-lich sol-cher, auf die KI-Werkzeuge
  []
@@ -2481,7 +2481,7 @@ exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helv
 etic/uhvro8a.pfb>
 Output written on C:/Users/jonfe/PycharmProjects/BachelorarbeitLatex/out/main.p
-df (74 pages, 3803353 bytes).
+df (74 pages, 3803365 bytes).
 PDF statistics:
  1529 PDF objects out of 1728 (max. 8388607)
  1355 compressed objects within 14 object streams
